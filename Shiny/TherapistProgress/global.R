@@ -1,0 +1,23 @@
+# knitr::stitch_rmd(script="./global.R", output="./Data/StitchedOutput/global.md")
+# rm(list=ls(all=TRUE)) #Clear the memory of variables from previous run. 
+
+############################
+#+ LoadSources
+getwd()
+source("../.././Manipulation/GroomTherapistProgress.R") #Load the `GroomTherapistProgress()` function
+getwd()
+#####################################
+#' LoadPackages
+# library(dplyr)
+
+#####################################
+#' DeclareGlobals
+paletteDark <- RColorBrewer::brewer.pal(n=3, name="Dark2")[c(1,3,2)]
+paletteLight <- adjustcolor(paletteDark, alpha.f=.5)
+
+#####################################
+#' LoadData
+ds <- GroomTherapistProgress(pathIn = "../.././DataPhiFree/Raw/TherapistProgress.csv")
+
+#####################################
+#' TweakData
