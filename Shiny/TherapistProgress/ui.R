@@ -8,30 +8,56 @@ library(ggplot2)
 shinyUI(
   fluidPage(tabsetPanel( type = "tabs",
     tabPanel(
+      title = "Therapist Progress", 
+      titlePanel("Therapist Progress"),            
+      # Create a new Row in the UI for selectInputs
+      fluidRow(
+        #         column(width=4, 
+        #           selectInput(inputId="therapist_progress_survey_number", label="Survey Number:", 
+        #             choices=c("All", unique(as.character(dsGroupCall$survey_number)))
+        #           )
+        #         ),
+        #         column(width=4, 
+        #           selectInput(inputId="therapist_progress_therapist_identifier", label="Therapist Identifier:", 
+        #             choices=c("All", unique(as.character(dsGroupCall$therapist_identifier)))
+        #           )
+        #         ),
+        #         column(width=4, 
+        #           selectInput(inputId="therapist_progress_session_month", label="Session Month:", 
+        #             choices=c("All", unique(as.character(dsGroupCall$session_month)))
+        #           )
+        #         )        
+      ), #End fluid row with the dropdown boxes
+      # Create a new row for the table.
+      fluidRow(
+        dataTableOutput(outputId="TherapistProgressTable")
+      ) #End fluid row with the Group Call table
+    ), #End the (first) tab with the Group Call table
+    tabPanel(
       title = "Group Call", 
       titlePanel("Group Call"),            
       # Create a new Row in the UI for selectInputs
       fluidRow(
         column(width=4, 
-          selectInput(inputId="survey_number", label="Survey Number:", 
-            choices=c("All", unique(as.character(dsGroupCall$survey_number)))
-          )
+               selectInput(inputId="group_call_survey_number", label="Survey Number:", 
+                           choices=c("All", unique(as.character(dsGroupCall$survey_number)))
+               )
         ),
         column(width=4, 
-          selectInput(inputId="therapist_identifier", label="Therapist Identifier:", 
-            choices=c("All", unique(as.character(dsGroupCall$therapist_identifier)))
-          )
+               selectInput(inputId="group_call_therapist_identifier", label="Therapist Identifier:", 
+                           choices=c("All", unique(as.character(dsGroupCall$therapist_identifier)))
+               )
         ),
         column(width=4, 
-          selectInput(inputId = "session_month", label="Session Month:", 
-            choices=c("All", unique(as.character(dsGroupCall$session_month)))
-          )
+               selectInput(inputId="group_call_session_month", label="Session Month:", 
+                           choices=c("All", unique(as.character(dsGroupCall$session_month)))
+               )
         )        
       ), #End fluid row with the dropdown boxes
       # Create a new row for the table.
       fluidRow(
         dataTableOutput(outputId="GroupCallTable")
       ) #End fluid row with the Group Call table
-    ) #End the tab with the Group Call table
+    ) #End the (second) tab with the Group Call table
   )) #End the tabsetPanel and fluidPage
 ) #End the shinyUI
