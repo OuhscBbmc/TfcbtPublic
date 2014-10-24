@@ -6,33 +6,32 @@ library(ggplot2)
 
 # Define the overall UI
 shinyUI(
-  fluidPage(
-    titlePanel("Group Call"),
-          
-    # Create a new Row in the UI for selectInputs
-    fluidRow(
-      column(4, 
-          selectInput("survey_number", 
-                      "Survey Number:", 
-                      c("All", 
-                        unique(as.character(dsGroupCall$survey_number))))
-      ),
-      column(4, 
-          selectInput("therapist_identifier", 
-                      "Therapist Identifier:", 
-                      c("All", 
-                        unique(as.character(dsGroupCall$therapist_identifier))))
-      ),
-      column(4, 
-          selectInput("session_month", 
-                      "Session Month:", 
-                      c("All", 
-                        unique(as.character(dsGroupCall$session_month))))
-      )        
-    ),
-    # Create a new row for the table.
-    fluidRow(
-      dataTableOutput(outputId="GroupCallTable")
-    )    
-  )  
-)
+  fluidPage(tabsetPanel( type = "tabs",
+    tabPanel(
+      title = "Group Call", 
+      titlePanel("Group Call"),            
+      # Create a new Row in the UI for selectInputs
+      fluidRow(
+        column(width=4, 
+          selectInput(inputId="survey_number", label="Survey Number:", 
+            choices=c("All", unique(as.character(dsGroupCall$survey_number)))
+          )
+        ),
+        column(width=4, 
+          selectInput(inputId="therapist_identifier", label="Therapist Identifier:", 
+            choices=c("All", unique(as.character(dsGroupCall$therapist_identifier)))
+          )
+        ),
+        column(width=4, 
+          selectInput(inputId = "session_month", label="Session Month:", 
+            choices=c("All", unique(as.character(dsGroupCall$session_month)))
+          )
+        )        
+      ), #End fluid row with the dropdown boxes
+      # Create a new row for the table.
+      fluidRow(
+        dataTableOutput(outputId="GroupCallTable")
+      ) #End fluid row with the Group Call table
+    ) #End the tab with the Group Call table
+  )) #End the tabsetPanel and fluidPage
+) #End the shinyUI
