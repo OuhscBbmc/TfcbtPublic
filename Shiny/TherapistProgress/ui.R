@@ -1,15 +1,13 @@
 #Starting with http://shiny.rstudio.com/gallery/basic-datatable.html
 library(shiny)
 
-# Load the ggplot2 package which provides
-# the 'mpg' dataset.
 library(ggplot2)
-browser()
+# browser()
 
 # Define the overall UI
 shinyUI(
   fluidPage(
-    titlePanel("Basic DataTable"),
+    titlePanel("Group Call"),
           
     # Create a new Row in the UI for selectInputs
     fluidRow(
@@ -17,24 +15,24 @@ shinyUI(
           selectInput("survey_number", 
                       "Survey Number:", 
                       c("All", 
-                        unique(as.character(ds$survey_number))))
+                        unique(as.character(dsGroupCall$survey_number))))
       ),
       column(4, 
           selectInput("therapist_identifier", 
                       "Therapist Identifier:", 
                       c("All", 
-                        unique(as.character(ds$therapist_identifier))))
+                        unique(as.character(dsGroupCall$therapist_identifier))))
       ),
       column(4, 
           selectInput("session_month", 
                       "Session Month:", 
                       c("All", 
-                        unique(as.character(ds$session_month))))
+                        unique(as.character(dsGroupCall$session_month))))
       )        
     ),
     # Create a new row for the table.
     fluidRow(
-      dataTableOutput(outputId="table")
+      dataTableOutput(outputId="GroupCallTable")
     )    
   )  
 )
