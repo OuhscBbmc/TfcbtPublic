@@ -8,24 +8,24 @@ library(ggplot2)
 shinyUI(
   fluidPage(tabsetPanel( type = "tabs",
     tabPanel(
-      title = "Therapist Progress", 
-      titlePanel("Therapist Progress"),            
+      title = "Client Progress", 
+      titlePanel("Client Progress"),            
       # Create a new Row in the UI for selectInputs
       fluidRow(
         column(width=4, 
-          selectInput(inputId="therapist_progress_therapist_id_rc", label="Therapist Identifier in REDCap:", 
-            choices=c("All", unique(as.character(dsTherapistProgress$therapist_id_rc)))
+          selectInput(inputId="client_progress_therapist_id_rc", label="Therapist Identifier in REDCap:", 
+            choices=c("All", unique(as.character(dsClientProgress$therapist_id_rc)))
           )
         ),
         column(width=4, 
-          selectInput(inputId="therapist_progress_client_number", label="Therpist's Client Number:", 
-            choices=c("All", unique(as.character(dsTherapistProgress$client_number)))
+          selectInput(inputId="client_progress_client_number", label="Therpist's Client Number:", 
+            choices=c("All", unique(as.character(dsClientProgress$client_number)))
           )
         )        
       ), #End fluid row with the dropdown boxes
       # Create a new row for the table.
       fluidRow(
-        dataTableOutput(outputId="TherapistProgressTable")
+        dataTableOutput(outputId="ClientProgressTable")
       ) #End fluid row with the Group Call table
     ), #End the (first) tab with the Group Call table
     tabPanel(

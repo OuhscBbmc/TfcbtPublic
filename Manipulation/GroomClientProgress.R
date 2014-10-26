@@ -3,7 +3,7 @@ rm(list=ls(all=TRUE)) #Clear the memory of variables from previous run.
 library(dplyr)
 
 # dsSession <- read.csv("./DataPhiFree/Raw/TherapistCall.csv", stringsAsFactors=FALSE)
-GroomTherapistProgress <- function( pathGroupCall = "./DataPhiFree/Raw/TherapistCall.csv") {
+GroomClientProgress <- function( pathGroupCall = "./DataPhiFree/Raw/TherapistCall.csv") {
   #' LoadData
   if( !file.exists(pathGroupCall) ) stop("The file `", normalizePath(pathGroupCall, mustWork=FALSE), "` does not exist.")
   dsSession <- read.csv(pathGroupCall, stringsAsFactors=FALSE)
@@ -44,9 +44,9 @@ GroomTherapistProgress <- function( pathGroupCall = "./DataPhiFree/Raw/Therapist
   return( dsProgress)
 }
 
-# ds <- GroomTherapistProgress()
+# ds <- GroomClientProgress()
 # ds
-# write.csv(ds, file="./DataPhiFree/Derived/TherapistProgress.csv", row.names=F)
+# write.csv(ds, file="./DataPhiFree/Derived/ClientProgress.csv", row.names=F)
 
 #' Questions
 #' * If there's a record, but no date, did the therapist attend the call?

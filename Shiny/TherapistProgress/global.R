@@ -4,7 +4,7 @@
 ############################
 #+ LoadSources
 # getwd()
-source("../.././Manipulation/GroomTherapistProgress.R") #Load the `GroomTherapistProgress()` function
+source("../.././Manipulation/GroomClientProgress.R") #Load the `GroomClientProgress()` function
 # getwd()
 #####################################
 #' LoadPackages
@@ -20,7 +20,7 @@ paletteLight <- adjustcolor(paletteDark, alpha.f=.5)
 #' LoadData
 # pathGroupCall <- "./DataPhiFree/Raw/TherapistCall.csv"
 dsGroupCall <- read.csv(pathGroupCall, stringsAsFactors=FALSE)
-dsTherapistProgress <- GroomTherapistProgress(pathGroupCall=pathGroupCall)
+dsClientProgress <- GroomClientProgress(pathGroupCall=pathGroupCall)
 
 #####################################
 #' TweakData

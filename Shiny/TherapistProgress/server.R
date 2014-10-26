@@ -11,15 +11,15 @@ shinyServer(function(input, output) {
   #######################################
   ### Call source files that contain semi-encapsulated functions.
   
-  # Filter Therapist Progress data based on selections
-  output$TherapistProgressTable <- renderDataTable({
-    if (input$therapist_progress_therapist_id_rc != "All"){
-      dsTherapistProgress <- dsTherapistProgress[dsTherapistProgress$therapist_id_rc == input$therapist_progress_therapist_id_rc,]
+  # Filter Client Progress data based on selections
+  output$ClientProgressTable <- renderDataTable({
+    if (input$client_progress_therapist_id_rc != "All"){
+      dsClientProgress <- dsClientProgress[dsClientProgress$therapist_id_rc == input$client_progress_therapist_id_rc,]
     }
-    if (input$therapist_progress_client_number != "All"){
-      dsTherapistProgress <- dsTherapistProgress[dsTherapistProgress$client_number == input$therapist_progress_client_number,]
+    if (input$client_progress_client_number != "All"){
+      dsClientProgress <- dsClientProgress[dsClientProgress$client_number == input$client_progress_client_number,]
     }
-    return( dsTherapistProgress )
+    return( dsClientProgress )
   })
   
   # Filter Group Call data based on selections
