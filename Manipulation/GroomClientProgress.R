@@ -50,4 +50,3 @@ GroomClientProgress <- function( pathGroupCall = "./DataPhiFree/Raw/TherapistCal
 
 #' Questions
 #' * If there's a record, but no date, did the therapist attend the call?
-

@@ -24,3 +24,8 @@ dsClientProgress <- GroomClientProgress(pathGroupCall=pathGroupCall)
 
 #####################################
 #' TweakData
+
+# This is replicated from GroomClientProgress.R, but was never persisted to a dataset.
+dsGroupCall <- plyr::rename(dsGroupCall, replace=c(
+  "survey_number" = "therapist_id_rc"
+))
