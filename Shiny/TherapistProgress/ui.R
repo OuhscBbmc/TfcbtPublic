@@ -12,21 +12,16 @@ shinyUI(
       titlePanel("Therapist Progress"),            
       # Create a new Row in the UI for selectInputs
       fluidRow(
-        #         column(width=4, 
-        #           selectInput(inputId="therapist_progress_survey_number", label="Survey Number:", 
-        #             choices=c("All", unique(as.character(dsGroupCall$survey_number)))
-        #           )
-        #         ),
-        #         column(width=4, 
-        #           selectInput(inputId="therapist_progress_therapist_identifier", label="Therapist Identifier:", 
-        #             choices=c("All", unique(as.character(dsGroupCall$therapist_identifier)))
-        #           )
-        #         ),
-        #         column(width=4, 
-        #           selectInput(inputId="therapist_progress_session_month", label="Session Month:", 
-        #             choices=c("All", unique(as.character(dsGroupCall$session_month)))
-        #           )
-        #         )        
+        column(width=4, 
+          selectInput(inputId="therapist_progress_therapist_id_rc", label="Therapist Identifier in REDCap:", 
+            choices=c("All", unique(as.character(dsTherapistProgress$therapist_id_rc)))
+          )
+        ),
+        column(width=4, 
+          selectInput(inputId="therapist_progress_client_number", label="Therpist's Client Number:", 
+            choices=c("All", unique(as.character(dsTherapistProgress$client_number)))
+          )
+        )        
       ), #End fluid row with the dropdown boxes
       # Create a new row for the table.
       fluidRow(

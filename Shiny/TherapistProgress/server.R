@@ -1,7 +1,4 @@
 library(shiny)
-
-# Load the ggplot2 package which provides
-# the 'mpg' dataset.
 library(ggplot2)
 
 # Define a server for the Shiny app
@@ -16,15 +13,12 @@ shinyServer(function(input, output) {
   
   # Filter Therapist Progress data based on selections
   output$TherapistProgressTable <- renderDataTable({
-    #     if (input$survey_number != "All"){
-    #       dsGroupCall <- dsGroupCall[dsGroupCall$survey_number == input$survey_number,]
-    #     }
-    #     if (input$therapist_identifier != "All"){
-    #       dsGroupCall <- dsGroupCall[dsGroupCall$therapist_identifier == input$therapist_identifier,]
-    #     }
-    #     if (input$session_month != "All"){
-    #       dsGroupCall <- dsGroupCall[dsGroupCall$session_month == input$session_month,]
-    #     }
+    if (input$therapist_progress_therapist_id_rc != "All"){
+      dsTherapistProgress <- dsTherapistProgress[dsTherapistProgress$therapist_id_rc == input$therapist_progress_therapist_id_rc,]
+    }
+    if (input$therapist_progress_client_number != "All"){
+      dsTherapistProgress <- dsTherapistProgress[dsTherapistProgress$client_number == input$therapist_progress_client_number,]
+    }
     return( dsTherapistProgress )
   })
   

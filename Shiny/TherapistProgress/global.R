@@ -3,12 +3,12 @@
 
 ############################
 #+ LoadSources
-getwd()
+# getwd()
 source("../.././Manipulation/GroomTherapistProgress.R") #Load the `GroomTherapistProgress()` function
-getwd()
+# getwd()
 #####################################
 #' LoadPackages
-# library(dplyr)
+library(magrittr)
 
 #####################################
 #' DeclareGlobals
@@ -18,6 +18,7 @@ paletteLight <- adjustcolor(paletteDark, alpha.f=.5)
 
 #####################################
 #' LoadData
+# pathGroupCall <- "./DataPhiFree/Raw/TherapistCall.csv"
 dsGroupCall <- read.csv(pathGroupCall, stringsAsFactors=FALSE)
 dsTherapistProgress <- GroomTherapistProgress(pathGroupCall=pathGroupCall)
 
