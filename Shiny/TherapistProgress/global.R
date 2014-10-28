@@ -4,7 +4,8 @@
 ############################
 #+ LoadSources
 # getwd()
-source("../.././Manipulation/GroomClientProgress.R") #Load the `GroomClientProgress()` function
+source("../.././Manipulation/GroomClientSummary.R") #Load the `GroomClientSummary()` function
+source("../.././Manipulation/GroomItemProgress.R") #Load the `GroomClientProgress()` function
 # getwd()
 #####################################
 #' LoadPackages
@@ -12,20 +13,22 @@ library(magrittr)
 
 #####################################
 #' DeclareGlobals
-pathGroupCall <- "../.././DataPhiFree/Raw/TherapistCall.csv"
+
+# pathSessionSurvey <- "./DataPhiFree/Raw/SessionSurvey.csv" #This is for testing when the working directory isn't changed by Shiny
+pathSessionSurvey <- "../.././DataPhiFree/Raw/SessionSurvey.csv"
+
 paletteDark <- RColorBrewer::brewer.pal(n=3, name="Dark2")[c(1,3,2)]
 paletteLight <- adjustcolor(paletteDark, alpha.f=.5)
 
 #####################################
 #' LoadData
-# pathGroupCall <- "./DataPhiFree/Raw/TherapistCall.csv"
-dsGroupCall <- read.csv(pathGroupCall, stringsAsFactors=FALSE)
-dsClientProgress <- GroomClientProgress(pathGroupCall=pathGroupCall)
+dsSessionSurvey <- read.csv(pathSessionSurvey, stringsAsFactors=FALSE)
+dsClientSummary <- GroomClientSummary(pathSessionSurvey=pathSessionSurvey)
+dsItemProgress <- GroomItemProgress(pathSessionSurvey=pathSessionSurvey)
 
 #####################################
 #' TweakData
 
-# This is replicated from GroomClientProgress.R, but was never persisted to a dataset.
-dsGroupCall <- plyr::rename(dsGroupCall, replace=c(
-  "survey_number" = "therapist_id_rc"
+dsSessionSurvey <- plyr::rename(dsSessionSurvey, replace=c(
+#   "survey_number" = "therapist_id_rc"
 ))

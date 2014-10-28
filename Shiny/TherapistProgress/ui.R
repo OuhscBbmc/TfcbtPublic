@@ -14,12 +14,12 @@ shinyUI(
       fluidRow(
         column(width = 4, 
           selectInput(inputId="client_progress_therapist_id_rc", label="Therapist Identifier in REDCap:", 
-            choices=c("All", unique(as.character(dsClientProgress$therapist_id_rc)))
+            choices=c("All", unique(as.character(dsClientSummary$therapist_id_rc)))
           )
         ),
         column(width = 4, 
           selectInput(inputId="client_progress_client_number", label="Therapist's Client Number:", 
-            choices=c("All", unique(as.character(dsClientProgress$client_number)))
+            choices=c("All", unique(as.character(dsClientSummary$client_number)))
           )
         )        
       ), #End fluid row with the dropdown boxes
@@ -29,30 +29,30 @@ shinyUI(
       ) #End fluid row with the Group Call table
     ), #End the (first) tab with the Group Call table
     tabPanel(
-      title = "Group Call", 
-      titlePanel("Group Call"),            
+      title = "Session Summary", 
+      titlePanel("Session Summary"),            
       # Create a new Row in the UI for selectInputs
       fluidRow(
         column(width = 4, 
-          selectInput(inputId="group_call_survey_number", label="Survey Number:", 
-            choices=c("All", unique(as.character(dsGroupCall$survey_number)))
+          selectInput(inputId="group_call_survey_id", label="Survey ID:", 
+            choices=c("All", unique(as.character(dsSessionSurvey$survey_id)))
           )
         ),
         column(width = 4, 
           selectInput(inputId="group_call_therapist_identifier", label="Therapist Identifier:", 
-            choices=c("All", unique(as.character(dsGroupCall$therapist_identifier)))
+            choices=c("All", unique(as.character(dsSessionSurvey$therapist_identifier)))
           )
         ),
         column(width = 4, 
-          selectInput(inputId="group_call_session_month", label="Session Month:", 
-            choices=c("All", unique(as.character(dsGroupCall$session_month)))
+          selectInput(inputId="group_call_session_ym", label="Session Month:", 
+            choices=c("All", unique(as.character(dsSessionSurvey$session_ym)))
           )
         )        
       ), #End fluid row with the dropdown boxes
       # Create a new row for the table.
       fluidRow(
-        dataTableOutput(outputId = "GroupCallTable")
-      ) #End fluid row with the Group Call table
-    ) #End the (second) tab with the Group Call table
+        dataTableOutput(outputId = "SessionSummaryTable")
+      ) #End fluid row with the Session Summary table
+    ) #End the (second) tab with the Session Summary table
   )) #End the tabsetPanel and fluidPage
 ) #End the shinyUI
