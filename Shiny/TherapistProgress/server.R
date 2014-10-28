@@ -1,41 +1,12 @@
 library(shiny)
 library(ggplot2)
-library(magrittr)
-
-source("../.././Manipulation/GroomClientSummary.R") #Load the `GroomClientSummary()` function
-source("../.././Manipulation/GroomItemProgress.R") #Load the `GroomClientProgress()` function
-# getwd()
-#####################################
-#' LoadPackages
-
-#####################################
-#' DeclareGlobals
-
-# pathSessionSurvey <- "./DataPhiFree/Raw/SessionSurvey.csv" #This is for testing when the working directory isn't changed by Shiny
-pathSessionSurvey <- "../.././DataPhiFree/Raw/SessionSurvey.csv"
-
-paletteDark <- RColorBrewer::brewer.pal(n=3, name="Dark2")[c(1,3,2)]
-paletteLight <- adjustcolor(paletteDark, alpha.f=.5)
-
-#####################################
-#' LoadData
-dsSessionSurvey <- read.csv(pathSessionSurvey, stringsAsFactors=FALSE)
-dsClientSummary <- GroomClientSummary(pathSessionSurvey=pathSessionSurvey)
-dsItemProgress <- GroomItemProgress(pathSessionSurvey=pathSessionSurvey)
-
-#####################################
-#' TweakData
-
-dsSessionSurvey <- plyr::rename(dsSessionSurvey, replace=c(
-  #   "survey_number" = "therapist_id_rc"
-))
 
 # Define a server for the Shiny app
 shinyServer( function(input, output) {
   
   #######################################
   ### Set any sesion-wide options
-  options(shiny.trace=TRUE)
+  # options(shiny.trace=TRUE)
   
   #######################################
   ### Call source files that contain semi-encapsulated functions.
@@ -58,11 +29,6 @@ shinyServer( function(input, output) {
   
   # Filter SessionSummary data based on selections
   output$SessionSummaryTable <- renderDataTable({
-#     pathSessionSurvey <- "../.././DataPhiFree/Raw/SessionSurvey.csv"
-#     exists <- file.exists(pathSessionSurvey)
-#     dsSessionSurvey <- read.csv(pathSessionSurvey, stringsAsFactors=FALSE)
-#     dsSessionSurvey
-#     data.frame("eeeeeeeeeeeee", exists)
     if (input$group_call_survey_id != "All")
       dsSessionSurvey <- dsSessionSurvey[dsSessionSurvey$survey_id == input$group_call_survey_id,]
     if (input$group_call_therapist_identifier != "All")

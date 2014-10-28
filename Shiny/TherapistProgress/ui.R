@@ -14,12 +14,12 @@ shinyUI(
       fluidRow(
         column(width = 4, 
           selectInput(inputId="client_progress_therapist_id_rc", label="Therapist Identifier in REDCap:", 
-            choices=c("All")#, unique(as.character(dsClientSummary$therapist_id_rc)))
+            choices=c("All", unique(as.character(dsClientSummary$therapist_id_rc)))
           )
         ),
         column(width = 4, 
           selectInput(inputId="client_progress_client_number", label="Therapist's Client Number:", 
-            choices=c("All")#, unique(as.character(dsClientSummary$client_number)))
+            choices=c("All", unique(as.character(dsClientSummary$client_number)))
           )
         )        
       ), #End fluid row with the dropdown boxes
@@ -35,17 +35,17 @@ shinyUI(
       fluidRow(
         column(width = 4, 
           selectInput(inputId="group_call_survey_id", label="Survey ID:", 
-            choices=c("All")#, unique(as.character(dsSessionSurvey$survey_id)))
+            choices=c("All", unique(as.character(dsSessionSurvey$survey_id)))
           )
         ),
         column(width = 4, 
           selectInput(inputId="group_call_therapist_identifier", label="Therapist Identifier:", 
-            choices=c("All")#, unique(as.character(dsSessionSurvey$therapist_identifier)))
+            choices=c("All", unique(as.character(dsSessionSurvey$therapist_identifier)))
           )
         ),
         column(width = 4, 
           selectInput(inputId="group_call_session_ym", label="Session Month:", 
-            choices=c("All")#, unique(as.character(dsSessionSurvey$session_ym)))
+            choices=c("All", unique(as.character(dsSessionSurvey$session_ym)))
           )
         )        
       ), #End fluid row with the dropdown boxes
