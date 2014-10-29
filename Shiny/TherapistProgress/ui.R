@@ -40,7 +40,7 @@ shinyUI(fluidPage(
       title = "Trauma Symptoms", 
       titlePanel("Trauma Symptoms"), 
       "Elizabeth, tell me if there's an explanation you'd like placed here.",
-      plotOutput(outputId='trauma_symptoms', width='90%', height='200px')
+      plotOutput(outputId='trauma_symptoms', width='95%', height='400px')
     ), #End the (second) tab with the symptoms
     tabPanel(
       title = "Client Progress", 

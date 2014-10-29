@@ -3,7 +3,7 @@ rm(list=ls(all=TRUE)) #Clear the memory of variables from previous run.
 library(dplyr)
 # library(reshape2)
 
-possible_sessions <- 1:20
+possible_sessions <- 1:30
 possible_clients <- 1:2
 
 pad_session_number <- function( event ) {

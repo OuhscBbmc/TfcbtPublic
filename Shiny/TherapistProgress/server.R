@@ -1,5 +1,6 @@
 library(shiny)
 library(ggplot2)
+library(grid)
 
 # Define a server for the Shiny app
 shinyServer( function(input, output) {
@@ -85,26 +86,33 @@ shinyServer( function(input, output) {
   })
   
   output$trauma_symptoms <- renderPlot({
-    d <- dsSessionSurvey[(dsSessionSurvey$therapist_id_rc>0) & (dsSessionSurvey$client_number>0), ]   
+    #TODO: add filtering based on dropdown boxes
+    dWide <- dsSessionSurvey[(dsSessionSurvey$therapist_id_rc>0) & (dsSessionSurvey$client_number>0), c("session_date", "trauma_score_caregiver", "trauma_score_child")]   
+    dLong <- reshape2::melt(dWide, id.vars="session_date", variable.name="respondent", value.name="score")
+    dLong$respondent <- gsub("^trauma_score_(.*)$", "\\1", dLong$respondent)
+
+    shape_respondent_dark <- c("child"=21, "caregiver"=25)
+    color_respondent_dark <- c("child"="#1f78b4", "caregiver"="#33a02c")
+    color_respondent_light <- grDevices::adjustcolor(color_respondent_dark, alpha.f = .2)
+    names(color_respondent_light) <- names(color_respondent_dark)
     
-    ggplot(d, aes(x=session_date, y=trauma_score_caregiver)) +
-      geom_point(shape=21, size=5, color="#1f78b4", fill="#1f78b455") +
-      geom_line(color="#1f78b4") +
-      geom_point(aes(y=trauma_score_child), shape=24, size=5, color="#33a02c", fill="#33a02c55") +
-      geom_line(aes(y=trauma_score_child), color="#33a02c") +
-      
+    ggplot(dLong, aes(x=session_date, y=score, color=respondent, fill=respondent, shape=respondent)) +
+      geom_point(size=10) +
+      geom_line() +
+      scale_color_manual(values=color_respondent_dark) +
+      scale_fill_manual(values=color_respondent_light) +
+      scale_shape_manual(values=shape_respondent_dark) +  
       coord_cartesian(ylim=c(0, 60)) +
       theme_bw() +
+      theme(axis.ticks.length = grid::unit(0, "cm")) +
+      theme(panel.margin=unit(c(0,0,0,0), "lines")) +
       #   theme(axis.text = element_blank()) +
       #   theme(axis.title = element_blank()) +
       #   theme(panel.grid = element_blank()) +
       #   theme(panel.border = element_blank()) +
-      theme(axis.ticks.length = grid::unit(0, "cm")) +
       #   theme(plot.margin=unit(c(0,0,0,0), "lines")) +
-      theme(panel.margin=unit(c(0,0,0,0), "lines")) +
-      #   theme(legend.position="none") +
-      labs(title=NULL, x=NULL, y=NULL, colour=NULL, fill=NULL)
-#     print(p)
-  }) #CompetitorColors Plot/Legend
+      theme(legend.position="top") +
+      labs(title=NULL, x=NULL, y=NULL, colour=NULL, fill=NULL, shape=NULL)
+  }) #trauma_symptoms plot
   
 })

@@ -10,7 +10,6 @@ source("../.././Manipulation/GroomClientSummary.R") #Load the `GroomClientSummar
 #####################################
 #' LoadPackages
 library(magrittr)
-library(grid)
 
 #####################################
 #' DeclareGlobals
@@ -38,3 +37,21 @@ dsSessionSurvey <- plyr::rename(dsSessionSurvey, replace=c(
 
 dsSessionSurvey$trauma_score_caregiver <- as.integer(dsSessionSurvey$trauma_score_caregiver)
 dsSessionSurvey$trauma_score_child <- as.integer(dsSessionSurvey$trauma_score_child)
+
+dWide <- dsSessionSurvey[(dsSessionSurvey$therapist_id_rc>0) & (dsSessionSurvey$client_number>0), c("session_date", "trauma_score_caregiver", "trauma_score_child")]   
+dLong <- reshape2::melt(dWide, id.vars="session_date", variable.name="respondent", value.name="score")
+dLong$respondent <- gsub("^trauma_score_(.*)$", "\\1", dLong$respondent)
+# dLong
+
+shape_respondent_dark <- c("child"=21, "caregiver"=25)
+color_respondent_dark <- c("child"="#1f78b4", "caregiver"="#33a02c")
+color_respondent_light <- grDevices::adjustcolor(color_respondent_dark, alpha.f = .2)
+names(color_respondent_light) <- names(color_respondent_dark)
+
+ggplot(dLong, aes(x=session_date, y=score, color=respondent, fill=respondent, shape=respondent)) +
+  geom_point(size=10) +
+  geom_line() +
+  scale_color_manual(values=color_respondent_dark) +
+  scale_fill_manual(values=color_respondent_light) +
+  scale_shape_manual(values=shape_respondent_dark) +  
+  coord_cartesian(ylim=c(0, 60))
