@@ -32,7 +32,14 @@ shinyServer( function(input, output) {
   },
   options = list(
     pageLength = length(unique(dsItemProgress$item)), #34,
-    aoColumnDefs = list(list(sClass="alignRight", aTargets=ncol(dsItemProgress)-1)),
+    aoColumnDefs = list(
+      list(sClass="semihide", aTargets=ncol(dsItemProgress)-1),
+      # list(sClass="alignRight", aTargets=0),
+      list(sClass="smallish", aTargets=(1:ncol(dsItemProgress))-1)
+    ),
+
+    # columnDefs = list(list(targets = c(3, 4) - 1, searchable = FALSE)),
+    # searching = FALSE,
     rowCallback = I('
       function(nRow, aData) {
       // Emphasize rows where the `branch_item` column equals to 1

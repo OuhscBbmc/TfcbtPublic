@@ -8,8 +8,11 @@ library(ggplot2)
 shinyUI(fluidPage(
   shiny::tags$head(
     includeCSS("./www/styles.css"), # Include our custom CSS
-    #       includeScript("./www/gomap.js"), #Allows the map to react to the 'Action' icon in the 'Selector' table.
-    tags$style(".table .alignRight {text-align:right;}") #Right align the columns of this class (in the DataTables). http://stackoverflow.com/questions/22884224/how-to-right-align-columns-of-datatable-in-r-shiny
+    tags$style("
+      .table .smallish {font-size: 80%;padding: 0px;}
+      .table .alignRight {text-align: right;font-size: 80%;padding: 0px;}
+      .table .semihide {color: #cccccc;font-size: 80%;padding: 0px;}
+    ") #Right align the columns of this class (in the DataTables). http://stackoverflow.com/questions/22884224/how-to-right-align-columns-of-datatable-in-r-shiny
   ),#tags$head  
   tabsetPanel( type = "tabs",
     tabPanel(
