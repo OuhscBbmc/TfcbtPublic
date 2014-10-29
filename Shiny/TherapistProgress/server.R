@@ -23,7 +23,15 @@ shinyServer( function(input, output) {
     
     colnames(d) <- gsub("^session_(\\d{2})$", "\\1", colnames(d)) #This strips out the "session_" prefix.
     return( as.data.frame(d) )
-  })
+  },
+    options = list(fnRowCallback = I('
+        function(nRow, aData, iDisplayIndex, iDisplayIndexFull) {
+          // Bold cells for those >= 2 in the first column
+          if (parseFloat(aData[2]) >= 2)
+            $("td:eq(0)", nRow).css("font-weight", "bold");
+        }')
+      )
+  )
   
   output$ClientProgressTable <- renderDataTable({
     # Filter Client Progress data based on selections

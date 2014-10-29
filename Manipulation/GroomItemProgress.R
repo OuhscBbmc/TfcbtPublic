@@ -32,17 +32,11 @@ dsSessionSurvey$client_sequence[client2] <- 2L
 
 dsSessionSurvey$redcap_event_name <- ifelse(client1, paste0("c1_", dsSessionSurvey$redcap_event_name), dsSessionSurvey$redcap_event_name)
 dsSessionSurvey$redcap_event_name <- pad_session_number(dsSessionSurvey$redcap_event_name)
-# dsSessionSurvey$redcap_event_name <- gsub("(c\\d_session_)(\\d)(_arm_\\d)", "\\10\\2\\3", dsSessionSurvey$redcap_event_name)
-
 rm(client1, client2)
 
-# sessions_client_1 <- paste0("c1_session_", possible_sessions, "_arm_1")
-# sessions_client_2 <- paste0("c2_session_", possible_sessions, "_arm_2")
-# sessions_clients_possible <- c(sessions_client_1, sessions_client_2)
-sessions_clients_possible <- paste0("c", 
-                                    rep(possible_clients, each=length(possible_sessions)), "_session_", possible_sessions, "_arm_", 
-                                    rep(possible_clients, each=length(possible_sessions)))
-sessions_clients_possible <- pad_session_number(sessions_clients_possible)
+# sessions_clients_possible <- paste0("c", rep(possible_clients, each=length(possible_sessions)), "_session_", possible_sessions, "_arm_", 
+#                                     rep(possible_clients, each=length(possible_sessions)))
+# sessions_clients_possible <- pad_session_number(sessions_clients_possible)
 
 
 columns_plumbing <- c("therapist_id_rc", "client_sequence", "redcap_event_name") #, "email"
@@ -64,33 +58,25 @@ branch_invivo_desensitization <- c("invivo_desensitization")
 branch_child_parent <- c("child_parent", "child_parent_prepare", "child_parent_joint_session")
 branch_address_safety <- c("address_safety", "address_safety_teach_skills", "address_safety_social_skills")
 
-columns_components <- c(branch_psycho_education, branch_parenting_skills, branch_relaxation, branch_assist, branch_cognitive_coping, 
+columns_components_list <- list(branch_psycho_education, branch_parenting_skills, branch_relaxation, branch_assist, branch_cognitive_coping, 
                 branch_trauma_narrative, branch_invivo_desensitization, branch_child_parent, branch_address_safety)
-# columns_for_eav <- c(columns_plumbing, columns_components)
+columns_components <- unlist(columns_components_list)
 
 ds_eav <- reshape2::melt(dsSessionSurvey, id.vars=columns_plumbing, measure.vars=columns_components,
                           variable.name="item", value.name="score", factorsAsStrings=FALSE)
 ds_eav$score <- ifelse(!is.na(ds_eav$score), ds_eav$score, 2L)
-
-
 ds_eav$item <- factor(ds_eav$item, levels=columns_components)
 
 
 # ds_eav$session_number <- as.integer(gsub("(c\\d_session_)(\\d{2})(_arm_\\d)", "\\2", ds_eav$redcap_event_name))
-
 ds_eav$session_name <- strip_arm_from_event(ds_eav$redcap_event_name)
 # ds_eav$session_name <- gsub("(c\\d_)(session_\\d{2})(_arm_\\d)", "\\2", ds_eav$redcap_event_name)
-  
-  
-sessions_existing <- unique(ds_eav$session_name)
-
 
 
 # On row per client's item (over the sessions)
 ds_item_client <- reshape2::dcast(ds_eav, item + therapist_id_rc + client_sequence~ session_name, value.var="score")
 ds_item_client <- ds_item_client[order(ds_item_client$therapist_id_rc, ds_item_client$client_sequence), ]
-# ds_item_client <- ds_item_client[, c(columns_plumbing, sessions_existing)]
-
+ds_item_client$branch_item <- (ds_item_client$item %in% branches)
 
 
 # c("survey_id", "therapist_id_rc", "redcap_event_name", "session_date", 
@@ -104,12 +90,6 @@ ds_item_client <- ds_item_client[order(ds_item_client$therapist_id_rc, ds_item_c
 # "date_upload_to_sql", "session_ym")
 
 
-# ds <- GroomItemProgress()
-# ds
 write.csv(ds_item_client, file="./DataPhiFree/Derived/ItemProgress.csv", row.names=F)
-
-#Practice for renaming columns in Shiny
-# 
-# gsub("^session_(\\d{2})$", "\\1", colnames(ds_item_client))
 
 #' Questions
