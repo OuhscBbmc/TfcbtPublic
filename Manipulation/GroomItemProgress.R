@@ -76,7 +76,7 @@ ds_eav$session_name <- strip_arm_from_event(ds_eav$redcap_event_name)
 # On row per client's item (over the sessions)
 ds_item_client <- reshape2::dcast(ds_eav, item + therapist_id_rc + client_sequence~ session_name, value.var="score")
 ds_item_client <- ds_item_client[order(ds_item_client$therapist_id_rc, ds_item_client$client_sequence), ]
-ds_item_client$branch_item <- (ds_item_client$item %in% branches)
+ds_item_client$branch_item <- as.integer(ds_item_client$item %in% branches)
 
 
 # c("survey_id", "therapist_id_rc", "redcap_event_name", "session_date", 
