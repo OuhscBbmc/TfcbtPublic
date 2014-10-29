@@ -12,7 +12,6 @@ shinyServer( function(input, output) {
   #######################################
   ### Call source files that contain semi-encapsulated functions.
   
-
   output$ItemProgressTable <- renderDataTable({
     # Filter Client Progress data based on selections
     d <- dsItemProgress
@@ -92,8 +91,8 @@ shinyServer( function(input, output) {
     dLong$respondent <- gsub("^trauma_score_(.*)$", "\\1", dLong$respondent)
 
     shape_respondent_dark <- c("child"=21, "caregiver"=25)
-    color_respondent_dark <- c("child"="#1f78b4", "caregiver"="#33a02c")
-    color_respondent_light <- grDevices::adjustcolor(color_respondent_dark, alpha.f = .2)
+    color_respondent_dark <- c("child"="#1f78b4", "caregiver"="#33a02c") #From paired qualitative palette
+    color_respondent_light <- grDevices::adjustcolor( c("child"="#a6cee3", "caregiver"="#b2df8a"), alpha.f = .4)
     names(color_respondent_light) <- names(color_respondent_dark)
     
     ggplot(dLong, aes(x=session_date, y=score, color=respondent, fill=respondent, shape=respondent)) +
