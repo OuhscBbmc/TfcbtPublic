@@ -8,6 +8,27 @@ library(ggplot2)
 shinyUI(
   fluidPage(tabsetPanel( type = "tabs",
     tabPanel(
+      title = "Item Progress", 
+      titlePanel("Item Progress"),            
+      # Create a new Row in the UI for selectInputs
+      fluidRow(
+        column(width = 4, 
+          selectInput(inputId="item_progress_therapist_id_rc", label="Therapist Identifier in REDCap:", 
+            choices=c("All", unique(as.character(dsItemProgress$therapist_id_rc)))
+          )
+        ),
+        column(width = 4, 
+          selectInput(inputId="item_progress_client_number", label="Therapist's Client Number:", 
+            choices=c("All", unique(as.character(dsItemProgress$client_sequence)))
+          )
+        )        
+      ), #End fluid row with the dropdown boxes
+      # Create a new row for the table.
+      fluidRow(
+        dataTableOutput(outputId = "ItemProgressTable")
+      ) #End fluid row with the Group Call table
+    ), #End the (first) tab with the Group Call table
+    tabPanel(
       title = "Client Progress", 
       titlePanel("Client Progress"),            
       # Create a new Row in the UI for selectInputs
@@ -27,7 +48,7 @@ shinyUI(
       fluidRow(
         dataTableOutput(outputId = "ClientProgressTable")
       ) #End fluid row with the Group Call table
-    ), #End the (first) tab with the Group Call table
+    ), #End the (second) tab with the Group Call table
     tabPanel(
       title = "Session Summary", 
       titlePanel("Session Summary"),            

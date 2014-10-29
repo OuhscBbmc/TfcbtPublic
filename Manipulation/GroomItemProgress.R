@@ -108,4 +108,8 @@ ds_item_client <- ds_item_client[order(ds_item_client$therapist_id_rc, ds_item_c
 # ds
 write.csv(ds_item_client, file="./DataPhiFree/Derived/ItemProgress.csv", row.names=F)
 
+#Practice for renaming columns in Shiny
+# 
+# gsub("^session_(\\d{2})$", "\\1", colnames(ds_item_client))
+
 #' Questions
