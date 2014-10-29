@@ -64,7 +64,7 @@ columns_components <- unlist(columns_components_list)
 
 ds_eav <- reshape2::melt(dsSessionSurvey, id.vars=columns_plumbing, measure.vars=columns_components,
                           variable.name="item", value.name="score", factorsAsStrings=FALSE)
-ds_eav$score <- ifelse(!is.na(ds_eav$score), ds_eav$score, 2L)
+ds_eav$score <- ifelse(is.na(ds_eav$score) | (ds_eav$score==2L), 0L, ds_eav$score)
 ds_eav$item <- factor(ds_eav$item, levels=columns_components)
 
 

@@ -1,12 +1,17 @@
 #Starting with http://shiny.rstudio.com/gallery/basic-datatable.html
 library(shiny)
-
+library(shiny)
 library(ggplot2)
-# browser()
+# library(ShinyDash) # To install, run devtools::install_github('ShinyDash', 'trestletech') #See https://groups.google.com/forum/#!topic/shiny-discuss/V7WUQA7aAiI
 
 # Define the overall UI
-shinyUI(
-  fluidPage(tabsetPanel( type = "tabs",
+shinyUI(fluidPage(
+  shiny::tags$head(
+    includeCSS("./www/styles.css"), # Include our custom CSS
+    #       includeScript("./www/gomap.js"), #Allows the map to react to the 'Action' icon in the 'Selector' table.
+    tags$style(".table .alignRight {text-align:right;}") #Right align the columns of this class (in the DataTables). http://stackoverflow.com/questions/22884224/how-to-right-align-columns-of-datatable-in-r-shiny
+  ),#tags$head  
+  tabsetPanel( type = "tabs",
     tabPanel(
       title = "Item Progress", 
       titlePanel("Item Progress"),            
@@ -75,5 +80,5 @@ shinyUI(
         dataTableOutput(outputId = "SessionSummaryTable")
       ) #End fluid row with the Session Summary table
     ) #End the (second) tab with the Session Summary table
-  )) #End the tabsetPanel and fluidPage
-) #End the shinyUI
+  ) #End the tabsetPanel
+)) #End the fluidPage and shinyUI
