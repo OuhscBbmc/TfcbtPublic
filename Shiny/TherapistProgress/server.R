@@ -32,10 +32,10 @@ shinyServer( function(input, output) {
   },
   options = list(
     pageLength = length(unique(dsItemProgress$item)), #34,
-    aoColumnDefs = list(
-      list(sClass="semihide", aTargets=ncol(dsItemProgress)-1),
+    aoColumnDefs = list( #http://legacy.datatables.net/usage/columns
+      list(sClass="semihide", aTargets=-1),
       # list(sClass="alignRight", aTargets=0),
-      list(sClass="smallish", aTargets=(1:ncol(dsItemProgress))-1)
+      list(sClass="smallish", aTargets="_all")
     ),
 
     # columnDefs = list(list(targets = c(3, 4) - 1, searchable = FALSE)),
@@ -83,5 +83,28 @@ shinyServer( function(input, output) {
 
     return( d )
   })
+  
+  output$trauma_symptoms <- renderPlot({
+    d <- dsSessionSurvey[(dsSessionSurvey$therapist_id_rc>0) & (dsSessionSurvey$client_number>0), ]   
+    
+    ggplot(d, aes(x=session_date, y=trauma_score_caregiver)) +
+      geom_point(shape=21, size=5, color="#1f78b4", fill="#1f78b455") +
+      geom_line(color="#1f78b4") +
+      geom_point(aes(y=trauma_score_child), shape=24, size=5, color="#33a02c", fill="#33a02c55") +
+      geom_line(aes(y=trauma_score_child), color="#33a02c") +
+      
+      coord_cartesian(ylim=c(0, 60)) +
+      theme_bw() +
+      #   theme(axis.text = element_blank()) +
+      #   theme(axis.title = element_blank()) +
+      #   theme(panel.grid = element_blank()) +
+      #   theme(panel.border = element_blank()) +
+      theme(axis.ticks.length = grid::unit(0, "cm")) +
+      #   theme(plot.margin=unit(c(0,0,0,0), "lines")) +
+      theme(panel.margin=unit(c(0,0,0,0), "lines")) +
+      #   theme(legend.position="none") +
+      labs(title=NULL, x=NULL, y=NULL, colour=NULL, fill=NULL)
+#     print(p)
+  }) #CompetitorColors Plot/Legend
   
 })
