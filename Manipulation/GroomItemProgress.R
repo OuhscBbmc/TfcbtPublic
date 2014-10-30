@@ -61,6 +61,7 @@ branch_address_safety <- c("address_safety", "address_safety_teach_skills", "add
 columns_components_list <- list(branch_psycho_education, branch_parenting_skills, branch_relaxation, branch_assist, branch_cognitive_coping, 
                 branch_trauma_narrative, branch_invivo_desensitization, branch_child_parent, branch_address_safety)
 columns_components <- unlist(columns_components_list)
+# write.csv(data.frame(variable_name=columns_components, description_short=NA_character_, desription_long=NA_character_), file="./DataPhiFree/Raw/ItemLabels.csv", row.names=FALSE)
 
 ds_eav <- reshape2::melt(dsSessionSurvey, id.vars=columns_plumbing, measure.vars=columns_components,
                           variable.name="item", value.name="score", factorsAsStrings=FALSE)
