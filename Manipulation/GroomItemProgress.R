@@ -14,6 +14,7 @@ strip_arm_from_event <- function( event ) {
 }
 
 dsSessionSurvey <- read.csv("./DataPhiFree/Raw/SessionSurvey.csv", stringsAsFactors=FALSE)
+ds_item_label <- read.csv("./DataPhiFree/Raw/ItemLabel.csv", stringsAsFactors=FALSE) 
 
 # GroomItemProgress <- function( pathSessionSurvey = "./DataPhiFree/Raw/SessionSurvey.csv") {
   #' LoadData
@@ -61,11 +62,15 @@ branch_address_safety <- c("address_safety", "address_safety_teach_skills", "add
 columns_components_list <- list(branch_psycho_education, branch_parenting_skills, branch_relaxation, branch_assist, branch_cognitive_coping, 
                 branch_trauma_narrative, branch_invivo_desensitization, branch_child_parent, branch_address_safety)
 columns_components <- unlist(columns_components_list)
-# write.csv(data.frame(variable_name=columns_components, description_short=NA_character_, desription_long=NA_character_), file="./DataPhiFree/Raw/ItemLabels.csv", row.names=FALSE)
+columns_components_spaces <- gsub("_", " ", columns_components)
+# columns_components_capitalized <- gsub("\\b(\\w)", toupper("\\1"), columns_components_spaces)
+# columns_components_capitalized
+# write.csv(data.frame(item=columns_components, description_short=columns_components_spaces, description_long=NA_character_, variable_index=seq_along(columns_components)), file="./DataPhiFree/Raw/ItemLabel.csv", row.names=FALSE)
 
 ds_eav <- reshape2::melt(dsSessionSurvey, id.vars=columns_plumbing, measure.vars=columns_components,
                           variable.name="item", value.name="score", factorsAsStrings=FALSE)
-ds_eav$score <- ifelse(is.na(ds_eav$score) | (ds_eav$score==2L), 0L, ds_eav$score)
+ds_eav$score <- as.logical(ifelse(is.na(ds_eav$score) | (ds_eav$score==2L), 0L, ds_eav$score))
+ds_eav$score <- ifelse(ds_eav$score, "YES", "n")
 ds_eav$item <- factor(ds_eav$item, levels=columns_components)
 
 
@@ -79,6 +84,8 @@ ds_item_client <- reshape2::dcast(ds_eav, item + therapist_id_rc + client_sequen
 ds_item_client <- ds_item_client[order(ds_item_client$therapist_id_rc, ds_item_client$client_sequence), ]
 ds_item_client$branch_item <- as.integer(ds_item_client$item %in% branches)
 
+ds_item_client <- merge(x=ds_item_label, y=ds_item_client, by="item", all=T)
+ds_item_client <- ds_item_client[order(ds_item_client$therapist_id_rc, ds_item_client$client_sequence, ds_item_client$variable_index), ]
 
 # c("survey_id", "therapist_id_rc", "redcap_event_name", "session_date", 
 # "survey_trigger", "original_client_still_participating", "therapist_identifier", 
@@ -89,7 +96,6 @@ ds_item_client$branch_item <- as.integer(ds_item_client$item %in% branches)
 # "tfcbt_completed", "tfcbt_checklist_complete", 
 # "email", "contact_info_complete", 
 # "date_upload_to_sql", "session_ym")
-
 
 write.csv(ds_item_client, file="./DataPhiFree/Derived/ItemProgress.csv", row.names=F)
 

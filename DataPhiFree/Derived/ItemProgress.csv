@@ -1,375 +1,375 @@
-"item","therapist_id_rc","client_sequence","session_01","session_02","session_03","session_04","session_05","session_06","session_07","session_08","session_09","session_10","session_11","session_12","session_13","session_14","session_15","session_16","branch_item"
-"psycho_education",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1
-"psycho_education_general",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_common_responses",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_symptoms",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_components",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_engaged_family",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"parenting_skills",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation_trauma_help",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"assist",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1
-"assist_express_feelings",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"assist_link_feelings",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"assist_rate_emotions",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"assist_manage_emotions",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"assist_cope_feelings",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1
-"cognitive_coping_educate",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping_alternative",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1
-"trauma_narrative_rationale",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_details",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_reread",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_add_thoughts",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_worst_memory",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_cognitive_processing",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_meaning",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_read_draft",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"invivo_desensitization",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent_prepare",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"child_parent_joint_session",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1
-"address_safety_teach_skills",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety_social_skills",1,1,0,NA,NA,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"psycho_education_general",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_common_responses",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_symptoms",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_components",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_engaged_family",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"parenting_skills",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation_trauma_help",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"assist_express_feelings",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_link_feelings",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_rate_emotions",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_manage_emotions",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_cope_feelings",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"cognitive_coping_educate",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping_alternative",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"trauma_narrative_rationale",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_details",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_reread",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_add_thoughts",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_worst_memory",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_cognitive_processing",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_meaning",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_read_draft",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"invivo_desensitization",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent_prepare",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"child_parent_joint_session",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"address_safety_teach_skills",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety_social_skills",1,2,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education",2,1,0,0,0,0,0,NA,0,0,0,1,NA,NA,0,NA,NA,NA,1
-"psycho_education_general",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"psycho_education_common_responses",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"psycho_education_symptoms",2,1,0,0,0,0,0,NA,0,0,0,1,NA,NA,0,NA,NA,NA,0
-"psycho_education_components",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"psycho_education_engaged_family",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"parenting_skills",2,1,0,0,0,0,1,NA,0,0,0,0,NA,NA,0,NA,NA,NA,1
-"relaxation",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,1
-"relaxation_trauma_help",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"assist",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,1
-"assist_express_feelings",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"assist_link_feelings",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"assist_rate_emotions",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"assist_manage_emotions",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"assist_cope_feelings",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"cognitive_coping",2,1,0,0,0,0,0,NA,0,0,1,0,NA,NA,0,NA,NA,NA,1
-"cognitive_coping_educate",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"cognitive_coping_alternative",2,1,0,0,0,0,0,NA,0,0,1,0,NA,NA,0,NA,NA,NA,0
-"trauma_narrative",2,1,1,1,1,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,1
-"trauma_narrative_rationale",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"trauma_narrative_details",2,1,1,1,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"trauma_narrative_reread",2,1,1,1,1,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"trauma_narrative_add_thoughts",2,1,0,1,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"trauma_narrative_worst_memory",2,1,1,1,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"trauma_narrative_cognitive_processing",2,1,0,1,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"trauma_narrative_meaning",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"trauma_narrative_read_draft",2,1,0,1,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"invivo_desensitization",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,1
-"child_parent",2,1,0,0,1,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,1
-"child_parent_prepare",2,1,0,0,1,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"child_parent_joint_session",2,1,0,0,1,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"address_safety",2,1,0,0,0,0,0,NA,0,1,1,0,NA,NA,0,NA,NA,NA,1
-"address_safety_teach_skills",2,1,0,0,0,0,0,NA,0,0,0,0,NA,NA,0,NA,NA,NA,0
-"address_safety_social_skills",2,1,0,0,0,0,0,NA,0,0,1,0,NA,NA,0,NA,NA,NA,0
-"psycho_education",2,2,1,1,1,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,1
-"psycho_education_general",2,2,1,1,1,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,0
-"psycho_education_common_responses",2,2,0,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,0
-"psycho_education_symptoms",2,2,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,0
-"psycho_education_components",2,2,0,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,0
-"psycho_education_engaged_family",2,2,0,1,1,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,0
-"parenting_skills",2,2,0,0,1,1,0,0,0,1,0,0,0,0,NA,NA,NA,NA,1
-"relaxation",2,2,0,0,1,1,0,0,0,0,0,0,0,0,NA,NA,NA,NA,1
-"relaxation_trauma_help",2,2,0,0,1,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,0
-"assist",2,2,0,0,0,1,1,0,0,0,0,0,0,0,NA,NA,NA,NA,1
-"assist_express_feelings",2,2,0,0,0,1,1,0,0,0,0,0,0,0,NA,NA,NA,NA,0
-"assist_link_feelings",2,2,0,0,0,1,1,0,0,0,0,0,0,0,NA,NA,NA,NA,0
-"assist_rate_emotions",2,2,0,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,NA,0
-"assist_manage_emotions",2,2,0,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,NA,0
-"assist_cope_feelings",2,2,0,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,NA,0
-"cognitive_coping",2,2,0,0,0,0,0,1,0,0,0,0,0,0,NA,NA,NA,NA,1
-"cognitive_coping_educate",2,2,0,0,0,0,0,1,0,0,0,0,0,0,NA,NA,NA,NA,0
-"cognitive_coping_alternative",2,2,0,0,0,0,0,1,0,0,0,0,0,0,NA,NA,NA,NA,0
-"trauma_narrative",2,2,0,0,0,0,0,0,1,1,1,1,0,0,NA,NA,NA,NA,1
-"trauma_narrative_rationale",2,2,0,0,0,0,0,0,1,0,0,0,0,0,NA,NA,NA,NA,0
-"trauma_narrative_details",2,2,0,0,0,0,0,0,0,1,1,0,0,0,NA,NA,NA,NA,0
-"trauma_narrative_reread",2,2,0,0,0,0,0,0,0,1,1,1,0,0,NA,NA,NA,NA,0
-"trauma_narrative_add_thoughts",2,2,0,0,0,0,0,0,0,1,1,1,0,0,NA,NA,NA,NA,0
-"trauma_narrative_worst_memory",2,2,0,0,0,0,0,0,0,0,1,1,0,0,NA,NA,NA,NA,0
-"trauma_narrative_cognitive_processing",2,2,0,0,0,0,0,0,0,1,1,1,0,0,NA,NA,NA,NA,0
-"trauma_narrative_meaning",2,2,0,0,0,0,0,0,0,0,0,1,0,0,NA,NA,NA,NA,0
-"trauma_narrative_read_draft",2,2,0,0,0,0,0,0,0,1,1,1,0,0,NA,NA,NA,NA,0
-"invivo_desensitization",2,2,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,1
-"child_parent",2,2,0,0,0,0,0,0,0,0,0,0,1,0,NA,NA,NA,NA,1
-"child_parent_prepare",2,2,0,0,0,0,0,0,0,0,0,0,1,0,NA,NA,NA,NA,0
-"child_parent_joint_session",2,2,0,0,0,0,0,0,0,0,0,0,1,0,NA,NA,NA,NA,0
-"address_safety",2,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA,NA,NA,1
-"address_safety_teach_skills",2,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA,NA,NA,0
-"address_safety_social_skills",2,2,0,0,0,0,0,0,0,0,0,0,0,1,NA,NA,NA,NA,0
-"psycho_education",3,1,1,0,0,0,0,1,1,1,0,0,NA,NA,NA,NA,NA,NA,1
-"psycho_education_general",3,1,1,0,0,0,0,1,1,1,0,0,NA,NA,NA,NA,NA,NA,0
-"psycho_education_common_responses",3,1,1,0,0,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,NA,0
-"psycho_education_symptoms",3,1,0,0,0,0,0,1,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"psycho_education_components",3,1,1,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"psycho_education_engaged_family",3,1,0,0,0,0,0,1,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"parenting_skills",3,1,0,0,0,0,0,0,1,0,1,0,NA,NA,NA,NA,NA,NA,1
-"relaxation",3,1,1,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,1
-"relaxation_trauma_help",3,1,1,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"assist",3,1,0,1,1,0,0,1,0,1,0,0,NA,NA,NA,NA,NA,NA,1
-"assist_express_feelings",3,1,0,1,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"assist_link_feelings",3,1,0,1,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"assist_rate_emotions",3,1,0,1,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"assist_manage_emotions",3,1,0,1,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"assist_cope_feelings",3,1,0,1,1,0,0,1,0,1,0,0,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping",3,1,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,1
-"cognitive_coping_educate",3,1,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping_alternative",3,1,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative",3,1,0,0,1,1,1,0,1,0,0,0,NA,NA,NA,NA,NA,NA,1
-"trauma_narrative_rationale",3,1,0,0,1,1,1,0,1,0,0,0,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_details",3,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_reread",3,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_add_thoughts",3,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_worst_memory",3,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_cognitive_processing",3,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_meaning",3,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_read_draft",3,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"invivo_desensitization",3,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,1
-"child_parent",3,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,1
-"child_parent_prepare",3,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"child_parent_joint_session",3,1,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,0
-"address_safety",3,1,0,0,0,0,0,0,0,1,1,0,NA,NA,NA,NA,NA,NA,1
-"address_safety_teach_skills",3,1,0,0,0,0,0,0,0,0,1,0,NA,NA,NA,NA,NA,NA,0
-"address_safety_social_skills",3,1,0,0,0,0,0,0,0,1,0,0,NA,NA,NA,NA,NA,NA,0
-"psycho_education",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"psycho_education_general",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_common_responses",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_symptoms",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_components",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_engaged_family",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"parenting_skills",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation_trauma_help",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"assist_express_feelings",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_link_feelings",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_rate_emotions",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_manage_emotions",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_cope_feelings",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"cognitive_coping_educate",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping_alternative",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"trauma_narrative_rationale",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_details",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_reread",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_add_thoughts",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_worst_memory",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_cognitive_processing",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_meaning",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_read_draft",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"invivo_desensitization",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent_prepare",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"child_parent_joint_session",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"address_safety_teach_skills",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety_social_skills",4,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education",5,1,1,1,1,1,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"psycho_education_general",5,1,1,1,1,1,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_common_responses",5,1,1,1,1,1,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_symptoms",5,1,1,1,1,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_components",5,1,1,1,1,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_engaged_family",5,1,0,1,1,1,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"parenting_skills",5,1,0,0,1,1,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation",5,1,0,0,1,1,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation_trauma_help",5,1,0,0,1,1,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist",5,1,0,0,0,1,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"assist_express_feelings",5,1,0,0,0,1,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_link_feelings",5,1,0,0,0,1,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_rate_emotions",5,1,0,0,0,1,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_manage_emotions",5,1,0,0,0,0,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_cope_feelings",5,1,0,0,0,1,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping",5,1,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"cognitive_coping_educate",5,1,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping_alternative",5,1,0,0,0,0,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"trauma_narrative_rationale",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_details",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_reread",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_add_thoughts",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_worst_memory",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_cognitive_processing",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_meaning",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_read_draft",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"invivo_desensitization",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent_prepare",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"child_parent_joint_session",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"address_safety_teach_skills",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety_social_skills",5,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education",6,1,1,1,1,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"psycho_education_general",6,1,1,1,1,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_common_responses",6,1,1,1,1,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_symptoms",6,1,1,1,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_components",6,1,1,1,1,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_engaged_family",6,1,1,1,1,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"parenting_skills",6,1,0,0,1,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation",6,1,1,0,1,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation_trauma_help",6,1,1,0,1,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist",6,1,0,0,0,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"assist_express_feelings",6,1,0,0,0,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_link_feelings",6,1,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_rate_emotions",6,1,0,0,0,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_manage_emotions",6,1,0,0,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_cope_feelings",6,1,0,0,0,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"cognitive_coping_educate",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping_alternative",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"trauma_narrative_rationale",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_details",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_reread",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_add_thoughts",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_worst_memory",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_cognitive_processing",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_meaning",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_read_draft",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"invivo_desensitization",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent_prepare",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"child_parent_joint_session",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"address_safety_teach_skills",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety_social_skills",6,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"psycho_education_general",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_common_responses",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_symptoms",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_components",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_engaged_family",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"parenting_skills",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation_trauma_help",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"assist_express_feelings",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_link_feelings",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_rate_emotions",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_manage_emotions",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_cope_feelings",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"cognitive_coping_educate",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping_alternative",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"trauma_narrative_rationale",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_details",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_reread",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_add_thoughts",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_worst_memory",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_cognitive_processing",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_meaning",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_read_draft",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"invivo_desensitization",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent_prepare",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"child_parent_joint_session",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"address_safety_teach_skills",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety_social_skills",7,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education",8,1,0,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"psycho_education_general",8,1,0,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_common_responses",8,1,0,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_symptoms",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_components",8,1,0,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education_engaged_family",8,1,0,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"parenting_skills",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation",8,1,0,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation_trauma_help",8,1,0,NA,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist",8,1,0,NA,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"assist_express_feelings",8,1,0,NA,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_link_feelings",8,1,0,NA,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_rate_emotions",8,1,0,NA,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_manage_emotions",8,1,0,NA,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist_cope_feelings",8,1,0,NA,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping",8,1,0,NA,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"cognitive_coping_educate",8,1,0,NA,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping_alternative",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative",8,1,0,NA,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"trauma_narrative_rationale",8,1,0,NA,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_details",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_reread",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_add_thoughts",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_worst_memory",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_cognitive_processing",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_meaning",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative_read_draft",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"invivo_desensitization",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent_prepare",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"child_parent_joint_session",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"address_safety_teach_skills",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety_social_skills",8,1,0,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psycho_education",9,1,1,0,1,0,1,1,1,0,0,0,0,0,1,1,1,0,1
-"psycho_education_general",9,1,1,0,1,0,1,1,1,0,0,0,0,0,0,0,1,0,0
-"psycho_education_common_responses",9,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0
-"psycho_education_symptoms",9,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"psycho_education_components",9,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-"psycho_education_engaged_family",9,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
-"parenting_skills",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-"relaxation",9,1,0,1,0,1,0,0,1,0,1,1,0,0,0,0,0,0,1
-"relaxation_trauma_help",9,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
-"assist",9,1,0,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,1
-"assist_express_feelings",9,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"assist_link_feelings",9,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"assist_rate_emotions",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"assist_manage_emotions",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"assist_cope_feelings",9,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-"cognitive_coping",9,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1
-"cognitive_coping_educate",9,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
-"cognitive_coping_alternative",9,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
-"trauma_narrative",9,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,1
-"trauma_narrative_rationale",9,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0
-"trauma_narrative_details",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"trauma_narrative_reread",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"trauma_narrative_add_thoughts",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"trauma_narrative_worst_memory",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"trauma_narrative_cognitive_processing",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"trauma_narrative_meaning",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"trauma_narrative_read_draft",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"invivo_desensitization",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-"child_parent",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-"child_parent_prepare",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"child_parent_joint_session",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"address_safety",9,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
-"address_safety_teach_skills",9,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
-"address_safety_social_skills",9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"item","description_short","description_long","variable_index","therapist_id_rc","client_sequence","session_01","session_02","session_03","session_04","session_05","session_06","session_07","session_08","session_09","session_10","session_11","session_12","session_13","session_14","session_15","session_16","branch_item"
+"psycho_education","psychoeducation",NA,1,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
+"psycho_education_general","general",NA,2,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_common_responses","common responses",NA,3,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_symptoms","symptoms",NA,4,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_components","components",NA,5,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_engaged_family","engaged family",NA,6,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"parenting_skills","parenting skills",NA,7,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
+"relaxation","relaxation",NA,8,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
+"relaxation_trauma_help","trauma help",NA,9,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"assist","assist",NA,10,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
+"assist_express_feelings","express feelings",NA,11,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"assist_link_feelings","link feelings",NA,12,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"assist_rate_emotions","rate emotions",NA,13,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"assist_manage_emotions","manage emotions",NA,14,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"assist_cope_feelings","cope feelings",NA,15,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"cognitive_coping","cognitive coping",NA,16,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
+"cognitive_coping_educate","educate",NA,17,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"cognitive_coping_alternative","alternative",NA,18,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative","trauma narrative",NA,19,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
+"trauma_narrative_rationale","rationale",NA,20,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_details","details",NA,21,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_reread","reread",NA,22,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_add_thoughts","add thoughts",NA,23,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_worst_memory","worst memory",NA,24,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_cognitive_processing","cognitive processing",NA,25,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_meaning","meaning",NA,26,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_read_draft","read draft",NA,27,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"invivo_desensitization","invivo desensitization",NA,28,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
+"child_parent","child parent",NA,29,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
+"child_parent_prepare","prepare",NA,30,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"child_parent_joint_session","joint session",NA,31,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"address_safety","address safety",NA,32,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
+"address_safety_teach_skills","teach skills",NA,33,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"address_safety_social_skills","social skills",NA,34,1,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education","psychoeducation",NA,1,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"psycho_education_general","general",NA,2,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_common_responses","common responses",NA,3,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_symptoms","symptoms",NA,4,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_components","components",NA,5,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_engaged_family","engaged family",NA,6,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"parenting_skills","parenting skills",NA,7,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"relaxation","relaxation",NA,8,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"relaxation_trauma_help","trauma help",NA,9,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist","assist",NA,10,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"assist_express_feelings","express feelings",NA,11,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_link_feelings","link feelings",NA,12,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_rate_emotions","rate emotions",NA,13,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_manage_emotions","manage emotions",NA,14,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_cope_feelings","cope feelings",NA,15,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"cognitive_coping","cognitive coping",NA,16,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"cognitive_coping_educate","educate",NA,17,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"cognitive_coping_alternative","alternative",NA,18,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative","trauma narrative",NA,19,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"trauma_narrative_rationale","rationale",NA,20,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_details","details",NA,21,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_reread","reread",NA,22,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_add_thoughts","add thoughts",NA,23,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_worst_memory","worst memory",NA,24,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_cognitive_processing","cognitive processing",NA,25,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_meaning","meaning",NA,26,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_read_draft","read draft",NA,27,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"invivo_desensitization","invivo desensitization",NA,28,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"child_parent","child parent",NA,29,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"child_parent_prepare","prepare",NA,30,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"child_parent_joint_session","joint session",NA,31,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"address_safety","address safety",NA,32,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"address_safety_teach_skills","teach skills",NA,33,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"address_safety_social_skills","social skills",NA,34,1,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education","psychoeducation",NA,1,2,1,"n","n","n","n","n",NA,"n","n","n","YES",NA,NA,"n",NA,NA,NA,1
+"psycho_education_general","general",NA,2,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"psycho_education_common_responses","common responses",NA,3,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"psycho_education_symptoms","symptoms",NA,4,2,1,"n","n","n","n","n",NA,"n","n","n","YES",NA,NA,"n",NA,NA,NA,0
+"psycho_education_components","components",NA,5,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"psycho_education_engaged_family","engaged family",NA,6,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"parenting_skills","parenting skills",NA,7,2,1,"n","n","n","n","YES",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,1
+"relaxation","relaxation",NA,8,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,1
+"relaxation_trauma_help","trauma help",NA,9,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"assist","assist",NA,10,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,1
+"assist_express_feelings","express feelings",NA,11,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"assist_link_feelings","link feelings",NA,12,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"assist_rate_emotions","rate emotions",NA,13,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"assist_manage_emotions","manage emotions",NA,14,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"assist_cope_feelings","cope feelings",NA,15,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"cognitive_coping","cognitive coping",NA,16,2,1,"n","n","n","n","n",NA,"n","n","YES","n",NA,NA,"n",NA,NA,NA,1
+"cognitive_coping_educate","educate",NA,17,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"cognitive_coping_alternative","alternative",NA,18,2,1,"n","n","n","n","n",NA,"n","n","YES","n",NA,NA,"n",NA,NA,NA,0
+"trauma_narrative","trauma narrative",NA,19,2,1,"YES","YES","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,1
+"trauma_narrative_rationale","rationale",NA,20,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"trauma_narrative_details","details",NA,21,2,1,"YES","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"trauma_narrative_reread","reread",NA,22,2,1,"YES","YES","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"trauma_narrative_add_thoughts","add thoughts",NA,23,2,1,"n","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"trauma_narrative_worst_memory","worst memory",NA,24,2,1,"YES","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"trauma_narrative_cognitive_processing","cognitive processing",NA,25,2,1,"n","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"trauma_narrative_meaning","meaning",NA,26,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"trauma_narrative_read_draft","read draft",NA,27,2,1,"n","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"invivo_desensitization","invivo desensitization",NA,28,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,1
+"child_parent","child parent",NA,29,2,1,"n","n","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,1
+"child_parent_prepare","prepare",NA,30,2,1,"n","n","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"child_parent_joint_session","joint session",NA,31,2,1,"n","n","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"address_safety","address safety",NA,32,2,1,"n","n","n","n","n",NA,"n","YES","YES","n",NA,NA,"n",NA,NA,NA,1
+"address_safety_teach_skills","teach skills",NA,33,2,1,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
+"address_safety_social_skills","social skills",NA,34,2,1,"n","n","n","n","n",NA,"n","n","YES","n",NA,NA,"n",NA,NA,NA,0
+"psycho_education","psychoeducation",NA,1,2,2,"YES","YES","YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,1
+"psycho_education_general","general",NA,2,2,2,"YES","YES","YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,0
+"psycho_education_common_responses","common responses",NA,3,2,2,"n","YES","n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,0
+"psycho_education_symptoms","symptoms",NA,4,2,2,"n","n","n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,0
+"psycho_education_components","components",NA,5,2,2,"n","YES","n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,0
+"psycho_education_engaged_family","engaged family",NA,6,2,2,"n","YES","YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,0
+"parenting_skills","parenting skills",NA,7,2,2,"n","n","YES","YES","n","n","n","YES","n","n","n","n",NA,NA,NA,NA,1
+"relaxation","relaxation",NA,8,2,2,"n","n","YES","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,1
+"relaxation_trauma_help","trauma help",NA,9,2,2,"n","n","YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,0
+"assist","assist",NA,10,2,2,"n","n","n","YES","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,1
+"assist_express_feelings","express feelings",NA,11,2,2,"n","n","n","YES","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,0
+"assist_link_feelings","link feelings",NA,12,2,2,"n","n","n","YES","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,0
+"assist_rate_emotions","rate emotions",NA,13,2,2,"n","n","n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,0
+"assist_manage_emotions","manage emotions",NA,14,2,2,"n","n","n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,0
+"assist_cope_feelings","cope feelings",NA,15,2,2,"n","n","n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,0
+"cognitive_coping","cognitive coping",NA,16,2,2,"n","n","n","n","n","YES","n","n","n","n","n","n",NA,NA,NA,NA,1
+"cognitive_coping_educate","educate",NA,17,2,2,"n","n","n","n","n","YES","n","n","n","n","n","n",NA,NA,NA,NA,0
+"cognitive_coping_alternative","alternative",NA,18,2,2,"n","n","n","n","n","YES","n","n","n","n","n","n",NA,NA,NA,NA,0
+"trauma_narrative","trauma narrative",NA,19,2,2,"n","n","n","n","n","n","YES","YES","YES","YES","n","n",NA,NA,NA,NA,1
+"trauma_narrative_rationale","rationale",NA,20,2,2,"n","n","n","n","n","n","YES","n","n","n","n","n",NA,NA,NA,NA,0
+"trauma_narrative_details","details",NA,21,2,2,"n","n","n","n","n","n","n","YES","YES","n","n","n",NA,NA,NA,NA,0
+"trauma_narrative_reread","reread",NA,22,2,2,"n","n","n","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,0
+"trauma_narrative_add_thoughts","add thoughts",NA,23,2,2,"n","n","n","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,0
+"trauma_narrative_worst_memory","worst memory",NA,24,2,2,"n","n","n","n","n","n","n","n","YES","YES","n","n",NA,NA,NA,NA,0
+"trauma_narrative_cognitive_processing","cognitive processing",NA,25,2,2,"n","n","n","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,0
+"trauma_narrative_meaning","meaning",NA,26,2,2,"n","n","n","n","n","n","n","n","n","YES","n","n",NA,NA,NA,NA,0
+"trauma_narrative_read_draft","read draft",NA,27,2,2,"n","n","n","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,0
+"invivo_desensitization","invivo desensitization",NA,28,2,2,"n","n","n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,1
+"child_parent","child parent",NA,29,2,2,"n","n","n","n","n","n","n","n","n","n","YES","n",NA,NA,NA,NA,1
+"child_parent_prepare","prepare",NA,30,2,2,"n","n","n","n","n","n","n","n","n","n","YES","n",NA,NA,NA,NA,0
+"child_parent_joint_session","joint session",NA,31,2,2,"n","n","n","n","n","n","n","n","n","n","YES","n",NA,NA,NA,NA,0
+"address_safety","address safety",NA,32,2,2,"n","n","n","n","n","n","n","n","n","n","n","YES",NA,NA,NA,NA,1
+"address_safety_teach_skills","teach skills",NA,33,2,2,"n","n","n","n","n","n","n","n","n","n","n","YES",NA,NA,NA,NA,0
+"address_safety_social_skills","social skills",NA,34,2,2,"n","n","n","n","n","n","n","n","n","n","n","YES",NA,NA,NA,NA,0
+"psycho_education","psychoeducation",NA,1,3,1,"YES","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,1
+"psycho_education_general","general",NA,2,3,1,"YES","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,0
+"psycho_education_common_responses","common responses",NA,3,3,1,"YES","n","n","n","n","n","YES","n","n","n",NA,NA,NA,NA,NA,NA,0
+"psycho_education_symptoms","symptoms",NA,4,3,1,"n","n","n","n","n","YES","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"psycho_education_components","components",NA,5,3,1,"YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"psycho_education_engaged_family","engaged family",NA,6,3,1,"n","n","n","n","n","YES","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"parenting_skills","parenting skills",NA,7,3,1,"n","n","n","n","n","n","YES","n","YES","n",NA,NA,NA,NA,NA,NA,1
+"relaxation","relaxation",NA,8,3,1,"YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,1
+"relaxation_trauma_help","trauma help",NA,9,3,1,"YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"assist","assist",NA,10,3,1,"n","YES","YES","n","n","YES","n","YES","n","n",NA,NA,NA,NA,NA,NA,1
+"assist_express_feelings","express feelings",NA,11,3,1,"n","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"assist_link_feelings","link feelings",NA,12,3,1,"n","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"assist_rate_emotions","rate emotions",NA,13,3,1,"n","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"assist_manage_emotions","manage emotions",NA,14,3,1,"n","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"assist_cope_feelings","cope feelings",NA,15,3,1,"n","YES","YES","n","n","YES","n","YES","n","n",NA,NA,NA,NA,NA,NA,0
+"cognitive_coping","cognitive coping",NA,16,3,1,"n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,1
+"cognitive_coping_educate","educate",NA,17,3,1,"n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"cognitive_coping_alternative","alternative",NA,18,3,1,"n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"trauma_narrative","trauma narrative",NA,19,3,1,"n","n","YES","YES","YES","n","YES","n","n","n",NA,NA,NA,NA,NA,NA,1
+"trauma_narrative_rationale","rationale",NA,20,3,1,"n","n","YES","YES","YES","n","YES","n","n","n",NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_details","details",NA,21,3,1,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_reread","reread",NA,22,3,1,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_add_thoughts","add thoughts",NA,23,3,1,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_worst_memory","worst memory",NA,24,3,1,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_cognitive_processing","cognitive processing",NA,25,3,1,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_meaning","meaning",NA,26,3,1,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_read_draft","read draft",NA,27,3,1,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"invivo_desensitization","invivo desensitization",NA,28,3,1,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,1
+"child_parent","child parent",NA,29,3,1,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,1
+"child_parent_prepare","prepare",NA,30,3,1,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"child_parent_joint_session","joint session",NA,31,3,1,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
+"address_safety","address safety",NA,32,3,1,"n","n","n","n","n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,1
+"address_safety_teach_skills","teach skills",NA,33,3,1,"n","n","n","n","n","n","n","n","YES","n",NA,NA,NA,NA,NA,NA,0
+"address_safety_social_skills","social skills",NA,34,3,1,"n","n","n","n","n","n","n","YES","n","n",NA,NA,NA,NA,NA,NA,0
+"psycho_education","psychoeducation",NA,1,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"psycho_education_general","general",NA,2,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_common_responses","common responses",NA,3,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_symptoms","symptoms",NA,4,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_components","components",NA,5,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_engaged_family","engaged family",NA,6,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"parenting_skills","parenting skills",NA,7,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"relaxation","relaxation",NA,8,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"relaxation_trauma_help","trauma help",NA,9,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist","assist",NA,10,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"assist_express_feelings","express feelings",NA,11,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_link_feelings","link feelings",NA,12,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_rate_emotions","rate emotions",NA,13,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_manage_emotions","manage emotions",NA,14,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_cope_feelings","cope feelings",NA,15,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"cognitive_coping","cognitive coping",NA,16,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"cognitive_coping_educate","educate",NA,17,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"cognitive_coping_alternative","alternative",NA,18,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative","trauma narrative",NA,19,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"trauma_narrative_rationale","rationale",NA,20,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_details","details",NA,21,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_reread","reread",NA,22,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_add_thoughts","add thoughts",NA,23,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_worst_memory","worst memory",NA,24,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_cognitive_processing","cognitive processing",NA,25,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_meaning","meaning",NA,26,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_read_draft","read draft",NA,27,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"invivo_desensitization","invivo desensitization",NA,28,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"child_parent","child parent",NA,29,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"child_parent_prepare","prepare",NA,30,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"child_parent_joint_session","joint session",NA,31,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"address_safety","address safety",NA,32,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"address_safety_teach_skills","teach skills",NA,33,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"address_safety_social_skills","social skills",NA,34,4,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education","psychoeducation",NA,1,5,1,"YES","YES","YES","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"psycho_education_general","general",NA,2,5,1,"YES","YES","YES","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_common_responses","common responses",NA,3,5,1,"YES","YES","YES","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_symptoms","symptoms",NA,4,5,1,"YES","YES","YES","n","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_components","components",NA,5,5,1,"YES","YES","YES","n","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_engaged_family","engaged family",NA,6,5,1,"n","YES","YES","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"parenting_skills","parenting skills",NA,7,5,1,"n","n","YES","YES","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"relaxation","relaxation",NA,8,5,1,"n","n","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"relaxation_trauma_help","trauma help",NA,9,5,1,"n","n","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist","assist",NA,10,5,1,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"assist_express_feelings","express feelings",NA,11,5,1,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_link_feelings","link feelings",NA,12,5,1,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_rate_emotions","rate emotions",NA,13,5,1,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_manage_emotions","manage emotions",NA,14,5,1,"n","n","n","n","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_cope_feelings","cope feelings",NA,15,5,1,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"cognitive_coping","cognitive coping",NA,16,5,1,"n","n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"cognitive_coping_educate","educate",NA,17,5,1,"n","n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"cognitive_coping_alternative","alternative",NA,18,5,1,"n","n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative","trauma narrative",NA,19,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"trauma_narrative_rationale","rationale",NA,20,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_details","details",NA,21,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_reread","reread",NA,22,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_add_thoughts","add thoughts",NA,23,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_worst_memory","worst memory",NA,24,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_cognitive_processing","cognitive processing",NA,25,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_meaning","meaning",NA,26,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_read_draft","read draft",NA,27,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"invivo_desensitization","invivo desensitization",NA,28,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"child_parent","child parent",NA,29,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"child_parent_prepare","prepare",NA,30,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"child_parent_joint_session","joint session",NA,31,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"address_safety","address safety",NA,32,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"address_safety_teach_skills","teach skills",NA,33,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"address_safety_social_skills","social skills",NA,34,5,1,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education","psychoeducation",NA,1,6,1,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"psycho_education_general","general",NA,2,6,1,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_common_responses","common responses",NA,3,6,1,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_symptoms","symptoms",NA,4,6,1,"YES","YES","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_components","components",NA,5,6,1,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_engaged_family","engaged family",NA,6,6,1,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"parenting_skills","parenting skills",NA,7,6,1,"n","n","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"relaxation","relaxation",NA,8,6,1,"YES","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"relaxation_trauma_help","trauma help",NA,9,6,1,"YES","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist","assist",NA,10,6,1,"n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"assist_express_feelings","express feelings",NA,11,6,1,"n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_link_feelings","link feelings",NA,12,6,1,"n","n","n","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_rate_emotions","rate emotions",NA,13,6,1,"n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_manage_emotions","manage emotions",NA,14,6,1,"n","n","n","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_cope_feelings","cope feelings",NA,15,6,1,"n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"cognitive_coping","cognitive coping",NA,16,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"cognitive_coping_educate","educate",NA,17,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"cognitive_coping_alternative","alternative",NA,18,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative","trauma narrative",NA,19,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"trauma_narrative_rationale","rationale",NA,20,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_details","details",NA,21,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_reread","reread",NA,22,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_add_thoughts","add thoughts",NA,23,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_worst_memory","worst memory",NA,24,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_cognitive_processing","cognitive processing",NA,25,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_meaning","meaning",NA,26,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_read_draft","read draft",NA,27,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"invivo_desensitization","invivo desensitization",NA,28,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"child_parent","child parent",NA,29,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"child_parent_prepare","prepare",NA,30,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"child_parent_joint_session","joint session",NA,31,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"address_safety","address safety",NA,32,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"address_safety_teach_skills","teach skills",NA,33,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"address_safety_social_skills","social skills",NA,34,6,1,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education","psychoeducation",NA,1,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"psycho_education_general","general",NA,2,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_common_responses","common responses",NA,3,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_symptoms","symptoms",NA,4,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_components","components",NA,5,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_engaged_family","engaged family",NA,6,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"parenting_skills","parenting skills",NA,7,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"relaxation","relaxation",NA,8,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"relaxation_trauma_help","trauma help",NA,9,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist","assist",NA,10,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"assist_express_feelings","express feelings",NA,11,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_link_feelings","link feelings",NA,12,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_rate_emotions","rate emotions",NA,13,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_manage_emotions","manage emotions",NA,14,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_cope_feelings","cope feelings",NA,15,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"cognitive_coping","cognitive coping",NA,16,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"cognitive_coping_educate","educate",NA,17,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"cognitive_coping_alternative","alternative",NA,18,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative","trauma narrative",NA,19,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"trauma_narrative_rationale","rationale",NA,20,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_details","details",NA,21,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_reread","reread",NA,22,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_add_thoughts","add thoughts",NA,23,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_worst_memory","worst memory",NA,24,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_cognitive_processing","cognitive processing",NA,25,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_meaning","meaning",NA,26,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_read_draft","read draft",NA,27,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"invivo_desensitization","invivo desensitization",NA,28,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"child_parent","child parent",NA,29,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"child_parent_prepare","prepare",NA,30,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"child_parent_joint_session","joint session",NA,31,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"address_safety","address safety",NA,32,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"address_safety_teach_skills","teach skills",NA,33,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"address_safety_social_skills","social skills",NA,34,7,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education","psychoeducation",NA,1,8,1,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"psycho_education_general","general",NA,2,8,1,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_common_responses","common responses",NA,3,8,1,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_symptoms","symptoms",NA,4,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_components","components",NA,5,8,1,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education_engaged_family","engaged family",NA,6,8,1,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"parenting_skills","parenting skills",NA,7,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"relaxation","relaxation",NA,8,8,1,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"relaxation_trauma_help","trauma help",NA,9,8,1,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist","assist",NA,10,8,1,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"assist_express_feelings","express feelings",NA,11,8,1,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_link_feelings","link feelings",NA,12,8,1,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_rate_emotions","rate emotions",NA,13,8,1,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_manage_emotions","manage emotions",NA,14,8,1,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"assist_cope_feelings","cope feelings",NA,15,8,1,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"cognitive_coping","cognitive coping",NA,16,8,1,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"cognitive_coping_educate","educate",NA,17,8,1,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"cognitive_coping_alternative","alternative",NA,18,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative","trauma narrative",NA,19,8,1,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"trauma_narrative_rationale","rationale",NA,20,8,1,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_details","details",NA,21,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_reread","reread",NA,22,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_add_thoughts","add thoughts",NA,23,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_worst_memory","worst memory",NA,24,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_cognitive_processing","cognitive processing",NA,25,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_meaning","meaning",NA,26,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"trauma_narrative_read_draft","read draft",NA,27,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"invivo_desensitization","invivo desensitization",NA,28,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"child_parent","child parent",NA,29,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"child_parent_prepare","prepare",NA,30,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"child_parent_joint_session","joint session",NA,31,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"address_safety","address safety",NA,32,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+"address_safety_teach_skills","teach skills",NA,33,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"address_safety_social_skills","social skills",NA,34,8,1,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
+"psycho_education","psychoeducation",NA,1,9,1,"YES","n","YES","n","YES","YES","YES","n","n","n","n","n","YES","YES","YES","n",1
+"psycho_education_general","general",NA,2,9,1,"YES","n","YES","n","YES","YES","YES","n","n","n","n","n","n","n","YES","n",0
+"psycho_education_common_responses","common responses",NA,3,9,1,"YES","n","YES","n","YES","YES","n","n","n","n","n","n","n","n","YES","n",0
+"psycho_education_symptoms","symptoms",NA,4,9,1,"YES","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"psycho_education_components","components",NA,5,9,1,"YES","n","n","n","n","n","n","n","n","n","n","n","YES","n","n","n",0
+"psycho_education_engaged_family","engaged family",NA,6,9,1,"YES","n","n","n","n","n","n","n","n","n","n","n","YES","YES","n","n",0
+"parenting_skills","parenting skills",NA,7,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",1
+"relaxation","relaxation",NA,8,9,1,"n","YES","n","YES","n","n","YES","n","YES","YES","n","n","n","n","n","n",1
+"relaxation_trauma_help","trauma help",NA,9,9,1,"n","n","n","n","n","n","YES","n","YES","YES","n","n","n","n","n","n",0
+"assist","assist",NA,10,9,1,"n","n","YES","YES","n","n","n","n","YES","n","n","YES","n","n","n","n",1
+"assist_express_feelings","express feelings",NA,11,9,1,"n","n","YES","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"assist_link_feelings","link feelings",NA,12,9,1,"n","n","YES","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"assist_rate_emotions","rate emotions",NA,13,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"assist_manage_emotions","manage emotions",NA,14,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"assist_cope_feelings","cope feelings",NA,15,9,1,"n","n","n","YES","n","n","n","n","n","n","n","n","n","n","n","n",0
+"cognitive_coping","cognitive coping",NA,16,9,1,"n","n","n","n","n","YES","n","n","n","n","n","n","n","n","n","YES",1
+"cognitive_coping_educate","educate",NA,17,9,1,"n","n","n","n","n","YES","n","n","n","n","n","n","n","n","n","YES",0
+"cognitive_coping_alternative","alternative",NA,18,9,1,"n","n","n","n","n","YES","n","n","n","n","n","n","n","n","n","YES",0
+"trauma_narrative","trauma narrative",NA,19,9,1,"n","n","n","n","n","n","YES","YES","YES","YES","n","n","n","n","n","n",1
+"trauma_narrative_rationale","rationale",NA,20,9,1,"n","n","n","n","n","n","YES","YES","YES","YES","n","n","n","n","n","n",0
+"trauma_narrative_details","details",NA,21,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"trauma_narrative_reread","reread",NA,22,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"trauma_narrative_add_thoughts","add thoughts",NA,23,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"trauma_narrative_worst_memory","worst memory",NA,24,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"trauma_narrative_cognitive_processing","cognitive processing",NA,25,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"trauma_narrative_meaning","meaning",NA,26,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"trauma_narrative_read_draft","read draft",NA,27,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"invivo_desensitization","invivo desensitization",NA,28,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",1
+"child_parent","child parent",NA,29,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",1
+"child_parent_prepare","prepare",NA,30,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"child_parent_joint_session","joint session",NA,31,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"address_safety","address safety",NA,32,9,1,"n","n","n","n","n","n","n","YES","n","YES","n","n","n","n","n","n",1
+"address_safety_teach_skills","teach skills",NA,33,9,1,"n","n","n","n","n","n","n","YES","n","YES","n","n","n","n","n","n",0
+"address_safety_social_skills","social skills",NA,34,9,1,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0

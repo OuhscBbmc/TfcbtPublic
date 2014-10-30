@@ -22,8 +22,13 @@ shinyServer( function(input, output) {
       d <- d[d$client_sequence == input$item_progress_client_number,]
     
     colnames(d) <- gsub("^session_(\\d{2})$", "\\1", colnames(d)) #This strips out the "session_" prefix.
+    
+    d$item <- NULL
+    d$description_long <- NULL
+    d$variable_index <- NULL
+    
     d <- plyr::rename(d, replace=c(
-      "item" = "Item",
+      "description_short" = "Variable",
       "therapist_id_rc" = "Therapist ID in REDCap",
       "client_sequence" = "Client Number",
       "branch_item" = "Branch Item"
