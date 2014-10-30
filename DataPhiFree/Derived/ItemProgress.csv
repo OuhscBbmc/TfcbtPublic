@@ -1,375 +1,375 @@
-"description_short","therapist_email","therapist_id_rc","client_sequence","item","description_long","variable_index","session_01","session_02","session_03","session_04","session_05","session_06","session_07","session_08","session_09","session_10","session_11","session_12","session_13","session_14","session_15","session_16","branch_item"
-"psychoeducation","thomas-wilson@ouhsc.edu",1,1,"psycho_education",NA,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
-"general","thomas-wilson@ouhsc.edu",1,1,"psycho_education_general",NA,2,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"common responses","thomas-wilson@ouhsc.edu",1,1,"psycho_education_common_responses",NA,3,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"symptoms","thomas-wilson@ouhsc.edu",1,1,"psycho_education_symptoms",NA,4,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"components","thomas-wilson@ouhsc.edu",1,1,"psycho_education_components",NA,5,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"engaged family","thomas-wilson@ouhsc.edu",1,1,"psycho_education_engaged_family",NA,6,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"parenting_skills","thomas-wilson@ouhsc.edu",1,1,"parenting_skills",NA,7,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
-"relaxation","thomas-wilson@ouhsc.edu",1,1,"relaxation",NA,8,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
-"trauma help","thomas-wilson@ouhsc.edu",1,1,"relaxation_trauma_help",NA,9,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"assist","thomas-wilson@ouhsc.edu",1,1,"assist",NA,10,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
-"express feelings","thomas-wilson@ouhsc.edu",1,1,"assist_express_feelings",NA,11,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"link feelings","thomas-wilson@ouhsc.edu",1,1,"assist_link_feelings",NA,12,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"rate emotions","thomas-wilson@ouhsc.edu",1,1,"assist_rate_emotions",NA,13,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"manage emotions","thomas-wilson@ouhsc.edu",1,1,"assist_manage_emotions",NA,14,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"cope feelings","thomas-wilson@ouhsc.edu",1,1,"assist_cope_feelings",NA,15,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping","thomas-wilson@ouhsc.edu",1,1,"cognitive_coping",NA,16,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
-"educate","thomas-wilson@ouhsc.edu",1,1,"cognitive_coping_educate",NA,17,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"alternative","thomas-wilson@ouhsc.edu",1,1,"cognitive_coping_alternative",NA,18,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative","thomas-wilson@ouhsc.edu",1,1,"trauma_narrative",NA,19,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
-"rationale","thomas-wilson@ouhsc.edu",1,1,"trauma_narrative_rationale",NA,20,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"details","thomas-wilson@ouhsc.edu",1,1,"trauma_narrative_details",NA,21,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"reread","thomas-wilson@ouhsc.edu",1,1,"trauma_narrative_reread",NA,22,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"add thoughts","thomas-wilson@ouhsc.edu",1,1,"trauma_narrative_add_thoughts",NA,23,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"worst memory","thomas-wilson@ouhsc.edu",1,1,"trauma_narrative_worst_memory",NA,24,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"cognitive processing","thomas-wilson@ouhsc.edu",1,1,"trauma_narrative_cognitive_processing",NA,25,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"meaning","thomas-wilson@ouhsc.edu",1,1,"trauma_narrative_meaning",NA,26,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"read draft","thomas-wilson@ouhsc.edu",1,1,"trauma_narrative_read_draft",NA,27,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"invivo desensitization","thomas-wilson@ouhsc.edu",1,1,"invivo_desensitization",NA,28,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
-"child_parent","thomas-wilson@ouhsc.edu",1,1,"child_parent",NA,29,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
-"prepare","thomas-wilson@ouhsc.edu",1,1,"child_parent_prepare",NA,30,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"joint session","thomas-wilson@ouhsc.edu",1,1,"child_parent_joint_session",NA,31,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"address_safety","thomas-wilson@ouhsc.edu",1,1,"address_safety",NA,32,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,1
-"teach skills","thomas-wilson@ouhsc.edu",1,1,"address_safety_teach_skills",NA,33,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"social skills","thomas-wilson@ouhsc.edu",1,1,"address_safety_social_skills",NA,34,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,0
-"psychoeducation","thomas-wilson@ouhsc.edu",1,2,"psycho_education",NA,1,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"general","thomas-wilson@ouhsc.edu",1,2,"psycho_education_general",NA,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"common responses","thomas-wilson@ouhsc.edu",1,2,"psycho_education_common_responses",NA,3,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"symptoms","thomas-wilson@ouhsc.edu",1,2,"psycho_education_symptoms",NA,4,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"components","thomas-wilson@ouhsc.edu",1,2,"psycho_education_components",NA,5,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"engaged family","thomas-wilson@ouhsc.edu",1,2,"psycho_education_engaged_family",NA,6,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"parenting_skills","thomas-wilson@ouhsc.edu",1,2,"parenting_skills",NA,7,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation","thomas-wilson@ouhsc.edu",1,2,"relaxation",NA,8,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"trauma help","thomas-wilson@ouhsc.edu",1,2,"relaxation_trauma_help",NA,9,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist","thomas-wilson@ouhsc.edu",1,2,"assist",NA,10,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"express feelings","thomas-wilson@ouhsc.edu",1,2,"assist_express_feelings",NA,11,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"link feelings","thomas-wilson@ouhsc.edu",1,2,"assist_link_feelings",NA,12,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"rate emotions","thomas-wilson@ouhsc.edu",1,2,"assist_rate_emotions",NA,13,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"manage emotions","thomas-wilson@ouhsc.edu",1,2,"assist_manage_emotions",NA,14,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cope feelings","thomas-wilson@ouhsc.edu",1,2,"assist_cope_feelings",NA,15,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping","thomas-wilson@ouhsc.edu",1,2,"cognitive_coping",NA,16,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"educate","thomas-wilson@ouhsc.edu",1,2,"cognitive_coping_educate",NA,17,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"alternative","thomas-wilson@ouhsc.edu",1,2,"cognitive_coping_alternative",NA,18,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative","thomas-wilson@ouhsc.edu",1,2,"trauma_narrative",NA,19,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"rationale","thomas-wilson@ouhsc.edu",1,2,"trauma_narrative_rationale",NA,20,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"details","thomas-wilson@ouhsc.edu",1,2,"trauma_narrative_details",NA,21,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"reread","thomas-wilson@ouhsc.edu",1,2,"trauma_narrative_reread",NA,22,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"add thoughts","thomas-wilson@ouhsc.edu",1,2,"trauma_narrative_add_thoughts",NA,23,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"worst memory","thomas-wilson@ouhsc.edu",1,2,"trauma_narrative_worst_memory",NA,24,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive processing","thomas-wilson@ouhsc.edu",1,2,"trauma_narrative_cognitive_processing",NA,25,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"meaning","thomas-wilson@ouhsc.edu",1,2,"trauma_narrative_meaning",NA,26,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"read draft","thomas-wilson@ouhsc.edu",1,2,"trauma_narrative_read_draft",NA,27,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"invivo desensitization","thomas-wilson@ouhsc.edu",1,2,"invivo_desensitization",NA,28,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent","thomas-wilson@ouhsc.edu",1,2,"child_parent",NA,29,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"prepare","thomas-wilson@ouhsc.edu",1,2,"child_parent_prepare",NA,30,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"joint session","thomas-wilson@ouhsc.edu",1,2,"child_parent_joint_session",NA,31,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety","thomas-wilson@ouhsc.edu",1,2,"address_safety",NA,32,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"teach skills","thomas-wilson@ouhsc.edu",1,2,"address_safety_teach_skills",NA,33,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"social skills","thomas-wilson@ouhsc.edu",1,2,"address_safety_social_skills",NA,34,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psychoeducation","elizabeth-risch@ouhsc.edu",2,1,"psycho_education",NA,1,"n","n","n","n","n",NA,"n","n","n","YES",NA,NA,"n",NA,NA,NA,1
-"general","elizabeth-risch@ouhsc.edu",2,1,"psycho_education_general",NA,2,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"common responses","elizabeth-risch@ouhsc.edu",2,1,"psycho_education_common_responses",NA,3,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"symptoms","elizabeth-risch@ouhsc.edu",2,1,"psycho_education_symptoms",NA,4,"n","n","n","n","n",NA,"n","n","n","YES",NA,NA,"n",NA,NA,NA,0
-"components","elizabeth-risch@ouhsc.edu",2,1,"psycho_education_components",NA,5,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"engaged family","elizabeth-risch@ouhsc.edu",2,1,"psycho_education_engaged_family",NA,6,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"parenting_skills","elizabeth-risch@ouhsc.edu",2,1,"parenting_skills",NA,7,"n","n","n","n","YES",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,1
-"relaxation","elizabeth-risch@ouhsc.edu",2,1,"relaxation",NA,8,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,1
-"trauma help","elizabeth-risch@ouhsc.edu",2,1,"relaxation_trauma_help",NA,9,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"assist","elizabeth-risch@ouhsc.edu",2,1,"assist",NA,10,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,1
-"express feelings","elizabeth-risch@ouhsc.edu",2,1,"assist_express_feelings",NA,11,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"link feelings","elizabeth-risch@ouhsc.edu",2,1,"assist_link_feelings",NA,12,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"rate emotions","elizabeth-risch@ouhsc.edu",2,1,"assist_rate_emotions",NA,13,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"manage emotions","elizabeth-risch@ouhsc.edu",2,1,"assist_manage_emotions",NA,14,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"cope feelings","elizabeth-risch@ouhsc.edu",2,1,"assist_cope_feelings",NA,15,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"cognitive_coping","elizabeth-risch@ouhsc.edu",2,1,"cognitive_coping",NA,16,"n","n","n","n","n",NA,"n","n","YES","n",NA,NA,"n",NA,NA,NA,1
-"educate","elizabeth-risch@ouhsc.edu",2,1,"cognitive_coping_educate",NA,17,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"alternative","elizabeth-risch@ouhsc.edu",2,1,"cognitive_coping_alternative",NA,18,"n","n","n","n","n",NA,"n","n","YES","n",NA,NA,"n",NA,NA,NA,0
-"trauma_narrative","elizabeth-risch@ouhsc.edu",2,1,"trauma_narrative",NA,19,"YES","YES","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,1
-"rationale","elizabeth-risch@ouhsc.edu",2,1,"trauma_narrative_rationale",NA,20,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"details","elizabeth-risch@ouhsc.edu",2,1,"trauma_narrative_details",NA,21,"YES","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"reread","elizabeth-risch@ouhsc.edu",2,1,"trauma_narrative_reread",NA,22,"YES","YES","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"add thoughts","elizabeth-risch@ouhsc.edu",2,1,"trauma_narrative_add_thoughts",NA,23,"n","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"worst memory","elizabeth-risch@ouhsc.edu",2,1,"trauma_narrative_worst_memory",NA,24,"YES","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"cognitive processing","elizabeth-risch@ouhsc.edu",2,1,"trauma_narrative_cognitive_processing",NA,25,"n","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"meaning","elizabeth-risch@ouhsc.edu",2,1,"trauma_narrative_meaning",NA,26,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"read draft","elizabeth-risch@ouhsc.edu",2,1,"trauma_narrative_read_draft",NA,27,"n","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"invivo desensitization","elizabeth-risch@ouhsc.edu",2,1,"invivo_desensitization",NA,28,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,1
-"child_parent","elizabeth-risch@ouhsc.edu",2,1,"child_parent",NA,29,"n","n","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,1
-"prepare","elizabeth-risch@ouhsc.edu",2,1,"child_parent_prepare",NA,30,"n","n","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"joint session","elizabeth-risch@ouhsc.edu",2,1,"child_parent_joint_session",NA,31,"n","n","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"address_safety","elizabeth-risch@ouhsc.edu",2,1,"address_safety",NA,32,"n","n","n","n","n",NA,"n","YES","YES","n",NA,NA,"n",NA,NA,NA,1
-"teach skills","elizabeth-risch@ouhsc.edu",2,1,"address_safety_teach_skills",NA,33,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,0
-"social skills","elizabeth-risch@ouhsc.edu",2,1,"address_safety_social_skills",NA,34,"n","n","n","n","n",NA,"n","n","YES","n",NA,NA,"n",NA,NA,NA,0
-"psychoeducation","elizabeth-risch@ouhsc.edu",2,2,"psycho_education",NA,1,"YES","YES","YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,1
-"general","elizabeth-risch@ouhsc.edu",2,2,"psycho_education_general",NA,2,"YES","YES","YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,0
-"common responses","elizabeth-risch@ouhsc.edu",2,2,"psycho_education_common_responses",NA,3,"n","YES","n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,0
-"symptoms","elizabeth-risch@ouhsc.edu",2,2,"psycho_education_symptoms",NA,4,"n","n","n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,0
-"components","elizabeth-risch@ouhsc.edu",2,2,"psycho_education_components",NA,5,"n","YES","n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,0
-"engaged family","elizabeth-risch@ouhsc.edu",2,2,"psycho_education_engaged_family",NA,6,"n","YES","YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,0
-"parenting_skills","elizabeth-risch@ouhsc.edu",2,2,"parenting_skills",NA,7,"n","n","YES","YES","n","n","n","YES","n","n","n","n",NA,NA,NA,NA,1
-"relaxation","elizabeth-risch@ouhsc.edu",2,2,"relaxation",NA,8,"n","n","YES","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,1
-"trauma help","elizabeth-risch@ouhsc.edu",2,2,"relaxation_trauma_help",NA,9,"n","n","YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,0
-"assist","elizabeth-risch@ouhsc.edu",2,2,"assist",NA,10,"n","n","n","YES","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,1
-"express feelings","elizabeth-risch@ouhsc.edu",2,2,"assist_express_feelings",NA,11,"n","n","n","YES","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,0
-"link feelings","elizabeth-risch@ouhsc.edu",2,2,"assist_link_feelings",NA,12,"n","n","n","YES","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,0
-"rate emotions","elizabeth-risch@ouhsc.edu",2,2,"assist_rate_emotions",NA,13,"n","n","n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,0
-"manage emotions","elizabeth-risch@ouhsc.edu",2,2,"assist_manage_emotions",NA,14,"n","n","n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,0
-"cope feelings","elizabeth-risch@ouhsc.edu",2,2,"assist_cope_feelings",NA,15,"n","n","n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,0
-"cognitive_coping","elizabeth-risch@ouhsc.edu",2,2,"cognitive_coping",NA,16,"n","n","n","n","n","YES","n","n","n","n","n","n",NA,NA,NA,NA,1
-"educate","elizabeth-risch@ouhsc.edu",2,2,"cognitive_coping_educate",NA,17,"n","n","n","n","n","YES","n","n","n","n","n","n",NA,NA,NA,NA,0
-"alternative","elizabeth-risch@ouhsc.edu",2,2,"cognitive_coping_alternative",NA,18,"n","n","n","n","n","YES","n","n","n","n","n","n",NA,NA,NA,NA,0
-"trauma_narrative","elizabeth-risch@ouhsc.edu",2,2,"trauma_narrative",NA,19,"n","n","n","n","n","n","YES","YES","YES","YES","n","n",NA,NA,NA,NA,1
-"rationale","elizabeth-risch@ouhsc.edu",2,2,"trauma_narrative_rationale",NA,20,"n","n","n","n","n","n","YES","n","n","n","n","n",NA,NA,NA,NA,0
-"details","elizabeth-risch@ouhsc.edu",2,2,"trauma_narrative_details",NA,21,"n","n","n","n","n","n","n","YES","YES","n","n","n",NA,NA,NA,NA,0
-"reread","elizabeth-risch@ouhsc.edu",2,2,"trauma_narrative_reread",NA,22,"n","n","n","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,0
-"add thoughts","elizabeth-risch@ouhsc.edu",2,2,"trauma_narrative_add_thoughts",NA,23,"n","n","n","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,0
-"worst memory","elizabeth-risch@ouhsc.edu",2,2,"trauma_narrative_worst_memory",NA,24,"n","n","n","n","n","n","n","n","YES","YES","n","n",NA,NA,NA,NA,0
-"cognitive processing","elizabeth-risch@ouhsc.edu",2,2,"trauma_narrative_cognitive_processing",NA,25,"n","n","n","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,0
-"meaning","elizabeth-risch@ouhsc.edu",2,2,"trauma_narrative_meaning",NA,26,"n","n","n","n","n","n","n","n","n","YES","n","n",NA,NA,NA,NA,0
-"read draft","elizabeth-risch@ouhsc.edu",2,2,"trauma_narrative_read_draft",NA,27,"n","n","n","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,0
-"invivo desensitization","elizabeth-risch@ouhsc.edu",2,2,"invivo_desensitization",NA,28,"n","n","n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,1
-"child_parent","elizabeth-risch@ouhsc.edu",2,2,"child_parent",NA,29,"n","n","n","n","n","n","n","n","n","n","YES","n",NA,NA,NA,NA,1
-"prepare","elizabeth-risch@ouhsc.edu",2,2,"child_parent_prepare",NA,30,"n","n","n","n","n","n","n","n","n","n","YES","n",NA,NA,NA,NA,0
-"joint session","elizabeth-risch@ouhsc.edu",2,2,"child_parent_joint_session",NA,31,"n","n","n","n","n","n","n","n","n","n","YES","n",NA,NA,NA,NA,0
-"address_safety","elizabeth-risch@ouhsc.edu",2,2,"address_safety",NA,32,"n","n","n","n","n","n","n","n","n","n","n","YES",NA,NA,NA,NA,1
-"teach skills","elizabeth-risch@ouhsc.edu",2,2,"address_safety_teach_skills",NA,33,"n","n","n","n","n","n","n","n","n","n","n","YES",NA,NA,NA,NA,0
-"social skills","elizabeth-risch@ouhsc.edu",2,2,"address_safety_social_skills",NA,34,"n","n","n","n","n","n","n","n","n","n","n","YES",NA,NA,NA,NA,0
-"psychoeducation","saba-shahid@ouhsc.edu",3,1,"psycho_education",NA,1,"YES","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,1
-"general","saba-shahid@ouhsc.edu",3,1,"psycho_education_general",NA,2,"YES","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,0
-"common responses","saba-shahid@ouhsc.edu",3,1,"psycho_education_common_responses",NA,3,"YES","n","n","n","n","n","YES","n","n","n",NA,NA,NA,NA,NA,NA,0
-"symptoms","saba-shahid@ouhsc.edu",3,1,"psycho_education_symptoms",NA,4,"n","n","n","n","n","YES","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"components","saba-shahid@ouhsc.edu",3,1,"psycho_education_components",NA,5,"YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"engaged family","saba-shahid@ouhsc.edu",3,1,"psycho_education_engaged_family",NA,6,"n","n","n","n","n","YES","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"parenting_skills","saba-shahid@ouhsc.edu",3,1,"parenting_skills",NA,7,"n","n","n","n","n","n","YES","n","YES","n",NA,NA,NA,NA,NA,NA,1
-"relaxation","saba-shahid@ouhsc.edu",3,1,"relaxation",NA,8,"YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,1
-"trauma help","saba-shahid@ouhsc.edu",3,1,"relaxation_trauma_help",NA,9,"YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"assist","saba-shahid@ouhsc.edu",3,1,"assist",NA,10,"n","YES","YES","n","n","YES","n","YES","n","n",NA,NA,NA,NA,NA,NA,1
-"express feelings","saba-shahid@ouhsc.edu",3,1,"assist_express_feelings",NA,11,"n","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"link feelings","saba-shahid@ouhsc.edu",3,1,"assist_link_feelings",NA,12,"n","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"rate emotions","saba-shahid@ouhsc.edu",3,1,"assist_rate_emotions",NA,13,"n","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"manage emotions","saba-shahid@ouhsc.edu",3,1,"assist_manage_emotions",NA,14,"n","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"cope feelings","saba-shahid@ouhsc.edu",3,1,"assist_cope_feelings",NA,15,"n","YES","YES","n","n","YES","n","YES","n","n",NA,NA,NA,NA,NA,NA,0
-"cognitive_coping","saba-shahid@ouhsc.edu",3,1,"cognitive_coping",NA,16,"n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,1
-"educate","saba-shahid@ouhsc.edu",3,1,"cognitive_coping_educate",NA,17,"n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"alternative","saba-shahid@ouhsc.edu",3,1,"cognitive_coping_alternative",NA,18,"n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"trauma_narrative","saba-shahid@ouhsc.edu",3,1,"trauma_narrative",NA,19,"n","n","YES","YES","YES","n","YES","n","n","n",NA,NA,NA,NA,NA,NA,1
-"rationale","saba-shahid@ouhsc.edu",3,1,"trauma_narrative_rationale",NA,20,"n","n","YES","YES","YES","n","YES","n","n","n",NA,NA,NA,NA,NA,NA,0
-"details","saba-shahid@ouhsc.edu",3,1,"trauma_narrative_details",NA,21,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"reread","saba-shahid@ouhsc.edu",3,1,"trauma_narrative_reread",NA,22,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"add thoughts","saba-shahid@ouhsc.edu",3,1,"trauma_narrative_add_thoughts",NA,23,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"worst memory","saba-shahid@ouhsc.edu",3,1,"trauma_narrative_worst_memory",NA,24,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"cognitive processing","saba-shahid@ouhsc.edu",3,1,"trauma_narrative_cognitive_processing",NA,25,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"meaning","saba-shahid@ouhsc.edu",3,1,"trauma_narrative_meaning",NA,26,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"read draft","saba-shahid@ouhsc.edu",3,1,"trauma_narrative_read_draft",NA,27,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"invivo desensitization","saba-shahid@ouhsc.edu",3,1,"invivo_desensitization",NA,28,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,1
-"child_parent","saba-shahid@ouhsc.edu",3,1,"child_parent",NA,29,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,1
-"prepare","saba-shahid@ouhsc.edu",3,1,"child_parent_prepare",NA,30,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"joint session","saba-shahid@ouhsc.edu",3,1,"child_parent_joint_session",NA,31,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,0
-"address_safety","saba-shahid@ouhsc.edu",3,1,"address_safety",NA,32,"n","n","n","n","n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,1
-"teach skills","saba-shahid@ouhsc.edu",3,1,"address_safety_teach_skills",NA,33,"n","n","n","n","n","n","n","n","YES","n",NA,NA,NA,NA,NA,NA,0
-"social skills","saba-shahid@ouhsc.edu",3,1,"address_safety_social_skills",NA,34,"n","n","n","n","n","n","n","YES","n","n",NA,NA,NA,NA,NA,NA,0
-"psychoeducation","susan-schmidt@ouhsc.edu",4,1,"psycho_education",NA,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"general","susan-schmidt@ouhsc.edu",4,1,"psycho_education_general",NA,2,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"common responses","susan-schmidt@ouhsc.edu",4,1,"psycho_education_common_responses",NA,3,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"symptoms","susan-schmidt@ouhsc.edu",4,1,"psycho_education_symptoms",NA,4,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"components","susan-schmidt@ouhsc.edu",4,1,"psycho_education_components",NA,5,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"engaged family","susan-schmidt@ouhsc.edu",4,1,"psycho_education_engaged_family",NA,6,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"parenting_skills","susan-schmidt@ouhsc.edu",4,1,"parenting_skills",NA,7,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation","susan-schmidt@ouhsc.edu",4,1,"relaxation",NA,8,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"trauma help","susan-schmidt@ouhsc.edu",4,1,"relaxation_trauma_help",NA,9,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist","susan-schmidt@ouhsc.edu",4,1,"assist",NA,10,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"express feelings","susan-schmidt@ouhsc.edu",4,1,"assist_express_feelings",NA,11,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"link feelings","susan-schmidt@ouhsc.edu",4,1,"assist_link_feelings",NA,12,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"rate emotions","susan-schmidt@ouhsc.edu",4,1,"assist_rate_emotions",NA,13,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"manage emotions","susan-schmidt@ouhsc.edu",4,1,"assist_manage_emotions",NA,14,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cope feelings","susan-schmidt@ouhsc.edu",4,1,"assist_cope_feelings",NA,15,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping","susan-schmidt@ouhsc.edu",4,1,"cognitive_coping",NA,16,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"educate","susan-schmidt@ouhsc.edu",4,1,"cognitive_coping_educate",NA,17,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"alternative","susan-schmidt@ouhsc.edu",4,1,"cognitive_coping_alternative",NA,18,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative","susan-schmidt@ouhsc.edu",4,1,"trauma_narrative",NA,19,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"rationale","susan-schmidt@ouhsc.edu",4,1,"trauma_narrative_rationale",NA,20,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"details","susan-schmidt@ouhsc.edu",4,1,"trauma_narrative_details",NA,21,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"reread","susan-schmidt@ouhsc.edu",4,1,"trauma_narrative_reread",NA,22,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"add thoughts","susan-schmidt@ouhsc.edu",4,1,"trauma_narrative_add_thoughts",NA,23,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"worst memory","susan-schmidt@ouhsc.edu",4,1,"trauma_narrative_worst_memory",NA,24,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive processing","susan-schmidt@ouhsc.edu",4,1,"trauma_narrative_cognitive_processing",NA,25,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"meaning","susan-schmidt@ouhsc.edu",4,1,"trauma_narrative_meaning",NA,26,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"read draft","susan-schmidt@ouhsc.edu",4,1,"trauma_narrative_read_draft",NA,27,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"invivo desensitization","susan-schmidt@ouhsc.edu",4,1,"invivo_desensitization",NA,28,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent","susan-schmidt@ouhsc.edu",4,1,"child_parent",NA,29,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"prepare","susan-schmidt@ouhsc.edu",4,1,"child_parent_prepare",NA,30,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"joint session","susan-schmidt@ouhsc.edu",4,1,"child_parent_joint_session",NA,31,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety","susan-schmidt@ouhsc.edu",4,1,"address_safety",NA,32,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"teach skills","susan-schmidt@ouhsc.edu",4,1,"address_safety_teach_skills",NA,33,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"social skills","susan-schmidt@ouhsc.edu",4,1,"address_safety_social_skills",NA,34,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psychoeducation","michael-gomez@ouhsc.edu",5,1,"psycho_education",NA,1,"YES","YES","YES","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"general","michael-gomez@ouhsc.edu",5,1,"psycho_education_general",NA,2,"YES","YES","YES","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"common responses","michael-gomez@ouhsc.edu",5,1,"psycho_education_common_responses",NA,3,"YES","YES","YES","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"symptoms","michael-gomez@ouhsc.edu",5,1,"psycho_education_symptoms",NA,4,"YES","YES","YES","n","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"components","michael-gomez@ouhsc.edu",5,1,"psycho_education_components",NA,5,"YES","YES","YES","n","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"engaged family","michael-gomez@ouhsc.edu",5,1,"psycho_education_engaged_family",NA,6,"n","YES","YES","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"parenting_skills","michael-gomez@ouhsc.edu",5,1,"parenting_skills",NA,7,"n","n","YES","YES","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation","michael-gomez@ouhsc.edu",5,1,"relaxation",NA,8,"n","n","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"trauma help","michael-gomez@ouhsc.edu",5,1,"relaxation_trauma_help",NA,9,"n","n","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist","michael-gomez@ouhsc.edu",5,1,"assist",NA,10,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"express feelings","michael-gomez@ouhsc.edu",5,1,"assist_express_feelings",NA,11,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"link feelings","michael-gomez@ouhsc.edu",5,1,"assist_link_feelings",NA,12,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"rate emotions","michael-gomez@ouhsc.edu",5,1,"assist_rate_emotions",NA,13,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"manage emotions","michael-gomez@ouhsc.edu",5,1,"assist_manage_emotions",NA,14,"n","n","n","n","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cope feelings","michael-gomez@ouhsc.edu",5,1,"assist_cope_feelings",NA,15,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping","michael-gomez@ouhsc.edu",5,1,"cognitive_coping",NA,16,"n","n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"educate","michael-gomez@ouhsc.edu",5,1,"cognitive_coping_educate",NA,17,"n","n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"alternative","michael-gomez@ouhsc.edu",5,1,"cognitive_coping_alternative",NA,18,"n","n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative","michael-gomez@ouhsc.edu",5,1,"trauma_narrative",NA,19,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"rationale","michael-gomez@ouhsc.edu",5,1,"trauma_narrative_rationale",NA,20,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"details","michael-gomez@ouhsc.edu",5,1,"trauma_narrative_details",NA,21,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"reread","michael-gomez@ouhsc.edu",5,1,"trauma_narrative_reread",NA,22,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"add thoughts","michael-gomez@ouhsc.edu",5,1,"trauma_narrative_add_thoughts",NA,23,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"worst memory","michael-gomez@ouhsc.edu",5,1,"trauma_narrative_worst_memory",NA,24,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive processing","michael-gomez@ouhsc.edu",5,1,"trauma_narrative_cognitive_processing",NA,25,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"meaning","michael-gomez@ouhsc.edu",5,1,"trauma_narrative_meaning",NA,26,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"read draft","michael-gomez@ouhsc.edu",5,1,"trauma_narrative_read_draft",NA,27,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"invivo desensitization","michael-gomez@ouhsc.edu",5,1,"invivo_desensitization",NA,28,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent","michael-gomez@ouhsc.edu",5,1,"child_parent",NA,29,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"prepare","michael-gomez@ouhsc.edu",5,1,"child_parent_prepare",NA,30,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"joint session","michael-gomez@ouhsc.edu",5,1,"child_parent_joint_session",NA,31,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety","michael-gomez@ouhsc.edu",5,1,"address_safety",NA,32,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"teach skills","michael-gomez@ouhsc.edu",5,1,"address_safety_teach_skills",NA,33,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"social skills","michael-gomez@ouhsc.edu",5,1,"address_safety_social_skills",NA,34,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psychoeducation","uchechi-ukuku@ouhsc.edu",6,1,"psycho_education",NA,1,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"general","uchechi-ukuku@ouhsc.edu",6,1,"psycho_education_general",NA,2,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"common responses","uchechi-ukuku@ouhsc.edu",6,1,"psycho_education_common_responses",NA,3,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"symptoms","uchechi-ukuku@ouhsc.edu",6,1,"psycho_education_symptoms",NA,4,"YES","YES","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"components","uchechi-ukuku@ouhsc.edu",6,1,"psycho_education_components",NA,5,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"engaged family","uchechi-ukuku@ouhsc.edu",6,1,"psycho_education_engaged_family",NA,6,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"parenting_skills","uchechi-ukuku@ouhsc.edu",6,1,"parenting_skills",NA,7,"n","n","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation","uchechi-ukuku@ouhsc.edu",6,1,"relaxation",NA,8,"YES","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"trauma help","uchechi-ukuku@ouhsc.edu",6,1,"relaxation_trauma_help",NA,9,"YES","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist","uchechi-ukuku@ouhsc.edu",6,1,"assist",NA,10,"n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"express feelings","uchechi-ukuku@ouhsc.edu",6,1,"assist_express_feelings",NA,11,"n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"link feelings","uchechi-ukuku@ouhsc.edu",6,1,"assist_link_feelings",NA,12,"n","n","n","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"rate emotions","uchechi-ukuku@ouhsc.edu",6,1,"assist_rate_emotions",NA,13,"n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"manage emotions","uchechi-ukuku@ouhsc.edu",6,1,"assist_manage_emotions",NA,14,"n","n","n","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cope feelings","uchechi-ukuku@ouhsc.edu",6,1,"assist_cope_feelings",NA,15,"n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping","uchechi-ukuku@ouhsc.edu",6,1,"cognitive_coping",NA,16,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"educate","uchechi-ukuku@ouhsc.edu",6,1,"cognitive_coping_educate",NA,17,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"alternative","uchechi-ukuku@ouhsc.edu",6,1,"cognitive_coping_alternative",NA,18,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative","uchechi-ukuku@ouhsc.edu",6,1,"trauma_narrative",NA,19,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"rationale","uchechi-ukuku@ouhsc.edu",6,1,"trauma_narrative_rationale",NA,20,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"details","uchechi-ukuku@ouhsc.edu",6,1,"trauma_narrative_details",NA,21,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"reread","uchechi-ukuku@ouhsc.edu",6,1,"trauma_narrative_reread",NA,22,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"add thoughts","uchechi-ukuku@ouhsc.edu",6,1,"trauma_narrative_add_thoughts",NA,23,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"worst memory","uchechi-ukuku@ouhsc.edu",6,1,"trauma_narrative_worst_memory",NA,24,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive processing","uchechi-ukuku@ouhsc.edu",6,1,"trauma_narrative_cognitive_processing",NA,25,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"meaning","uchechi-ukuku@ouhsc.edu",6,1,"trauma_narrative_meaning",NA,26,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"read draft","uchechi-ukuku@ouhsc.edu",6,1,"trauma_narrative_read_draft",NA,27,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"invivo desensitization","uchechi-ukuku@ouhsc.edu",6,1,"invivo_desensitization",NA,28,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent","uchechi-ukuku@ouhsc.edu",6,1,"child_parent",NA,29,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"prepare","uchechi-ukuku@ouhsc.edu",6,1,"child_parent_prepare",NA,30,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"joint session","uchechi-ukuku@ouhsc.edu",6,1,"child_parent_joint_session",NA,31,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety","uchechi-ukuku@ouhsc.edu",6,1,"address_safety",NA,32,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"teach skills","uchechi-ukuku@ouhsc.edu",6,1,"address_safety_teach_skills",NA,33,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"social skills","uchechi-ukuku@ouhsc.edu",6,1,"address_safety_social_skills",NA,34,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psychoeducation","mollie-rischard@ouhsc.edu",7,1,"psycho_education",NA,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"general","mollie-rischard@ouhsc.edu",7,1,"psycho_education_general",NA,2,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"common responses","mollie-rischard@ouhsc.edu",7,1,"psycho_education_common_responses",NA,3,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"symptoms","mollie-rischard@ouhsc.edu",7,1,"psycho_education_symptoms",NA,4,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"components","mollie-rischard@ouhsc.edu",7,1,"psycho_education_components",NA,5,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"engaged family","mollie-rischard@ouhsc.edu",7,1,"psycho_education_engaged_family",NA,6,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"parenting_skills","mollie-rischard@ouhsc.edu",7,1,"parenting_skills",NA,7,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation","mollie-rischard@ouhsc.edu",7,1,"relaxation",NA,8,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"trauma help","mollie-rischard@ouhsc.edu",7,1,"relaxation_trauma_help",NA,9,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist","mollie-rischard@ouhsc.edu",7,1,"assist",NA,10,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"express feelings","mollie-rischard@ouhsc.edu",7,1,"assist_express_feelings",NA,11,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"link feelings","mollie-rischard@ouhsc.edu",7,1,"assist_link_feelings",NA,12,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"rate emotions","mollie-rischard@ouhsc.edu",7,1,"assist_rate_emotions",NA,13,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"manage emotions","mollie-rischard@ouhsc.edu",7,1,"assist_manage_emotions",NA,14,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cope feelings","mollie-rischard@ouhsc.edu",7,1,"assist_cope_feelings",NA,15,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping","mollie-rischard@ouhsc.edu",7,1,"cognitive_coping",NA,16,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"educate","mollie-rischard@ouhsc.edu",7,1,"cognitive_coping_educate",NA,17,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"alternative","mollie-rischard@ouhsc.edu",7,1,"cognitive_coping_alternative",NA,18,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative","mollie-rischard@ouhsc.edu",7,1,"trauma_narrative",NA,19,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"rationale","mollie-rischard@ouhsc.edu",7,1,"trauma_narrative_rationale",NA,20,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"details","mollie-rischard@ouhsc.edu",7,1,"trauma_narrative_details",NA,21,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"reread","mollie-rischard@ouhsc.edu",7,1,"trauma_narrative_reread",NA,22,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"add thoughts","mollie-rischard@ouhsc.edu",7,1,"trauma_narrative_add_thoughts",NA,23,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"worst memory","mollie-rischard@ouhsc.edu",7,1,"trauma_narrative_worst_memory",NA,24,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive processing","mollie-rischard@ouhsc.edu",7,1,"trauma_narrative_cognitive_processing",NA,25,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"meaning","mollie-rischard@ouhsc.edu",7,1,"trauma_narrative_meaning",NA,26,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"read draft","mollie-rischard@ouhsc.edu",7,1,"trauma_narrative_read_draft",NA,27,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"invivo desensitization","mollie-rischard@ouhsc.edu",7,1,"invivo_desensitization",NA,28,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent","mollie-rischard@ouhsc.edu",7,1,"child_parent",NA,29,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"prepare","mollie-rischard@ouhsc.edu",7,1,"child_parent_prepare",NA,30,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"joint session","mollie-rischard@ouhsc.edu",7,1,"child_parent_joint_session",NA,31,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety","mollie-rischard@ouhsc.edu",7,1,"address_safety",NA,32,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"teach skills","mollie-rischard@ouhsc.edu",7,1,"address_safety_teach_skills",NA,33,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"social skills","mollie-rischard@ouhsc.edu",7,1,"address_safety_social_skills",NA,34,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psychoeducation","melissa-bernstein@ouhsc.edu",8,1,"psycho_education",NA,1,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"general","melissa-bernstein@ouhsc.edu",8,1,"psycho_education_general",NA,2,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"common responses","melissa-bernstein@ouhsc.edu",8,1,"psycho_education_common_responses",NA,3,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"symptoms","melissa-bernstein@ouhsc.edu",8,1,"psycho_education_symptoms",NA,4,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"components","melissa-bernstein@ouhsc.edu",8,1,"psycho_education_components",NA,5,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"engaged family","melissa-bernstein@ouhsc.edu",8,1,"psycho_education_engaged_family",NA,6,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"parenting_skills","melissa-bernstein@ouhsc.edu",8,1,"parenting_skills",NA,7,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"relaxation","melissa-bernstein@ouhsc.edu",8,1,"relaxation",NA,8,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"trauma help","melissa-bernstein@ouhsc.edu",8,1,"relaxation_trauma_help",NA,9,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"assist","melissa-bernstein@ouhsc.edu",8,1,"assist",NA,10,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"express feelings","melissa-bernstein@ouhsc.edu",8,1,"assist_express_feelings",NA,11,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"link feelings","melissa-bernstein@ouhsc.edu",8,1,"assist_link_feelings",NA,12,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"rate emotions","melissa-bernstein@ouhsc.edu",8,1,"assist_rate_emotions",NA,13,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"manage emotions","melissa-bernstein@ouhsc.edu",8,1,"assist_manage_emotions",NA,14,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cope feelings","melissa-bernstein@ouhsc.edu",8,1,"assist_cope_feelings",NA,15,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive_coping","melissa-bernstein@ouhsc.edu",8,1,"cognitive_coping",NA,16,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"educate","melissa-bernstein@ouhsc.edu",8,1,"cognitive_coping_educate",NA,17,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"alternative","melissa-bernstein@ouhsc.edu",8,1,"cognitive_coping_alternative",NA,18,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"trauma_narrative","melissa-bernstein@ouhsc.edu",8,1,"trauma_narrative",NA,19,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"rationale","melissa-bernstein@ouhsc.edu",8,1,"trauma_narrative_rationale",NA,20,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"details","melissa-bernstein@ouhsc.edu",8,1,"trauma_narrative_details",NA,21,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"reread","melissa-bernstein@ouhsc.edu",8,1,"trauma_narrative_reread",NA,22,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"add thoughts","melissa-bernstein@ouhsc.edu",8,1,"trauma_narrative_add_thoughts",NA,23,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"worst memory","melissa-bernstein@ouhsc.edu",8,1,"trauma_narrative_worst_memory",NA,24,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"cognitive processing","melissa-bernstein@ouhsc.edu",8,1,"trauma_narrative_cognitive_processing",NA,25,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"meaning","melissa-bernstein@ouhsc.edu",8,1,"trauma_narrative_meaning",NA,26,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"read draft","melissa-bernstein@ouhsc.edu",8,1,"trauma_narrative_read_draft",NA,27,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"invivo desensitization","melissa-bernstein@ouhsc.edu",8,1,"invivo_desensitization",NA,28,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"child_parent","melissa-bernstein@ouhsc.edu",8,1,"child_parent",NA,29,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"prepare","melissa-bernstein@ouhsc.edu",8,1,"child_parent_prepare",NA,30,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"joint session","melissa-bernstein@ouhsc.edu",8,1,"child_parent_joint_session",NA,31,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"address_safety","melissa-bernstein@ouhsc.edu",8,1,"address_safety",NA,32,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
-"teach skills","melissa-bernstein@ouhsc.edu",8,1,"address_safety_teach_skills",NA,33,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"social skills","melissa-bernstein@ouhsc.edu",8,1,"address_safety_social_skills",NA,34,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,0
-"psychoeducation","erin-taylor@ouhsc.edu",9,1,"psycho_education",NA,1,"YES","n","YES","n","YES","YES","YES","n","n","n","n","n","YES","YES","YES","n",1
-"general","erin-taylor@ouhsc.edu",9,1,"psycho_education_general",NA,2,"YES","n","YES","n","YES","YES","YES","n","n","n","n","n","n","n","YES","n",0
-"common responses","erin-taylor@ouhsc.edu",9,1,"psycho_education_common_responses",NA,3,"YES","n","YES","n","YES","YES","n","n","n","n","n","n","n","n","YES","n",0
-"symptoms","erin-taylor@ouhsc.edu",9,1,"psycho_education_symptoms",NA,4,"YES","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
-"components","erin-taylor@ouhsc.edu",9,1,"psycho_education_components",NA,5,"YES","n","n","n","n","n","n","n","n","n","n","n","YES","n","n","n",0
-"engaged family","erin-taylor@ouhsc.edu",9,1,"psycho_education_engaged_family",NA,6,"YES","n","n","n","n","n","n","n","n","n","n","n","YES","YES","n","n",0
-"parenting_skills","erin-taylor@ouhsc.edu",9,1,"parenting_skills",NA,7,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",1
-"relaxation","erin-taylor@ouhsc.edu",9,1,"relaxation",NA,8,"n","YES","n","YES","n","n","YES","n","YES","YES","n","n","n","n","n","n",1
-"trauma help","erin-taylor@ouhsc.edu",9,1,"relaxation_trauma_help",NA,9,"n","n","n","n","n","n","YES","n","YES","YES","n","n","n","n","n","n",0
-"assist","erin-taylor@ouhsc.edu",9,1,"assist",NA,10,"n","n","YES","YES","n","n","n","n","YES","n","n","YES","n","n","n","n",1
-"express feelings","erin-taylor@ouhsc.edu",9,1,"assist_express_feelings",NA,11,"n","n","YES","n","n","n","n","n","n","n","n","n","n","n","n","n",0
-"link feelings","erin-taylor@ouhsc.edu",9,1,"assist_link_feelings",NA,12,"n","n","YES","n","n","n","n","n","n","n","n","n","n","n","n","n",0
-"rate emotions","erin-taylor@ouhsc.edu",9,1,"assist_rate_emotions",NA,13,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
-"manage emotions","erin-taylor@ouhsc.edu",9,1,"assist_manage_emotions",NA,14,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
-"cope feelings","erin-taylor@ouhsc.edu",9,1,"assist_cope_feelings",NA,15,"n","n","n","YES","n","n","n","n","n","n","n","n","n","n","n","n",0
-"cognitive_coping","erin-taylor@ouhsc.edu",9,1,"cognitive_coping",NA,16,"n","n","n","n","n","YES","n","n","n","n","n","n","n","n","n","YES",1
-"educate","erin-taylor@ouhsc.edu",9,1,"cognitive_coping_educate",NA,17,"n","n","n","n","n","YES","n","n","n","n","n","n","n","n","n","YES",0
-"alternative","erin-taylor@ouhsc.edu",9,1,"cognitive_coping_alternative",NA,18,"n","n","n","n","n","YES","n","n","n","n","n","n","n","n","n","YES",0
-"trauma_narrative","erin-taylor@ouhsc.edu",9,1,"trauma_narrative",NA,19,"n","n","n","n","n","n","YES","YES","YES","YES","n","n","n","n","n","n",1
-"rationale","erin-taylor@ouhsc.edu",9,1,"trauma_narrative_rationale",NA,20,"n","n","n","n","n","n","YES","YES","YES","YES","n","n","n","n","n","n",0
-"details","erin-taylor@ouhsc.edu",9,1,"trauma_narrative_details",NA,21,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
-"reread","erin-taylor@ouhsc.edu",9,1,"trauma_narrative_reread",NA,22,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
-"add thoughts","erin-taylor@ouhsc.edu",9,1,"trauma_narrative_add_thoughts",NA,23,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
-"worst memory","erin-taylor@ouhsc.edu",9,1,"trauma_narrative_worst_memory",NA,24,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
-"cognitive processing","erin-taylor@ouhsc.edu",9,1,"trauma_narrative_cognitive_processing",NA,25,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
-"meaning","erin-taylor@ouhsc.edu",9,1,"trauma_narrative_meaning",NA,26,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
-"read draft","erin-taylor@ouhsc.edu",9,1,"trauma_narrative_read_draft",NA,27,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
-"invivo desensitization","erin-taylor@ouhsc.edu",9,1,"invivo_desensitization",NA,28,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",1
-"child_parent","erin-taylor@ouhsc.edu",9,1,"child_parent",NA,29,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",1
-"prepare","erin-taylor@ouhsc.edu",9,1,"child_parent_prepare",NA,30,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
-"joint session","erin-taylor@ouhsc.edu",9,1,"child_parent_joint_session",NA,31,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
-"address_safety","erin-taylor@ouhsc.edu",9,1,"address_safety",NA,32,"n","n","n","n","n","n","n","YES","n","YES","n","n","n","n","n","n",1
-"teach skills","erin-taylor@ouhsc.edu",9,1,"address_safety_teach_skills",NA,33,"n","n","n","n","n","n","n","YES","n","YES","n","n","n","n","n","n",0
-"social skills","erin-taylor@ouhsc.edu",9,1,"address_safety_social_skills",NA,34,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n",0
+"description_short","client_sequence","item","description_long","variable_index","session_01","session_02","session_03","session_04","session_05","session_06","session_07","session_08","session_09","session_10","session_11","session_12","session_13","session_14","session_15","session_16","therapist_email","therapist_id_rc","branch_item"
+"psychoeducation",1,"psycho_education",NA,1,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"general",1,"psycho_education_general",NA,2,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"common responses",1,"psycho_education_common_responses",NA,3,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"symptoms",1,"psycho_education_symptoms",NA,4,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"components",1,"psycho_education_components",NA,5,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"engaged family",1,"psycho_education_engaged_family",NA,6,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"parenting_skills",1,"parenting_skills",NA,7,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"relaxation",1,"relaxation",NA,8,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"trauma help",1,"relaxation_trauma_help",NA,9,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"assist",1,"assist",NA,10,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"express feelings",1,"assist_express_feelings",NA,11,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"link feelings",1,"assist_link_feelings",NA,12,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"rate emotions",1,"assist_rate_emotions",NA,13,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"manage emotions",1,"assist_manage_emotions",NA,14,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"cope feelings",1,"assist_cope_feelings",NA,15,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"cognitive_coping",1,"cognitive_coping",NA,16,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"educate",1,"cognitive_coping_educate",NA,17,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"alternative",1,"cognitive_coping_alternative",NA,18,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"trauma_narrative",1,"trauma_narrative",NA,19,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"rationale",1,"trauma_narrative_rationale",NA,20,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"details",1,"trauma_narrative_details",NA,21,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"reread",1,"trauma_narrative_reread",NA,22,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"add thoughts",1,"trauma_narrative_add_thoughts",NA,23,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"worst memory",1,"trauma_narrative_worst_memory",NA,24,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"cognitive processing",1,"trauma_narrative_cognitive_processing",NA,25,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"meaning",1,"trauma_narrative_meaning",NA,26,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"read draft",1,"trauma_narrative_read_draft",NA,27,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"invivo_desensitization",1,"invivo_desensitization",NA,28,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"child_parent",1,"child_parent",NA,29,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"prepare",1,"child_parent_prepare",NA,30,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"joint session",1,"child_parent_joint_session",NA,31,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"address_safety",1,"address_safety",NA,32,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"teach skills",1,"address_safety_teach_skills",NA,33,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"social skills",1,"address_safety_social_skills",NA,34,"n",NA,NA,NA,NA,NA,NA,NA,"n",NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"psychoeducation",2,"psycho_education",NA,1,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"general",2,"psycho_education_general",NA,2,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"common responses",2,"psycho_education_common_responses",NA,3,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"symptoms",2,"psycho_education_symptoms",NA,4,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"components",2,"psycho_education_components",NA,5,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"engaged family",2,"psycho_education_engaged_family",NA,6,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"parenting_skills",2,"parenting_skills",NA,7,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"relaxation",2,"relaxation",NA,8,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"trauma help",2,"relaxation_trauma_help",NA,9,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"assist",2,"assist",NA,10,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"express feelings",2,"assist_express_feelings",NA,11,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"link feelings",2,"assist_link_feelings",NA,12,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"rate emotions",2,"assist_rate_emotions",NA,13,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"manage emotions",2,"assist_manage_emotions",NA,14,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"cope feelings",2,"assist_cope_feelings",NA,15,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"cognitive_coping",2,"cognitive_coping",NA,16,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"educate",2,"cognitive_coping_educate",NA,17,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"alternative",2,"cognitive_coping_alternative",NA,18,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"trauma_narrative",2,"trauma_narrative",NA,19,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"rationale",2,"trauma_narrative_rationale",NA,20,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"details",2,"trauma_narrative_details",NA,21,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"reread",2,"trauma_narrative_reread",NA,22,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"add thoughts",2,"trauma_narrative_add_thoughts",NA,23,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"worst memory",2,"trauma_narrative_worst_memory",NA,24,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"cognitive processing",2,"trauma_narrative_cognitive_processing",NA,25,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"meaning",2,"trauma_narrative_meaning",NA,26,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"read draft",2,"trauma_narrative_read_draft",NA,27,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"invivo_desensitization",2,"invivo_desensitization",NA,28,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"child_parent",2,"child_parent",NA,29,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"prepare",2,"child_parent_prepare",NA,30,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"joint session",2,"child_parent_joint_session",NA,31,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"address_safety",2,"address_safety",NA,32,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,1
+"teach skills",2,"address_safety_teach_skills",NA,33,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"social skills",2,"address_safety_social_skills",NA,34,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"thomas-wilson@ouhsc.edu",1,0
+"psychoeducation",1,"psycho_education",NA,1,"n","n","n","n","n",NA,"n","n","n","YES",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"general",1,"psycho_education_general",NA,2,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"common responses",1,"psycho_education_common_responses",NA,3,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"symptoms",1,"psycho_education_symptoms",NA,4,"n","n","n","n","n",NA,"n","n","n","YES",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"components",1,"psycho_education_components",NA,5,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"engaged family",1,"psycho_education_engaged_family",NA,6,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"parenting_skills",1,"parenting_skills",NA,7,"n","n","n","n","YES",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"relaxation",1,"relaxation",NA,8,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"trauma help",1,"relaxation_trauma_help",NA,9,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"assist",1,"assist",NA,10,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"express feelings",1,"assist_express_feelings",NA,11,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"link feelings",1,"assist_link_feelings",NA,12,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"rate emotions",1,"assist_rate_emotions",NA,13,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"manage emotions",1,"assist_manage_emotions",NA,14,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"cope feelings",1,"assist_cope_feelings",NA,15,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"cognitive_coping",1,"cognitive_coping",NA,16,"n","n","n","n","n",NA,"n","n","YES","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"educate",1,"cognitive_coping_educate",NA,17,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"alternative",1,"cognitive_coping_alternative",NA,18,"n","n","n","n","n",NA,"n","n","YES","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"trauma_narrative",1,"trauma_narrative",NA,19,"YES","YES","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"rationale",1,"trauma_narrative_rationale",NA,20,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"details",1,"trauma_narrative_details",NA,21,"YES","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"reread",1,"trauma_narrative_reread",NA,22,"YES","YES","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"add thoughts",1,"trauma_narrative_add_thoughts",NA,23,"n","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"worst memory",1,"trauma_narrative_worst_memory",NA,24,"YES","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"cognitive processing",1,"trauma_narrative_cognitive_processing",NA,25,"n","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"meaning",1,"trauma_narrative_meaning",NA,26,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"read draft",1,"trauma_narrative_read_draft",NA,27,"n","YES","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"invivo_desensitization",1,"invivo_desensitization",NA,28,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"child_parent",1,"child_parent",NA,29,"n","n","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"prepare",1,"child_parent_prepare",NA,30,"n","n","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"joint session",1,"child_parent_joint_session",NA,31,"n","n","YES","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"address_safety",1,"address_safety",NA,32,"n","n","n","n","n",NA,"n","YES","YES","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"teach skills",1,"address_safety_teach_skills",NA,33,"n","n","n","n","n",NA,"n","n","n","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"social skills",1,"address_safety_social_skills",NA,34,"n","n","n","n","n",NA,"n","n","YES","n",NA,NA,"n",NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"psychoeducation",2,"psycho_education",NA,1,"YES","YES","YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"general",2,"psycho_education_general",NA,2,"YES","YES","YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"common responses",2,"psycho_education_common_responses",NA,3,"n","YES","n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"symptoms",2,"psycho_education_symptoms",NA,4,"n","n","n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"components",2,"psycho_education_components",NA,5,"n","YES","n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"engaged family",2,"psycho_education_engaged_family",NA,6,"n","YES","YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"parenting_skills",2,"parenting_skills",NA,7,"n","n","YES","YES","n","n","n","YES","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"relaxation",2,"relaxation",NA,8,"n","n","YES","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"trauma help",2,"relaxation_trauma_help",NA,9,"n","n","YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"assist",2,"assist",NA,10,"n","n","n","YES","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"express feelings",2,"assist_express_feelings",NA,11,"n","n","n","YES","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"link feelings",2,"assist_link_feelings",NA,12,"n","n","n","YES","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"rate emotions",2,"assist_rate_emotions",NA,13,"n","n","n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"manage emotions",2,"assist_manage_emotions",NA,14,"n","n","n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"cope feelings",2,"assist_cope_feelings",NA,15,"n","n","n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"cognitive_coping",2,"cognitive_coping",NA,16,"n","n","n","n","n","YES","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"educate",2,"cognitive_coping_educate",NA,17,"n","n","n","n","n","YES","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"alternative",2,"cognitive_coping_alternative",NA,18,"n","n","n","n","n","YES","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"trauma_narrative",2,"trauma_narrative",NA,19,"n","n","n","n","n","n","YES","YES","YES","YES","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"rationale",2,"trauma_narrative_rationale",NA,20,"n","n","n","n","n","n","YES","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"details",2,"trauma_narrative_details",NA,21,"n","n","n","n","n","n","n","YES","YES","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"reread",2,"trauma_narrative_reread",NA,22,"n","n","n","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"add thoughts",2,"trauma_narrative_add_thoughts",NA,23,"n","n","n","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"worst memory",2,"trauma_narrative_worst_memory",NA,24,"n","n","n","n","n","n","n","n","YES","YES","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"cognitive processing",2,"trauma_narrative_cognitive_processing",NA,25,"n","n","n","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"meaning",2,"trauma_narrative_meaning",NA,26,"n","n","n","n","n","n","n","n","n","YES","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"read draft",2,"trauma_narrative_read_draft",NA,27,"n","n","n","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"invivo_desensitization",2,"invivo_desensitization",NA,28,"n","n","n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"child_parent",2,"child_parent",NA,29,"n","n","n","n","n","n","n","n","n","n","YES","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"prepare",2,"child_parent_prepare",NA,30,"n","n","n","n","n","n","n","n","n","n","YES","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"joint session",2,"child_parent_joint_session",NA,31,"n","n","n","n","n","n","n","n","n","n","YES","n",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"address_safety",2,"address_safety",NA,32,"n","n","n","n","n","n","n","n","n","n","n","YES",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,1
+"teach skills",2,"address_safety_teach_skills",NA,33,"n","n","n","n","n","n","n","n","n","n","n","YES",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"social skills",2,"address_safety_social_skills",NA,34,"n","n","n","n","n","n","n","n","n","n","n","YES",NA,NA,NA,NA,"elizabeth-risch@ouhsc.edu",2,0
+"psychoeducation",1,"psycho_education",NA,1,"YES","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,1
+"general",1,"psycho_education_general",NA,2,"YES","n","n","n","n","YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"common responses",1,"psycho_education_common_responses",NA,3,"YES","n","n","n","n","n","YES","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"symptoms",1,"psycho_education_symptoms",NA,4,"n","n","n","n","n","YES","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"components",1,"psycho_education_components",NA,5,"YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"engaged family",1,"psycho_education_engaged_family",NA,6,"n","n","n","n","n","YES","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"parenting_skills",1,"parenting_skills",NA,7,"n","n","n","n","n","n","YES","n","YES","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,1
+"relaxation",1,"relaxation",NA,8,"YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,1
+"trauma help",1,"relaxation_trauma_help",NA,9,"YES","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"assist",1,"assist",NA,10,"n","YES","YES","n","n","YES","n","YES","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,1
+"express feelings",1,"assist_express_feelings",NA,11,"n","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"link feelings",1,"assist_link_feelings",NA,12,"n","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"rate emotions",1,"assist_rate_emotions",NA,13,"n","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"manage emotions",1,"assist_manage_emotions",NA,14,"n","YES","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"cope feelings",1,"assist_cope_feelings",NA,15,"n","YES","YES","n","n","YES","n","YES","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"cognitive_coping",1,"cognitive_coping",NA,16,"n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,1
+"educate",1,"cognitive_coping_educate",NA,17,"n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"alternative",1,"cognitive_coping_alternative",NA,18,"n","n","YES","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"trauma_narrative",1,"trauma_narrative",NA,19,"n","n","YES","YES","YES","n","YES","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,1
+"rationale",1,"trauma_narrative_rationale",NA,20,"n","n","YES","YES","YES","n","YES","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"details",1,"trauma_narrative_details",NA,21,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"reread",1,"trauma_narrative_reread",NA,22,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"add thoughts",1,"trauma_narrative_add_thoughts",NA,23,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"worst memory",1,"trauma_narrative_worst_memory",NA,24,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"cognitive processing",1,"trauma_narrative_cognitive_processing",NA,25,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"meaning",1,"trauma_narrative_meaning",NA,26,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"read draft",1,"trauma_narrative_read_draft",NA,27,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"invivo_desensitization",1,"invivo_desensitization",NA,28,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,1
+"child_parent",1,"child_parent",NA,29,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,1
+"prepare",1,"child_parent_prepare",NA,30,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"joint session",1,"child_parent_joint_session",NA,31,"n","n","n","n","n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"address_safety",1,"address_safety",NA,32,"n","n","n","n","n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,1
+"teach skills",1,"address_safety_teach_skills",NA,33,"n","n","n","n","n","n","n","n","YES","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"social skills",1,"address_safety_social_skills",NA,34,"n","n","n","n","n","n","n","YES","n","n",NA,NA,NA,NA,NA,NA,"saba-shahid@ouhsc.edu",3,0
+"psychoeducation",1,"psycho_education",NA,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,1
+"general",1,"psycho_education_general",NA,2,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"common responses",1,"psycho_education_common_responses",NA,3,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"symptoms",1,"psycho_education_symptoms",NA,4,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"components",1,"psycho_education_components",NA,5,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"engaged family",1,"psycho_education_engaged_family",NA,6,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"parenting_skills",1,"parenting_skills",NA,7,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,1
+"relaxation",1,"relaxation",NA,8,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,1
+"trauma help",1,"relaxation_trauma_help",NA,9,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"assist",1,"assist",NA,10,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,1
+"express feelings",1,"assist_express_feelings",NA,11,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"link feelings",1,"assist_link_feelings",NA,12,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"rate emotions",1,"assist_rate_emotions",NA,13,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"manage emotions",1,"assist_manage_emotions",NA,14,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"cope feelings",1,"assist_cope_feelings",NA,15,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"cognitive_coping",1,"cognitive_coping",NA,16,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,1
+"educate",1,"cognitive_coping_educate",NA,17,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"alternative",1,"cognitive_coping_alternative",NA,18,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"trauma_narrative",1,"trauma_narrative",NA,19,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,1
+"rationale",1,"trauma_narrative_rationale",NA,20,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"details",1,"trauma_narrative_details",NA,21,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"reread",1,"trauma_narrative_reread",NA,22,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"add thoughts",1,"trauma_narrative_add_thoughts",NA,23,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"worst memory",1,"trauma_narrative_worst_memory",NA,24,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"cognitive processing",1,"trauma_narrative_cognitive_processing",NA,25,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"meaning",1,"trauma_narrative_meaning",NA,26,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"read draft",1,"trauma_narrative_read_draft",NA,27,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"invivo_desensitization",1,"invivo_desensitization",NA,28,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,1
+"child_parent",1,"child_parent",NA,29,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,1
+"prepare",1,"child_parent_prepare",NA,30,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"joint session",1,"child_parent_joint_session",NA,31,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"address_safety",1,"address_safety",NA,32,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,1
+"teach skills",1,"address_safety_teach_skills",NA,33,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"social skills",1,"address_safety_social_skills",NA,34,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"susan-schmidt@ouhsc.edu",4,0
+"psychoeducation",1,"psycho_education",NA,1,"YES","YES","YES","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,1
+"general",1,"psycho_education_general",NA,2,"YES","YES","YES","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"common responses",1,"psycho_education_common_responses",NA,3,"YES","YES","YES","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"symptoms",1,"psycho_education_symptoms",NA,4,"YES","YES","YES","n","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"components",1,"psycho_education_components",NA,5,"YES","YES","YES","n","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"engaged family",1,"psycho_education_engaged_family",NA,6,"n","YES","YES","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"parenting_skills",1,"parenting_skills",NA,7,"n","n","YES","YES","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,1
+"relaxation",1,"relaxation",NA,8,"n","n","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,1
+"trauma help",1,"relaxation_trauma_help",NA,9,"n","n","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"assist",1,"assist",NA,10,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,1
+"express feelings",1,"assist_express_feelings",NA,11,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"link feelings",1,"assist_link_feelings",NA,12,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"rate emotions",1,"assist_rate_emotions",NA,13,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"manage emotions",1,"assist_manage_emotions",NA,14,"n","n","n","n","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"cope feelings",1,"assist_cope_feelings",NA,15,"n","n","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"cognitive_coping",1,"cognitive_coping",NA,16,"n","n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,1
+"educate",1,"cognitive_coping_educate",NA,17,"n","n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"alternative",1,"cognitive_coping_alternative",NA,18,"n","n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"trauma_narrative",1,"trauma_narrative",NA,19,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,1
+"rationale",1,"trauma_narrative_rationale",NA,20,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"details",1,"trauma_narrative_details",NA,21,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"reread",1,"trauma_narrative_reread",NA,22,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"add thoughts",1,"trauma_narrative_add_thoughts",NA,23,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"worst memory",1,"trauma_narrative_worst_memory",NA,24,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"cognitive processing",1,"trauma_narrative_cognitive_processing",NA,25,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"meaning",1,"trauma_narrative_meaning",NA,26,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"read draft",1,"trauma_narrative_read_draft",NA,27,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"invivo_desensitization",1,"invivo_desensitization",NA,28,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,1
+"child_parent",1,"child_parent",NA,29,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,1
+"prepare",1,"child_parent_prepare",NA,30,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"joint session",1,"child_parent_joint_session",NA,31,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"address_safety",1,"address_safety",NA,32,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,1
+"teach skills",1,"address_safety_teach_skills",NA,33,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"social skills",1,"address_safety_social_skills",NA,34,"n","n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"michael-gomez@ouhsc.edu",5,0
+"psychoeducation",1,"psycho_education",NA,1,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,1
+"general",1,"psycho_education_general",NA,2,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"common responses",1,"psycho_education_common_responses",NA,3,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"symptoms",1,"psycho_education_symptoms",NA,4,"YES","YES","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"components",1,"psycho_education_components",NA,5,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"engaged family",1,"psycho_education_engaged_family",NA,6,"YES","YES","YES","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"parenting_skills",1,"parenting_skills",NA,7,"n","n","YES","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,1
+"relaxation",1,"relaxation",NA,8,"YES","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,1
+"trauma help",1,"relaxation_trauma_help",NA,9,"YES","n","YES","YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"assist",1,"assist",NA,10,"n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,1
+"express feelings",1,"assist_express_feelings",NA,11,"n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"link feelings",1,"assist_link_feelings",NA,12,"n","n","n","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"rate emotions",1,"assist_rate_emotions",NA,13,"n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"manage emotions",1,"assist_manage_emotions",NA,14,"n","n","n","n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"cope feelings",1,"assist_cope_feelings",NA,15,"n","n","n","YES","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"cognitive_coping",1,"cognitive_coping",NA,16,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,1
+"educate",1,"cognitive_coping_educate",NA,17,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"alternative",1,"cognitive_coping_alternative",NA,18,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"trauma_narrative",1,"trauma_narrative",NA,19,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,1
+"rationale",1,"trauma_narrative_rationale",NA,20,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"details",1,"trauma_narrative_details",NA,21,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"reread",1,"trauma_narrative_reread",NA,22,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"add thoughts",1,"trauma_narrative_add_thoughts",NA,23,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"worst memory",1,"trauma_narrative_worst_memory",NA,24,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"cognitive processing",1,"trauma_narrative_cognitive_processing",NA,25,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"meaning",1,"trauma_narrative_meaning",NA,26,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"read draft",1,"trauma_narrative_read_draft",NA,27,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"invivo_desensitization",1,"invivo_desensitization",NA,28,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,1
+"child_parent",1,"child_parent",NA,29,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,1
+"prepare",1,"child_parent_prepare",NA,30,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"joint session",1,"child_parent_joint_session",NA,31,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"address_safety",1,"address_safety",NA,32,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,1
+"teach skills",1,"address_safety_teach_skills",NA,33,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"social skills",1,"address_safety_social_skills",NA,34,"n","n","n","n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"uchechi-ukuku@ouhsc.edu",6,0
+"psychoeducation",1,"psycho_education",NA,1,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,1
+"general",1,"psycho_education_general",NA,2,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"common responses",1,"psycho_education_common_responses",NA,3,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"symptoms",1,"psycho_education_symptoms",NA,4,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"components",1,"psycho_education_components",NA,5,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"engaged family",1,"psycho_education_engaged_family",NA,6,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"parenting_skills",1,"parenting_skills",NA,7,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,1
+"relaxation",1,"relaxation",NA,8,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,1
+"trauma help",1,"relaxation_trauma_help",NA,9,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"assist",1,"assist",NA,10,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,1
+"express feelings",1,"assist_express_feelings",NA,11,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"link feelings",1,"assist_link_feelings",NA,12,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"rate emotions",1,"assist_rate_emotions",NA,13,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"manage emotions",1,"assist_manage_emotions",NA,14,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"cope feelings",1,"assist_cope_feelings",NA,15,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"cognitive_coping",1,"cognitive_coping",NA,16,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,1
+"educate",1,"cognitive_coping_educate",NA,17,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"alternative",1,"cognitive_coping_alternative",NA,18,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"trauma_narrative",1,"trauma_narrative",NA,19,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,1
+"rationale",1,"trauma_narrative_rationale",NA,20,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"details",1,"trauma_narrative_details",NA,21,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"reread",1,"trauma_narrative_reread",NA,22,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"add thoughts",1,"trauma_narrative_add_thoughts",NA,23,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"worst memory",1,"trauma_narrative_worst_memory",NA,24,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"cognitive processing",1,"trauma_narrative_cognitive_processing",NA,25,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"meaning",1,"trauma_narrative_meaning",NA,26,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"read draft",1,"trauma_narrative_read_draft",NA,27,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"invivo_desensitization",1,"invivo_desensitization",NA,28,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,1
+"child_parent",1,"child_parent",NA,29,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,1
+"prepare",1,"child_parent_prepare",NA,30,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"joint session",1,"child_parent_joint_session",NA,31,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"address_safety",1,"address_safety",NA,32,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,1
+"teach skills",1,"address_safety_teach_skills",NA,33,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"social skills",1,"address_safety_social_skills",NA,34,"n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mollie-rischard@ouhsc.edu",7,0
+"psychoeducation",1,"psycho_education",NA,1,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,1
+"general",1,"psycho_education_general",NA,2,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"common responses",1,"psycho_education_common_responses",NA,3,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"symptoms",1,"psycho_education_symptoms",NA,4,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"components",1,"psycho_education_components",NA,5,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"engaged family",1,"psycho_education_engaged_family",NA,6,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"parenting_skills",1,"parenting_skills",NA,7,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,1
+"relaxation",1,"relaxation",NA,8,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,1
+"trauma help",1,"relaxation_trauma_help",NA,9,"n",NA,"YES","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"assist",1,"assist",NA,10,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,1
+"express feelings",1,"assist_express_feelings",NA,11,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"link feelings",1,"assist_link_feelings",NA,12,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"rate emotions",1,"assist_rate_emotions",NA,13,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"manage emotions",1,"assist_manage_emotions",NA,14,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"cope feelings",1,"assist_cope_feelings",NA,15,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"cognitive_coping",1,"cognitive_coping",NA,16,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,1
+"educate",1,"cognitive_coping_educate",NA,17,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"alternative",1,"cognitive_coping_alternative",NA,18,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"trauma_narrative",1,"trauma_narrative",NA,19,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,1
+"rationale",1,"trauma_narrative_rationale",NA,20,"n",NA,"n","YES",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"details",1,"trauma_narrative_details",NA,21,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"reread",1,"trauma_narrative_reread",NA,22,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"add thoughts",1,"trauma_narrative_add_thoughts",NA,23,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"worst memory",1,"trauma_narrative_worst_memory",NA,24,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"cognitive processing",1,"trauma_narrative_cognitive_processing",NA,25,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"meaning",1,"trauma_narrative_meaning",NA,26,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"read draft",1,"trauma_narrative_read_draft",NA,27,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"invivo_desensitization",1,"invivo_desensitization",NA,28,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,1
+"child_parent",1,"child_parent",NA,29,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,1
+"prepare",1,"child_parent_prepare",NA,30,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"joint session",1,"child_parent_joint_session",NA,31,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"address_safety",1,"address_safety",NA,32,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,1
+"teach skills",1,"address_safety_teach_skills",NA,33,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"social skills",1,"address_safety_social_skills",NA,34,"n",NA,"n","n",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"melissa-bernstein@ouhsc.edu",8,0
+"psychoeducation",1,"psycho_education",NA,1,"YES","n","YES","n","YES","YES","YES","n","n","n","n","n","YES","YES","YES","n","erin-taylor@ouhsc.edu",9,1
+"general",1,"psycho_education_general",NA,2,"YES","n","YES","n","YES","YES","YES","n","n","n","n","n","n","n","YES","n","erin-taylor@ouhsc.edu",9,0
+"common responses",1,"psycho_education_common_responses",NA,3,"YES","n","YES","n","YES","YES","n","n","n","n","n","n","n","n","YES","n","erin-taylor@ouhsc.edu",9,0
+"symptoms",1,"psycho_education_symptoms",NA,4,"YES","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"components",1,"psycho_education_components",NA,5,"YES","n","n","n","n","n","n","n","n","n","n","n","YES","n","n","n","erin-taylor@ouhsc.edu",9,0
+"engaged family",1,"psycho_education_engaged_family",NA,6,"YES","n","n","n","n","n","n","n","n","n","n","n","YES","YES","n","n","erin-taylor@ouhsc.edu",9,0
+"parenting_skills",1,"parenting_skills",NA,7,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,1
+"relaxation",1,"relaxation",NA,8,"n","YES","n","YES","n","n","YES","n","YES","YES","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,1
+"trauma help",1,"relaxation_trauma_help",NA,9,"n","n","n","n","n","n","YES","n","YES","YES","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"assist",1,"assist",NA,10,"n","n","YES","YES","n","n","n","n","YES","n","n","YES","n","n","n","n","erin-taylor@ouhsc.edu",9,1
+"express feelings",1,"assist_express_feelings",NA,11,"n","n","YES","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"link feelings",1,"assist_link_feelings",NA,12,"n","n","YES","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"rate emotions",1,"assist_rate_emotions",NA,13,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"manage emotions",1,"assist_manage_emotions",NA,14,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"cope feelings",1,"assist_cope_feelings",NA,15,"n","n","n","YES","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"cognitive_coping",1,"cognitive_coping",NA,16,"n","n","n","n","n","YES","n","n","n","n","n","n","n","n","n","YES","erin-taylor@ouhsc.edu",9,1
+"educate",1,"cognitive_coping_educate",NA,17,"n","n","n","n","n","YES","n","n","n","n","n","n","n","n","n","YES","erin-taylor@ouhsc.edu",9,0
+"alternative",1,"cognitive_coping_alternative",NA,18,"n","n","n","n","n","YES","n","n","n","n","n","n","n","n","n","YES","erin-taylor@ouhsc.edu",9,0
+"trauma_narrative",1,"trauma_narrative",NA,19,"n","n","n","n","n","n","YES","YES","YES","YES","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,1
+"rationale",1,"trauma_narrative_rationale",NA,20,"n","n","n","n","n","n","YES","YES","YES","YES","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"details",1,"trauma_narrative_details",NA,21,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"reread",1,"trauma_narrative_reread",NA,22,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"add thoughts",1,"trauma_narrative_add_thoughts",NA,23,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"worst memory",1,"trauma_narrative_worst_memory",NA,24,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"cognitive processing",1,"trauma_narrative_cognitive_processing",NA,25,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"meaning",1,"trauma_narrative_meaning",NA,26,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"read draft",1,"trauma_narrative_read_draft",NA,27,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"invivo_desensitization",1,"invivo_desensitization",NA,28,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,1
+"child_parent",1,"child_parent",NA,29,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,1
+"prepare",1,"child_parent_prepare",NA,30,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"joint session",1,"child_parent_joint_session",NA,31,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"address_safety",1,"address_safety",NA,32,"n","n","n","n","n","n","n","YES","n","YES","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,1
+"teach skills",1,"address_safety_teach_skills",NA,33,"n","n","n","n","n","n","n","YES","n","YES","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0
+"social skills",1,"address_safety_social_skills",NA,34,"n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","n","erin-taylor@ouhsc.edu",9,0

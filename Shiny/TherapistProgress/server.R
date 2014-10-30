@@ -28,10 +28,11 @@ shinyServer( function(input, output) {
     d$item <- NULL
     d$description_long <- NULL
     d$variable_index <- NULL
+    d$therapist_email <- NULL
     
     d <- plyr::rename(d, replace=c(
       "description_short" = "Variable",
-      "therapist_email" = "Therapist Email",
+      # "therapist_email" = "Therapist Email",
       "therapist_id_rc" = "Therapist ID in REDCap",
       "client_sequence" = "Client Number",
       "branch_item" = "Branch Item"
@@ -39,16 +40,18 @@ shinyServer( function(input, output) {
     return( as.data.frame(d) )
   },
   options = list(
-    pageLength = length(unique(dsItemProgress$item)), #34,
+    # lengthMenu = list(c(length(unique(dsItemProgress$item)), -1), c(length(unique(dsItemProgress$item)), 'All')),
+    # pageLength = length(unique(dsItemProgress$item)), #34,
     aoColumnDefs = list( #http://legacy.datatables.net/usage/columns
-      list(sClass="semihide", aTargets=-1),
-      list(sClass="semihide", aTargets=1:2),
+      list(sClass="semihide", aTargets=-2:-1),
       # list(sClass="alignRight", aTargets=0),
       list(sClass="smallish", aTargets="_all")
     ),
 
     # columnDefs = list(list(targets = c(3, 4) - 1, searchable = FALSE)),
-    # searching = FALSE,
+    searching = FALSE,
+    paging=FALSE,
+    sort=FALSE,
     rowCallback = I('
       function(nRow, aData) {
       // Emphasize rows where the `branch_item` column equals to 1

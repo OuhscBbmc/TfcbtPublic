@@ -112,11 +112,13 @@ ds_item_client <- plyr::rename(ds_item_client, replace=c("email"="therapist_emai
 # ds_item_client$therapist_email_short <- 
 # gsub("^(.+)ds_item_client$therapist_email
 
-columns_initial <- c("description_short", "therapist_email", "therapist_id_rc", "client_sequence", "item", "description_long", "variable_index")
-columns_remaining <- setdiff(colnames(ds_item_client), columns_initial)
-dput(colnames(ds_item_client))
+columns_initial <- c("description_short", "client_sequence", "item", "description_long", "variable_index")
+columns_ending <- c("therapist_email", "therapist_id_rc", "branch_item")
+columns_remaining <- setdiff(colnames(ds_item_client), c(columns_initial, columns_ending))
+
 # table(ds_item_client$email)
-ds_item_client <- ds_item_client[, c(columns_initial, columns_remaining)]
+ds_item_client <- ds_item_client[, c(columns_initial, columns_remaining, columns_ending)]
+dput(colnames(ds_item_client))
 
 #################################
 ## Save to disk

@@ -17,20 +17,22 @@ shinyUI(fluidPage(
   tabsetPanel( type = "tabs",
     tabPanel(
       title = "Item Progress", 
-      titlePanel("Item Progress"),            
+      "{Elizabeth, is there some explanatory text you'd like here?}",
+      titlePanel("Item Progress"),    
       # Create a new Row in the UI for selectInputs
       fluidRow(
-        column(width = 4, 
-          selectInput(inputId="item_progress_therapist_email", label="Therapist Email:", 
-            choices=c("All", unique(as.character(dsItemProgress$therapist_email)))
+        column(width = 6, 
+          selectInput(inputId="item_progress_therapist_email", label="Therapist Email:", width="100%",
+            choices=c("--Select a Therapist--", sort(unique(as.character(dsItemProgress$therapist_email))))
+            # elizabeth-risch@ouhsc.edu
           )
         ),
-        column(width = 4, 
+        column(width = 3, 
           selectInput(inputId="item_progress_client_number", label="Client Number within Therapist:", 
             choices=c("All", unique(as.character(dsItemProgress$client_sequence)))
           )
         ),
-        column(width = 4, 
+        column(width = 3, 
           selectInput(inputId="item_progress_therapist_id_rc", label="Therapist Identifier in REDCap:", 
             choices=c("All", unique(as.character(dsItemProgress$therapist_id_rc)))
           )
