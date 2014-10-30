@@ -18,10 +18,10 @@ shinyServer( function(input, output) {
     
     if (input$item_progress_therapist_email != "All")
       d <- d[d$therapist_email == input$item_progress_therapist_email,]
-    if (input$item_progress_therapist_id_rc != "All")
-      d <- d[d$therapist_id_rc == input$item_progress_therapist_id_rc,]
     if (input$item_progress_client_number != "All")
       d <- d[d$client_sequence == input$item_progress_client_number,]
+    # if (input$item_progress_therapist_id_rc != "All")
+    #   d <- d[d$therapist_id_rc == input$item_progress_therapist_id_rc,]
     
     colnames(d) <- gsub("^session_(\\d{2})$", "\\1", colnames(d)) #This strips out the "session_" prefix.
     
@@ -42,6 +42,7 @@ shinyServer( function(input, output) {
   options = list(
     # lengthMenu = list(c(length(unique(dsItemProgress$item)), -1), c(length(unique(dsItemProgress$item)), 'All')),
     # pageLength = length(unique(dsItemProgress$item)), #34,
+    language = list(emptyTable="--<em>Please select a therapist above to population this table.</em>--"),
     aoColumnDefs = list( #http://legacy.datatables.net/usage/columns
       list(sClass="semihide", aTargets=-2:-1),
       # list(sClass="alignRight", aTargets=0),
