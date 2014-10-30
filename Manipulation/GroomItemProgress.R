@@ -24,6 +24,10 @@ ds_item_label <- read.csv("./DataPhiFree/Raw/ItemLabel.csv", stringsAsFactors=FA
 #####################################
 #' Tweak Session Data
 
+dsSessionSurvey$email <- tolower(dsSessionSurvey$email)
+
+
+
 # Extract client sequence
 client1 <- grepl(pattern="^session",  dsSessionSurvey$redcap_event_name)
 client2 <- grepl(pattern="^c2_session",  dsSessionSurvey$redcap_event_name)
@@ -34,11 +38,6 @@ dsSessionSurvey$client_sequence[client2] <- 2L
 dsSessionSurvey$redcap_event_name <- ifelse(client1, paste0("c1_", dsSessionSurvey$redcap_event_name), dsSessionSurvey$redcap_event_name)
 dsSessionSurvey$redcap_event_name <- pad_session_number(dsSessionSurvey$redcap_event_name)
 rm(client1, client2)
-
-# sessions_clients_possible <- paste0("c", rep(possible_clients, each=length(possible_sessions)), "_session_", possible_sessions, "_arm_", 
-#                                     rep(possible_clients, each=length(possible_sessions)))
-# sessions_clients_possible <- pad_session_number(sessions_clients_possible)
-
 
 columns_plumbing <- c("therapist_id_rc", "client_sequence", "redcap_event_name") #, "email"
 
@@ -80,7 +79,7 @@ ds_eav$session_name <- strip_arm_from_event(ds_eav$redcap_event_name)
 
 
 # On row per client's item (over the sessions)
-ds_item_client <- reshape2::dcast(ds_eav, item + therapist_id_rc + client_sequence~ session_name, value.var="score")
+ds_item_client <- reshape2::dcast(ds_eav, item + therapist_id_rc + client_sequence ~ session_name, value.var="score")
 ds_item_client <- ds_item_client[order(ds_item_client$therapist_id_rc, ds_item_client$client_sequence), ]
 ds_item_client$branch_item <- as.integer(ds_item_client$item %in% branches)
 
@@ -97,6 +96,31 @@ ds_item_client <- ds_item_client[order(ds_item_client$therapist_id_rc, ds_item_c
 # "email", "contact_info_complete", 
 # "date_upload_to_sql", "session_ym")
 
+#################################
+## Fill in the email addresses
+ds_email <- dsSessionSurvey %>%
+  group_by(therapist_id_rc) %>%
+  dplyr::summarize(
+    email = email[1]
+    # e = modeest::mlv(email[!is.na(email)], method = "discrete")
+  )
+testit::assert("All email addresses should be nonmissing.", all(!is.na(ds_email$email)))
+# modeest::mlv(dsSessionSurvey$email[!is.na(dsSessionSurvey$email)], method = "discrete")
+
+ds_item_client <- dplyr::left_join(x=ds_item_client, y=ds_email, by="therapist_id_rc")
+ds_item_client <- plyr::rename(ds_item_client, replace=c("email"="therapist_email"))
+# ds_item_client$therapist_email_short <- 
+# gsub("^(.+)ds_item_client$therapist_email
+
+columns_initial <- c("description_short", "therapist_email", "therapist_id_rc", "client_sequence", "item", "description_long", "variable_index")
+columns_remaining <- setdiff(colnames(ds_item_client), columns_initial)
+dput(colnames(ds_item_client))
+# table(ds_item_client$email)
+ds_item_client <- ds_item_client[, c(columns_initial, columns_remaining)]
+
+#################################
+## Save to disk
 write.csv(ds_item_client, file="./DataPhiFree/Derived/ItemProgress.csv", row.names=F)
 
-#' Questions
+#################################
+## Questions

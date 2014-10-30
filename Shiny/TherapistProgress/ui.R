@@ -21,13 +21,18 @@ shinyUI(fluidPage(
       # Create a new Row in the UI for selectInputs
       fluidRow(
         column(width = 4, 
-          selectInput(inputId="item_progress_therapist_id_rc", label="Therapist Identifier in REDCap:", 
-            choices=c("All", unique(as.character(dsItemProgress$therapist_id_rc)))
+          selectInput(inputId="item_progress_therapist_email", label="Therapist Email:", 
+            choices=c("All", unique(as.character(dsItemProgress$therapist_email)))
           )
         ),
         column(width = 4, 
-          selectInput(inputId="item_progress_client_number", label="Therapist's Client Number:", 
+          selectInput(inputId="item_progress_client_number", label="Client Number within Therapist:", 
             choices=c("All", unique(as.character(dsItemProgress$client_sequence)))
+          )
+        ),
+        column(width = 4, 
+          selectInput(inputId="item_progress_therapist_id_rc", label="Therapist Identifier in REDCap:", 
+            choices=c("All", unique(as.character(dsItemProgress$therapist_id_rc)))
           )
         )        
       ), #End fluid row with the dropdown boxes
@@ -39,7 +44,7 @@ shinyUI(fluidPage(
     tabPanel(
       title = "Trauma Symptoms", 
       titlePanel("Trauma Symptoms"), 
-      "Elizabeth, tell me if there's an explanation you'd like placed here.",
+      "Tracking symptom severity over the life of the TF-CBT case. Trainers suggest, at a minimum, administering pre-treatment and post-treatment trauma measures.",
       plotOutput(outputId='trauma_symptoms', width='95%', height='400px')
     ), #End the (second) tab with the symptoms
     tabPanel(
@@ -53,7 +58,7 @@ shinyUI(fluidPage(
           )
         ),
         column(width = 4, 
-          selectInput(inputId="client_progress_client_number", label="Therapist's Client Number:", 
+          selectInput(inputId="client_progress_client_number", label="Client Number within Therapist:", 
             choices=c("All", unique(as.character(dsClientSummary$client_number)))
           )
         )        

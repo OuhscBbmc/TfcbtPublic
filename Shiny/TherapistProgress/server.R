@@ -16,6 +16,8 @@ shinyServer( function(input, output) {
     # Filter Client Progress data based on selections
     d <- dsItemProgress
     
+    if (input$item_progress_therapist_email != "All")
+      d <- d[d$therapist_email == input$item_progress_therapist_email,]
     if (input$item_progress_therapist_id_rc != "All")
       d <- d[d$therapist_id_rc == input$item_progress_therapist_id_rc,]
     if (input$item_progress_client_number != "All")
@@ -29,6 +31,7 @@ shinyServer( function(input, output) {
     
     d <- plyr::rename(d, replace=c(
       "description_short" = "Variable",
+      "therapist_email" = "Therapist Email",
       "therapist_id_rc" = "Therapist ID in REDCap",
       "client_sequence" = "Client Number",
       "branch_item" = "Branch Item"
@@ -39,6 +42,7 @@ shinyServer( function(input, output) {
     pageLength = length(unique(dsItemProgress$item)), #34,
     aoColumnDefs = list( #http://legacy.datatables.net/usage/columns
       list(sClass="semihide", aTargets=-1),
+      list(sClass="semihide", aTargets=1:2),
       # list(sClass="alignRight", aTargets=0),
       list(sClass="smallish", aTargets="_all")
     ),
@@ -101,8 +105,8 @@ shinyServer( function(input, output) {
     names(color_respondent_light) <- names(color_respondent_dark)
     
     ggplot(dLong, aes(x=session_date, y=score, color=respondent, fill=respondent, shape=respondent)) +
-      geom_point(size=10) +
-      geom_line() +
+      geom_point(size=10, na.rm=T) +
+      geom_line(na.rm=T) +
       scale_color_manual(values=color_respondent_dark) +
       scale_fill_manual(values=color_respondent_light) +
       scale_shape_manual(values=shape_respondent_dark) +  

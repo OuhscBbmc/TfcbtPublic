@@ -5,7 +5,7 @@
 "psycho_education_symptoms","symptoms",NA,4
 "psycho_education_components","components",NA,5
 "psycho_education_engaged_family","engaged family",NA,6
-"parenting_skills","parenting skills",NA,7
+"parenting_skills","parenting_skills",NA,7
 "relaxation","relaxation",NA,8
 "relaxation_trauma_help","trauma help",NA,9
 "assist","assist",NA,10
@@ -14,10 +14,10 @@
 "assist_rate_emotions","rate emotions",NA,13
 "assist_manage_emotions","manage emotions",NA,14
 "assist_cope_feelings","cope feelings",NA,15
-"cognitive_coping","cognitive coping",NA,16
+"cognitive_coping","cognitive_coping",NA,16
 "cognitive_coping_educate","educate",NA,17
 "cognitive_coping_alternative","alternative",NA,18
-"trauma_narrative","trauma narrative",NA,19
+"trauma_narrative","trauma_narrative",NA,19
 "trauma_narrative_rationale","rationale",NA,20
 "trauma_narrative_details","details",NA,21
 "trauma_narrative_reread","reread",NA,22
@@ -27,9 +27,9 @@
 "trauma_narrative_meaning","meaning",NA,26
 "trauma_narrative_read_draft","read draft",NA,27
 "invivo_desensitization","invivo desensitization",NA,28
-"child_parent","child parent",NA,29
+"child_parent","child_parent",NA,29
 "child_parent_prepare","prepare",NA,30
 "child_parent_joint_session","joint session",NA,31
-"address_safety","address safety",NA,32
+"address_safety","address_safety",NA,32
 "address_safety_teach_skills","teach skills",NA,33
 "address_safety_social_skills","social skills",NA,34
