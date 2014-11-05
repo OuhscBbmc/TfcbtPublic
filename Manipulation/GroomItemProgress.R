@@ -26,8 +26,6 @@ ds_item_label <- read.csv("./DataPhiFree/Raw/ItemLabel.csv", stringsAsFactors=FA
 
 dsSessionSurvey$email <- tolower(dsSessionSurvey$email)
 
-
-
 # Extract client sequence
 client1 <- grepl(pattern="^session",  dsSessionSurvey$redcap_event_name)
 client2 <- grepl(pattern="^c2_session",  dsSessionSurvey$redcap_event_name)
@@ -69,7 +67,7 @@ columns_components_spaces <- gsub("_", " ", columns_components)
 ds_eav <- reshape2::melt(dsSessionSurvey, id.vars=columns_plumbing, measure.vars=columns_components,
                           variable.name="item", value.name="score", factorsAsStrings=FALSE)
 ds_eav$score <- as.logical(ifelse(is.na(ds_eav$score) | (ds_eav$score==2L), 0L, ds_eav$score))
-ds_eav$score <- ifelse(ds_eav$score, "YES", "n")
+ds_eav$score <- ifelse(ds_eav$score, "YES&ensp;", "&ensp;n&ensp;&ensp;")
 ds_eav$item <- factor(ds_eav$item, levels=columns_components)
 
 

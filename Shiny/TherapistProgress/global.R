@@ -18,9 +18,6 @@ library(magrittr)
 pathSessionSurvey <- "../.././DataPhiFree/Raw/SessionSurvey.csv"
 pathItemProgress <- "../.././DataPhiFree/Derived/ItemProgress.csv"
 
-# paletteDark <- RColorBrewer::brewer.pal(n=3, name="Dark2")[c(1,3,2)]
-# paletteLight <- adjustcolor(paletteDark, alpha.f=.5)
-
 #####################################
 #' LoadData
 dsSessionSurvey <- read.csv(pathSessionSurvey, stringsAsFactors=FALSE)

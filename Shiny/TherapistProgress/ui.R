@@ -8,8 +8,10 @@ library(ggplot2)
 shinyUI(fluidPage(
   shiny::tags$head(
     includeCSS("./www/styles.css"), # Include our custom CSS
+    #;font-family:courier
     tags$style("
-      .table .smallish {font-size: 80%;padding: 0px;}
+      .table .session {font-size: 80%;padding: 0px; text-align:center}
+      .table .smallish {font-size: 80%;padding: 0px; }
       .table .alignRight {text-align: right;font-size: 80%;padding: 0px;}
       .table .semihide {color: #cccccc;font-size: 50%;padding: 0px;}
     ") #Right align the columns of this class (in the DataTables). http://stackoverflow.com/questions/22884224/how-to-right-align-columns-of-datatable-in-r-shiny
@@ -17,8 +19,8 @@ shinyUI(fluidPage(
   tabsetPanel( type = "tabs",
     tabPanel(
       title = "Item Progress", 
-      HTML("<font color='green'><em>{Elizabeth, is there some explanatory text you'd like here?}</em></font>"),
-      titlePanel("Item Progress"),    
+      # HTML("<font color='green'><em>{Elizabeth, is there some explanatory text you'd like here?}</em></font>"),
+      # titlePanel("Item Progress"),    
       # Create a new Row in the UI for selectInputs
       fluidRow(
         column(width = 9, 
@@ -28,8 +30,9 @@ shinyUI(fluidPage(
           )
         ),
         column(width = 3, 
-          selectInput(inputId="item_progress_client_number", label="Client Number within Therapist:", width="100%", 
-            choices=c("All", unique(as.character(dsItemProgress$client_sequence)))
+          selectInput(inputId="item_progress_client_number", label="Client within Therapist:", width="100%", 
+                      choices=unique(as.character(dsItemProgress$client_sequence))
+            #choices=c("All", unique(as.character(dsItemProgress$client_sequence)))
           )
         )#,
         # column(width = 3, 

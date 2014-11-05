@@ -25,16 +25,19 @@ shinyServer( function(input, output) {
     
     colnames(d) <- gsub("^session_(\\d{2})$", "\\1", colnames(d)) #This strips out the "session_" prefix.
     
+    d$client_sequence <- NULL
     d$item <- NULL
-    d$description_long <- NULL
+    d$description_short <- NULL
+    # d$description_long <- NULL
     d$variable_index <- NULL
     d$therapist_email <- NULL
     
     d <- plyr::rename(d, replace=c(
-      "description_short" = "Variable",
+      # "description_short" = "Variable",
+      "description_long" = "Description",
       # "therapist_email" = "Therapist Email",
       "therapist_id_rc" = "Therapist ID in REDCap",
-      "client_sequence" = "Client Number",
+      # "client_sequence" = "Client Number",
       "branch_item" = "Branch Item"
     ))
     return( as.data.frame(d) )
@@ -46,6 +49,7 @@ shinyServer( function(input, output) {
     aoColumnDefs = list( #http://legacy.datatables.net/usage/columns
       list(sClass="semihide", aTargets=-2:-1),
       # list(sClass="alignRight", aTargets=0),
+      # list(sClass="session", aTargets=1:length(unique(dsItemProgress$item))),
       list(sClass="smallish", aTargets="_all")
     ),
 
@@ -53,13 +57,13 @@ shinyServer( function(input, output) {
     searching = FALSE,
     paging=FALSE,
     sort=FALSE,
+    # $("td:eq(0)", nRow).css("font-weight", "bold");
+    # $("td:eq(0)", nRow).css("font-size", "large");
     rowCallback = I('
       function(nRow, aData) {
       // Emphasize rows where the `branch_item` column equals to 1
         if (aData[aData.length-1] == "1") {
-          $("td:eq(0)", nRow).css("font-weight", "bold");
           $("td", nRow).css("background-color", "#aaaaaa");
-          $("td:eq(0)", nRow).css("font-size", "large");
         }
       }')
     )
