@@ -18,7 +18,7 @@ shinyUI(fluidPage(
   ),#tags$head  
   tabsetPanel( type = "tabs",
     tabPanel(
-      title = "Item Progress", 
+      title = "TF-CBT Session Tracking", 
       # HTML("<font color='green'><em>{Elizabeth, is there some explanatory text you'd like here?}</em></font>"),
       # titlePanel("Item Progress"),    
       # Create a new Row in the UI for selectInputs
@@ -47,9 +47,9 @@ shinyUI(fluidPage(
       ) #End fluid row with the Group Call table
     ), #End the (first) tab with the Group Call table
     tabPanel(
-      title = "Trauma Symptoms", 
-      HTML("<font color='green'><em>{We need to discuss this graph: https://github.com/OuhscBbmc/Tfcbt/issues/10}</em></font>"),
-      titlePanel("Trauma Symptoms"), 
+      title = "Trauma Symptom Tracking", 
+      # HTML("<font color='green'><em>{We need to discuss this graph: https://github.com/OuhscBbmc/Tfcbt/issues/10}</em></font>"),
+      # titlePanel("Trauma Symptoms"), 
       "Tracking symptom severity over the life of the TF-CBT case. Trainers suggest, at a minimum, administering pre-treatment and post-treatment trauma measures.",
       plotOutput(outputId='trauma_symptoms', width='95%', height='400px')
     ), #End the (second) tab with the symptoms
