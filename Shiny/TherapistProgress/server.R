@@ -16,8 +16,10 @@ shinyServer( function(input, output) {
     # Filter Client Progress data based on selections
     d <- dsItemProgress
     
-    if (input$item_progress_therapist_email != "All")
-      d <- d[d$therapist_email == input$item_progress_therapist_email,]
+    if (input$item_progress_therapist_tag != "All")
+      d <- d[d$therapist_tag == input$item_progress_therapist_tag,]
+    # if (input$item_progress_therapist_email != "All")
+    #   d <- d[d$therapist_email == input$item_progress_therapist_email,]
     if (input$item_progress_client_number != "All")
       d <- d[d$client_sequence == input$item_progress_client_number,]
     # if (input$item_progress_therapist_id_rc != "All")
@@ -25,14 +27,15 @@ shinyServer( function(input, output) {
     
     colnames(d) <- gsub("^session_(\\d{2})$", "\\1", colnames(d)) #This strips out the "session_" prefix.
     
+    d$therapist_tag <- NULL
     d$client_sequence <- NULL
     d$item <- NULL
     d$description_short <- NULL
     d$description_long <- NULL
     d$variable_index <- NULL
     d$therapist_email <- NULL
-    d$therapist_id_rc <- NULL
-    #d$branch_item <- NULL
+    # d$therapist_id_rc <- NULL
+    # d$branch_item <- NULL
     
     d <- plyr::rename(d, replace=c(
       # "description_short" = "Variable",

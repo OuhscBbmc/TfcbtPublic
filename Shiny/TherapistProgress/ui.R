@@ -23,16 +23,20 @@ shinyUI(fluidPage(
       # titlePanel("Item Progress"),    
       # Create a new Row in the UI for selectInputs
       fluidRow(
+
         column(width = 9, 
-          selectInput(inputId="item_progress_therapist_email", label="Therapist Email:", width="100%",
-            choices=c("--Select a Therapist--", sort(unique(as.character(dsItemProgress$therapist_email))))
-            # elizabeth-risch@ouhsc.edu
+          selectInput(inputId="item_progress_therapist_tag", label="Therapist Tag:", width="100%",
+            choices=c("--Select a Therapist--", sort(unique(as.character(dsItemProgress$therapist_tag))))
           )
         ),
+        # column(width = 9, 
+        #   selectInput(inputId="item_progress_therapist_email", label="Therapist Email:", width="100%",
+        #     choices=c("--Select a Therapist--", sort(unique(as.character(dsItemProgress$therapist_email))))
+        #   )
+        # ),
         column(width = 3, 
           selectInput(inputId="item_progress_client_number", label="Client within Therapist:", width="100%", 
                       choices=unique(as.character(dsItemProgress$client_sequence))
-            #choices=c("All", unique(as.character(dsItemProgress$client_sequence)))
           )
         )#,
         # column(width = 3, 
