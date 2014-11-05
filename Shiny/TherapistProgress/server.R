@@ -47,7 +47,7 @@ shinyServer( function(input, output) {
   options = list(
     # lengthMenu = list(c(length(unique(dsItemProgress$item)), -1), c(length(unique(dsItemProgress$item)), 'All')),
     # pageLength = length(unique(dsItemProgress$item)), #34,
-    language = list(emptyTable="--<em>Please select a therapist above to population this table.</em>--"),
+    language = list(emptyTable="--<em>Please select a therapist above to populate this table.</em>--"),
     aoColumnDefs = list( #http://legacy.datatables.net/usage/columns
       list(sClass="semihide", aTargets=-1),
       # list(sClass="alignRight", aTargets=0),
