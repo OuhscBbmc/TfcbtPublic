@@ -4,7 +4,7 @@
 ############################
 #+ LoadSources
 # getwd()
-source("../.././Manipulation/GroomClientSummary.R") #Load the `GroomClientSummary()` function
+# source("../.././Manipulation/GroomClientSummary.R") #Load the `GroomClientSummary()` function
 # source("../.././Manipulation/GroomItemProgress.R") #Load the `GroomClientProgress()` function
 # # getwd()
 #####################################
@@ -15,18 +15,18 @@ library(magrittr)
 #' DeclareGlobals
 
 # pathSessionSurvey <- "./DataPhiFree/Raw/SessionSurvey.csv" #This is for testing when the working directory isn't changed by Shiny
-pathSessionSurvey <- "../.././DataPhiFree/Raw/SessionSurvey.csv"
-pathItemProgress <- "../.././DataPhiFree/Derived/ItemProgress.csv"
+# pathSessionSurvey <- "../.././DataPhiFree/Raw/SessionSurvey.csv"
+pathItemProgress <- "../.././DataPhiFree/Raw/ItemProgress.csv"
 
 #####################################
 #' LoadData
-dsSessionSurvey <- read.csv(pathSessionSurvey, stringsAsFactors=FALSE)
-dsClientSummary <- GroomClientSummary(pathSessionSurvey=pathSessionSurvey)
+# dsSessionSurvey <- read.csv(pathSessionSurvey, stringsAsFactors=FALSE)
+# dsClientSummary <- GroomClientSummary(pathSessionSurvey=pathSessionSurvey)
 dsItemProgress <- read.csv(pathItemProgress, stringsAsFactors=FALSE) #GroomItemProgress(pathSessionSurvey=pathSessionSurvey)
 
 #####################################
 #' TweakData
-dsSessionSurvey$session_date <- as.Date(dsSessionSurvey$session_date)
+# dsSessionSurvey$session_date <- as.Date(dsSessionSurvey$session_date)
 # dsSessionSurvey <- plyr::rename(dsSessionSurvey, replace=c(
 #   "caregiver_score" = "trauma_score_caregiver",
 #   "child_score" = "trauma_score_child"
