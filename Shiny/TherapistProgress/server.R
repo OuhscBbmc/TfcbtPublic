@@ -28,7 +28,7 @@ shinyServer( function(input, output) {
     d$client_sequence <- NULL
     d$item <- NULL
     d$description_short <- NULL
-    # d$description_long <- NULL
+    d$description_long <- NULL
     d$variable_index <- NULL
     d$therapist_email <- NULL
     d$therapist_id_rc <- NULL
@@ -36,7 +36,7 @@ shinyServer( function(input, output) {
     
     d <- plyr::rename(d, replace=c(
       # "description_short" = "Variable",
-      "description_long" = "TF-CBT PRACTICE Component",
+      "description_html" = "TF-CBT PRACTICE Component",
       # "therapist_email" = "Therapist Email",
       # "therapist_id_rc" = "TID",
       # "client_sequence" = "Client Number",
