@@ -32,15 +32,15 @@ shinyServer( function(input, output) {
     d$variable_index <- NULL
     d$therapist_email <- NULL
     d$therapist_id_rc <- NULL
-    d$branch_item <- NULL
+    #d$branch_item <- NULL
     
     d <- plyr::rename(d, replace=c(
       # "description_short" = "Variable",
-      "description_long" = "TF-CBT PRACTICE Component"#,
+      "description_long" = "TF-CBT PRACTICE Component",
       # "therapist_email" = "Therapist Email",
       # "therapist_id_rc" = "TID",
       # "client_sequence" = "Client Number",
-      # "branch_item" = "B"
+      "branch_item" = "B"
     ))
     return( as.data.frame(d) )
   },
@@ -49,7 +49,7 @@ shinyServer( function(input, output) {
     # pageLength = length(unique(dsItemProgress$item)), #34,
     language = list(emptyTable="--<em>Please select a therapist above to population this table.</em>--"),
     aoColumnDefs = list( #http://legacy.datatables.net/usage/columns
-      # list(sClass="semihide", aTargets=-2:-1),
+      list(sClass="semihide", aTargets=-1),
       # list(sClass="alignRight", aTargets=0),
       # list(sClass="session", aTargets=1:length(unique(dsItemProgress$item))),
       list(sClass="smallish", aTargets="_all")
