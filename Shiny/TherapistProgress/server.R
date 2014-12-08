@@ -12,6 +12,9 @@ shinyServer( function(input, output) {
   #######################################
   ### Call source files that contain semi-encapsulated functions.
   
+  #######################################
+  ### Create the DataTables objects (a jQuery library): http://www.datatables.net/
+
   output$ItemProgressTable <- renderDataTable({
     # Filter Client Progress data based on selections
     d <- dsItemProgress
