@@ -2,9 +2,6 @@ library(shiny)
 library(ggplot2)
 library(grid)
 
-pathItemProgress <- "../.././DataPhiFree/Raw/ItemProgress.csv"
-dsItemProgress <- read.csv(pathItemProgress, stringsAsFactors=FALSE) #GroomItemProgress(pathSessionSurvey=pathSessionSurvey)
-
 # Define a server for the Shiny app
 shinyServer( function(input, output) {
   

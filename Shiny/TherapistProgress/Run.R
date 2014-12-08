@@ -1,6 +1,8 @@
 rm(list=ls(all=TRUE)) #Clear the memory of variables from previous run. This is not called by knitr, because it's above the first chunk.
 
 library(shiny)
+# devtools::install_github("rstudio/shinyapps")
+
 # server <- (Sys.info()["nodename"] == "Lucky1304")
 # server <- FALSE
 shiny::runApp('./Shiny/TherapistProgress', launch.browser=TRUE, port=6149)
