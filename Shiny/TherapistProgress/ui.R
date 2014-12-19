@@ -37,7 +37,7 @@ shinyUI(fluidPage(
         # ),
         column(width = 3, 
           selectInput(inputId="item_progress_client_number", label="Client within Therapist:", width="100%", 
-                      choices=unique(as.character(dsItemProgress$client_sequence))
+                      choices=sort(unique(as.character(dsItemProgress$client_sequence)))
           )
         )#,
         # column(width = 3, 
@@ -55,8 +55,8 @@ shinyUI(fluidPage(
       title = "Trauma Symptom Tracking", 
       # HTML("<font color='green'><em>{We need to discuss this graph: https://github.com/OuhscBbmc/Tfcbt/issues/10}</em></font>"),
       # titlePanel("Trauma Symptoms"), 
-      "Tracking symptom severity over the life of the TF-CBT case. Trainers suggest, at a minimum, administering pre-treatment and post-treatment trauma measures."#,
-#       plotOutput(outputId='trauma_symptoms', width='95%', height='400px')
+      "Tracking symptom severity over the life of the TF-CBT case. Trainers suggest, at a minimum, administering pre-treatment and post-treatment trauma measures.",
+      plotOutput(outputId='trauma_symptoms', width='95%', height='400px')
     )#, #End the (second) tab with the symptoms
     # tabPanel(
     #   title = "Client Progress", 

@@ -15,7 +15,7 @@
 #' DeclareGlobals
 
 # pathSessionSurvey <- "./DataPhiFree/Raw/SessionSurvey.csv" #This is for testing when the working directory isn't changed by Shiny
-# pathSessionSurvey <- "../.././DataPhiFree/Raw/SessionSurvey.csv"
+pathSessionSurvey <- "./DataPhiFree/SessionSurvey.csv"
 # pathItemProgress <- "../.././DataPhiFree/Raw/ItemProgress.csv"
 pathItemProgress <- "./DataPhiFree/ItemProgress.csv"
 
