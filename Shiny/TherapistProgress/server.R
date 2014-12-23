@@ -24,16 +24,20 @@ shinyServer( function(input, output) {
       d <- d[d$therapist_tag == input$therapist_tag, ]
       d_session_long <- d_session_long[d_session_long$therapist_tag == input$therapist_tag, ]
     }
-    if( input$client_number > 0 ) {
-      d <- d[d$client_number == input$client_number, ]
-      d_session_long <- d_session_long[d_session_long$client_number == input$client_number, ]
-    }
+#     if( input$client_number > 0 ) {
+#       d <- d[d$client_number == input$client_number, ]
+#       d_session_long <- d_session_long[d_session_long$client_number == input$client_number, ]
+#     }
+#     if( input$agency_name > 0 ) {
+#       d <- d[d$agency_name == input$agency_name, ]
+#       d_session_long <- d_session_long[d_session_long$agency_name == input$agency_name, ]
+#     }
     
     # d$session_01 <- ifelse(d$session_01=="YES&ensp;", '<i class="fa fa-circle-thin"></i><i class="fa fa-check-circle"></i>', '<i class="fa fa-circle-thin"></i><i class="fa fa-circle-thin"></i>')
     for( session_item in sort(grep("^session_(\\d{2})$", colnames(d), value=T, perl=T)) ) {
       # d[, session_item] <- ifelse(d[, session_item]=="YES&ensp;", '&ensp;<i class="fa fa-check-circle"></i>&ensp;', '&ensp;')
       # d[, session_item] <- ifelse(d[, session_item]=="YES&ensp;", '&ensp;<i class="fa fa-check-circle"></i>', '&ensp;<i class="fa fa-fw"></i>')
-      d[, session_item] <- ifelse(d[, session_item]=="YES&ensp;", '&ensp;<i class="fa fa-check-circle"></i>', '&ensp;<i class="fa fa-circle-o semihide"  ></i>') #style="color:#dddddd"
+      d[, session_item] <- ifelse(d[, session_item], '&ensp;<i class="fa fa-check-circle"></i>', '&ensp;<i class="fa fa-circle-o semihide"  ></i>') #style="color:#dddddd"
       
       if( all(is.na(d[, session_item])) )
         d[, session_item] <- NULL

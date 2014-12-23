@@ -21,6 +21,18 @@ shinyUI(fluidPage(
   h1("TF-CBT"),
   fluidRow(
     column(width = 9, 
+      selectInput(inputId="agency_name", label="Agency Name:", width="100%", 
+        choices=c("--Select an Agency--", sort(unique(as.character(dsItemProgress$agency_name))))
+      )
+    ),
+    column(width = 3, 
+      selectInput(inputId="call_group_code", label="Call Group Code:", width="100%", 
+                  choices=sort(unique(as.character(dsItemProgress$call_group_code)))
+      )
+    )      
+  ), #End fluid row with the agency & call group dropdown boxes
+    fluidRow(
+    column(width = 9, 
       selectInput(inputId="therapist_tag", label="Therapist Tag:", width="100%", selected = "kobl",
         choices=c("--Select a Therapist--", sort(unique(as.character(dsItemProgress$therapist_tag))))
       )
@@ -30,7 +42,7 @@ shinyUI(fluidPage(
                   choices=sort(unique(as.character(dsItemProgress$client_number)))
       )
     )      
-  ), #End fluid row with the dropdown boxes
+  ), #End fluid row with the tag & client_number dropdown boxes
   tabsetPanel( type = "tabs",
     tabPanel(
       title = "TF-CBT Session Tracking", 
