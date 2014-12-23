@@ -12,7 +12,7 @@ shinyUI(fluidPage(
     #;font-family:courier
     tags$style("
       .table .session {font-size: 80%;padding: 0px; text-align:center}
-      .table .smallish {font-size: 80%;padding: 0px; }
+      .table .smallish {font-size: 100%;padding: 0px; }
       .table .alignRight {text-align: right;font-size: 80%;padding: 0px;}
       .table .semihide {color: #cccccc;font-size: 50%;padding: 0px;}
     ") #Right align the columns of this class (in the DataTables). http://stackoverflow.com/questions/22884224/how-to-right-align-columns-of-datatable-in-r-shiny
@@ -39,7 +39,8 @@ shinyUI(fluidPage(
       # Create a new row for the table.
       fluidRow(
         dataTableOutput(outputId = "ItemProgressTable")
-      ) #End fluid row with the Group Call table
+      ), #End fluid row with the Group Call table
+      shiny::icon("code") #This is a little cheat to get the table icons work
     ), #End the (first) tab with the Group Call table
     tabPanel(
       title = "Trauma Symptom Tracking", 

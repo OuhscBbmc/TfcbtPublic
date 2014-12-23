@@ -19,11 +19,20 @@ shinyServer( function(input, output) {
     # Filter Client Progress data based on selections
     d <- dsItemProgress
     
-    if( input$therapist_tag != "--Select a Therapist--" )
+    if( input$therapist_tag != "response not possible" )
       d <- d[d$therapist_tag == input$therapist_tag, ]
     if( input$client_number > 0 )
       d <- d[d$client_number == input$client_number, ]
     
+    # d$session_01 <- ifelse(d$session_01=="YES&ensp;", '<i class="fa fa-circle-thin"></i><i class="fa fa-check-circle"></i>', '<i class="fa fa-circle-thin"></i><i class="fa fa-circle-thin"></i>')
+    for( session_item in sort(grep("^session_(\\d{2})$", colnames(d), value=T, perl=T)) ) {
+      # d[, session_item] <- ifelse(d[, session_item]=="YES&ensp;", '&ensp;<i class="fa fa-check-circle"></i>&ensp;', '&ensp;')
+      d[, session_item] <- ifelse(d[, session_item]=="YES&ensp;", '&ensp;<i class="fa fa-check-circle"></i>', '&ensp;<i class="fa fa-fw"></i>')
+      
+      if( all(is.na(d[, session_item])) )
+        d[, session_item] <- NULL
+    }    
+        
     colnames(d) <- gsub("^session_(\\d{2})$", "\\1", colnames(d)) #This strips out the "session_" prefix.
     
     d$therapist_tag <- NULL

@@ -15,5 +15,4 @@ shinyapps::deployApp(account="wibeasley", appDir='./Shiny/TherapistProgress')
 # shinyapps::showLogs(account="wibeasley")
 # shinyapps::taskLog(taskId=17795, account="wibeasley")
 
-# shinyapps::terminateApp(account="melinae", appName="prediction-app-demo")
 # shinyapps::terminateApp(account="wibeasley", appName="prediction-app-demo")
