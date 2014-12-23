@@ -18,21 +18,38 @@ shinyServer( function(input, output) {
   output$ItemProgressTable <- renderDataTable({
     # Filter Client Progress data based on selections
     d <- dsItemProgress
+    d_session_long <- dsSessionSurvey
     
-    if( input$therapist_tag != "response not possible" )
+    if( input$therapist_tag != "response not possible" ) {
       d <- d[d$therapist_tag == input$therapist_tag, ]
-    if( input$client_number > 0 )
+      d_session_long <- d_session_long[d_session_long$therapist_tag == input$therapist_tag, ]
+    }
+    if( input$client_number > 0 ) {
       d <- d[d$client_number == input$client_number, ]
+      d_session_long <- d_session_long[d_session_long$client_number == input$client_number, ]
+    }
     
     # d$session_01 <- ifelse(d$session_01=="YES&ensp;", '<i class="fa fa-circle-thin"></i><i class="fa fa-check-circle"></i>', '<i class="fa fa-circle-thin"></i><i class="fa fa-circle-thin"></i>')
     for( session_item in sort(grep("^session_(\\d{2})$", colnames(d), value=T, perl=T)) ) {
       # d[, session_item] <- ifelse(d[, session_item]=="YES&ensp;", '&ensp;<i class="fa fa-check-circle"></i>&ensp;', '&ensp;')
-      d[, session_item] <- ifelse(d[, session_item]=="YES&ensp;", '&ensp;<i class="fa fa-check-circle"></i>', '&ensp;<i class="fa fa-fw"></i>')
+      # d[, session_item] <- ifelse(d[, session_item]=="YES&ensp;", '&ensp;<i class="fa fa-check-circle"></i>', '&ensp;<i class="fa fa-fw"></i>')
+      d[, session_item] <- ifelse(d[, session_item]=="YES&ensp;", '&ensp;<i class="fa fa-check-circle"></i>', '&ensp;<i class="fa fa-circle-o semihide"  ></i>') #style="color:#dddddd"
       
       if( all(is.na(d[, session_item])) )
         d[, session_item] <- NULL
     }    
-        
+            
+    d_session_long$session_date <- strftime(d_session_long$session_date, "%m<br/>%d") #"%y<br/>%m<br/>%d"
+    #d_session_wide <- reshape2::dcast(d_session_long, session_number ~ session_date)
+    d_date <- as.data.frame(t(d_session_long[, c("session_date"), drop=F]))
+    colnames(d_date) <- sprintf("session_%02i", d_session_long$session_number)
+    d_date$branch_item <- 0L
+    d_date$variable_index <- -1L
+    d_date$description_html <- "Session Month<br/>Session Day" #"Year<br/>Month<br/>Day"
+    
+    d <- plyr::rbind.fill(d, d_date)
+    d <- d[order(d$variable_index), ]
+    
     colnames(d) <- gsub("^session_(\\d{2})$", "\\1", colnames(d)) #This strips out the "session_" prefix.
     
     d$therapist_tag <- NULL
@@ -56,9 +73,9 @@ shinyServer( function(input, output) {
   options = list(
     # lengthMenu = list(c(length(unique(dsItemProgress$item)), -1), c(length(unique(dsItemProgress$item)), 'All')),
     # pageLength = length(unique(dsItemProgress$item)), #34,
-    language = list(emptyTable="--<em>Please select a therapist above to populate this table.</em>--"),
+    language = list(emptyTable="--<em>Please select a valid therapist-client combination above to populate this table.</em>--"),
     aoColumnDefs = list( #http://legacy.datatables.net/usage/columns
-      list(sClass="semihide", aTargets=-1),
+      list(sClass="quasihide", aTargets=-1),
       # list(sClass="alignRight", aTargets=0),
       # list(sClass="session", aTargets=1:length(unique(dsItemProgress$item))),
       list(sClass="smallish", aTargets="_all")

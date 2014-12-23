@@ -14,18 +14,19 @@ shinyUI(fluidPage(
       .table .session {font-size: 80%;padding: 0px; text-align:center}
       .table .smallish {font-size: 100%;padding: 0px; }
       .table .alignRight {text-align: right;font-size: 80%;padding: 0px;}
-      .table .semihide {color: #cccccc;font-size: 50%;padding: 0px;}
+      .table .semihide {color: #dddddd;padding: 0px;}
+      .table .quasihide {color: #cccccc;font-size: 10%;padding: 0px;}
     ") #Right align the columns of this class (in the DataTables). http://stackoverflow.com/questions/22884224/how-to-right-align-columns-of-datatable-in-r-shiny
   ),#tags$head  
   h1("TF-CBT"),
   fluidRow(
     column(width = 9, 
-      selectInput(inputId="therapist_tag", label="Therapist Tag:", width="100%",
+      selectInput(inputId="therapist_tag", label="Therapist Tag:", width="100%", selected = "kobl",
         choices=c("--Select a Therapist--", sort(unique(as.character(dsItemProgress$therapist_tag))))
       )
     ),
     column(width = 3, 
-      selectInput(inputId="client_number", label="Client within Therapist:", width="100%", 
+      selectInput(inputId="client_number", label="Client within Therapist:", width="100%", selected = 2,
                   choices=sort(unique(as.character(dsItemProgress$client_number)))
       )
     )      
