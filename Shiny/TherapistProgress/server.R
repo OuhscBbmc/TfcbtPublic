@@ -1,9 +1,10 @@
 library(shiny)
 library(ggplot2)
 library(grid)
+library(magrittr)
 
 # Define a server for the Shiny app
-shinyServer( function(input, output) {
+shinyServer( function(input, output, session) {
   
   #######################################
   ### Set any sesion-wide options
@@ -14,7 +15,48 @@ shinyServer( function(input, output) {
   
   #######################################
   ### Create the DataTables objects (a jQuery library): http://www.datatables.net/
-
+  
+  
+  observe({
+#     zipcodes <- if (is.null(input$states)) character(0) else {
+#       cleantable %.%
+#         filter(State %in% input$states,
+#           is.null(input$cities) | City %in% input$cities) %.%
+#         `$`('Zipcode') %.%
+#         unique() %.%
+#         sort()
+#     }
+    
+    call_group_codes <- if(is.null(input$agency_name)){
+      character(0) 
+    } else if( "--All--" %in% input$agency_name ){
+      dsItemProgress %>%
+        `$`('call_group_code') %>%
+        unique() %>%
+        sort()
+    } else { 
+      dsItemProgress %>%
+        dplyr::filter(agency_name %in% input$agency_name) %>%
+        `$`('call_group_code') %>%
+        unique() %>%
+        sort()
+    }
+    
+    #stillSelected <- isolate(input$call_group_code[input$call_group_code %in% call_group_codes])
+    stillSelected <- isolate(
+      ifelse(
+        length(call_group_codes)==0,
+        input$call_group_code,
+        input$call_group_code[input$call_group_code %in% call_group_codes]
+      )
+    )
+    
+    updateSelectInput(session, "call_group_code", choices =call_group_codes,
+      selected = stillSelected)
+    
+  })
+  
+  
   output$ItemProgressTable <- renderDataTable({
     # Filter Client Progress data based on selections
     d <- dsItemProgress

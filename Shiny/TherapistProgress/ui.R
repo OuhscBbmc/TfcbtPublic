@@ -21,17 +21,18 @@ shinyUI(fluidPage(
   h1("TF-CBT"),
   fluidRow(
     column(width = 9, 
-      selectInput(inputId="agency_name", label="Agency Name:", width="100%", 
-        choices=c("--Select an Agency--", sort(unique(as.character(dsItemProgress$agency_name))))
+      selectizeInput(inputId="agency_name", label="Agency Name:", width="100%", 
+        choices=c("--All--", sort(unique(as.character(dsItemProgress$agency_name)))),
+        multiple = TRUE
       )
     ),
     column(width = 3, 
       selectInput(inputId="call_group_code", label="Call Group Code:", width="100%", 
-                  choices=sort(unique(as.character(dsItemProgress$call_group_code)))
+                  choices=c("--All--", sort(unique(as.character(dsItemProgress$call_group_code))))
       )
     )      
   ), #End fluid row with the agency & call group dropdown boxes
-    fluidRow(
+  fluidRow(
     column(width = 9, 
       selectInput(inputId="therapist_tag", label="Therapist Tag:", width="100%", selected = "kobl",
         choices=c("--Select a Therapist--", sort(unique(as.character(dsItemProgress$therapist_tag))))

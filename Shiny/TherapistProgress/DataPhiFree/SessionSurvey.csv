@@ -1,197 +1,188 @@
-"therapist_tag","client_number","session_number","session_date","trauma_score_caregiver","trauma_score_child","call_group_code","agency_name"
-"kobl",1,1,NA,NA,NA,"--","-Agency Name Not Found-"
-"kobl",1,2,NA,NA,NA,"--","-Agency Name Not Found-"
-"kobl",1,3,NA,NA,NA,"--","-Agency Name Not Found-"
-"kobl",1,4,2014-08-28,NA,NA,"--","-Agency Name Not Found-"
-"kobl",1,5,2014-09-09,NA,NA,"--","-Agency Name Not Found-"
-"kobl",1,7,2014-09-16,NA,NA,"--","-Agency Name Not Found-"
-"kobl",1,8,2014-09-19,NA,NA,"--","-Agency Name Not Found-"
-"kobl",1,9,2014-09-23,NA,NA,"--","-Agency Name Not Found-"
-"kobl",1,10,2014-09-30,10,8,"--","-Agency Name Not Found-"
-"kobl",1,13,NA,NA,NA,"--","-Agency Name Not Found-"
-"kobl",2,1,2014-05-05,35,38,"--","-Agency Name Not Found-"
-"kobl",2,2,2014-05-12,NA,NA,"--","-Agency Name Not Found-"
-"kobl",2,3,2014-05-19,NA,NA,"--","-Agency Name Not Found-"
-"kobl",2,4,2014-05-26,NA,NA,"--","-Agency Name Not Found-"
-"kobl",2,5,2014-06-02,NA,NA,"--","-Agency Name Not Found-"
-"kobl",2,6,2014-06-09,32,30,"--","-Agency Name Not Found-"
-"kobl",2,7,2014-06-16,NA,NA,"--","-Agency Name Not Found-"
-"kobl",2,8,2014-06-23,NA,NA,"--","-Agency Name Not Found-"
-"kobl",2,9,2014-06-30,NA,NA,"--","-Agency Name Not Found-"
-"kobl",2,10,2014-07-07,NA,NA,"--","-Agency Name Not Found-"
-"kobl",2,11,2014-07-14,NA,NA,"--","-Agency Name Not Found-"
-"kobl",2,12,2014-07-21,12,8,"--","-Agency Name Not Found-"
-"x0qi",1,1,2014-06-17,NA,NA,"--","-Agency Name Not Found-"
-"x0qi",1,2,2014-07-01,NA,NA,"--","-Agency Name Not Found-"
-"x0qi",1,3,2014-07-08,NA,NA,"--","-Agency Name Not Found-"
-"x0qi",1,4,2014-07-15,NA,NA,"--","-Agency Name Not Found-"
-"x0qi",1,5,2014-07-22,NA,NA,"--","-Agency Name Not Found-"
-"x0qi",1,6,2014-08-05,NA,NA,"--","-Agency Name Not Found-"
-"x0qi",1,7,2014-08-08,NA,NA,"--","-Agency Name Not Found-"
-"x0qi",1,8,2014-08-12,NA,NA,"--","-Agency Name Not Found-"
-"x0qi",1,9,2014-08-25,NA,NA,"--","-Agency Name Not Found-"
-"x0qi",1,10,2014-09-02,NA,NA,"--","-Agency Name Not Found-"
-"pd7n",1,1,NA,NA,NA,"--","-Agency Name Not Found-"
-"pd7n",1,2,2014-11-07,NA,NA,"--","-Agency Name Not Found-"
-"87cl",1,1,2014-05-29,NA,NA,"--","-Agency Name Not Found-"
-"87cl",1,2,2014-06-05,NA,NA,"--","-Agency Name Not Found-"
-"87cl",1,3,2014-08-21,NA,NA,"--","-Agency Name Not Found-"
-"87cl",1,4,2014-08-28,NA,NA,"--","-Agency Name Not Found-"
-"87cl",1,5,2014-09-04,NA,NA,"--","-Agency Name Not Found-"
-"87cl",1,6,2014-09-11,NA,NA,"--","-Agency Name Not Found-"
-"m8w6",1,1,2014-08-21,NA,NA,"--","-Agency Name Not Found-"
-"m8w6",1,2,2014-09-18,NA,NA,"--","-Agency Name Not Found-"
-"m8w6",1,3,2014-09-22,NA,NA,"--","-Agency Name Not Found-"
-"m8w6",1,4,2014-10-06,NA,NA,"--","-Agency Name Not Found-"
-"m8w6",1,5,2014-10-16,NA,NA,"--","-Agency Name Not Found-"
-"wnaf",1,1,NA,NA,NA,"--","-Agency Name Not Found-"
-"wnaf",1,6,2014-12-04,NA,NA,"--","-Agency Name Not Found-"
-"wnaf",1,8,2014-10-16,NA,NA,"--","-Agency Name Not Found-"
-"wnaf",1,9,2014-11-06,NA,NA,"--","-Agency Name Not Found-"
-"wnaf",1,11,2014-11-21,NA,NA,"--","-Agency Name Not Found-"
-"wnaf",1,14,2014-12-10,NA,NA,"--","-Agency Name Not Found-"
-"as5q",1,1,2014-08-18,15,7,"--","-Agency Name Not Found-"
-"as5q",1,3,2014-09-11,NA,NA,"--","-Agency Name Not Found-"
-"as5q",1,4,2014-09-04,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,1,2014-04-14,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,2,2014-04-21,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,3,2014-04-28,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,4,2014-05-05,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,5,2014-05-19,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,6,2014-06-09,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,7,2014-06-23,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,8,2014-07-01,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,9,2014-07-10,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,10,2014-07-22,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,11,2014-08-01,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,12,2014-08-05,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,13,2014-08-18,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,14,2014-08-25,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,15,2014-09-08,NA,NA,"--","-Agency Name Not Found-"
-"pb8x",1,16,2014-09-15,NA,NA,"--","-Agency Name Not Found-"
-"test",1,1,NA,NA,NA,"--","-Agency Name Not Found-"
-"5t8r",1,1,NA,NA,NA,"--","-Agency Name Not Found-"
-"9aa1",1,1,2014-11-25,NA,NA,"AL","Grand Lake Mental Health Center, Inc."
-"9aa1",1,1,2014-11-25,NA,NA,"AJ","CREOKS"
-"9aa1",1,2,2014-11-19,NA,NA,"AL","Grand Lake Mental Health Center, Inc."
-"9aa1",1,2,2014-11-19,NA,NA,"AJ","CREOKS"
-"9aa1",1,3,2014-11-25,NA,NA,"AL","Grand Lake Mental Health Center, Inc."
-"9aa1",1,3,2014-11-25,NA,NA,"AJ","CREOKS"
-"9aa1",1,1,2014-11-11,NA,NA,"AL","Grand Lake Mental Health Center, Inc."
-"9aa1",1,1,2014-11-11,NA,NA,"AJ","CREOKS"
-"9aa1",1,2,2014-11-11,13,19,"AL","Grand Lake Mental Health Center, Inc."
-"9aa1",1,2,2014-11-11,13,19,"AJ","CREOKS"
-"9aa1",1,3,2014-11-20,NA,NA,"AL","Grand Lake Mental Health Center, Inc."
-"9aa1",1,3,2014-11-20,NA,NA,"AJ","CREOKS"
-"9aa1",1,4,2014-12-02,NA,NA,"AL","Grand Lake Mental Health Center, Inc."
-"9aa1",1,4,2014-12-02,NA,NA,"AJ","CREOKS"
-"9aa1",1,5,2014-12-09,NA,NA,"AL","Grand Lake Mental Health Center, Inc."
-"9aa1",1,5,2014-12-09,NA,NA,"AJ","CREOKS"
-"9aa1",1,6,2014-12-16,NA,NA,"AL","Grand Lake Mental Health Center, Inc."
-"9aa1",1,6,2014-12-16,NA,NA,"AJ","CREOKS"
-"5sjg",1,1,2014-11-13,NA,NA,"AJ","DVIS"
-"5sjg",1,3,2014-12-03,NA,NA,"AJ","DVIS"
-"5sjg",1,5,2014-12-10,NA,NA,"AJ","DVIS"
-"5sjg",1,6,2014-12-16,NA,NA,"AJ","DVIS"
-"5sjg",2,1,2014-12-10,NA,NA,"AJ","DVIS"
-"5sjg",2,2,2014-12-16,NA,NA,"AJ","DVIS"
-"cn7q",1,1,2014-11-17,52,39,"AK","Parkside Psychiatric Hospital Clinic"
-"cn7q",1,2,2014-11-19,NA,NA,"AK","Parkside Psychiatric Hospital Clinic"
-"cn7q",1,3,2014-11-26,NA,NA,"AK","Parkside Psychiatric Hospital Clinic"
-"1qhj",1,1,2014-11-17,NA,NA,"AK","Counseling and Recovery Services of OK"
-"1qhj",1,2,2014-12-08,NA,NA,"AK","Counseling and Recovery Services of OK"
-"1qhj",1,3,2014-12-01,NA,NA,"AK","Counseling and Recovery Services of OK"
-"s9i6",1,1,NA,NA,NA,"--","-Agency Name Not Found-"
-"s9i6",1,4,2014-12-04,NA,NA,"--","-Agency Name Not Found-"
-"s9i6",1,5,2014-12-11,NA,NA,"--","-Agency Name Not Found-"
-"s9i6",1,6,2014-12-18,NA,NA,"--","-Agency Name Not Found-"
-"bakn",1,1,2014-12-05,NA,NA,"AK","Touchstone Counseling Center"
-"bakn",1,2,2014-12-01,NA,NA,"AK","Touchstone Counseling Center"
-"pt9y",1,1,2014-11-18,NA,NA,"AJ","Grand Lake Mental Health Center, Inc."
-"pt9y",1,2,2014-11-20,NA,NA,"AJ","Grand Lake Mental Health Center, Inc."
-"pt9y",1,3,2014-11-26,NA,NA,"AJ","Grand Lake Mental Health Center, Inc."
-"pt9y",1,4,2014-12-08,41,23,"AJ","Grand Lake Mental Health Center, Inc."
-"paed",1,1,NA,NA,NA,"AL","NorthCare"
-"paed",1,2,2014-11-17,NA,NA,"AL","NorthCare"
-"paed",1,3,2014-12-04,NA,NA,"AL","NorthCare"
-"paed",1,5,2014-12-09,NA,NA,"AL","NorthCare"
-"paed",1,6,2014-12-15,NA,NA,"AL","NorthCare"
-"zaif",1,1,NA,NA,NA,"--","-Agency Name Not Found-"
-"zaif",1,2,NA,NA,NA,"--","-Agency Name Not Found-"
-"zaif",1,4,2012-05-14,NA,NA,"--","-Agency Name Not Found-"
-"zaif",2,1,2012-05-14,NA,NA,"--","-Agency Name Not Found-"
-"zaif",2,2,NA,NA,NA,"--","-Agency Name Not Found-"
-"zaif",2,3,NA,NA,NA,"--","-Agency Name Not Found-"
-"zaif",2,4,NA,NA,NA,"--","-Agency Name Not Found-"
-"zaif",2,5,NA,NA,NA,"--","-Agency Name Not Found-"
-"vqdq",1,1,NA,NA,NA,"AL","Grand Lake Mental Health Center, Inc."
-"vqdq",1,5,2014-12-10,NA,NA,"AL","Grand Lake Mental Health Center, Inc."
-"vqdq",1,6,2014-12-19,NA,37,"AL","Grand Lake Mental Health Center, Inc."
-"d6hs",1,1,2014-11-04,NA,NA,"AJ","F&CS Mental Health Care Inc"
-"d6hs",1,2,2014-11-18,NA,NA,"AJ","F&CS Mental Health Care Inc"
-"d6hs",1,3,2014-12-02,NA,NA,"AJ","F&CS Mental Health Care Inc"
-"d6hs",1,4,2014-12-09,NA,NA,"AJ","F&CS Mental Health Care Inc"
-"d6hs",1,5,2014-12-16,NA,NA,"AJ","F&CS Mental Health Care Inc"
-"tb5t",1,1,NA,NA,NA,"AL","Mental Health of  Southern Oklahoma"
-"tb5t",1,2,2014-11-13,NA,NA,"AL","Mental Health of  Southern Oklahoma"
-"d2nz",1,1,2014-11-10,NA,NA,"--","-Agency Name Not Found-"
-"vzno",1,1,NA,NA,NA,"AL","Mental Health of  Southern Oklahoma"
-"vzno",1,4,2014-12-03,13,27,"AL","Mental Health of  Southern Oklahoma"
-"85i6",1,1,2014-12-01,NA,NA,"AL","Red Rock"
-"zkff",1,1,2014-11-13,NA,NA,"AK","Children's Medical Center"
-"zkff",1,2,2014-11-20,41,29,"AK","Children's Medical Center"
-"zkff",1,4,2014-12-02,NA,NA,"AK","Children's Medical Center"
-"zkff",1,5,2014-12-11,NA,NA,"AK","Children's Medical Center"
-"6ust",1,1,NA,NA,NA,"AK","Metropolitan Pediatrics"
-"785o",1,1,2014-11-12,NA,NA,"AK","Holcomb Behavioral Health System"
-"785o",1,2,2014-11-26,NA,NA,"AK","Holcomb Behavioral Health System"
-"785o",1,3,2014-11-28,NA,NA,"AK","Holcomb Behavioral Health System"
-"785o",1,4,2014-12-05,NA,NA,"AK","Holcomb Behavioral Health System"
-"785o",1,5,2014-12-10,NA,NA,"AK","Holcomb Behavioral Health System"
-"6zmz",1,1,2014-11-17,NA,8,"AJ","F&CS Mental Health Care Inc"
-"6zmz",1,2,2014-11-25,NA,NA,"AJ","F&CS Mental Health Care Inc"
-"6zmz",1,4,NA,NA,NA,"AJ","F&CS Mental Health Care Inc"
-"6zmz",1,5,2014-12-19,NA,NA,"AJ","F&CS Mental Health Care Inc"
-"5251",1,1,NA,NA,NA,"--","-Agency Name Not Found-"
-"0cot",1,1,2014-11-17,NA,NA,"AK","Northwest Center for Behavior Health"
-"0cot",1,3,2014-12-05,NA,NA,"AK","Northwest Center for Behavior Health"
-"0cot",2,1,2014-11-14,NA,NA,"AK","Northwest Center for Behavior Health"
-"ojoz",1,1,NA,NA,NA,"AJ","Youth and Family Services of North Central OK (Enid)"
-"ojoz",1,2,2014-11-09,NA,NA,"AJ","Youth and Family Services of North Central OK (Enid)"
-"ojoz",1,3,2014-11-16,NA,NA,"AJ","Youth and Family Services of North Central OK (Enid)"
-"ojoz",1,4,2014-11-30,NA,NA,"AJ","Youth and Family Services of North Central OK (Enid)"
-"ojoz",1,5,2014-12-14,NA,NA,"AJ","Youth and Family Services of North Central OK (Enid)"
-"tun2",1,1,NA,NA,NA,"AL","CREOKS"
-"tun2",1,2,2014-12-03,NA,NA,"AL","CREOKS"
-"tun2",1,3,2014-11-11,NA,NA,"AL","CREOKS"
-"ob7u",1,1,2014-11-17,NA,NA,"AJ","Grand Lake Mental Health Center, Inc."
-"ob7u",1,2,2014-11-25,31,36,"AJ","Grand Lake Mental Health Center, Inc."
-"ob7u",1,3,2014-12-08,NA,NA,"AJ","Grand Lake Mental Health Center, Inc."
-"ob7u",1,4,2014-12-12,NA,NA,"AJ","Grand Lake Mental Health Center, Inc."
-"ob7u",1,5,2014-12-19,NA,NA,"AJ","Grand Lake Mental Health Center, Inc."
-"27vk",1,1,2014-11-18,NA,NA,"AK","Counseling and Recovery Services of OK"
-"27vk",1,2,2014-11-24,NA,NA,"AK","Counseling and Recovery Services of OK"
-"27vk",1,4,2014-12-02,NA,NA,"AK","Counseling and Recovery Services of OK"
-"27vk",1,5,2014-12-10,NA,NA,"AK","Counseling and Recovery Services of OK"
-"ovvy",1,1,NA,NA,NA,"AL","NorthCare"
-"bqrp",1,1,2014-11-20,NA,NA,"AJ","NorthCare"
-"bqrp",1,2,2014-12-02,NA,NA,"AJ","NorthCare"
-"bqrp",1,3,2014-12-03,0,6,"AJ","NorthCare"
-"yocg",1,1,NA,NA,NA,"AJ","NorthCare"
-"yk8a",1,1,NA,NA,NA,"AJ","NorthCare"
-"yk8a",1,2,2014-12-03,NA,NA,"AJ","NorthCare"
-"yk8a",1,3,2014-12-05,NA,NA,"AJ","NorthCare"
-"yk8a",1,4,2014-12-08,NA,NA,"AJ","NorthCare"
-"yk8a",1,5,2014-12-15,NA,NA,"AJ","NorthCare"
-"fg86",1,1,NA,NA,NA,"--","-Agency Name Not Found-"
-"wfv3",1,1,NA,NA,NA,"K","Red Rock"
-"wfv3",1,3,2014-12-01,NA,NA,"K","Red Rock"
-"goed",1,1,NA,NA,NA,"AL","Lutheran Family Services of Nebraska, Inc"
-"nkql",1,1,NA,NA,NA,"AL","Private Practice"
-"nkql",1,2,2014-12-10,NA,NA,"AL","Private Practice"
-"",1,1,2014-12-10,NA,NA,"--","-Agency Name Not Found-"
-"",2,1,2014-12-10,NA,NA,"--","-Agency Name Not Found-"
-"",2,2,2014-12-10,NA,NA,"--","-Agency Name Not Found-"
-"",2,1,2014-12-01,8,NA,"--","-Agency Name Not Found-"
-"",2,2,2014-12-10,NA,NA,"--","-Agency Name Not Found-"
-"",2,3,2014-12-17,NA,NA,"--","-Agency Name Not Found-"
+"therapist_tag","client_number","session_number","session_date","trauma_score_caregiver","trauma_score_child"
+"kobl",1,1,NA,NA,NA
+"kobl",1,2,NA,NA,NA
+"kobl",1,3,NA,NA,NA
+"kobl",1,4,2014-08-28,NA,NA
+"kobl",1,5,2014-09-09,NA,NA
+"kobl",1,7,2014-09-16,NA,NA
+"kobl",1,8,2014-09-19,NA,NA
+"kobl",1,9,2014-09-23,NA,NA
+"kobl",1,10,2014-09-30,10,8
+"kobl",1,13,NA,NA,NA
+"kobl",2,1,2014-05-05,35,38
+"kobl",2,2,2014-05-12,NA,NA
+"kobl",2,3,2014-05-19,NA,NA
+"kobl",2,4,2014-05-26,NA,NA
+"kobl",2,5,2014-06-02,NA,NA
+"kobl",2,6,2014-06-09,32,30
+"kobl",2,7,2014-06-16,NA,NA
+"kobl",2,8,2014-06-23,NA,NA
+"kobl",2,9,2014-06-30,NA,NA
+"kobl",2,10,2014-07-07,NA,NA
+"kobl",2,11,2014-07-14,NA,NA
+"kobl",2,12,2014-07-21,12,8
+"x0qi",1,1,2014-06-17,NA,NA
+"x0qi",1,2,2014-07-01,NA,NA
+"x0qi",1,3,2014-07-08,NA,NA
+"x0qi",1,4,2014-07-15,NA,NA
+"x0qi",1,5,2014-07-22,NA,NA
+"x0qi",1,6,2014-08-05,NA,NA
+"x0qi",1,7,2014-08-08,NA,NA
+"x0qi",1,8,2014-08-12,NA,NA
+"x0qi",1,9,2014-08-25,NA,NA
+"x0qi",1,10,2014-09-02,NA,NA
+"pd7n",1,1,NA,NA,NA
+"pd7n",1,2,2014-11-07,NA,NA
+"87cl",1,1,2014-05-29,NA,NA
+"87cl",1,2,2014-06-05,NA,NA
+"87cl",1,3,2014-08-21,NA,NA
+"87cl",1,4,2014-08-28,NA,NA
+"87cl",1,5,2014-09-04,NA,NA
+"87cl",1,6,2014-09-11,NA,NA
+"m8w6",1,1,2014-08-21,NA,NA
+"m8w6",1,2,2014-09-18,NA,NA
+"m8w6",1,3,2014-09-22,NA,NA
+"m8w6",1,4,2014-10-06,NA,NA
+"m8w6",1,5,2014-10-16,NA,NA
+"wnaf",1,1,NA,NA,NA
+"wnaf",1,6,2014-12-04,NA,NA
+"wnaf",1,8,2014-10-16,NA,NA
+"wnaf",1,9,2014-11-06,NA,NA
+"wnaf",1,11,2014-11-21,NA,NA
+"wnaf",1,14,2014-12-10,NA,NA
+"as5q",1,1,2014-08-18,15,7
+"as5q",1,3,2014-09-11,NA,NA
+"as5q",1,4,2014-09-04,NA,NA
+"pb8x",1,1,2014-04-14,NA,NA
+"pb8x",1,2,2014-04-21,NA,NA
+"pb8x",1,3,2014-04-28,NA,NA
+"pb8x",1,4,2014-05-05,NA,NA
+"pb8x",1,5,2014-05-19,NA,NA
+"pb8x",1,6,2014-06-09,NA,NA
+"pb8x",1,7,2014-06-23,NA,NA
+"pb8x",1,8,2014-07-01,NA,NA
+"pb8x",1,9,2014-07-10,NA,NA
+"pb8x",1,10,2014-07-22,NA,NA
+"pb8x",1,11,2014-08-01,NA,NA
+"pb8x",1,12,2014-08-05,NA,NA
+"pb8x",1,13,2014-08-18,NA,NA
+"pb8x",1,14,2014-08-25,NA,NA
+"pb8x",1,15,2014-09-08,NA,NA
+"pb8x",1,16,2014-09-15,NA,NA
+"test",1,1,NA,NA,NA
+"5t8r",1,1,NA,NA,NA
+"9aa1",1,1,2014-11-25,NA,NA
+"9aa1",1,2,2014-11-19,NA,NA
+"9aa1",1,3,2014-11-25,NA,NA
+"9aa1",1,1,2014-11-11,NA,NA
+"9aa1",1,2,2014-11-11,13,19
+"9aa1",1,3,2014-11-20,NA,NA
+"9aa1",1,4,2014-12-02,NA,NA
+"9aa1",1,5,2014-12-09,NA,NA
+"9aa1",1,6,2014-12-16,NA,NA
+"5sjg",1,1,2014-11-13,NA,NA
+"5sjg",1,3,2014-12-03,NA,NA
+"5sjg",1,5,2014-12-10,NA,NA
+"5sjg",1,6,2014-12-16,NA,NA
+"5sjg",2,1,2014-12-10,NA,NA
+"5sjg",2,2,2014-12-16,NA,NA
+"cn7q",1,1,2014-11-17,52,39
+"cn7q",1,2,2014-11-19,NA,NA
+"cn7q",1,3,2014-11-26,NA,NA
+"1qhj",1,1,2014-11-17,NA,NA
+"1qhj",1,2,2014-12-08,NA,NA
+"1qhj",1,3,2014-12-01,NA,NA
+"s9i6",1,1,NA,NA,NA
+"s9i6",1,4,2014-12-04,NA,NA
+"s9i6",1,5,2014-12-11,NA,NA
+"s9i6",1,6,2014-12-18,NA,NA
+"bakn",1,1,2014-12-05,NA,NA
+"bakn",1,2,2014-12-01,NA,NA
+"pt9y",1,1,2014-11-18,NA,NA
+"pt9y",1,2,2014-11-20,NA,NA
+"pt9y",1,3,2014-11-26,NA,NA
+"pt9y",1,4,2014-12-08,41,23
+"paed",1,1,NA,NA,NA
+"paed",1,2,2014-11-17,NA,NA
+"paed",1,3,2014-12-04,NA,NA
+"paed",1,5,2014-12-09,NA,NA
+"paed",1,6,2014-12-15,NA,NA
+"zaif",1,1,NA,NA,NA
+"zaif",1,2,NA,NA,NA
+"zaif",1,4,2012-05-14,NA,NA
+"zaif",2,1,2012-05-14,NA,NA
+"zaif",2,2,NA,NA,NA
+"zaif",2,3,NA,NA,NA
+"zaif",2,4,NA,NA,NA
+"zaif",2,5,NA,NA,NA
+"vqdq",1,1,NA,NA,NA
+"vqdq",1,5,2014-12-10,NA,NA
+"vqdq",1,6,2014-12-19,NA,37
+"d6hs",1,1,2014-11-04,NA,NA
+"d6hs",1,2,2014-11-18,NA,NA
+"d6hs",1,3,2014-12-02,NA,NA
+"d6hs",1,4,2014-12-09,NA,NA
+"d6hs",1,5,2014-12-16,NA,NA
+"tb5t",1,1,NA,NA,NA
+"tb5t",1,2,2014-11-13,NA,NA
+"d2nz",1,1,2014-11-10,NA,NA
+"vzno",1,1,NA,NA,NA
+"vzno",1,4,2014-12-03,13,27
+"85i6",1,1,2014-12-01,NA,NA
+"zkff",1,1,2014-11-13,NA,NA
+"zkff",1,2,2014-11-20,41,29
+"zkff",1,4,2014-12-02,NA,NA
+"zkff",1,5,2014-12-11,NA,NA
+"6ust",1,1,NA,NA,NA
+"785o",1,1,2014-11-12,NA,NA
+"785o",1,2,2014-11-26,NA,NA
+"785o",1,3,2014-11-28,NA,NA
+"785o",1,4,2014-12-05,NA,NA
+"785o",1,5,2014-12-10,NA,NA
+"6zmz",1,1,2014-11-17,NA,8
+"6zmz",1,2,2014-11-25,NA,NA
+"6zmz",1,4,NA,NA,NA
+"6zmz",1,5,2014-12-19,NA,NA
+"5251",1,1,NA,NA,NA
+"0cot",1,1,2014-11-17,NA,NA
+"0cot",1,3,2014-12-05,NA,NA
+"0cot",2,1,2014-11-14,NA,NA
+"ojoz",1,1,NA,NA,NA
+"ojoz",1,2,2014-11-09,NA,NA
+"ojoz",1,3,2014-11-16,NA,NA
+"ojoz",1,4,2014-11-30,NA,NA
+"ojoz",1,5,2014-12-14,NA,NA
+"tun2",1,1,NA,NA,NA
+"tun2",1,2,2014-12-03,NA,NA
+"tun2",1,3,2014-11-11,NA,NA
+"ob7u",1,1,2014-11-17,NA,NA
+"ob7u",1,2,2014-11-25,31,36
+"ob7u",1,3,2014-12-08,NA,NA
+"ob7u",1,4,2014-12-12,NA,NA
+"ob7u",1,5,2014-12-19,NA,NA
+"27vk",1,1,2014-11-18,NA,NA
+"27vk",1,2,2014-11-24,NA,NA
+"27vk",1,4,2014-12-02,NA,NA
+"27vk",1,5,2014-12-10,NA,NA
+"ovvy",1,1,NA,NA,NA
+"bqrp",1,1,2014-11-20,NA,NA
+"bqrp",1,2,2014-12-02,NA,NA
+"bqrp",1,3,2014-12-03,0,6
+"yocg",1,1,NA,NA,NA
+"yk8a",1,1,NA,NA,NA
+"yk8a",1,2,2014-12-03,NA,NA
+"yk8a",1,3,2014-12-05,NA,NA
+"yk8a",1,4,2014-12-08,NA,NA
+"yk8a",1,5,2014-12-15,NA,NA
+"fg86",1,1,NA,NA,NA
+"wfv3",1,1,NA,NA,NA
+"wfv3",1,3,2014-12-01,NA,NA
+"goed",1,1,NA,NA,NA
+"nkql",1,1,NA,NA,NA
+"nkql",1,2,2014-12-10,NA,NA
+"",1,1,2014-12-10,NA,NA
+"",2,1,2014-12-10,NA,NA
+"",2,2,2014-12-10,NA,NA
+"",2,1,2014-12-01,8,NA
+"",2,2,2014-12-10,NA,NA
+"",2,3,2014-12-17,NA,NA
