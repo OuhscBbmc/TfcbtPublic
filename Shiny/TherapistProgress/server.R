@@ -19,9 +19,9 @@ shinyServer( function(input, output) {
     # Filter Client Progress data based on selections
     d <- dsItemProgress
     
-    if (input$therapist_tag != "All")
+    if( input$therapist_tag != "--Select a Therapist--" )
       d <- d[d$therapist_tag == input$therapist_tag, ]
-    if (input$client_number != "All")
+    if( input$client_number > 0 )
       d <- d[d$client_number == input$client_number, ]
     
     colnames(d) <- gsub("^session_(\\d{2})$", "\\1", colnames(d)) #This strips out the "session_" prefix.
@@ -76,13 +76,18 @@ shinyServer( function(input, output) {
     #(dsSessionSurvey$therapist_id_rc>0) & (dsSessionSurvey$client_number>0)
     dWide <- dsSessionSurvey# [, c("session_date", "trauma_score_caregiver", "trauma_score_child")]   
     
-    if (input$therapist_tag != "All")
+    if( input$therapist_tag == "--Select a Therapist--" ) {
+      return()
+    } else {
       dWide <- dWide[dWide$therapist_tag == input$therapist_tag, ]
-    if (input$client_number != "All")
+    }
+    if( input$client_number > 0 )
       dWide <- dWide[dWide$client_number == input$client_number, ]
     
-    dLong <- reshape2::melt(dWide, id.vars="session_date", variable.name="respondent", value.name="score")
+    dLong <- reshape2::melt(dWide, id.vars=c("therapist_tag", "client_number", "session_number", "session_date"), variable.name="respondent", value.name="score")
     dLong$respondent <- gsub("^trauma_score_(.*)$", "\\1", dLong$respondent)
+    
+    dLong <- dLong[!is.na(dLong$score),]
 
     shape_respondent_dark <- c("child"=21, "caregiver"=25)
     color_respondent_dark <- c("child"="#1f78b4", "caregiver"="#33a02c") #From paired qualitative palette
@@ -92,9 +97,10 @@ shinyServer( function(input, output) {
     ggplot(dLong, aes(x=session_date, y=score, color=respondent, fill=respondent, shape=respondent)) +
       geom_point(size=10, na.rm=T) +
       geom_line(na.rm=T) +
-#       scale_color_manual(values=color_respondent_dark) +
-#       scale_fill_manual(values=color_respondent_light) +
-#       scale_shape_manual(values=shape_respondent_dark) +  
+      scale_x_date(labels = scales::date_format("%Y-%m-%d")) +
+      scale_color_manual(values=color_respondent_dark) +
+      scale_fill_manual(values=color_respondent_light) +
+      scale_shape_manual(values=shape_respondent_dark) +  
       coord_cartesian(ylim=c(0, 60)) +
       theme_bw() +
       theme(axis.ticks.length = grid::unit(0, "cm")) +

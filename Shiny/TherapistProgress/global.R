@@ -29,3 +29,4 @@ dsItemProgress <- read.csv(pathItemProgress, stringsAsFactors=FALSE) #GroomItemP
 #' TweakData
 dsSessionSurvey$trauma_score_caregiver <- as.integer(dsSessionSurvey$trauma_score_caregiver)
 dsSessionSurvey$trauma_score_child <- as.integer(dsSessionSurvey$trauma_score_child)
+dsSessionSurvey$session_date <- as.Date(dsSessionSurvey$session_date)
