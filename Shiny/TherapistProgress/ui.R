@@ -6,7 +6,7 @@ library(ggplot2)
 # library(ShinyDash) # To install, run devtools::install_github('ShinyDash', 'trestletech') #See https://groups.google.com/forum/#!topic/shiny-discuss/V7WUQA7aAiI
 
 # Define the overall UI
-shinyUI(fluidPage(
+shinyUI(fluidPage(theme="bootstrap_lumen.css",
   shiny::tags$head(
     includeCSS("./www/styles.css"), # Include our custom CSS
     #;font-family:courier
@@ -18,7 +18,7 @@ shinyUI(fluidPage(
       .table .quasihide {color: #cccccc;font-size: 10%;padding: 0px;}
     ") #Right align the columns of this class (in the DataTables). http://stackoverflow.com/questions/22884224/how-to-right-align-columns-of-datatable-in-r-shiny
   ),#tags$head  
-  h1("TF-CBT"),
+  headerPanel("TF-CBT"),
   fluidRow(
     column(width = 9, 
       selectizeInput(
