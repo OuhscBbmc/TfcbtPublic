@@ -11,11 +11,14 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
     includeCSS("./www/styles.css"), # Include our custom CSS
     #;font-family:courier
     tags$style("
-      .table .session {font-size: 80%;padding: 0px; text-align:center}
-      .table .smallish {font-size: 100%;padding: 0px; }
-      .table .alignRight {text-align: right;font-size: 80%;padding: 0px;}
-      .table .semihide {color: #dddddd;padding: 0px;}
-      .table .quasihide {color: #cccccc;font-size: 10%;padding: 0px;}
+      h1 {color:#7D647D}
+      .accent {color:#7D647D}
+      .table .session {font-size:80%; padding:0px; text-align:center}
+      .table .smallish {font-size:100%; padding:0px;}
+      .table .alignRight {text-align:right; font-size:80%; padding:0px;}
+      .table .semihide {color:#dddddd; padding:0px;}
+      .table .quasihide {color:#cccccc; font-size:10%; padding:0px;}
+      span.tab {padding-left:2em; text-indent:4em;}
     ") #Right align the columns of this class (in the DataTables). http://stackoverflow.com/questions/22884224/how-to-right-align-columns-of-datatable-in-r-shiny
   ),#tags$head  
   headerPanel("TF-CBT"),
@@ -35,12 +38,12 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
   ), #End fluid row with the agency & call group dropdown boxes
   fluidRow(
     column(width = 9, 
-      selectInput(inputId="therapist_tag", label="Select Therapist Tag:", width="100%", #selected = "kobl",
+      selectInput(inputId="therapist_tag", label="Select Therapist Tag:", width="100%", selected = "kobl",
         choices=c("--Select a Therapist--", sort(unique(as.character(dsItemProgress$therapist_tag))))
       )
     ),
     column(width = 3, 
-      selectInput(inputId="client_number", label="Select Therapist's Client:", width="100%", #selected = 2,
+      selectInput(inputId="client_number", label="Select Therapist's Client:", width="100%", selected = 2,
                   choices=sort(unique(as.character(dsItemProgress$client_number)))
       )
     )      

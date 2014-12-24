@@ -83,11 +83,15 @@ shinyServer( function(input, output, session) {
     }
 
     for( session_item in sort(grep("^session_(\\d{2})$", colnames(d), value=T, perl=T)) ) {
-      d[, session_item] <- ifelse(d[, session_item], '<i class="fa fa-check-circle"></i>', '<i class="fa fa-circle-o semihide"></i>') #style="color:#dddddd"
+      d[, session_item] <- ifelse(d[, session_item], '<i class="fa fa-check-circle accent"></i>', '<i class="fa fa-circle-o semihide"></i>') #style="color:#dddddd"
       
       if( all(is.na(d[, session_item])) )
         d[, session_item] <- NULL
     }    
+    
+    if( length(d[!d$branch_item, "description_html"]) > 0 )
+      d[!d$branch_item, "description_html"] <- paste0('<span class="tab accent">', d[!d$branch_item, "description_html"], '</a>')
+    
             
     d_session_long$session_date <- strftime(d_session_long$session_date, "%m<br/>%d") #"%y<br/>%m<br/>%d"
     
@@ -186,7 +190,7 @@ shinyServer( function(input, output, session) {
       #   theme(panel.border = element_blank()) +
       #   theme(plot.margin=unit(c(0,0,0,0), "lines")) +
       theme(legend.position="top") +
-      labs(title=NULL, x=NULL, y=NULL, colour=NULL, fill=NULL, shape=NULL)
+      labs(title=NULL, x="Session Date", y="Trauma Score", colour=NULL, fill=NULL, shape=NULL)
   }) #trauma_symptoms plot
   
 })

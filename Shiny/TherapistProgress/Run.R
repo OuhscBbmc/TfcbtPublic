@@ -13,3 +13,7 @@ shinyapps::deployApp(account="wibeasley", appDir='./Shiny/TherapistProgress')
 # shinyapps::taskLog(taskId=17795, account="wibeasley")
 
 # shinyapps::terminateApp(account="wibeasley", appName="prediction-app-demo")
+
+# cd /srv/shiny-server/TfcbtPublic/Shiny/
+# git pull
+# touch restart.txt
