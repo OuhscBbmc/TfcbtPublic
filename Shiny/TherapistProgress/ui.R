@@ -21,25 +21,26 @@ shinyUI(fluidPage(
   h1("TF-CBT"),
   fluidRow(
     column(width = 9, 
-      selectizeInput(inputId="agency_name", label="Agency Name:", width="100%", 
-        choices=c("--All--", sort(unique(as.character(dsItemProgress$agency_name)))),
-        multiple = TRUE
+      selectizeInput(
+        inputId="agency_names", label="Filter by Agency Name(s):", width="100%", multiple=TRUE,
+        choices=c("--All--", sort(unique(as.character(dsItemProgress$agency_name))))        
       )
     ),
     column(width = 3, 
-      selectInput(inputId="call_group_code", label="Call Group Code:", width="100%", 
-                  choices=c("--All--", sort(unique(as.character(dsItemProgress$call_group_code))))
+      selectizeInput(
+        inputId="call_group_codes", label="Filter by Call Group(s):", width="100%", multiple=TRUE,
+        choices=c("--All--", sort(unique(as.character(dsItemProgress$call_group_code))))
       )
     )      
   ), #End fluid row with the agency & call group dropdown boxes
   fluidRow(
     column(width = 9, 
-      selectInput(inputId="therapist_tag", label="Therapist Tag:", width="100%", selected = "kobl",
+      selectInput(inputId="therapist_tag", label="Select Therapist Tag:", width="100%", #selected = "kobl",
         choices=c("--Select a Therapist--", sort(unique(as.character(dsItemProgress$therapist_tag))))
       )
     ),
     column(width = 3, 
-      selectInput(inputId="client_number", label="Client within Therapist:", width="100%", selected = 2,
+      selectInput(inputId="client_number", label="Select Therapist's Client:", width="100%", #selected = 2,
                   choices=sort(unique(as.character(dsItemProgress$client_number)))
       )
     )      

@@ -16,46 +16,57 @@ shinyServer( function(input, output, session) {
   #######################################
   ### Create the DataTables objects (a jQuery library): http://www.datatables.net/
   
-  
-  observe({
-#     zipcodes <- if (is.null(input$states)) character(0) else {
-#       cleantable %.%
-#         filter(State %in% input$states,
-#           is.null(input$cities) | City %in% input$cities) %.%
-#         `$`('Zipcode') %.%
-#         unique() %.%
-#         sort()
-#     }
+  # Display only the therapists in the selected agencies and call groups (if any are specified)
+  observe({    
+    d_pool <- dsItemProgress
     
-    call_group_codes <- if(is.null(input$agency_name)){
-      character(0) 
-    } else if( "--All--" %in% input$agency_name ){
-      dsItemProgress %>%
-        `$`('call_group_code') %>%
-        unique() %>%
-        sort()
-    } else { 
-      dsItemProgress %>%
-        dplyr::filter(agency_name %in% input$agency_name) %>%
-        `$`('call_group_code') %>%
-        unique() %>%
-        sort()
+    if( (is.null(input$agency_names)) | ("--All--" %in% input$agency_names) ) {
+      #Don't filter the pool based on agency if nothing or everything is specified.
+    } else {
+      d_pool <- d_pool %>%
+        dplyr::filter(agency_name %in% input$agency_names)
+    }   
+    
+    if( (is.null(input$call_group_codes)) | ("--All--" %in% input$call_group_codes) ) {
+      #Don't filter the pool based on call_group_codes if nothing or everything is specified.
+    } else {
+      d_pool <- d_pool %>%
+        dplyr::filter(call_group_code %in% input$call_group_codes)
     }
     
+    remaining_tags <- d_pool %>%
+      `$`('therapist_tag') %>%
+      unique() %>%
+      sort()
+    
+    remaining_tags <- c("--Select a Therapist--", remaining_tags)
+    
     #stillSelected <- isolate(input$call_group_code[input$call_group_code %in% call_group_codes])
-    stillSelected <- isolate(
-      ifelse(
-        length(call_group_codes)==0,
-        input$call_group_code,
-        input$call_group_code[input$call_group_code %in% call_group_codes]
-      )
-    )
+    # stillSelected <- isolate(
+    #   ifelse(
+    #     length(call_group_codes)==0,
+    #     input$call_group_code,
+    #     input$call_group_code[input$call_group_code %in% call_group_codes]
+    #   )
+    # )
     
-    updateSelectInput(session, "call_group_code", choices =call_group_codes,
-      selected = stillSelected)
-    
+    updateSelectInput(session, "therapist_tag", choices=remaining_tags)#, selected="--Select a Therapist--")
   })
   
+  #Update the clients available for the selected therapist
+  observe({ 
+    if( is.null(input$therapist_tag) | (length(input$therapist_tag)==0) | (nchar(input$therapist_tag)==0) | (input$therapist_tag=="--Select a Therapist--") ) {
+      #Don't display any clients if tag is specified.
+      updateSelectInput(session, "client_number", choices="--Select Therapist First--")
+    } else {
+      clients <- dsItemProgress %>%
+        dplyr::filter(therapist_tag == input$therapist_tag) %>%
+        `$`('client_number') %>%
+        unique() %>%
+        sort()
+      updateSelectInput(session, "client_number", choices=clients) 
+    }
+  })
   
   output$ItemProgressTable <- renderDataTable({
     # Filter Client Progress data based on selections
@@ -66,27 +77,20 @@ shinyServer( function(input, output, session) {
       d <- d[d$therapist_tag == input$therapist_tag, ]
       d_session_long <- d_session_long[d_session_long$therapist_tag == input$therapist_tag, ]
     }
-#     if( input$client_number > 0 ) {
-#       d <- d[d$client_number == input$client_number, ]
-#       d_session_long <- d_session_long[d_session_long$client_number == input$client_number, ]
-#     }
-#     if( input$agency_name > 0 ) {
-#       d <- d[d$agency_name == input$agency_name, ]
-#       d_session_long <- d_session_long[d_session_long$agency_name == input$agency_name, ]
-#     }
-    
-    # d$session_01 <- ifelse(d$session_01=="YES&ensp;", '<i class="fa fa-circle-thin"></i><i class="fa fa-check-circle"></i>', '<i class="fa fa-circle-thin"></i><i class="fa fa-circle-thin"></i>')
+    if( input$client_number > 0 ) {
+      d <- d[d$client_number == input$client_number, ]
+      d_session_long <- d_session_long[d_session_long$client_number == input$client_number, ]
+    }
+
     for( session_item in sort(grep("^session_(\\d{2})$", colnames(d), value=T, perl=T)) ) {
-      # d[, session_item] <- ifelse(d[, session_item]=="YES&ensp;", '&ensp;<i class="fa fa-check-circle"></i>&ensp;', '&ensp;')
-      # d[, session_item] <- ifelse(d[, session_item]=="YES&ensp;", '&ensp;<i class="fa fa-check-circle"></i>', '&ensp;<i class="fa fa-fw"></i>')
-      d[, session_item] <- ifelse(d[, session_item], '&ensp;<i class="fa fa-check-circle"></i>', '&ensp;<i class="fa fa-circle-o semihide"  ></i>') #style="color:#dddddd"
+      d[, session_item] <- ifelse(d[, session_item], '<i class="fa fa-check-circle"></i>', '<i class="fa fa-circle-o semihide"></i>') #style="color:#dddddd"
       
       if( all(is.na(d[, session_item])) )
         d[, session_item] <- NULL
     }    
             
     d_session_long$session_date <- strftime(d_session_long$session_date, "%m<br/>%d") #"%y<br/>%m<br/>%d"
-    #d_session_wide <- reshape2::dcast(d_session_long, session_number ~ session_date)
+    
     d_date <- as.data.frame(t(d_session_long[, c("session_date"), drop=F]))
     colnames(d_date) <- sprintf("session_%02i", d_session_long$session_number)
     d_date$branch_item <- 0L
@@ -100,6 +104,8 @@ shinyServer( function(input, output, session) {
     
     d$therapist_tag <- NULL
     d$client_number <- NULL
+    d$agency_name <- NULL
+    d$call_group_code <- NULL
     d$item <- NULL
     d$description_short <- NULL
     d$description_long <- NULL
@@ -107,13 +113,10 @@ shinyServer( function(input, output, session) {
     d$therapist_email <- NULL
     
     d <- plyr::rename(d, replace=c(
-      # "description_short" = "Variable",
       "description_html" = "TF-CBT PRACTICE Component",
-      # "therapist_email" = "Therapist Email",
-      # "therapist_id_rc" = "TID",
-      # "client_number" = "Client Number",
       "branch_item" = "B"
     ))
+
     return( as.data.frame(d) )
   },
   options = list(

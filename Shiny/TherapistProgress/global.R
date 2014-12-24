@@ -30,3 +30,5 @@ dsItemProgress <- read.csv(pathItemProgress, stringsAsFactors=FALSE) #GroomItemP
 dsSessionSurvey$trauma_score_caregiver <- as.integer(dsSessionSurvey$trauma_score_caregiver)
 dsSessionSurvey$trauma_score_child <- as.integer(dsSessionSurvey$trauma_score_child)
 dsSessionSurvey$session_date <- as.Date(dsSessionSurvey$session_date)
+
+dsItemProgress <- dsItemProgress[!is.na(dsItemProgress$therapist_tag) & nchar(dsItemProgress$therapist_tag)>0, ]
