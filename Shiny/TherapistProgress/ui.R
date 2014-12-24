@@ -10,18 +10,27 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
   shiny::tags$head(
     includeCSS("./www/styles.css"), # Include our custom CSS
     #;font-family:courier
-    tags$style("
+    tags$style('
       h1 {color:#7D647D}
       .accent {color:#7D647D}
+      body { background-image:url("images/bg2c.jpg"); }
+      .table.dataTable th {background-color:#7D647D; color:white}
+      .table.dataTable tr.odd { background-color: white; }
+      .table.dataTable tr.even{ background-color: #eee; }
       .table .session {font-size:80%; padding:0px; text-align:center}
       .table .smallish {font-size:100%; padding:0px;}
       .table .alignRight {text-align:right; font-size:80%; padding:0px;}
       .table .semihide {color:#dddddd; padding:0px;}
       .table .quasihide {color:#cccccc; font-size:10%; padding:0px;}
       span.tab {padding-left:2em; text-indent:4em;}
-    ") #Right align the columns of this class (in the DataTables). http://stackoverflow.com/questions/22884224/how-to-right-align-columns-of-datatable-in-r-shiny
+    ') #Right align the columns of this class (in the DataTables). http://stackoverflow.com/questions/22884224/how-to-right-align-columns-of-datatable-in-r-shiny
   ),#tags$head  
   headerPanel("TF-CBT"),
+  HTML('<div id="logo">
+				  <a href="http://oklahomatfcbt.org/"><img src="images/cropped-OK_TF-CBT_logo_v9_1_1_a_1.png" width="450" height="150" alt="Oklahoma TF-CBT"/></a>
+			  </div>'
+  ),
+
   fluidRow(
     column(width = 9, 
       selectizeInput(
@@ -38,13 +47,15 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
   ), #End fluid row with the agency & call group dropdown boxes
   fluidRow(
     column(width = 9, 
-      selectInput(inputId="therapist_tag", label="Select Therapist Tag:", width="100%", selected = "kobl",
+      selectInput(
+        inputId="therapist_tag", label="Select Therapist Tag:", width="100%", #selected="kobl",
         choices=c("--Select a Therapist--", sort(unique(as.character(dsItemProgress$therapist_tag))))
       )
     ),
     column(width = 3, 
-      selectInput(inputId="client_number", label="Select Therapist's Client:", width="100%", selected = 2,
-                  choices=sort(unique(as.character(dsItemProgress$client_number)))
+      selectInput(
+        inputId="client_number", label="Select Therapist's Client:", width="100%", #selected=2,
+        choices=sort(unique(as.character(dsItemProgress$client_number)))
       )
     )      
   ), #End fluid row with the tag & client_number dropdown boxes
@@ -52,13 +63,13 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
     tabPanel(
       title = "TF-CBT Session Tracking", 
       # HTML("<font color='green'><em>{Elizabeth, is there some explanatory text you'd like here?}</em></font>"),
-      # titlePanel("Item Progress"),    
-      # Create a new Row in the UI for selectInputs
       # Create a new row for the table.
       fluidRow(
         dataTableOutput(outputId = "ItemProgressTable")
       ), #End fluid row with the Group Call table
-      shiny::icon("code") #This is a little cheat to get the table icons work
+      HTML('©<i class="fa fa-copyright"></i> 2014 <a href="http://oklahomatfcbt.org/" title="Oklahoma TF-CBT" class="accent">Oklahoma TF-CBT</a>'),
+      shiny::icon("code"), #This is a little cheat to get the table icons work
+      HTML('Software for data collection and reporting developed by <a href="http://www.ouhsc.edu/BBMC/" class="accent">OUHSC BBMC</a> <a href="https://github.com/OuhscBbmc/" class="accent"><i class="fa fa-github"></i></a>')
     ), #End the (first) tab with the Group Call table
     tabPanel(
       title = "Trauma Symptom Tracking", 

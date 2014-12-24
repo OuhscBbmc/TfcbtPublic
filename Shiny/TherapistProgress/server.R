@@ -93,13 +93,13 @@ shinyServer( function(input, output, session) {
       d[!d$branch_item, "description_html"] <- paste0('<span class="tab accent">', d[!d$branch_item, "description_html"], '</a>')
     
             
-    d_session_long$session_date <- strftime(d_session_long$session_date, "%m<br/>%d") #"%y<br/>%m<br/>%d"
+    d_session_long$session_date <- strftime(d_session_long$session_date, '<span class="accent">%m<br/>%d</span>') #"%y<br/>%m<br/>%d"
     
     d_date <- as.data.frame(t(d_session_long[, c("session_date"), drop=F]))
     colnames(d_date) <- sprintf("session_%02i", d_session_long$session_number)
     d_date$branch_item <- 0L
     d_date$variable_index <- -1L
-    d_date$description_html <- "Session Month<br/>Session Day" #"Year<br/>Month<br/>Day"
+    d_date$description_html <- '<span class="accent">Session Month<br/>Session Day</span>' #"Year<br/>Month<br/>Day"
     
     d <- plyr::rbind.fill(d, d_date)
     d <- d[order(d$variable_index), ]
@@ -117,7 +117,7 @@ shinyServer( function(input, output, session) {
     d$therapist_email <- NULL
     
     d <- plyr::rename(d, replace=c(
-      "description_html" = "TF-CBT PRACTICE Component",
+      "description_html" = "Session Number",
       "branch_item" = "B"
     ))
 
