@@ -123,6 +123,7 @@ shinyServer( function(input, output, session) {
 
     return( as.data.frame(d) )
   },
+  escape = FALSE, 
   options = list(
     # lengthMenu = list(c(length(unique(dsItemProgress$item)), -1), c(length(unique(dsItemProgress$item)), 'All')),
     # pageLength = length(unique(dsItemProgress$item)), #34,
@@ -136,8 +137,8 @@ shinyServer( function(input, output, session) {
 
     # columnDefs = list(list(targets = c(3, 4) - 1, searchable = FALSE)),
     searching = FALSE,
-    paging=FALSE,
-    sort=FALSE,
+    paging = FALSE,
+    sort = FALSE,
     # $("td:eq(0)", nRow).css("font-weight", "bold");
     # $("td:eq(0)", nRow).css("font-size", "large");
     rowCallback = I('
