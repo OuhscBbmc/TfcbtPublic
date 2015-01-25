@@ -22,7 +22,7 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
       .table .alignRight {text-align:right; font-size:80%; padding:0px;}
       .table .semihide {color:#dddddd; padding:0px;}
       .table .quasihide {color:#cccccc; font-size:10%; padding:0px;}
-      span.tab {padding-left:2em; text-indent:4em;}
+      .tab {padding-left:3em; text-indent:-2em;margin:0;}
     ') #Right align the columns of this class (in the DataTables). http://stackoverflow.com/questions/22884224/how-to-right-align-columns-of-datatable-in-r-shiny
   ),#tags$head  
   headerPanel("TF-CBT"),

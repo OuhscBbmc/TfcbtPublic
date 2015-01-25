@@ -83,15 +83,27 @@ shinyServer( function(input, output, session) {
     }
 
     for( session_item in sort(grep("^session_(\\d{2})$", colnames(d), value=T, perl=T)) ) {
-      d[, session_item] <- ifelse(d[, session_item], '<i class="fa fa-check-circle accent"></i>', '<i class="fa fa-circle-o semihide"></i>') #style="color:#dddddd"
+      
+      check <- sprintf('<i class="fa fa-check-circle accent" title="%s"></i>', session_item)
+      uncheck <- sprintf('<i class="fa fa-circle-o semihide" title="%s"></i>', session_item)
+      d[, session_item] <- ifelse(d[, session_item], check, uncheck)
       
       if( all(is.na(d[, session_item])) )
         d[, session_item] <- NULL
     }    
     
-    if( length(d[!d$branch_item, "description_html"]) > 0 )
-      d[!d$branch_item, "description_html"] <- paste0('<span class="tab accent">', d[!d$branch_item, "description_html"], '</a>')
+#     if( length(d[!d$branch_item, "description_html"]) > 0 )
+#       d[!d$branch_item, "description_html"] <- paste0('<p class="tab accent">', d[!d$branch_item, "description_html"]) 
+#     
+#     if( length(d[d$branch_item, "description_html"]) > 0 )
+#       d[d$branch_item, "description_html"] <- paste0('<p class="tab">', d[d$branch_item, "description_html"])
     
+    if( length(d[, "description_html"]) > 0 )
+      d[, "description_html"] <- paste0('<p title="Free Web tutorials" class="tab">', d[, "description_html"])
+#       d[, "description_html"] <- paste0('<p class="tab">', d[, "description_html"])
+      
+#     if(length(d$description_html) > 0)
+#       d$description_html <- paste0('<p style="padding-left:2em; text-indent:-2em;margin:0;">', d$description_html)  
             
     d_session_long$session_date <- strftime(d_session_long$session_date, '<span class="accent">%m<br/>%d</span>') #"%y<br/>%m<br/>%d"
     
@@ -101,10 +113,14 @@ shinyServer( function(input, output, session) {
     d_date$variable_index <- -1L
     d_date$description_html <- '<span class="accent">Session Month<br/>Session Day</span>' #"Year<br/>Month<br/>Day"
     
+    d$description_html <- gsub("<br/>", "", d$description_html)
+
+    
     d <- plyr::rbind.fill(d, d_date)
     d <- d[order(d$variable_index), ]
     
-    colnames(d) <- gsub("^session_(\\d{2})$", "\\1", colnames(d)) #This strips out the "session_" prefix.
+    #colnames(d) <- gsub("^session_(\\d{2})$", "\\1", colnames(d)) #This strips out the "session_" prefix.
+    colnames(d) <- gsub("^session_(\\d{2})$", "\\1&nbsp;&nbsp;&nbsp;&nbsp;", colnames(d)) #This strips out the "session_" prefix, and adds some padding between columns.
     
     d$therapist_tag <- NULL
     d$client_number <- NULL
