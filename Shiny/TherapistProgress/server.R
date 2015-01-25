@@ -112,10 +112,7 @@ shinyServer( function(input, output, session) {
     d_date$branch_item <- 0L
     d_date$variable_index <- -1L
     d_date$description_html <- '<span class="accent">Session Month<br/>Session Day</span>' #"Year<br/>Month<br/>Day"
-    
-    d$description_html <- gsub("<br/>", "", d$description_html)
-
-    
+        
     d <- plyr::rbind.fill(d, d_date)
     d <- d[order(d$variable_index), ]
     
