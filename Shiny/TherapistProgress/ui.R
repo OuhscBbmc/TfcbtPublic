@@ -36,7 +36,7 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
         .table.dataTable tr.odd { background-color: white; }
         .table.dataTable tr.even{ background-color: #eee; }
         .table .session { font-size:80%; padding:0px; text-align:center; }
-        .table .smallish { font-size:100%; padding:0px; }
+        .table .smallish { font-size:100%; padding:0px 10px 0px 0px ; }
         .table .alignRight { text-align:right; font-size:80%; padding:0px; }
         .table .semihide { color:#dddddd; padding:0px; }
         .table .quasihide { color:#cccccc; font-size:10%; padding:0px; }
