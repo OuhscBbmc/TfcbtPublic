@@ -82,42 +82,38 @@ shinyServer( function(input, output, session) {
       d_session_long <- d_session_long[d_session_long$client_number == input$client_number, ]
     }
 
-    for( session_item in sort(grep("^session_(\\d{2})$", colnames(d), value=T, perl=T)) ) {
+    for( session_item in sort(grep("^session_(\\d{2})$", colnames(d), value=T, perl=T)) ) {      
+      check <- sprintf('<i class="fa fa-check-circle accent" title="%s"></i>', gsub("_", " ", session_item))
+      uncheck <- sprintf('<i class="fa fa-circle-o semihide" title="%s"></i>', gsub("_", " ", session_item))
       
-      check <- sprintf('<i class="fa fa-check-circle accent" title="%s"></i>', session_item)
-      uncheck <- sprintf('<i class="fa fa-circle-o semihide" title="%s"></i>', session_item)
       d[, session_item] <- ifelse(d[, session_item], check, uncheck)
       
       if( all(is.na(d[, session_item])) )
         d[, session_item] <- NULL
     }    
     
-#     if( length(d[!d$branch_item, "description_html"]) > 0 )
-#       d[!d$branch_item, "description_html"] <- paste0('<p class="tab accent">', d[!d$branch_item, "description_html"]) 
-#     
-#     if( length(d[d$branch_item, "description_html"]) > 0 )
-#       d[d$branch_item, "description_html"] <- paste0('<p class="tab">', d[d$branch_item, "description_html"])
-    
-    if( length(d[, "description_html"]) > 0 )
-      d[, "description_html"] <- paste0('<p title="Free Web tutorials" class="tab">', d[, "description_html"])
-#       d[, "description_html"] <- paste0('<p class="tab">', d[, "description_html"])
-      
-#     if(length(d$description_html) > 0)
-#       d$description_html <- paste0('<p style="padding-left:2em; text-indent:-2em;margin:0;">', d$description_html)  
-            
-    d_session_long$session_date <- strftime(d_session_long$session_date, '<span class="accent">%m<br/>%d</span>') #"%y<br/>%m<br/>%d"
+    if( length(d$description_html) > 0 )
+      d$description_html <- paste0('<p class="hanging">', d$description_html)      
+          
+    date_pretty <-  strftime(d_session_long$session_date, '%B %d, %Y')
+    d_session_long$session_date <- strftime(d_session_long$session_date, '%m<br/>%d')
+    d_session_long$session_date <- sprintf('<span title="Session %i occured on %s">%s</span>', 
+                                           d_session_long$session_number, date_pretty, d_session_long$session_date) 
+    rm(date_pretty)
     
     d_date <- as.data.frame(t(d_session_long[, c("session_date"), drop=F]))
     colnames(d_date) <- sprintf("session_%02i", d_session_long$session_number)
     d_date$branch_item <- 0L
     d_date$variable_index <- -1L
-    d_date$description_html <- '<span class="accent">Session Month<br/>Session Day</span>' #"Year<br/>Month<br/>Day"
+    d_date$description_html <- '<p class="accent flush">Session Month<br/>Session Day'
         
     d <- plyr::rbind.fill(d, d_date)
     d <- d[order(d$variable_index), ]
     
-    #colnames(d) <- gsub("^session_(\\d{2})$", "\\1", colnames(d)) #This strips out the "session_" prefix.
-    colnames(d) <- gsub("^session_(\\d{2})$", "\\1&nbsp;&nbsp;&nbsp;&nbsp;", colnames(d)) #This strips out the "session_" prefix, and adds some padding between columns.
+    #This strips out the "session_" prefix, and adds some padding between columns.
+    # colnames(d) <- gsub("^session_(\\d{2})$", "\\1&nbsp;&nbsp;&nbsp;", colnames(d)) 
+    colnames(d) <- gsub("^session_(\\d{2})$", "\\1", colnames(d)) 
+    # colnames(d) <- sprintf('<span title="Session %s information">%s</span>', colnames(d), colnames(d))
     
     d$therapist_tag <- NULL
     d$client_number <- NULL
@@ -130,7 +126,7 @@ shinyServer( function(input, output, session) {
     d$therapist_email <- NULL
     
     d <- plyr::rename(d, replace=c(
-      "description_html" = "Session Number",
+      "description_html" = '<p class="flush">Session Number',
       "branch_item" = "B"
     ))
 
@@ -156,7 +152,7 @@ shinyServer( function(input, output, session) {
     # $("td:eq(0)", nRow).css("font-size", "large");
     rowCallback = I('
       function(nRow, aData) {
-      // Emphasize rows where the `branch_item` column equals to 1
+        // Emphasize rows where the `branch_item` column equals to 1
         if (aData[aData.length-1] == "1") {
           $("td", nRow).css("background-color", "#aaaaaa");
         }
@@ -165,8 +161,6 @@ shinyServer( function(input, output, session) {
   )
   
   output$trauma_symptoms <- renderPlot({
-    #TODO: add filtering based on dropdown boxes
-    #(dsSessionSurvey$therapist_id_rc>0) & (dsSessionSurvey$client_number>0)
     dWide <- dsSessionSurvey# [, c("session_date", "trauma_score_caregiver", "trauma_score_child")]   
     
     if( input$therapist_tag == "--Select a Therapist--" ) {
@@ -189,6 +183,7 @@ shinyServer( function(input, output, session) {
     } else {
       dWide <- dWide[dWide$therapist_tag == input$therapist_tag, ]
     }
+    
     if( input$client_number > 0 )
       dWide <- dWide[dWide$client_number == input$client_number, ]
     
@@ -234,11 +229,6 @@ shinyServer( function(input, output, session) {
         theme_bw() +
         theme(axis.ticks.length = grid::unit(0, "cm")) +
         theme(panel.margin=unit(c(0,0,0,0), "lines")) +
-        #   theme(axis.text = element_blank()) +
-        #   theme(axis.title = element_blank()) +
-        #   theme(panel.grid = element_blank()) +
-        #   theme(panel.border = element_blank()) +
-        #   theme(plot.margin=unit(c(0,0,0,0), "lines")) +
         theme(legend.position="top") +
         labs(title=NULL, x="Session Date", y="Trauma Score", colour=NULL, fill=NULL, shape=NULL)
     } #trauma_symptoms plot
