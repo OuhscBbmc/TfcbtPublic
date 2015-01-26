@@ -83,8 +83,8 @@ shinyServer( function(input, output, session) {
     }
 
     for( session_item in sort(grep("^session_(\\d{2})$", colnames(d), value=T, perl=T)) ) {      
-      check <- sprintf('<i class="fa fa-check-circle accent" title="%s"></i>', gsub("_", " ", session_item))
-      uncheck <- sprintf('<i class="fa fa-circle-o semihide" title="%s"></i>', gsub("_", " ", session_item))
+      check <- sprintf('<i class="fa fa-check-circle accent outcome" title="%s"></i>', gsub("_", " ", session_item))
+      uncheck <- sprintf('<i class="fa fa-circle-o semihide outcome" title="%s"></i>', gsub("_", " ", session_item))
       
       d[, session_item] <- ifelse(d[, session_item], check, uncheck)
       
@@ -113,7 +113,11 @@ shinyServer( function(input, output, session) {
     #This strips out the "session_" prefix, and adds some padding between columns.
     # colnames(d) <- gsub("^session_(\\d{2})$", "\\1&nbsp;&nbsp;&nbsp;", colnames(d)) 
     colnames(d) <- gsub("^session_(\\d{2})$", "\\1", colnames(d)) 
-    # colnames(d) <- sprintf('<span title="Session %s information">%s</span>', colnames(d), colnames(d))
+    colnames(d) <- ifelse(
+      grepl("^\\d{2}$", colnames(d)),
+      sprintf('<span title="Session %s information">%s</span>', colnames(d), colnames(d)),
+      colnames(d)
+    )
     
     d$therapist_tag <- NULL
     d$client_number <- NULL
@@ -140,7 +144,8 @@ shinyServer( function(input, output, session) {
     aoColumnDefs = list( #http://legacy.datatables.net/usage/columns
       list(sClass="quasihide", aTargets=-1),
       # list(sClass="alignRight", aTargets=0),
-      # list(sClass="session", aTargets=1:length(unique(dsItemProgress$item))),
+      #list(sClass="session", aTargets=1:length(unique(dsItemProgress$item))),
+      list(sClass="alignLeft", aTargets=0),
       list(sClass="smallish", aTargets="_all")
     ),
 
