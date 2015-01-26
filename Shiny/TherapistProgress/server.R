@@ -170,14 +170,33 @@ shinyServer( function(input, output, session) {
     dWide <- dsSessionSurvey# [, c("session_date", "trauma_score_caregiver", "trauma_score_child")]   
     
     if( input$therapist_tag == "--Select a Therapist--" ) {
-      return()
+      return(
+        ggplot(data.frame(x=1, y=1, label="Please select a therapist tag above."), aes(x=x, y=y, label=label)) +
+          geom_text(size=10, color="gray40") +
+          theme_bw() +
+          theme(panel.background =element_rect(fill=NA,colour = NA)) +
+          theme(plot.background = element_rect(fill="gray95",colour = NA)) +
+          theme(axis.ticks.length = grid::unit(0, "cm")) +
+          theme(panel.margin=unit(c(0,0,0,0), "lines")) +
+          theme(axis.text = element_blank()) +
+          theme(axis.title = element_blank()) +
+          theme(panel.grid = element_blank()) +
+          theme(panel.border = element_blank()) +
+          theme(plot.margin=unit(c(0,0,0,0), "lines")) +
+          theme(legend.position="top") +
+          labs(title=NULL, x="Session Date", y="Trauma Score", colour=NULL, fill=NULL, shape=NULL)
+      )
     } else {
       dWide <- dWide[dWide$therapist_tag == input$therapist_tag, ]
     }
     if( input$client_number > 0 )
       dWide <- dWide[dWide$client_number == input$client_number, ]
     
-    dLong <- reshape2::melt(dWide, id.vars=c("therapist_tag", "client_number", "session_number", "session_date"), variable.name="respondent", value.name="score")
+    dLong <- reshape2::melt(dWide, 
+                            id.vars = c("therapist_tag", "client_number", "session_number", "session_date", "call_group_code", "agency_name"), 
+                            variable.name = "respondent", 
+                            measure.vars = c("trauma_score_caregiver", "trauma_score_child"),
+                            value.name = "score")
     dLong$respondent <- gsub("^trauma_score_(.*)$", "\\1", dLong$respondent)
     
     dLong <- dLong[!is.na(dLong$score),]
@@ -187,24 +206,42 @@ shinyServer( function(input, output, session) {
     color_respondent_light <- grDevices::adjustcolor( c("child"="#a6cee3", "caregiver"="#b2df8a"), alpha.f = .4)
     names(color_respondent_light) <- names(color_respondent_dark)
     
-    ggplot(dLong, aes(x=session_date, y=score, color=respondent, fill=respondent, shape=respondent)) +
-      geom_point(size=10, na.rm=T) +
-      geom_line(na.rm=T) +
-      scale_x_date(labels = scales::date_format("%Y-%m-%d")) +
-      scale_color_manual(values=color_respondent_dark) +
-      scale_fill_manual(values=color_respondent_light) +
-      scale_shape_manual(values=shape_respondent_dark) +  
-      coord_cartesian(ylim=c(0, 60)) +
-      theme_bw() +
-      theme(axis.ticks.length = grid::unit(0, "cm")) +
-      theme(panel.margin=unit(c(0,0,0,0), "lines")) +
-      #   theme(axis.text = element_blank()) +
-      #   theme(axis.title = element_blank()) +
-      #   theme(panel.grid = element_blank()) +
-      #   theme(panel.border = element_blank()) +
-      #   theme(plot.margin=unit(c(0,0,0,0), "lines")) +
-      theme(legend.position="top") +
-      labs(title=NULL, x="Session Date", y="Trauma Score", colour=NULL, fill=NULL, shape=NULL)
-  }) #trauma_symptoms plot
-  
+    if( all(is.na(dLong$score)) ) {
+      ggplot(data.frame(x=1, y=1, label="There are no trauma scores associated\nwith the patient or caregiver."), aes(x=x, y=y, label=label)) +
+        geom_text(size=10, color="gray40") +
+        theme_bw() +
+        theme(panel.background =element_rect(fill=NA,colour = NA)) +
+        theme(plot.background = element_rect(fill="gray95",colour = NA)) +
+        theme(axis.ticks.length = grid::unit(0, "cm")) +
+        theme(panel.margin=unit(c(0,0,0,0), "lines")) +
+        theme(axis.text = element_blank()) +
+        theme(axis.title = element_blank()) +
+        theme(panel.grid = element_blank()) +
+        theme(panel.border = element_blank()) +
+        theme(plot.margin=unit(c(0,0,0,0), "lines")) +
+        theme(legend.position="top") +
+        labs(title=NULL, x="Session Date", y="Trauma Score", colour=NULL, fill=NULL, shape=NULL)
+      
+    } else {    
+      ggplot(dLong, aes(x=session_date, y=score, color=respondent, fill=respondent, shape=respondent)) +
+        geom_point(size=10, na.rm=T) +
+        geom_line(na.rm=T) +
+        scale_x_date(labels = scales::date_format("%Y-%m-%d")) +
+        scale_color_manual(values=color_respondent_dark) +
+        scale_fill_manual(values=color_respondent_light) +
+        scale_shape_manual(values=shape_respondent_dark) +  
+        coord_cartesian(ylim=c(0, 60)) +
+        theme_bw() +
+        theme(axis.ticks.length = grid::unit(0, "cm")) +
+        theme(panel.margin=unit(c(0,0,0,0), "lines")) +
+        #   theme(axis.text = element_blank()) +
+        #   theme(axis.title = element_blank()) +
+        #   theme(panel.grid = element_blank()) +
+        #   theme(panel.border = element_blank()) +
+        #   theme(plot.margin=unit(c(0,0,0,0), "lines")) +
+        theme(legend.position="top") +
+        labs(title=NULL, x="Session Date", y="Trauma Score", colour=NULL, fill=NULL, shape=NULL)
+    } #trauma_symptoms plot
+  })
+
 })
