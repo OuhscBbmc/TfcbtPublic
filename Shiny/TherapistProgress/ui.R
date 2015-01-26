@@ -10,23 +10,57 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
   shiny::tags$head(
     includeCSS("./www/styles.css"), # Include our custom CSS
     #;font-family:courier
-    tags$style('
-      h1 { color:#7D647D; }
-      .accent { color:#7D647D; }
-      body { background-image:url("images/bg2c.jpg"); }
-      .table.dataTable th { background-color:#7D647D; color:white;  }
-      .table.dataTable tr.odd { background-color: white; }
-      .table.dataTable tr.even{ background-color: #eee; }
-      .table .session { font-size:80%; text-align:center; }
-      .table .smallish { font-size:100%; text-align:center; }
-      .table .semihide { color:#dddddd; }
-      .table .quasihide { color:#cccccc; font-size:10%; }
-      .alignLeft { text-align:left; }
-      .outcome { text-align:center; }
-      .hanging { padding-left:2em; text-indent:-2em; margin:0; }
-      .flush { padding-left:0em; text-indent:0em; margin:0; }
-    ') #Right align the columns of this class (in the DataTables). http://stackoverflow.com/questions/22884224/how-to-right-align-columns-of-datatable-in-r-shiny
-  # .table .alignRight { text-align:right; font-size:80%; }
+#     tags$style('
+#       h1 { color:#7D647D; }
+#       .accent { color:#7D647D; }
+#       body { background-image:url("images/bg2c.jpg"); }
+#       .table.dataTable th { background-color:#7D647D; color:white;  }
+#       .table.dataTable tr.odd { background-color: white; }
+#       .table.dataTable tr.even{ background-color: #eee; }
+#       .table .session { font-size:80%; text-align:center; }
+#       .table .smallish { font-size:100%; text-align:center; }
+#       .table .semihide { color:#dddddd; }
+#       .table .quasihide { color:#cccccc; font-size:10%; }
+#       .alignLeft { text-align:left; }
+#       .outcome { text-align:center; }
+#       .hanging { padding-left:2em; text-indent:-2em; margin:0; }
+#       .flush { padding-left:0em; text-indent:0em; margin:0; }
+#     ') #Right align the columns of this class (in the DataTables). http://stackoverflow.com/questions/22884224/how-to-right-align-columns-of-datatable-in-r-shiny
+#   # .table .alignRight { text-align:right; font-size:80%; }
+  
+      tags$style('
+        h1 { color:#7D647D; }
+        .accent { color:#7D647D;  }
+        body { background-image:url("images/bg2c.jpg"); }
+        .table.dataTable th { background-color:#7D647D; color:white; }
+        .table.dataTable tr.odd { background-color: white; }
+        .table.dataTable tr.even{ background-color: #eee; }
+        .table .session { font-size:80%; padding:0px; text-align:center; }
+        .table .smallish { font-size:100%; padding:0px; }
+        .table .alignRight { text-align:right; font-size:80%; padding:0px; }
+        .table .semihide { color:#dddddd; padding:0px; }
+        .table .quasihide { color:#cccccc; font-size:10%; padding:0px; }
+        .hanging { padding-left:3em; text-indent:-2em; margin:0; }
+        .flush { padding-left:1em; text-indent:0em; margin:0; }
+        .alignLeft { text-align:left; }
+        .outcome { text-align:center; }
+      ')  
+#       tags$style('
+#         h1 { color:#7D647D; }
+#         .accent { color:#7D647D;  }
+#         body { background-image:url("images/bg2c.jpg"); }
+#         .table.dataTable th { background-color:#7D647D; color:white; }
+#         .table.dataTable tr.odd { background-color: white; }
+#         .table.dataTable tr.even{ background-color: #eee; }
+#         .table .session { font-size:80%; padding:0px; text-align:center; }
+#         .table .smallish { font-size:100%; padding:0px; }
+#         .table .alignRight { text-align:right; font-size:80%; padding:0px; }
+#         .table .semihide { color:#dddddd; padding:0px; }
+#         .table .quasihide { color:#cccccc; font-size:10%; padding:0px; }
+#         .hanging { padding-left:3em; text-indent:-2em; margin:0; }
+#         .flush { padding-left:1em; text-indent:0em; margin:0; }
+#       ')
+  
   ),#tags$head  
   headerPanel("TF-CBT"),
   HTML('<div id="logo">
