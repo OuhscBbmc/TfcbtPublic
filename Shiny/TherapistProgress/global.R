@@ -13,11 +13,24 @@
 
 #####################################
 #' DeclareGlobals
+directoryServerOutside <- "//bbmc-shiny-public/Anonymous/TfcbtPublic"
+directoryServerInside <- "/var/shinydata/TfcbtPublic"
+directoryRepo <- "./DataPhiFree"
+
+if( file.exists(directoryServerOutside) ) {
+  directoryData <- directoryServerOutside  
+} else if( file.exists(directoryServerInside) ) {
+  directoryData <- directoryServerInside  
+} else {
+  directoryData <- directoryRepo
+}
+
 
 # pathSessionSurvey <- "./DataPhiFree/Raw/SessionSurvey.csv" #This is for testing when the working directory isn't changed by Shiny
-pathSessionSurvey <- "./DataPhiFree/SessionSurvey.csv"
+pathSessionSurvey <- file.path(directoryData, "SessionSurvey.csv")
 # pathItemProgress <- "../.././DataPhiFree/Raw/ItemProgress.csv"
-pathItemProgress <- "./DataPhiFree/ItemProgress.csv"
+# pathItemProgress <- "./DataPhiFree/ItemProgress.csv"
+pathItemProgress <- file.path(directoryData, "ItemProgress.csv")
 
 #####################################
 #' LoadData

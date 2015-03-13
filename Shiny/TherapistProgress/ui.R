@@ -113,7 +113,8 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
       # HTML("<font color='green'><em>{We need to discuss this graph: https://github.com/OuhscBbmc/Tfcbt/issues/10}</em></font>"),
       # titlePanel("Trauma Symptoms"), 
       "Tracking symptom severity over the life of the TF-CBT case. Trainers suggest, at a minimum, administering pre-treatment and post-treatment trauma measures.",
-      plotOutput(outputId='trauma_symptoms', width='95%', height='400px')
+      plotOutput(outputId='trauma_symptoms', width='95%', height='400px'),
+      htmlOutput(outputId='path_data_bullet')
     ) #End the (second) tab with the symptoms
   ) #End the tabsetPanel
 )) #End the fluidPage and shinyUI

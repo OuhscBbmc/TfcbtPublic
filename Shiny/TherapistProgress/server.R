@@ -238,5 +238,7 @@ shinyServer( function(input, output, session) {
         labs(title=NULL, x="Session Date", y="Trauma Score", colour=NULL, fill=NULL, shape=NULL)
     } #trauma_symptoms plot
   })
-
+  output$path_data_bullet <- renderText({
+    return( paste0("Data Path: ", directoryData) )
+  })
 })
