@@ -238,12 +238,14 @@ shinyServer( function(input, output, session) {
         labs(title=NULL, x="Session Date", y="Trauma Score", colour=NULL, fill=NULL, shape=NULL)
     } #trauma_symptoms plot
   })
-  output$bullet_file_info <- renderText({
+  output$table_file_info <- renderText({
     return( paste0(
-      "Data Path: ", directoryData, "<br/>",
-      "Session Survey Last Modified: ", file.info(pathSessionSurvey)$mtime, "<br/>",
-      "Item Progress Last Modified: ", file.info(pathItemProgress)$mtime, "<br/>",
-      "App Restart Time: ", file.info("restart.txt")$mtime
+      "<table border='0' cellspacing='1' cellpadding='2' >",
+        "<tr><td>Data Path:<td/><td>", directoryData, "<td/><tr/>",
+        "<tr><td>Session Survey Last Modified:<td/><td>", file.info(pathSessionSurvey)$mtime, "<td/><tr/>",
+        "<tr><td>Item Progress Last Modified:<td/><td>", file.info(pathItemProgress)$mtime, "<td/><tr/>",
+        "<tr><td>App Restart Time:<td/><td>", file.info("restart.txt")$mtime, "<td/><tr/>",
+      "<table/>"
     ) )
   })
 })
