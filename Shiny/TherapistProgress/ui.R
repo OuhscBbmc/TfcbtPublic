@@ -114,7 +114,7 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
       # titlePanel("Trauma Symptoms"), 
       "Tracking symptom severity over the life of the TF-CBT case. Trainers suggest, at a minimum, administering pre-treatment and post-treatment trauma measures.",
       plotOutput(outputId='trauma_symptoms', width='95%', height='400px'),
-      htmlOutput(outputId='path_data_bullet')
+      htmlOutput(outputId='bullet_file_info')
     ) #End the (second) tab with the symptoms
   ) #End the tabsetPanel
 )) #End the fluidPage and shinyUI

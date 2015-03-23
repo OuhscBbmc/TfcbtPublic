@@ -24,7 +24,7 @@ if( file.exists(directoryServerOutside) ) {
 } else {
   directoryData <- directoryRepo
 }
-
+rm(directoryServerOutside, directoryServerInside, directoryRepo)
 
 # pathSessionSurvey <- "./DataPhiFree/Raw/SessionSurvey.csv" #This is for testing when the working directory isn't changed by Shiny
 pathSessionSurvey <- file.path(directoryData, "SessionSurvey.csv")
@@ -38,6 +38,7 @@ dsSessionSurvey <- read.csv(pathSessionSurvey, stringsAsFactors=FALSE)
 # dsClientSummary <- GroomClientSummary(pathSessionSurvey=pathSessionSurvey)
 dsItemProgress <- read.csv(pathItemProgress, stringsAsFactors=FALSE) #GroomItemProgress(pathSessionSurvey=pathSessionSurvey)
 
+# rm(pathSessionSurvey, pathItemProgress)
 #####################################
 #' TweakData
 dsSessionSurvey$trauma_score_caregiver <- as.integer(dsSessionSurvey$trauma_score_caregiver)
