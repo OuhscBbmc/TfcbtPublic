@@ -240,11 +240,11 @@ shinyServer( function(input, output, session) {
   })
   output$table_file_info <- renderText({
     return( paste0(
-      "<table border='0' cellspacing='1' cellpadding='2' >",
-        "<tr><td>Data Path:<td/><td>", directoryData, "<td/><tr/>",
-        "<tr><td>Session Survey Last Modified:<td/><td>", file.info(pathSessionSurvey)$mtime, "<td/><tr/>",
-        "<tr><td>Item Progress Last Modified:<td/><td>", file.info(pathItemProgress)$mtime, "<td/><tr/>",
-        "<tr><td>App Restart Time:<td/><td>", file.info("restart.txt")$mtime, "<td/><tr/>",
+      "<table>",
+        "<tr><td>Data Path:&nbsp;<td/><td>", directoryData, "<td/><tr/>",
+        "<tr><td>Session Survey Last Modified:&nbsp;<td/><td>", file.info(pathSessionSurvey)$mtime, "<td/><tr/>",
+        "<tr><td>Item Progress Last Modified:&nbsp;<td/><td>", file.info(pathItemProgress)$mtime, "<td/><tr/>",
+        "<tr><td>App Restart Time:&nbsp;<td/><td>", file.info("restart.txt")$mtime, "<td/><tr/>",
       "<table/>"
     ) )
   })
