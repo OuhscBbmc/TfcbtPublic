@@ -103,11 +103,22 @@ shinyServer( function(input, output, session) {
     
     d_date <- as.data.frame(t(d_session_long[, c("session_date"), drop=F]))
     colnames(d_date) <- sprintf("session_%02i", d_session_long$session_number)
-    d_date$branch_item <- 0L
-    d_date$variable_index <- -1L
     d_date$description_html <- '<p class="accent flush">Session Month<br/>Session Day'
-        
-    d <- plyr::rbind.fill(d, d_date)
+    d_date$variable_index <- -2L
+    d_date$branch_item <- 0L
+       
+    d_attend_long <- d_session_long[, c("client_attend"), drop=F]
+    # if( class(d_attend_long$client_attend)=="character" )
+    d_attend_long$client_attend <- ifelse(is.na(d_attend_long$client_attend), "?", d_attend_long$client_attend)
+    d_attend_long$client_attend <- plyr::revalue(as.character(d_attend_long$client_attend), c("TRUE"="Y", "FALSE"="N"), warn_missing=F)
+    d_attend <- as.data.frame(t(d_attend_long))
+    colnames(d_attend) <- sprintf("session_%02i", d_session_long$session_number)
+    
+    d_attend$description_html <- '<p class="accent flush">Client Attended'
+    d_attend$variable_index <- -1L
+    d_attend$branch_item <- 0L
+    
+    d <- plyr::rbind.fill(d, d_date, d_attend)
     d <- d[order(d$variable_index), ]
     
     #This strips out the "session_" prefix, and adds some padding between columns.
@@ -133,8 +144,9 @@ shinyServer( function(input, output, session) {
       "description_html" = '<p class="flush">Session Number',
       "branch_item" = "B"
     ))
+    columns <- c(setdiff(colnames(d), "B"), "B")
 
-    return( as.data.frame(d) )
+    return( as.data.frame(d[, columns]) )
   },
   escape = FALSE, 
   options = list(
