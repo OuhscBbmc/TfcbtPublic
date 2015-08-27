@@ -82,15 +82,40 @@ shinyServer( function(input, output, session) {
       d_session_long <- d_session_long[d_session_long$client_number == input$client_number, ]
     }
 
+    
+    unknown_attendence <- d_session_long[is.na(d_session_long$client_attend), ]$session_number
+    no_attendence <- d_session_long[!d_session_long$client_attend, ]$session_number
+    
+    d_attend_long <- d_session_long[, c("client_attend"), drop=F]
+    # if( class(d_attend_long$client_attend)=="character" )
+    d_attend_long$client_attend <- ifelse(is.na(d_attend_long$client_attend), "?", d_attend_long$client_attend)
+    d_attend_long$client_attend <- plyr::revalue(as.character(d_attend_long$client_attend), c("TRUE"="Y", "FALSE"="N"), warn_missing=F)
+    d_attend <- as.data.frame(t(d_attend_long$client_attend))
+    
+    colnames(d_attend)          <- sprintf("session_%02i", d_session_long$session_number)
+    sessions_unknown_attendence <- sprintf("session_%02i", unknown_attendence)
+    sessions_no_attendence <- sprintf("session_%02i", no_attendence)
+    
+    d_attend$description_html <- '<p class="accent flush">Client Attended'
+    d_attend$variable_index <- -1L
+    d_attend$branch_item <- 0L
+    
     for( session_item in sort(grep("^session_(\\d{2})$", colnames(d), value=T, perl=T)) ) {      
       check <- sprintf('<i class="fa fa-check-circle accent" title="%s"></i>', gsub("_", " ", session_item))
       uncheck <- sprintf('<i class="fa fa-circle-o semihide" title="%s"></i>', gsub("_", " ", session_item))
+      question <- sprintf('<i class="fa fa-question semihide" title="%s"></i>', gsub("_", " ", session_item))
       
       d[, session_item] <- ifelse(d[, session_item], check, uncheck)
       
-      if( all(is.na(d[, session_item])) )
+      if( all(is.na(d[, session_item])) ) {
         d[, session_item] <- NULL
-    }    
+      } else if( session_item %in% sessions_no_attendence ) {
+        d[, session_item] <- ""
+      } else if( session_item %in% sessions_unknown_attendence ) {
+        d[, session_item] <- question
+      }
+    }
+    rm(unknown_attendence, no_attendence, sessions_unknown_attendence, sessions_no_attendence)
     
     if( length(d$description_html) > 0 )
       d$description_html <- paste0('<p class="hanging">', d$description_html)      
@@ -106,24 +131,13 @@ shinyServer( function(input, output, session) {
     d_date$description_html <- '<p class="accent flush">Session Month<br/>Session Day'
     d_date$variable_index <- -2L
     d_date$branch_item <- 0L
-       
-    d_attend_long <- d_session_long[, c("client_attend"), drop=F]
-    # if( class(d_attend_long$client_attend)=="character" )
-    d_attend_long$client_attend <- ifelse(is.na(d_attend_long$client_attend), "?", d_attend_long$client_attend)
-    d_attend_long$client_attend <- plyr::revalue(as.character(d_attend_long$client_attend), c("TRUE"="Y", "FALSE"="N"), warn_missing=F)
-    d_attend <- as.data.frame(t(d_attend_long))
-    colnames(d_attend) <- sprintf("session_%02i", d_session_long$session_number)
-    
-    d_attend$description_html <- '<p class="accent flush">Client Attended'
-    d_attend$variable_index <- -1L
-    d_attend$branch_item <- 0L
     
     d <- plyr::rbind.fill(d, d_date, d_attend)
     d <- d[order(d$variable_index), ]
     
-    #This strips out the "session_" prefix, and adds some padding between columns.
-    # colnames(d) <- gsub("^session_(\\d{2})$", "\\1&nbsp;&nbsp;&nbsp;", colnames(d)) 
+    #This strips out the "session_" prefix.
     colnames(d) <- gsub("^session_(\\d{2})$", "\\1", colnames(d)) 
+    
 #     colnames(d) <- ifelse(
 #       grepl("^\\d{2}$", colnames(d)),
 #       sprintf('<span title="Session %s information">%s</span>', colnames(d), colnames(d)),

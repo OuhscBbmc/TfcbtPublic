@@ -2,3 +2,4 @@ name: TherapistProgress
 account: wibeasley
 bundleId: 120544
 url: http://wibeasley.shinyapps.io/TherapistProgress
+server: shinyapps.io
