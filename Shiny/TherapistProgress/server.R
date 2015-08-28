@@ -1,7 +1,12 @@
+# load_packages  -----------------------------------
 library(shiny)
 library(ggplot2)
 library(grid)
 library(magrittr)
+
+# declare_globals  -----------------------------------
+
+
 
 # Define a server for the Shiny app
 shinyServer( function(input, output, session) {
@@ -13,6 +18,12 @@ shinyServer( function(input, output, session) {
   #######################################
   ### Call source files that contain semi-encapsulated functions.
   
+  # load_data  -----------------------------------
+  dsSessionSurvey <- load_session_survey()
+  dsItemProgress <- load_item_progress()
+  
+  # tweak_data  -----------------------------------
+
   #######################################
   ### Create the DataTables objects (a jQuery library): http://www.datatables.net/
   
