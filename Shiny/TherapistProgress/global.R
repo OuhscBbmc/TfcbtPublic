@@ -2,10 +2,6 @@
 # rm(list=ls(all=TRUE)) #Clear the memory of variables from previous run. 
 
 # load_sources  -----------------------------------
-# getwd()
-# source("../.././Manipulation/GroomClientSummary.R") #Load the `GroomClientSummary()` function
-# source("../.././Manipulation/GroomItemProgress.R") #Load the `GroomClientProgress()` function
-# getwd()
 
 # load_packages  -----------------------------------
 
