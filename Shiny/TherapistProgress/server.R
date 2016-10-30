@@ -191,20 +191,30 @@ shinyServer( function(input, output, session) {
     )
   )
   
-  output$therapist_training <- renderDataTable({
-    d <- ds_therapist
-    if( input$therapist_tag != "response not possible" ) {
-      d <- d[d$therapist_tag == input$therapist_tag, ]
-    }
-    
-    d <- d %>% 
-      dplyr::select(
-        -therapist_tag,
-        -call_group_id
-      )
-    
-    return( d )
-  })
+  output$therapist_training <- renderDataTable(
+    {
+      d <- ds_therapist
+      if( input$therapist_tag != "response not possible" ) {
+        d <- d[d$therapist_tag == input$therapist_tag, ]
+      }
+      
+      d <- d %>% 
+        dplyr::select(
+          -therapist_tag,
+          -call_group_id
+        )
+      
+      colnames(d) <- gsub("_", " ", colnames(d))
+      return( d )
+    },
+    escape = FALSE, 
+    options = list(
+      language = list(emptyTable="--<em>Please select a valid therapist-client combination above to populate this table.</em>--"),
+      searching = FALSE,
+      paging    = FALSE,
+      sort      = FALSE
+    )
+  )
   
   output$trauma_symptoms <- renderPlot({
     dWide <- dsSessionSurvey# [, c("session_date", "trauma_score_caregiver", "trauma_score_child")]   
