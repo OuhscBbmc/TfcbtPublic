@@ -2,6 +2,8 @@
 library(shiny)
 library(ggplot2)
 library(magrittr)
+requireNamespace("dplyr", quietly=FALSE)
+requireNamespace("reshape2", quietly=FALSE)
 requireNamespace("grid", quietly=FALSE)
 
 # declare_globals  -----------------------------------
@@ -18,6 +20,7 @@ shinyServer( function(input, output, session) {
   # load_data  -----------------------------------
   dsSessionSurvey <- load_session_survey()
   dsItemProgress <- load_item_progress()
+  ds_therapist <- load_therapist()
   
   # tweak_data  -----------------------------------
 
@@ -187,6 +190,21 @@ shinyServer( function(input, output, session) {
       }')
     )
   )
+  
+  output$therapist_training <- renderDataTable({
+    d <- ds_therapist
+    if( input$therapist_tag != "response not possible" ) {
+      d <- d[d$therapist_tag == input$therapist_tag, ]
+    }
+    
+    d <- d %>% 
+      dplyr::select(
+        -therapist_tag,
+        -call_group_id
+      )
+    
+    return( d )
+  })
   
   output$trauma_symptoms <- renderPlot({
     dWide <- dsSessionSurvey# [, c("session_date", "trauma_score_caregiver", "trauma_score_child")]   

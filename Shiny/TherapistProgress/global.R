@@ -37,6 +37,13 @@ load_item_progress <- function ( ) {
   return( dItemProgress )
 }
 
+load_therapist <- function ( ) {
+  d_therapist <- read.csv(file.path(determine_directory(), "therapist.csv"), stringsAsFactors=FALSE) 
+  d_therapist <- d_therapist[!is.na(d_therapist$therapist_tag) & nchar(d_therapist$therapist_tag)>0, ]
+  return( d_therapist )
+}
+
 # load_data   -----------------------------------
 dsSessionSurvey <- load_session_survey()
 dsItemProgress <- load_item_progress()
+ds_therapist <- load_therapist()

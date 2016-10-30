@@ -70,10 +70,15 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
       HTML('Software for data collection and reporting developed by <a href="http://www.ouhsc.edu/BBMC/" class="accent">OUHSC BBMC</a> <a href="https://github.com/OuhscBbmc/" class="accent"><i class="fa fa-github"></i></a>')
     ), #End the (first) tab with the Group Call table
     tabPanel(
+      title = "Therapist Training", 
+       HTML("<em>Elizabeth or Saba, please tell me what description to add here about the training history.</em>"),
+      dataTableOutput(outputId = "therapist_training")
+    ), #End the (second) tab with the therapist training history
+    tabPanel(
       title = "Trauma Symptom Tracking", 
       "Tracking symptom severity over the life of the TF-CBT case. Trainers suggest, at a minimum, administering pre-treatment and post-treatment trauma measures.",
       plotOutput(outputId='trauma_symptoms', width='95%', height='400px')
-    ), #End the (second) tab with the symptoms
+    ), #End the (third) tab with the symptoms
     tabPanel(
       title = "Details",
       htmlOutput(outputId='table_file_info')

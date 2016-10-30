@@ -1,0 +1,412 @@
+"therapist_tag","date_updated_last","call_group_id","call_group_code","call_group_attedance","case_consultation_progress","agency_name","call_attendence_total","meeting_count","date_min","date_max","consultants"
+"1010",2015-11-30,33,"Other",NA,"Missing","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
+"lgds",2015-02-13,33,"Other",NA,"Not Participating","McAlester Public Schools",0,NA,NA,NA,NA
+"_   ",2016-07-01,54,"AD",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"zl21",2015-10-20,62,"AJ",12,"Completed at least 1 Case","CREOKS",0,NA,NA,NA,NA
+"d6hs",2016-05-16,62,"AJ",13,"Completed at least 1 Case","F&CS Mental Health Care Inc",4,NA,NA,NA,NA
+"ob7u",2015-07-06,62,"AJ",12,"Completed at least 1 Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"pt9y",2015-05-27,62,"AJ",10,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"yk8a",2016-06-17,62,"AJ",8,"Completed at least 1 Case","NorthCare",4,NA,NA,NA,NA
+"bqrp",2015-05-27,62,"AJ",11,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
+"yocg",2015-05-27,62,"AJ",9,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
+"zkff",2015-06-15,63,"AK",11,"Completed at least 1 Case","Children's Medical Center",1,NA,NA,NA,NA
+"27vk",2015-06-15,63,"AK",4,"Not Participating","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
+"1qhj",2015-06-15,63,"AK",1,"Actively Staffing Case","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
+"785o",2015-06-15,63,"AK",9,"Actively Staffing Case","Holcomb Behavioral Health System",1,NA,NA,NA,NA
+"6ust",2015-06-15,63,"AK",10,"Completed at least 1 Case","Metropolitan Pediatrics",0,NA,NA,NA,NA
+"0cot",2016-10-27,63,"AK",9,"Actively Staffing Case","Northwest Center for Behavior Health",3,NA,NA,NA,NA
+"cn7q",2016-03-10,63,"AK",9,"Actively Staffing Case","Parkside Psychiatric Hospital Clinic",0,NA,NA,NA,NA
+"wfv3",2015-08-07,63,"AK",12,"Completed at least 1 Case","Red Rock",2,NA,NA,NA,NA
+"bakn",2015-06-15,63,"AK",11,"Actively Staffing Case","Touchstone Counseling Center",0,NA,NA,NA,NA
+"tun2",2016-05-16,64,"AL",10,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
+"vqdq",2015-08-06,64,"AL",12,"Did not complete case; reassign","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"9aa1",2015-05-27,64,"AL",9,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",1,NA,NA,NA,NA
+"goed",2015-05-27,64,"AL",0,"Not Participating","Lutheran Family Services of Nebraska, Inc",0,NA,NA,NA,NA
+"tb5t",2015-01-21,64,"AL",0,"Not Participating","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
+"vzno",2016-06-22,64,"AL",13,"Completed at least 1 Case","Mental Health of  Northwest  Oklahoma",1,NA,NA,NA,NA
+"ovvy",2015-05-27,64,"AL",11,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
+"paed",2015-08-25,64,"AL",12,"Completed at least 1 Case","NorthCare",3,NA,NA,NA,NA
+"s9i6",2015-11-11,64,"AL",13,"Completed at least 1 Case","NorthCare",1,NA,NA,NA,NA
+"nkql",2016-04-18,64,"AL",8,"Completed at least 1 Case","Private Practice",1,NA,NA,NA,NA
+"2tb7",2016-08-02,64,"AL",7,"Completed at least 1 Case","Red Rock",5,NA,NA,NA,NA
+"85i6",2015-05-27,64,"AL",0,"Not Participating","Red Rock",0,NA,NA,NA,NA
+"4343",2015-11-11,65,"AM",9,"Actively Staffing Case","Carl Albert",1,NA,NA,NA,NA
+"umch",2015-12-02,65,"AM",12,"Completed at least 1 Case","Carl Albert",4,NA,NA,NA,NA
+"zne3",2015-11-11,65,"AM",11,"Actively Staffing Case","F&CS Mental Health Care Inc",1,NA,NA,NA,NA
+"fux7",2015-09-22,65,"AM",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"cgi7",2015-07-15,65,"AM",9,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"2w56",2015-07-09,65,"AM",0,"Not Participating","Infant Parent Intervention Center",0,NA,NA,NA,NA
+"cgi1",2016-05-16,65,"AM",13,"Completed at least 1 Case","NorthCare",1,NA,NA,NA,NA
+"m8mp",2015-07-15,65,"AM",2,"Not Participating","Unknown",0,NA,NA,NA,NA
+"lptr",2015-09-15,66,"AN",12,"Completed at least 1 Case","Attachment Center of Kansas",0,NA,NA,NA,NA
+"jzmd",2015-05-27,66,"AN",0,"Not Participating","Green Country Behavioral Health Services",0,NA,NA,NA,NA
+"fjh2",2015-09-15,66,"AN",13,"Completed at least 1 Case","Parkland Hospital VIP/Rape Crisis",0,NA,NA,NA,NA
+"lsg3",2015-06-17,66,"AN",2,"Not Participating","Pittsburg County Health Department",0,NA,NA,NA,NA
+"0izt",2015-11-11,66,"AN",10,"Actively Staffing Case","Red Rock",1,NA,NA,NA,NA
+"jmhn",2015-06-17,66,"AN",4,"Not Participating","Red Rock",0,NA,NA,NA,NA
+"8gk1",2015-03-05,66,"AN",NA,"Missing","Relations Group Home",0,NA,NA,NA,NA
+"zs4z",2015-06-17,66,"AN",5,"Not Participating","Unknown",0,NA,NA,NA,NA
+"jpla",2016-08-25,66,"AN",11,"Completed at least 1 Case","Viewpoint Counseling Center",0,NA,NA,NA,NA
+"hwp3",2015-08-20,67,"AO",2,"Not Participating","Central Oklahoma Community Mental Health Center",0,NA,NA,NA,NA
+"rzj1",2015-08-20,67,"AO",11,"Actively Staffing Case","Central Oklahoma Community Mental Health Center",0,NA,NA,NA,NA
+"zpzj",2015-04-08,67,"AO",NA,"Not Participating","Children's Recovery Center",0,NA,NA,NA,NA
+"q5lj",2015-04-08,67,"AO",NA,"Not Participating","Children's Recovery Center",0,NA,NA,NA,NA
+"f112",2015-10-12,67,"AO",12,"Completed at least 1 Case","CREOKS",0,NA,NA,NA,NA
+"ojzs",2016-05-16,67,"AO",11,"Actively Staffing Case","CREOKS",2,NA,NA,NA,NA
+"rkjv",2015-07-09,67,"AO",3,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
+"ytwd",2015-08-26,67,"AO",5,"Actively Staffing Case","Hope Community Services",0,NA,NA,NA,NA
+"3xp1",2015-05-27,67,"AO",3,"Actively Staffing Case","Hope Community Services",0,NA,NA,NA,NA
+"089v",2016-05-16,67,"AO",NA,"Missing","Sequel Care of Oklahoma",0,NA,NA,NA,NA
+"n9s5",2015-10-20,68,"AP",5,"Actively Staffing Case","Cavanal Counseling",0,NA,NA,NA,NA
+"j60c",2015-10-20,68,"AP",5,"Actively Staffing Case","Cavanal Counseling",0,NA,NA,NA,NA
+"xy3l",2016-06-17,68,"AP",9,"Completed at least 1 Case","Edwin Fair CMHC",5,NA,NA,NA,NA
+"y5y3",2015-10-20,68,"AP",NA,"Not Participating","Inspirational Concepts",0,NA,NA,NA,NA
+"vfud",2015-11-20,68,"AP",8,"Actively Staffing Case","Jim Taliaferro Community Mental Health Center",0,NA,NA,NA,NA
+"t0ud",2015-11-09,68,"AP",5,"Actively Staffing Case","Latino Community Development Agency",0,NA,NA,NA,NA
+"2b4e",2016-05-16,68,"AP",6,"Actively Staffing Case","Within the Fragments Therapy PLLC",0,NA,NA,NA,NA
+"vl5q",2015-06-09,68,"AP",NA,"Missing","Youth and Family Services of North Central OK (Enid)",0,NA,NA,NA,NA
+"5b9r",2015-11-09,68,"AP",5,"Actively Staffing Case","Youth and Family Services of North Central OK (Enid)",0,NA,NA,NA,NA
+"dgqt",2015-06-09,69,"AQ",NA,"Missing","CREOKS",0,NA,NA,NA,NA
+"mjr3",2016-02-08,69,"AQ",9,"Completed at least 1 Case","CREOKS",0,NA,NA,NA,NA
+"sduh",2016-02-08,69,"AQ",12,"Completed at least 1 Case","CREOKS",0,NA,NA,NA,NA
+"c2vf",2016-06-17,69,"AQ",7,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",7,NA,NA,NA,NA
+"olv5",2016-03-03,69,"AQ",11,"Completed at least 1 Case","Grand Lake Mental Health Center, Inc.",1,NA,NA,NA,NA
+"yq2l",2016-06-17,69,"AQ",10,"Completed at least 1 Case","Grand Lake Mental Health Center, Inc.",2,NA,NA,NA,NA
+"onfk",2016-05-16,69,"AQ",11,"Completed at least 1 Case","Grand Lake Mental Health Center, Inc.",1,NA,NA,NA,NA
+"3wat",2016-01-27,69,"AQ",NA,"Not Participating","Hope Community Services",0,NA,NA,NA,NA
+"1qpp",2016-01-27,69,"AQ",3,"Not Participating","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
+"s2tf",2016-01-27,69,"AQ",3,"Actively Staffing Case","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
+"prnj",2016-04-14,70,"AR",11,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"m8og",2016-04-14,70,"AR",5,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"6ayr",2016-04-14,70,"AR",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"1gch",2016-06-17,70,"AR",11,"Completed at least 1 Case","F&CS Mental Health Care Inc",2,NA,NA,NA,NA
+"mkv6",2015-12-08,70,"AR",8,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
+"idjx",2015-12-08,70,"AR",4,"Actively Staffing Case","Pathways",0,NA,NA,NA,NA
+"mols",2015-12-08,70,"AR",11,"Completed at least 1 Case","Red Rock",0,NA,NA,NA,NA
+"ebkn",2016-05-24,70,"AR",10,"Completed at least 1 Case","Red Rock",2,NA,NA,NA,NA
+"w75h",2015-12-08,70,"AR",5,"Completed at least 1 Case","YouthCare of Oklahoma",0,NA,NA,NA,NA
+"8k2m",2016-02-22,71,"AS",9,"Actively Staffing Case","Cavanal Counseling",0,NA,NA,NA,NA
+"chw8",2016-03-03,71,"AS",9,"Completed at least 1 Case","Cavanal Counseling",0,NA,NA,NA,NA
+"l1bl",2016-03-16,71,"AS",9,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
+"w996",2016-03-16,71,"AS",11,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
+"uric",2016-03-16,71,"AS",11,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
+"89sh",2016-03-16,71,"AS",7,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
+"4s3l",2016-03-16,71,"AS",5,"Actively Staffing Case","Hope Revealed Behavioral Health",0,NA,NA,NA,NA
+"azjh",2016-04-19,71,"AS",6,"Not Participating","Unknown",0,NA,NA,NA,NA
+"wtnj",2016-04-19,71,"AS",6,"Not Participating","Unknown",0,NA,NA,NA,NA
+"xund",2016-03-16,72,"AT",10,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"jb6r",2016-03-16,72,"AT",11,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"1p2k",2016-03-16,72,"AT",10,"Actively Staffing Case","Lifeworks Counseling Solutions",0,NA,NA,NA,NA
+"6te3",2016-03-16,72,"AT",3,"Not Participating","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
+"aqmt",2016-03-16,72,"AT",12,"Actively Staffing Case","Rebound Mental Health",0,NA,NA,NA,NA
+"w3q2",2016-06-17,72,"AT",8,"Actively Staffing Case","Red Rock",2,NA,NA,NA,NA
+"8hor",2016-07-25,72,"AT",9,"Completed at least 1 Case","Red Rock",3,NA,NA,NA,NA
+"99ye",2016-03-16,72,"AT",2,"Not Participating","Southeastern Ok Family Services",0,NA,NA,NA,NA
+"1t2l",2016-03-16,72,"AT",9,"Actively Staffing Case","Southwestern Behavioral",0,NA,NA,NA,NA
+"a4zm",2016-04-20,73,"AU",7,"Completed at least 1 Case","Cavanal Counseling",0,NA,NA,NA,NA
+"xcs1",2016-10-27,73,"AU",8,"Actively Staffing Case","Central Oklahoma Community Mental Health Center",6,NA,NA,NA,NA
+"zx4d",2016-10-27,73,"AU",6,"Completed at least 1 Case","CREOKS",3,NA,NA,NA,NA
+"xg7n",2016-10-27,73,"AU",7,"Actively Staffing Case","CREOKS",2,NA,NA,NA,NA
+"sc25",2016-08-18,73,"AU",5,"Actively Staffing Case","CREOKS",1,NA,NA,NA,NA
+"vnjj",2016-08-17,73,"AU",12,"Completed at least 1 Case","Edwin Fair CMHC",0,NA,NA,NA,NA
+"mdkm",2016-04-20,73,"AU",8,"Actively Staffing Case","Gateway to Prevention & Recovery",0,NA,NA,NA,NA
+"qf7n",2016-07-19,73,"AU",11,"Completed at least 1 Case","Hope Community Services",0,NA,NA,NA,NA
+"a2g6",2016-08-25,73,"AU",7,"Actively Staffing Case","Love and Hope Counseling Services",1,NA,NA,NA,NA
+"exex",2016-04-20,73,"AU",3,"Not Participating","Rose Brooks",0,NA,NA,NA,NA
+"a5q9",2016-07-19,74,"AV",12,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"vhjo",2016-04-20,74,"AV",7,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"nsz1",2016-04-20,74,"AV",8,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"lcgl",2016-04-20,74,"AV",9,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"wvky",2016-05-16,74,"AV",5,"Not Participating","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
+"93sg",2016-07-19,74,"AV",9,"Actively Staffing Case","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
+"r4ab",2016-04-20,74,"AV",NA,"Missing","Red Rock",0,NA,NA,NA,NA
+"ng9q",2016-07-25,74,"AV",12,"Completed at least 1 Case","Red Rock",0,NA,NA,NA,NA
+"5vzr",2016-07-25,74,"AV",10,"Completed at least 1 Case","Red Rock",0,NA,NA,NA,NA
+"px0w",2016-08-18,75,"AW",10,"Actively Staffing Case","Dayspring Behavorial Health",0,NA,NA,NA,NA
+"owfe",2016-07-15,75,"AW",5,"Actively Staffing Case","Dayspring Behavorial Health",0,NA,NA,NA,NA
+"7dfb",2016-07-15,75,"AW",3,"Not Participating","Dayspring Behavorial Health",0,NA,NA,NA,NA
+"4phw",2016-08-18,75,"AW",10,"Actively Staffing Case","Dayspring Behavorial Health",0,NA,NA,NA,NA
+"1o0g",2016-08-18,75,"AW",9,"Actively Staffing Case","Dayspring Behavorial Health",0,NA,NA,NA,NA
+"ki25",2016-08-18,75,"AW",9,"Completed at least 1 Case","Dayspring Behavorial Health",0,NA,NA,NA,NA
+"m7sh",2016-02-12,75,"AW",1,"Not Participating","Indian Health Care Resource Center of Tulsa, Inc",0,NA,NA,NA,NA
+"alnm",2016-08-25,76,"AX",10,"Actively Staffing Case","Counseling and Recovery Services of OK",1,NA,NA,NA,NA
+"mfgo",2016-10-27,76,"AX",10,"Actively Staffing Case","Counseling and Recovery Services of OK",4,NA,NA,NA,NA
+"ni56",2016-08-18,76,"AX",10,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"c9wq",2016-08-18,76,"AX",10,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"cy3m",2016-04-15,76,"AX",3,"Not Participating","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"h8dc",2016-08-18,76,"AX",6,"Actively Staffing Case","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
+"zpkr",2016-08-18,76,"AX",4,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
+"oquz",2016-08-18,76,"AX",8,"Actively Staffing Case","Youth and Family Services of North Central OK (Enid)",0,NA,NA,NA,NA
+"ypuf",2016-10-27,77,"AY",8,"Actively Staffing Case","Multi-County Youth Services",3,NA,NA,NA,NA
+"3sas",2016-02-12,77,"AY",NA,"Not Participating","Multi-County Youth Services",0,NA,NA,NA,NA
+"0k96",2016-08-18,77,"AY",10,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
+"zaw5",2016-07-15,77,"AY",9,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
+"6ndz",2016-08-18,77,"AY",9,"Actively Staffing Case","Red Rock",0,NA,NA,NA,NA
+"stnl",2016-10-27,77,"AY",9,"Actively Staffing Case","Red Rock",4,NA,NA,NA,NA
+"oxby",2016-08-25,78,"AZ",8,"Actively Staffing Case","Carl Albert",1,NA,NA,NA,NA
+"6dqg",2016-04-19,78,"AZ",NA,"Not Participating","Millennium Services",0,NA,NA,NA,NA
+"0ijy",2016-07-27,78,"AZ",11,"Completed at least 1 Case","Millennium Services",0,NA,NA,NA,NA
+"dh9n",2016-10-27,78,"AZ",7,"Completed at least 1 Case","NorthCare",3,NA,NA,NA,NA
+"m5ga",2016-08-18,78,"AZ",11,"Completed at least 1 Case","YouthCare of Oklahoma",0,NA,NA,NA,NA
+"1130",2016-06-17,78,"AZ",1,"Actively Staffing Case","YouthCare of Oklahoma",0,NA,NA,NA,NA
+"eyvy",2016-06-29,78,"AZ",7,"Not Participating","YouthCare of Oklahoma",0,NA,NA,NA,NA
+"weea",2016-08-18,78,"AZ",9,"Completed at least 1 Case","YouthCare of Oklahoma",0,NA,NA,NA,NA
+"9191",2016-05-17,79,"None",NA,"Missing","Access to Counseling",0,NA,NA,NA,NA
+"w8r8",2016-07-27,79,"None",2,"Not Participating","Carl Albert",0,NA,NA,NA,NA
+"m0sr",2016-08-17,79,"None",NA,"Missing","CCAN, OUHSC",0,NA,NA,NA,NA
+"lqrn",2016-07-22,79,"None",NA,"Missing","CCAN, OUHSC",0,NA,NA,NA,NA
+"9965",2016-08-17,79,"None",NA,"Missing","CCAN, OUHSC",0,NA,NA,NA,NA
+"s6cg",2016-06-07,79,"None",NA,"Missing","CCAN, OUHSC",0,NA,NA,NA,NA
+"at8h",2016-08-17,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
+"pile",2016-07-22,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
+"3ia2",2016-07-22,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
+"0zya",2016-07-25,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
+"7mlc",2016-07-25,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
+"s7p4",2016-07-25,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
+"g7uh",2016-07-25,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
+"w070",2016-07-25,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
+"lldq",2016-07-25,79,"None",NA,"Missing","CCAN, OUHSC",0,NA,NA,NA,NA
+"1515",2016-05-16,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
+"1234",2016-05-16,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
+"2345",2016-05-16,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
+"3456",2016-05-16,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
+"4567",2016-05-16,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
+"6789",2016-05-16,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
+"5432",2016-05-16,79,"None",NA,"Missing","Central Oklahoma Community Mental Health Center",0,NA,NA,NA,NA
+"6541",2016-05-16,79,"None",NA,"Missing","Choices for Life",0,NA,NA,NA,NA
+"zh1o",2016-09-08,79,"None",1,"Not Participating","CREOKS",0,NA,NA,NA,NA
+"7654",2016-05-16,79,"None",NA,"Missing","Curtis Gilley Counseling Services",0,NA,NA,NA,NA
+"8989",2016-05-17,79,"None",NA,"Missing","Dayspring Behavorial Health",0,NA,NA,NA,NA
+"9876",2016-05-16,79,"None",NA,"Missing","Denver Indian Health & Family Services",0,NA,NA,NA,NA
+"8765",2016-05-16,79,"None",NA,"Missing","Denver Indian Health & Family Services",0,NA,NA,NA,NA
+"7pyy",2015-08-04,79,"None",4,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"7412",2016-05-17,79,"None",NA,"Missing","Fresh Start Counseling",0,NA,NA,NA,NA
+"4440",2016-05-17,79,"None",NA,"Missing","Full Circle Youth and Family Services",0,NA,NA,NA,NA
+"5646",2016-05-17,79,"None",NA,"Missing","Full Circle Youth and Family Services",0,NA,NA,NA,NA
+"zz00",2016-10-27,79,"None",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"5649",2016-05-17,79,"None",NA,"Missing","Homebased Services  & Resources",0,NA,NA,NA,NA
+"1525",2016-05-17,79,"None",NA,"Missing","Jim Taliaferro Community Mental Health Center",0,NA,NA,NA,NA
+"ZZZ0",2016-07-25,79,"None",NA,"Not Participating","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
+"4040",2016-05-17,79,"None",NA,"Missing","Moore Youth and Family Services, Inc. (MYFS)",0,NA,NA,NA,NA
+"3636",2016-05-17,79,"None",NA,"Missing","ODHMSAS - OKC",0,NA,NA,NA,NA
+"6363",2016-05-17,79,"None",NA,"Missing","ODMHSAS - Lawton",0,NA,NA,NA,NA
+"1212",2015-08-03,79,"None",NA,"Not Participating","Pathways",0,NA,NA,NA,NA
+"80ql",2015-08-05,79,"None",NA,"Not Participating","Pathways",0,NA,NA,NA,NA
+"uah1",2015-08-06,79,"None",NA,"Not Participating","Pathways",0,NA,NA,NA,NA
+"LLLL",2016-07-25,79,"None",NA,"Not Participating","Private Practice",0,NA,NA,NA,NA
+"3333",2016-05-17,79,"None",NA,"Missing","Red Rock",0,NA,NA,NA,NA
+"none",2015-12-04,79,"None",NA,"Not Participating","Red Rock",0,NA,NA,NA,NA
+"8686",2016-05-17,79,"None",NA,"Missing","Unknown",0,NA,NA,NA,NA
+"2589",2016-05-17,79,"None",NA,"Missing","Unknown",0,NA,NA,NA,NA
+"dtzf",2016-09-20,79,"None",1,"Not Participating","Unknown",0,NA,NA,NA,NA
+"abcd",2016-06-21,79,"None",NA,"Not Participating","Youth and Family Services of Washington County",0,NA,NA,NA,NA
+"7456",2016-05-16,80,"Unknown",NA,"Missing","Cherokee Nation Behavioral Health Services",0,NA,NA,NA,NA
+"8888",2015-06-09,80,"Unknown",NA,"Missing","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
+"9999",2015-06-09,80,"Unknown",NA,"Missing","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
+"04bt",2016-05-31,80,"Unknown",NA,"Missing","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"6666",2015-06-09,80,"Unknown",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"tdm5",2016-05-31,80,"Unknown",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"0000",2015-08-05,80,"Unknown",NA,"Not Participating","Latino Community Development Agency",0,NA,NA,NA,NA
+"4sr0",2015-08-05,80,"Unknown",1,"Not Participating","Oklahoma Dept of Mental Health",0,NA,NA,NA,NA
+"5555",2015-06-09,80,"Unknown",NA,"Missing","Red Rock",0,NA,NA,NA,NA
+"k0hn",2015-09-16,82,"OKDHS9",10,"Completed at least 1 Case","Concepts in Counseling",0,NA,NA,NA,NA
+"99gp",2015-09-15,82,"OKDHS9",10,"Completed at least 1 Case","Concepts in Counseling",0,NA,NA,NA,NA
+"k636",2015-09-15,82,"OKDHS9",10,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
+"f91s",2015-09-15,82,"OKDHS9",10,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
+"6aty",2015-09-15,82,"OKDHS9",11,"Completed at least 1 Case","Concepts in Counseling",0,NA,NA,NA,NA
+"a4hf",2016-10-27,82,"OKDHS9",8,"Completed at least 1 Case","DVIS",3,NA,NA,NA,NA
+"pgwh",2016-05-16,83,"OKDHS10",1,"Not Participating","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
+"jckm",2015-11-03,83,"OKDHS10",6,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
+"civj",2015-11-03,83,"OKDHS10",13,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
+"iit7",2016-08-19,83,"OKDHS10",9,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
+"sw26",2015-03-02,83,"OKDHS10",NA,"Missing","Transitions",0,NA,NA,NA,NA
+"juhw",2015-08-20,83,"OKDHS10",NA,"Not Participating","Transitions",0,NA,NA,NA,NA
+"holo",2015-11-03,83,"OKDHS10",13,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
+"symp",2015-11-03,83,"OKDHS10",10,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
+"oklp",2015-11-03,83,"OKDHS10",7,"Actively Staffing Case","Unknown",0,NA,NA,NA,NA
+"4xuz",2016-02-01,84,"OKDHS11",10,"Completed at least 1 Case","Concepts in Counseling",0,NA,NA,NA,NA
+"mwzo",2015-06-18,84,"OKDHS11",1,"Actively Staffing Case","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
+"pkc8",2015-05-27,84,"OKDHS11",NA,"Not Participating","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
+"lgvk",2015-11-09,84,"OKDHS11",9,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"eg0j",2016-06-21,84,"OKDHS11",10,"Completed at least 1 Case","F&CS Mental Health Care Inc",2,NA,NA,NA,NA
+"92w4",2015-11-09,84,"OKDHS11",5,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"k090",2015-09-16,84,"OKDHS11",2,"Not Participating","Jordan's Crossing",0,NA,NA,NA,NA
+"9yha",2016-03-03,85,"OKDHS12",9,"Completed at least 1 Case","Cornerstone Counseling and Consulting, Inc.",1,NA,NA,NA,NA
+"85um",2015-10-20,85,"OKDHS12",3,"Not Participating","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
+"v1t7",2016-06-21,85,"OKDHS12",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"pxae",2015-11-09,85,"OKDHS12",5,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"ap5p",2016-06-17,85,"OKDHS12",8,"Completed at least 1 Case","F&CS Mental Health Care Inc",6,NA,NA,NA,NA
+"mu32",2015-11-09,85,"OKDHS12",NA,"Not Participating","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"xoxl",2016-10-19,85,"OKDHS12",6,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
+"co2y",2015-10-20,85,"OKDHS12",5,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
+"z7w6",2015-10-20,85,"OKDHS12",9,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
+"hvzs",2016-07-15,85,"OKDHS12",11,"Completed at least 1 Case","Unknown",1,NA,NA,NA,NA
+"e4zc",2015-12-16,86,"OKDHS13",7,"Actively Staffing Case","Pathways",0,NA,NA,NA,NA
+"8c8m",2016-05-16,86,"OKDHS13",5,"Actively Staffing Case","Pathways",0,NA,NA,NA,NA
+"gt7y",2015-09-16,86,"OKDHS13",2,"Actively Staffing Case","Pathways",0,NA,NA,NA,NA
+"hcd1",2015-09-16,86,"OKDHS13",4,"Actively Staffing Case","Pathways",0,NA,NA,NA,NA
+"enes",2015-12-16,87,"OKDHS14",11,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
+"7x1c",2015-12-16,87,"OKDHS14",8,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
+"zjpk",2015-12-16,87,"OKDHS14",11,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
+"w2lm",2015-12-16,87,"OKDHS14",10,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
+"4vbu",2016-05-16,87,"OKDHS14",10,"Actively Staffing Case","Connections Center For Guidance And Development",0,NA,NA,NA,NA
+"yruv",2015-12-16,87,"OKDHS14",12,"Actively Staffing Case","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
+"9rvy",2015-12-16,87,"OKDHS14",11,"Actively Staffing Case","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
+"ubh5",2015-12-16,87,"OKDHS14",12,"Actively Staffing Case","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
+"sq36",2015-12-16,87,"OKDHS14",6,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"znei",2015-05-26,87,"OKDHS14",NA,"Missing","Latino Community Development Agency",0,NA,NA,NA,NA
+"ioqu",2015-12-16,87,"OKDHS14",4,"Actively Staffing Case","Pathways",0,NA,NA,NA,NA
+"9nlp",2016-02-01,88,"OKDHS15",12,"Completed at least 1 Case","Concepts in Counseling",0,NA,NA,NA,NA
+"f017",2016-02-01,88,"OKDHS15",5,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
+"5p5q",2016-01-11,88,"OKDHS15",3,"Not Participating","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
+"ndki",2016-02-01,88,"OKDHS15",10,"Actively Staffing Case","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
+"5c6y",2016-02-01,88,"OKDHS15",12,"Completed at least 1 Case","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
+"qtjw",2015-08-05,88,"OKDHS15",1,"Actively Staffing Case","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
+"wn6z",2016-01-11,88,"OKDHS15",8,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
+"9bnm",2016-09-15,88,"OKDHS15",8,"Completed at least 1 Case","Grand Lake Mental Health Center, Inc.",9,NA,NA,NA,NA
+"fpbu",2016-08-18,88,"OKDHS15",9,"Completed at least 1 Case","Grand Lake Mental Health Center, Inc.",2,NA,NA,NA,NA
+"6x0d",2016-02-01,88,"OKDHS15",7,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"l1aa",2016-02-01,88,"OKDHS15",7,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
+"oqvb",2016-09-28,95,"BA",10,"Actively Staffing Case","Bethesda Inc",0,NA,NA,NA,NA
+"jrzj",2016-09-28,95,"BA",10,"Completed at least 1 Case","Bethesda Inc",0,NA,NA,NA,NA
+"1uha",2016-09-28,95,"BA",11,"Actively Staffing Case","Bethesda Inc",0,NA,NA,NA,NA
+"us6n",2016-09-28,95,"BA",10,"Actively Staffing Case","Bethesda Inc",0,NA,NA,NA,NA
+"bp0r",2016-09-28,95,"BA",8,"Actively Staffing Case","Bethesda Inc",0,NA,NA,NA,NA
+"dgmb",2016-09-28,95,"BA",11,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"7je6",2016-10-03,95,"BA",12,"Completed at least 1 Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"hjp9",2016-09-28,95,"BA",10,"Actively Staffing Case","ROCMND Area Youth Services",0,NA,NA,NA,NA
+"p54t",2016-08-29,96,"BB",8,"Actively Staffing Case","Hope Community Services",0,NA,NA,NA,NA
+"f4rq",2016-08-29,96,"BB",9,"Actively Staffing Case","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
+"e84q",2016-08-29,96,"BB",7,"Actively Staffing Case","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
+"w62v",2016-10-27,96,"BB",9,"Actively Staffing Case","NorthCare",1,NA,NA,NA,NA
+"hnwy",2016-08-29,96,"BB",9,"Completed at least 1 Case","NorthCare",0,NA,NA,NA,NA
+"xq6i",2016-08-29,96,"BB",11,"Actively Staffing Case","Oklahoma Families First",0,NA,NA,NA,NA
+"h35s",2016-10-27,96,"BB",11,"Completed at least 1 Case","Red Rock",3,NA,NA,NA,NA
+"thzv",2016-08-29,96,"BB",9,"Actively Staffing Case","Unknown",0,NA,NA,NA,NA
+"ur5v",2016-10-27,97,"BC",9,"Actively Staffing Case","Carl Albert",2,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
+"9n7n",2016-10-27,97,"BC",8,"Completed at least 1 Case","Carl Albert",3,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
+"h6ll",2016-10-27,97,"BC",12,"Actively Staffing Case","Carl Albert",2,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
+"dfqb",2016-09-08,97,"BC",12,"Completed at least 1 Case","CREOKS",0,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
+"rsnm",2016-10-27,97,"BC",11,"Completed at least 1 Case","CREOKS",1,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
+"v684",2016-09-15,97,"BC",11,"Actively Staffing Case","DVIS",1,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
+"zgyy",2016-10-27,97,"BC",11,"Completed at least 1 Case","DVIS",2,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
+"6sob",2016-10-27,97,"BC",11,"Completed at least 1 Case","DVIS",2,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
+"41fo",2016-10-27,98,"BD",6,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
+"aao9",2016-10-27,98,"BD",3,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
+"8wrp",2016-10-27,98,"BD",8,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
+"2jv5",2016-10-27,98,"BD",8,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
+"a127",2016-10-27,98,"BD",7,"Actively Staffing Case","Red Rock",0,NA,NA,NA,NA
+"2ypd",2016-10-27,98,"BD",8,"Actively Staffing Case","Red Rock",0,NA,NA,NA,NA
+"apxc",2016-10-27,99,"BE",2,"Actively Staffing Case","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
+"ioyv",2016-10-27,99,"BE",7,"Actively Staffing Case","Gateway to Prevention & Recovery",0,NA,NA,NA,NA
+"wwkr",2016-10-27,99,"BE",7,"Actively Staffing Case","Hope Revealed Behavioral Health",0,NA,NA,NA,NA
+"srpj",2016-10-27,99,"BE",3,"Actively Staffing Case","Latino Community Development Agency",0,NA,NA,NA,NA
+"k2at",2016-10-27,99,"BE",4,"Actively Staffing Case","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
+"fuh8",2016-10-27,99,"BE",6,"Actively Staffing Case","Private Practice",0,NA,NA,NA,NA
+"1or3",2016-10-27,99,"BE",7,"Actively Staffing Case","Red Rock",0,NA,NA,NA,NA
+"lgnt",2016-10-27,99,"BE",6,"Actively Staffing Case","Southeastern Ok Family Services",0,NA,NA,NA,NA
+"ej84",2016-10-20,100,"BF",7,"Actively Staffing Case","Edwin Fair CMHC",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
+"awri",2016-10-20,100,"BF",8,"Actively Staffing Case","F&CS Mental Health Care Inc",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
+"mcwc",2016-10-20,100,"BF",2,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
+"pt70",2016-10-20,100,"BF",5,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
+"wtkn",2016-10-20,100,"BF",3,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
+"0o1r",2016-10-20,100,"BF",4,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
+"voee",2016-10-20,100,"BF",8,"Actively Staffing Case","Green Country Behavioral Health Services",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
+"3o16",2016-10-20,100,"BF",7,"Actively Staffing Case","Green Country Behavioral Health Services",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
+"8ctp",2016-10-20,100,"BF",6,"Actively Staffing Case","Unknown",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
+"zicn",2016-10-20,101,"BG",4,"Actively Staffing Case","Ada Youth Shelter",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
+"ix6q",2016-10-20,101,"BG",3,"Actively Staffing Case","Community Children Shelter and Family Service Center",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
+"5n04",2016-10-20,101,"BG",4,"Actively Staffing Case","Great Plains Youth abd Family Services",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
+"kmy1",2016-10-20,101,"BG",3,"Actively Staffing Case","Great Plains Youth abd Family Services",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
+"u9uq",2016-10-20,101,"BG",4,"Actively Staffing Case","Leflore County Youth Services",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
+"5pw4",2016-10-20,101,"BG",5,"Actively Staffing Case","Leflore County Youth Services",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
+"6isb",2016-10-20,101,"BG",4,"Actively Staffing Case","Tri-City Youth & Family Center, Inc.",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
+"hoo7",2016-10-20,101,"BG",5,"Actively Staffing Case","Tri-City Youth & Family Center, Inc.",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
+"2aw7",2016-10-20,101,"BG",3,"Actively Staffing Case","Youth and Family Services",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
+"yp63",2016-10-27,102,"BH",6,"Actively Staffing Case","Payne County Health Dept.",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
+"w4ys",2016-10-27,102,"BH",6,"Actively Staffing Case","Payne County Health Dept.",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
+"uqet",2016-10-27,102,"BH",6,"Actively Staffing Case","Payne County Health Dept.",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
+"6ohv",2016-10-27,102,"BH",5,"Actively Staffing Case","Shawnee Youth and Family Resource Center",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
+"jvks",2016-10-27,102,"BH",7,"Actively Staffing Case","Youth and Family Services of North Central OK (Enid)",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
+"vzrg",2016-10-27,102,"BH",6,"Actively Staffing Case","Youth and Family Services of North Central OK (Enid)",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
+"emch",2016-10-27,102,"BH",7,"Actively Staffing Case","Youth and Family Services of North Central OK (Enid)",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
+"cra3",2016-10-27,102,"BH",7,"Actively Staffing Case","Youth and Family Services of North Central OK (Enid)",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
+"nz28",2016-10-27,103,"BI",5,"Actively Staffing Case","F&CS Mental Health Care Inc",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
+"hwzi",2016-10-27,103,"BI",6,"Actively Staffing Case","Shawnee Youth and Family Resource Center",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
+"81ne",2016-10-27,103,"BI",6,"Actively Staffing Case","Youth and Family Services",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
+"xsmr",2016-10-27,103,"BI",5,"Actively Staffing Case","Youth and Family Services of Washington County",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
+"1l6h",2016-10-27,103,"BI",6,"Actively Staffing Case","Youth and Family Services of Washington County",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
+"f7ov",2016-10-27,103,"BI",4,"Actively Staffing Case","Youth and Family Services of Washington County",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
+"a0wb",2016-10-27,103,"BI",7,"Actively Staffing Case","Youth Services of Tulsa",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
+"j6ht",2016-07-25,103,"BI",NA,"Missing","Youth Services of Tulsa",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
+"xwig",2016-10-27,103,"BI",6,"Actively Staffing Case","Youth Services of Tulsa",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
+"4b0p",2016-08-19,104,"BJ",NA,"Missing","Kiamichi Youth Services",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
+"rhhq",2016-09-28,104,"BJ",2,"Did not complete; open call","Marie Detty Youth & Family Services Center",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
+"u69d",2016-10-27,104,"BJ",3,"Actively Staffing Case","Marie Detty Youth & Family Services Center",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
+"i09x",2016-10-27,104,"BJ",3,"Actively Staffing Case","MidDel Youth & Family",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
+"uzcg",2016-10-27,104,"BJ",5,"Actively Staffing Case","Multi-County Youth Services",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
+"37rh",2016-10-27,104,"BJ",4,"Actively Staffing Case","Northern Oklahoma Youth Services",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
+"bwqm",2016-10-27,104,"BJ",4,"Actively Staffing Case","Panhandle Services for Children",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
+"4d2j",2016-10-27,104,"BJ",3,"Actively Staffing Case","Southwestern Youth Services",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
+"k5ng",2016-10-20,105,"BK",2,"Actively Staffing Case","Carl Albert",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
+"e1yk",2016-10-20,105,"BK",4,"Actively Staffing Case","Children's Recovery Center",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
+"c255",2016-10-20,105,"BK",3,"Actively Staffing Case","CREOKS",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
+"5nkt",2016-07-22,105,"BK",NA,"Missing","CREOKS",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
+"r7jy",2016-10-20,105,"BK",NA,"Missing","CREOKS",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
+"o2s5",2016-10-20,105,"BK",4,"Actively Staffing Case","CREOKS",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
+"cys5",2016-10-20,105,"BK",2,"Actively Staffing Case","CREOKS",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
+"wiqt",2016-10-20,105,"BK",4,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
+"bd63",2016-10-20,105,"BK",4,"Actively Staffing Case","NorthCare",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
+"e5h1",2016-10-20,106,"BL",3,"Actively Staffing Case","Counseling and Recovery Services of OK",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
+"z4aw",2016-10-20,106,"BL",3,"Actively Staffing Case","F&CS Mental Health Care Inc",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
+"1x3w",2016-10-20,106,"BL",4,"Actively Staffing Case","F&CS Mental Health Care Inc",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
+"sjbm",2016-10-20,106,"BL",4,"Actively Staffing Case","F&CS Mental Health Care Inc",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
+"r2ms",2016-10-20,106,"BL",4,"Actively Staffing Case","F&CS Mental Health Care Inc",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
+"ey7a",2016-10-20,106,"BL",4,"Actively Staffing Case","F&CS Mental Health Care Inc",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
+"0jrs",2016-10-20,106,"BL",3,"Actively Staffing Case","Mental Health of  Northwest  Oklahoma",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
+"ild8",2016-10-20,106,"BL",3,"Actively Staffing Case","Parent Child Center of Tulsa",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
+"xu2r",2016-10-20,106,"BL",4,"Actively Staffing Case","Parent Child Center of Tulsa",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
+"ard1",2016-10-20,106,"BL",3,"Actively Staffing Case","Parent Child Center of Tulsa",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
+"bflm",2016-10-27,107,"BM",4,"Actively Staffing Case","Northwest Center for Behavior Health",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
+"h8c9",2016-10-27,107,"BM",4,"Actively Staffing Case","Northwest Center for Behavior Health",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
+"wk6r",2016-10-27,107,"BM",4,"Actively Staffing Case","Northwest Center for Behavior Health",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
+"mvw5",2016-10-27,107,"BM",4,"Actively Staffing Case","Northwest Center for Behavior Health",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
+"nas6",2016-07-22,107,"BM",NA,"Missing","Northwest Center for Behavior Health",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
+"8oo2",2016-10-27,107,"BM",4,"Actively Staffing Case","Northwest Center for Behavior Health",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
+"net1",2016-10-14,107,"BM",2,"Actively Staffing Case","Red Rock",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
+"41lh",2016-10-14,107,"BM",4,"Actively Staffing Case","Wings of Hope",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
+"gdgl",2016-10-14,107,"BM",4,"Actively Staffing Case","Wings of Hope",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
+"9cm4",2016-09-23,108,"BN",NA,"Missing","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
+"m9s1",2016-09-23,108,"BN",NA,"Missing","CREOKS",0,NA,NA,NA,NA
+"2oee",2016-09-23,108,"BN",NA,"Missing","CREOKS",0,NA,NA,NA,NA
+"ij2y",2016-09-23,108,"BN",NA,"Missing","CREOKS",0,NA,NA,NA,NA
+"iky6",2016-09-22,108,"BN",NA,"Missing","CREOKS",0,NA,NA,NA,NA
+"8lqg",2016-09-23,108,"BN",NA,"Missing","CREOKS",0,NA,NA,NA,NA
+"p82q",2016-09-23,108,"BN",NA,"Missing","Hope Community Services",0,NA,NA,NA,NA
+"umjj",2016-09-23,108,"BN",NA,"Missing","Hope Community Services",0,NA,NA,NA,NA
+"xzoi",2016-09-23,108,"BN",NA,"Missing","Hope Community Services",0,NA,NA,NA,NA
+"nx0c",2016-09-23,109,"BO",NA,"Missing","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"4bu0",2016-09-23,109,"BO",NA,"Missing","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"w67m",2016-09-23,109,"BO",NA,"Missing","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"8wfp",2016-09-23,109,"BO",NA,"Missing","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"gnri",2016-09-23,109,"BO",NA,"Missing","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"8gr7",2016-09-23,109,"BO",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"ub1y",2016-09-23,109,"BO",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"r1ps",2016-09-23,109,"BO",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"w9f6",2016-09-23,109,"BO",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"nngl",2016-09-23,109,"BO",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"ec8u",2016-09-26,110,"BP",NA,"Missing","NorthCare",0,NA,NA,NA,NA
+"i9n7",2016-09-26,110,"BP",NA,"Missing","Northwest Center for Behavior Health",0,NA,NA,NA,NA
+"canh",2016-09-26,110,"BP",NA,"Missing","Northwest Center for Behavior Health",0,NA,NA,NA,NA
+"fbzd",2016-09-26,110,"BP",NA,"Missing","Northwest Center for Behavior Health",0,NA,NA,NA,NA
+"ibx0",2016-09-26,110,"BP",NA,"Not Participating","Northwest Center for Behavior Health",0,NA,NA,NA,NA
+"42ek",2016-09-26,110,"BP",NA,"Missing","Red Rock",0,NA,NA,NA,NA
+"o8bd",2016-10-20,110,"BP",NA,"Missing","Red Rock",0,NA,NA,NA,NA
+"c70m",2016-09-26,110,"BP",NA,"Missing","Red Rock",0,NA,NA,NA,NA
+"n9zs",2016-09-26,110,"BP",NA,"Missing","Speck Homes for Boys",0,NA,NA,NA,NA
+"bw5v",2016-09-26,110,"BP",NA,"Missing","Speck Homes for Boys",0,NA,NA,NA,NA
+"qpqp",2016-08-18,121,"Roy",10,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"pqpq",2016-08-18,121,"Roy",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"eeee",2016-08-22,121,"Roy",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"iiii",NA,121,"Roy",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"uuuu",NA,121,"Roy",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
