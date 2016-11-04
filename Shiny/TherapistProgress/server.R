@@ -205,12 +205,22 @@ shinyServer( function(input, output, session) {
       }  
       
       d <- d %>% 
-        dplyr::select(
-          -therapist_tag,
-          -call_group_id
+        dplyr::select_(
+         "Therapist Tag"                   = "`therapist_tag`"
+         , "Date Last Updated"             = "`date_updated_last`"
+         # , "call_group_id"               = "`call_group_id`"
+         , "Call Group"                    = "`call_group_code`"
+         , "Attendance"                     = "`call_group_attendance`"
+         , "# of Calls Held"               = "`meeting_count`"
+         , "Case Consultation Progress"    = "`case_consultation_progress`"
+         , "Agency"                        = "`agency_name`"
+         , "Call  Attendence Total"        = "`call_attendence_total`"
+         , "First Call Scheduled"          = "`date_min`"
+         , "Final Call Scheduled"          = "`date_max`"
+         , "Consultants"                   = "`consultants`"
         )
       
-      colnames(d) <- gsub("_", " ", colnames(d))
+      # colnames(d) <- gsub("_", " ", colnames(d))
       return( d )
     },
     escape = FALSE, 
