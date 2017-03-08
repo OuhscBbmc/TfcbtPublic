@@ -156,14 +156,22 @@ shinyServer( function(input, output, session) {
     d$description_long  <- NULL
     d$variable_index    <- NULL
     d$therapist_email   <- NULL
+    # browser()
     
-    d <- plyr::rename(d, replace=c(
-      "description_html" = '<p class="flush">Session Number',
-      "branch_item" = "B"
-    ))
-    columns <- c(setdiff(colnames(d), "B"), "B")
+    
+    d <- d %>% 
+      dplyr::select(description_html, dplyr::everything()) %>%  #, branch_item
+      dplyr::rename_(
+      '<p class="flush">Session Number' ="description_html"#,
+      # "B"                               = "branch_item"
+      )
+    # d <- plyr::rename(d, replace=c(
+    #   "description_html" = '<p class="flush">Session Number',
+    #   "branch_item" = "B"
+    # ))
+    # columns <- c(setdiff(colnames(d), "B"), "B")
 
-    return( as.data.frame(d[, columns]) )
+    return( d )
   },
   escape = FALSE, 
   options = list(
