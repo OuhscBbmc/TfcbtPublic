@@ -66,14 +66,17 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
       fluidRow(
         dataTableOutput(outputId = "ItemProgressTable")
       ), #End fluid row with the Group Call table
+      HTML('If you believe any of the data reported to be inaccurate, please email us at <a href="mailto:OKTF-CBT@ouhsc.edu">OKTF-CBT@ouhsc.edu</a> and include any supporting documentation available to you so we might investigate the discrepancy promptly.<br/><br/></a>'),
+      
       HTML('&copy; 2014 <a href="http://oklahomatfcbt.org/" title="Oklahoma TF-CBT" class="accent">Oklahoma TF-CBT</a>'),
       shiny::icon("code"), #This is a little cheat to get the table icons work
       HTML('Software for data collection and reporting developed by <a href="http://www.ouhsc.edu/BBMC/" class="accent">OUHSC BBMC</a> <a href="https://github.com/OuhscBbmc/" class="accent"><i class="fa fa-github"></i></a>')
     ), #End the (first) tab with the Group Call table
     tabPanel(
       title = "Therapist Training", 
-       HTML("Training summary of each therapist within with the <em>agencies</em> selected above.<br/><br/>"),
-       HTML("<em>Elizabeth or Saba, please tell me what other description to add here about the training history.</em>"),
+      HTML("Training summary of each therapist within the call group or agency selected from the dropdown menu above.<br/><br/>"),
+      HTML("Therapists are displayed in reverse chronological order below, so those most recently trained appear at the top. Therapist attendance is reported both for their initial call series (a total of 12 calls held over 6 months with one consultant at varying times on Mondays and Tuesdays) and for the open call (held every 2nd/4th Tuesday of the month from 9-10am with Dr. Saba Shahid). Each therapist’s case consultation progress is also displayed. Options include not participating, actively staffing a case, and completed one case (required for successful consultation completion)."),
+      HTML("If you believe any of the data reported below to be inaccurate, please email us at <a href='mailto:OKTF-CBT@ouhsc.edu'>OKTF-CBT@ouhsc.edu</a> and include any supporting documentation available to you so we might investigate the discrepancy promptly."),
       dataTableOutput(outputId = "therapist_training")
     ), #End the (second) tab with the therapist training history
     tabPanel(
