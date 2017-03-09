@@ -257,8 +257,8 @@ shinyServer( function(input, output, session) {
         theme_bw() +
         theme(panel.background  = element_rect(fill=NA, colour = NA)) +
         theme(plot.background   = element_rect(fill="gray95", colour = NA)) +
-        theme(axis.ticks.length = grid::unit(0, "cm")) +
-        theme(panel.margin      = grid::unit(c(0,0,0,0), "lines")) +
+        theme(axis.ticks        = element_blank()) +
+        theme(panel.spacing     = grid::unit(c(0,0,0,0), "lines")) +
         theme(axis.text         = element_blank()) +
         theme(axis.title        = element_blank()) +
         theme(panel.grid        = element_blank()) +
@@ -296,12 +296,12 @@ shinyServer( function(input, output, session) {
         theme_bw() +
         theme(panel.background  = element_rect(fill=NA,colour = NA)) +
         theme(plot.background   = element_rect(fill="gray95",colour = NA)) +
-        theme(axis.ticks.length = grid::unit(0, "cm")) +
+        theme(axis.ticks        = element_blank()) +
         theme(axis.text         = element_blank()) +
         theme(axis.title        = element_blank()) +
         theme(panel.grid        = element_blank()) +
         theme(panel.border      = element_blank()) +
-        theme(panel.margin      = grid::unit(c(0,0,0,0), "lines")) +
+        theme(panel.spacing     = grid::unit(c(0,0,0,0), "lines")) +
         theme(plot.margin       = grid::unit(c(0,0,0,0), "lines")) +
         theme(legend.position   = "top") +
         labs(title=NULL, x="Session Date", y="Trauma Score", colour=NULL, fill=NULL, shape=NULL)
@@ -316,8 +316,8 @@ shinyServer( function(input, output, session) {
         scale_shape_manual(values=shape_respondent_dark) +  
         coord_cartesian(ylim=c(0, 60)) +
         theme_bw() +
-        theme(axis.ticks.length = grid::unit(0, "cm")) +
-        theme(panel.margin      = grid::unit(c(0,0,0,0), "lines")) +
+        theme(axis.ticks        = element_blank()) +
+        theme(panel.spacing     = grid::unit(c(0,0,0,0), "lines")) +
         theme(legend.position   = "top") +
         labs(title=NULL, x="Session Date", y="Trauma Score", colour=NULL, fill=NULL, shape=NULL)
     } #trauma_symptoms plot
