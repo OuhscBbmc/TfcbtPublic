@@ -213,19 +213,25 @@ shinyServer( function(input, output, session) {
       }  
       
       d <- d %>% 
+        dplyr::arrange(dplyr::desc(date_updated_last))%>% 
+        dplyr::mutate(
+          date_min                         = strftime(date_min         , "%b %d, %Y"),
+          date_max                         = strftime(date_max         , "%b %d, %Y"),
+          date_updated_last                = strftime(date_updated_last, "%b %d, %Y")
+        ) %>% 
         dplyr::select_(
          "Therapist Tag"                   = "`therapist_tag`"
-         , "Date Last Updated"             = "`date_updated_last`"
+         , "Agency"                        = "`agency_name`"
          # , "call_group_id"               = "`call_group_id`"
          , "Call Group"                    = "`call_group_code`"
-         , "Attendance"                     = "`call_group_attendance`"
-         , "# of Calls Held"               = "`meeting_count`"
-         , "Case Consultation Progress"    = "`case_consultation_progress`"
-         , "Agency"                        = "`agency_name`"
-         , "Call  Attendence Total"        = "`call_attendence_total`"
+         , "Consultants"                   = "`consultants`"
          , "First Call Scheduled"          = "`date_min`"
          , "Final Call Scheduled"          = "`date_max`"
-         , "Consultants"                   = "`consultants`"
+         , "Calls Attendended"             = "`call_group_attendance`"
+         , "Calls Held"                    = "`meeting_count`"
+         , "Open Calls Attendended"        = "`call_attendence_total`"
+         , "Case Consultation Progress"    = "`case_consultation_progress`"
+         , "Date Last Updated"             = "`date_updated_last`"
         )
       
       # colnames(d) <- gsub("_", " ", colnames(d))
