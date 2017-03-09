@@ -328,7 +328,7 @@ shinyServer( function(input, output, session) {
       "<table>",
         "<tr><td>Data Path:&nbsp;<td/><td>", determine_directory(), "<td/><tr/>",
         "<tr><td>Session Survey Last Modified:&nbsp;<td/><td>", file.info(file.path(determine_directory(), "SessionSurvey.csv"))$mtime, "<td/><tr/>",
-        "<tr><td>Item Progress Last Modified:&nbsp;<td/><td>", file.info(file.path(determine_directory(), "ItemProgress.csv"))$mtime, "<td/><tr/>",
+        "<tr><td>Item Progress Last Modified:&nbsp;<td/><td>", file.info(file.path(determine_directory(), "ItemProgress.rds"))$mtime, "<td/><tr/>",
         "<tr><td>App Restart Time:&nbsp;<td/><td>", file.info("restart.txt")$mtime, "<td/><tr/>",
       "<table/>"
     ) )
