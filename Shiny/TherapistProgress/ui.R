@@ -66,7 +66,7 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
       fluidRow(
         dataTableOutput(outputId = "ItemProgressTable")
       ), #End fluid row with the Group Call table
-      HTML('If you believe any of the data reported to be inaccurate, please email us at <a href="mailto:OKTF-CBT@ouhsc.edu">OKTF-CBT@ouhsc.edu</a> and include any supporting documentation available to you so we might investigate the discrepancy promptly.<br/><br/></a>'),
+      HTML('<br/>If you believe any of the data reported to be inaccurate, please email us at <a href="mailto:OKTF-CBT@ouhsc.edu">OKTF-CBT@ouhsc.edu</a> and include any supporting documentation available to you so we might investigate the discrepancy promptly.<br/><br/></a>'),
       
       HTML('&copy; 2014 <a href="http://oklahomatfcbt.org/" title="Oklahoma TF-CBT" class="accent">Oklahoma TF-CBT</a>'),
       shiny::icon("code"), #This is a little cheat to get the table icons work

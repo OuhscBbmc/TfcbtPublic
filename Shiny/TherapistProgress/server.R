@@ -202,9 +202,10 @@ shinyServer( function(input, output, session) {
   output$therapist_training <- renderDataTable(
     {
       d <- ds_therapist
-      # if( input$therapist_tag != "response not possible" ) {
-      #   d <- d[d$therapist_tag == input$therapist_tag, ]
-      # }
+      if( is.null(input$therapist_tag) | (input$therapist_tag != "--Select a Therapist--") ) {
+        d <- d %>% 
+          dplyr::filter(therapist_tag == input$therapist_tag)
+      }
       if( (is.null(input$agency_names)) | ("--All--" %in% input$agency_names) ) {
         #Don't filter the pool based on agency if nothing or everything is specified.
       } else {
