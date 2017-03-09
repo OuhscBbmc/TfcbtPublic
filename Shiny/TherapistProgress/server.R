@@ -109,6 +109,7 @@ shinyServer( function(input, output, session) {
     d_attend$variable_index     <- -1L
     d_attend$branch_item        <- 0L
     
+    d <- as.data.frame(d) # Hack so the loop below works
     for( session_item in sort(grep("^session_(\\d{2})$", colnames(d), value=T, perl=T)) ) {      
       check    <- sprintf('<i class="fa fa-check-circle accent" title="%s"></i>', gsub("_", " ", session_item))
       uncheck  <- sprintf('<i class="fa fa-circle-o semihide" title="%s"></i>', gsub("_", " ", session_item))
