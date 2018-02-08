@@ -229,9 +229,9 @@ shinyServer( function(input, output, session) {
          , "Consultants"                   = "`consultants`"
          , "First Call Scheduled"          = "`date_min`"
          , "Final Call Scheduled"          = "`date_max`"
-         , "Calls Attendended"             = "`call_group_attendance`"
+         , "Calls Attended"                = "`call_group_attendance`"
          , "Calls Held"                    = "`meeting_count`"
-         , "Open Calls Attendended"        = "`call_attendence_total`"
+         , "Open Calls Attended"           = "`call_attendence_total`"
          , "Case Consultation Progress"    = "`case_consultation_progress`"
          , "Date Last Updated"             = "`date_updated_last`"
         )
