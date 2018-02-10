@@ -233,6 +233,7 @@ shinyServer( function(input, output, session) {
          , "Calls Held"                    = "`meeting_count`"
          , "Open Calls Attended"           = "`call_attendence_total`"
          , "Case Consultation Progress"    = "`case_consultation_progress`"
+         , "Case Status"                   = "`case_status`"
          , "Date Last Updated"             = "`date_updated_last`"
         )
       
@@ -242,6 +243,8 @@ shinyServer( function(input, output, session) {
     escape = FALSE, 
     options = list(
       language = list(emptyTable="--<em>Please select a valid therapist-client combination above to populate this table.</em>--"),
+      # columnDefs = list(list(className = 'dt-right', targets = 1:7)),
+      # rowCallback = DT::JS( 'function(row, data) { $("td:eq(7)", row).css("text-align", "left"); }'),
       searching = FALSE,
       paging    = FALSE,
       sort      = FALSE
