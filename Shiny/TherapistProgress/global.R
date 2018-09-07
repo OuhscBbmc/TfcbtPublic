@@ -103,7 +103,7 @@ load_item_progress <- function ( ) {
 
 load_therapist <- function ( ) {
   d_therapist <- read.csv(file.path(determine_directory(), "therapist.csv"), stringsAsFactors=FALSE) 
-  d_therapist <- d_therapist[!is.na(d_therapist$therapist_tag) & nchar(d_therapist$therapist_tag)>0, ]
+  d_therapist <- d_therapist[!is.na(d_therapist$therapist_name) & nchar(d_therapist$therapist_name)>0, ]
   return( d_therapist )
 }
 

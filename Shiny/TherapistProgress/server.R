@@ -203,10 +203,10 @@ shinyServer( function(input, output, session) {
   output$therapist_training <- renderDataTable(
     {
       d <- ds_therapist
-      if( is.null(input$therapist_tag) | (input$therapist_tag != "--Select a Therapist--") ) {
-        d <- d %>% 
-          dplyr::filter(therapist_tag == input$therapist_tag)
-      }
+      # if( is.null(input$therapist_name) | (input$therapist_name != "--Select a Therapist--") ) {
+      #   d <- d %>% 
+      #     dplyr::filter(therapist_name == input$therapist_name)
+      # }
       if( (is.null(input$agency_names)) | ("--All--" %in% input$agency_names) ) {
         #Don't filter the pool based on agency if nothing or everything is specified.
       } else {
@@ -222,7 +222,7 @@ shinyServer( function(input, output, session) {
           date_updated_last                = strftime(date_updated_last, "%b %d, %Y")
         ) %>% 
         dplyr::select_(
-         "Therapist Tag"                   = "`therapist_tag`"
+         "Therapist Name"                  = "`therapist_name`"
          , "Agency"                        = "`agency_name`"
          # , "call_group_id"               = "`call_group_id`"
          , "Call Group"                    = "`call_group_code`"
