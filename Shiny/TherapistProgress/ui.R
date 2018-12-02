@@ -74,9 +74,29 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
     ), #End the (first) tab with the Group Call table
     tabPanel(
       title = "Therapist Training", 
-      HTML("Training summary of each therapist within the call group or agency selected from the dropdown menu above.<br/><br/>"),
-      HTML("Therapists are displayed in reverse chronological order below, so those most recently trained appear at the top. Therapist attendance is reported both for their initial call series (a total of 12 calls held over 6 months with one consultant at varying times on Mondays and Tuesdays) and for the open call (held every 2nd/4th Tuesday of the month from 9-10am with Dr. Saba Shahid). Each therapist’s case consultation progress is also displayed. Options include not participating, actively staffing a case, and completed one case (required for successful consultation completion)."),
-      HTML("If you believe any of the data reported below to be inaccurate, please email us at <a href='mailto:OKTF-CBT@ouhsc.edu'>OKTF-CBT@ouhsc.edu</a> and include any supporting documentation available to you so we might investigate the discrepancy promptly."),
+      HTML(
+        "
+          Training summary of each therapist within the call group or agency selected 
+          from the dropdown menu above.  Therapists are displayed in reverse chronological
+          order below, so those most recently trained appear at the top. Therapist 
+          attendance is reported both for their initial call series (a total of 12
+          calls held over 6 months with one consultant at varying times on Mondays
+          and Tuesdays) the Open Call (held every 2nd/4th Tuesday of the month from
+          9-10am with Amanda Mitten) and the Early Childhood Open Call (held every
+          1st/3rd Tuesday of the month from 9-10 with Amanda Mitten).
+          <br/><br/>
+          Each therapist’s case status is displayed, options include active case, no case,
+          incomplete case and completed one case (required for successful consultation 
+          completion). Each therapist’s consultation progress is also displayed, options
+          included completed, refer to open call, reassign to new group, incomplete-do
+          not reassign, TBD (displayed for those currently in consultation).
+          <br/><br/>
+          If you believe any of the data reported below to be inaccurate, please email
+          us at <a href='mailto:OKTF-CBT@ouhsc.edu'>OKTF-CBT@ouhsc.edu</a> and include 
+          any supporting documentation available to you so we might investigate the
+          discrepancy promptly.
+        "
+      ),
       dataTableOutput(outputId = "therapist_training")
     ), #End the (second) tab with the therapist training history
     tabPanel(

@@ -232,7 +232,7 @@ shinyServer( function(input, output, session) {
          , "Calls Attended"                = "`call_group_attendance`"
          , "Calls Held"                    = "`meeting_count`"
          , "Open Calls Attended"           = "`call_attendence_total`"
-         , "Case Consultation Progress"    = "`case_consultation_progress`"
+         , "Consultation Progress"         = "`case_consultation_progress`"
          , "Case Status"                   = "`case_status`"
          , "Date Last Updated"             = "`date_updated_last`"
         )
