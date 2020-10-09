@@ -1,5 +1,12 @@
 name: TherapistProgress
+title: TherapistProgress
+username:
 account: wibeasley
-bundleId: 120544
-url: http://wibeasley.shinyapps.io/TherapistProgress
 server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 24575
+bundleId: 3488040
+url: https://wibeasley.shinyapps.io/TherapistProgress/
+when: 1596822944.29151
+asMultiple: FALSE
+asStatic: FALSE

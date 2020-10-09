@@ -61,7 +61,7 @@ shinyUI(fluidPage(theme="bootstrap_lumen.css",
   tabsetPanel( type = "tabs",
     tabPanel(
       title = "TF-CBT Session Tracking", 
-      HTML("Therapy session for the <em>therapist</em> and <em>client</em> selected above.<br/><br/>"),
+      HTML("Therapy session for the <em>therapist</em> and <em>client</em> selected above.  If you're just exploring, therapist `wfv3` is a good illustration.<br/><br/>"),
       # Create a new row for the table.
       fluidRow(
         dataTableOutput(outputId = "ItemProgressTable")

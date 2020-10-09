@@ -1,412 +1,929 @@
-"therapist_tag","date_updated_last","call_group_id","call_group_code","call_group_attedance","case_consultation_progress","agency_name","call_attendence_total","meeting_count","date_min","date_max","consultants"
-"1010",2015-11-30,33,"Other",NA,"Missing","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
-"lgds",2015-02-13,33,"Other",NA,"Not Participating","McAlester Public Schools",0,NA,NA,NA,NA
-"_   ",2016-07-01,54,"AD",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"zl21",2015-10-20,62,"AJ",12,"Completed at least 1 Case","CREOKS",0,NA,NA,NA,NA
-"d6hs",2016-05-16,62,"AJ",13,"Completed at least 1 Case","F&CS Mental Health Care Inc",4,NA,NA,NA,NA
-"ob7u",2015-07-06,62,"AJ",12,"Completed at least 1 Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"pt9y",2015-05-27,62,"AJ",10,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"yk8a",2016-06-17,62,"AJ",8,"Completed at least 1 Case","NorthCare",4,NA,NA,NA,NA
-"bqrp",2015-05-27,62,"AJ",11,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
-"yocg",2015-05-27,62,"AJ",9,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
-"zkff",2015-06-15,63,"AK",11,"Completed at least 1 Case","Children's Medical Center",1,NA,NA,NA,NA
-"27vk",2015-06-15,63,"AK",4,"Not Participating","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
-"1qhj",2015-06-15,63,"AK",1,"Actively Staffing Case","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
-"785o",2015-06-15,63,"AK",9,"Actively Staffing Case","Holcomb Behavioral Health System",1,NA,NA,NA,NA
-"6ust",2015-06-15,63,"AK",10,"Completed at least 1 Case","Metropolitan Pediatrics",0,NA,NA,NA,NA
-"0cot",2016-10-27,63,"AK",9,"Actively Staffing Case","Northwest Center for Behavior Health",3,NA,NA,NA,NA
-"cn7q",2016-03-10,63,"AK",9,"Actively Staffing Case","Parkside Psychiatric Hospital Clinic",0,NA,NA,NA,NA
-"wfv3",2015-08-07,63,"AK",12,"Completed at least 1 Case","Red Rock",2,NA,NA,NA,NA
-"bakn",2015-06-15,63,"AK",11,"Actively Staffing Case","Touchstone Counseling Center",0,NA,NA,NA,NA
-"tun2",2016-05-16,64,"AL",10,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
-"vqdq",2015-08-06,64,"AL",12,"Did not complete case; reassign","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"9aa1",2015-05-27,64,"AL",9,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",1,NA,NA,NA,NA
-"goed",2015-05-27,64,"AL",0,"Not Participating","Lutheran Family Services of Nebraska, Inc",0,NA,NA,NA,NA
-"tb5t",2015-01-21,64,"AL",0,"Not Participating","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
-"vzno",2016-06-22,64,"AL",13,"Completed at least 1 Case","Mental Health of  Northwest  Oklahoma",1,NA,NA,NA,NA
-"ovvy",2015-05-27,64,"AL",11,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
-"paed",2015-08-25,64,"AL",12,"Completed at least 1 Case","NorthCare",3,NA,NA,NA,NA
-"s9i6",2015-11-11,64,"AL",13,"Completed at least 1 Case","NorthCare",1,NA,NA,NA,NA
-"nkql",2016-04-18,64,"AL",8,"Completed at least 1 Case","Private Practice",1,NA,NA,NA,NA
-"2tb7",2016-08-02,64,"AL",7,"Completed at least 1 Case","Red Rock",5,NA,NA,NA,NA
-"85i6",2015-05-27,64,"AL",0,"Not Participating","Red Rock",0,NA,NA,NA,NA
-"4343",2015-11-11,65,"AM",9,"Actively Staffing Case","Carl Albert",1,NA,NA,NA,NA
-"umch",2015-12-02,65,"AM",12,"Completed at least 1 Case","Carl Albert",4,NA,NA,NA,NA
-"zne3",2015-11-11,65,"AM",11,"Actively Staffing Case","F&CS Mental Health Care Inc",1,NA,NA,NA,NA
-"fux7",2015-09-22,65,"AM",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"cgi7",2015-07-15,65,"AM",9,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"2w56",2015-07-09,65,"AM",0,"Not Participating","Infant Parent Intervention Center",0,NA,NA,NA,NA
-"cgi1",2016-05-16,65,"AM",13,"Completed at least 1 Case","NorthCare",1,NA,NA,NA,NA
-"m8mp",2015-07-15,65,"AM",2,"Not Participating","Unknown",0,NA,NA,NA,NA
-"lptr",2015-09-15,66,"AN",12,"Completed at least 1 Case","Attachment Center of Kansas",0,NA,NA,NA,NA
-"jzmd",2015-05-27,66,"AN",0,"Not Participating","Green Country Behavioral Health Services",0,NA,NA,NA,NA
-"fjh2",2015-09-15,66,"AN",13,"Completed at least 1 Case","Parkland Hospital VIP/Rape Crisis",0,NA,NA,NA,NA
-"lsg3",2015-06-17,66,"AN",2,"Not Participating","Pittsburg County Health Department",0,NA,NA,NA,NA
-"0izt",2015-11-11,66,"AN",10,"Actively Staffing Case","Red Rock",1,NA,NA,NA,NA
-"jmhn",2015-06-17,66,"AN",4,"Not Participating","Red Rock",0,NA,NA,NA,NA
-"8gk1",2015-03-05,66,"AN",NA,"Missing","Relations Group Home",0,NA,NA,NA,NA
-"zs4z",2015-06-17,66,"AN",5,"Not Participating","Unknown",0,NA,NA,NA,NA
-"jpla",2016-08-25,66,"AN",11,"Completed at least 1 Case","Viewpoint Counseling Center",0,NA,NA,NA,NA
-"hwp3",2015-08-20,67,"AO",2,"Not Participating","Central Oklahoma Community Mental Health Center",0,NA,NA,NA,NA
-"rzj1",2015-08-20,67,"AO",11,"Actively Staffing Case","Central Oklahoma Community Mental Health Center",0,NA,NA,NA,NA
-"zpzj",2015-04-08,67,"AO",NA,"Not Participating","Children's Recovery Center",0,NA,NA,NA,NA
-"q5lj",2015-04-08,67,"AO",NA,"Not Participating","Children's Recovery Center",0,NA,NA,NA,NA
-"f112",2015-10-12,67,"AO",12,"Completed at least 1 Case","CREOKS",0,NA,NA,NA,NA
-"ojzs",2016-05-16,67,"AO",11,"Actively Staffing Case","CREOKS",2,NA,NA,NA,NA
-"rkjv",2015-07-09,67,"AO",3,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
-"ytwd",2015-08-26,67,"AO",5,"Actively Staffing Case","Hope Community Services",0,NA,NA,NA,NA
-"3xp1",2015-05-27,67,"AO",3,"Actively Staffing Case","Hope Community Services",0,NA,NA,NA,NA
-"089v",2016-05-16,67,"AO",NA,"Missing","Sequel Care of Oklahoma",0,NA,NA,NA,NA
-"n9s5",2015-10-20,68,"AP",5,"Actively Staffing Case","Cavanal Counseling",0,NA,NA,NA,NA
-"j60c",2015-10-20,68,"AP",5,"Actively Staffing Case","Cavanal Counseling",0,NA,NA,NA,NA
-"xy3l",2016-06-17,68,"AP",9,"Completed at least 1 Case","Edwin Fair CMHC",5,NA,NA,NA,NA
-"y5y3",2015-10-20,68,"AP",NA,"Not Participating","Inspirational Concepts",0,NA,NA,NA,NA
-"vfud",2015-11-20,68,"AP",8,"Actively Staffing Case","Jim Taliaferro Community Mental Health Center",0,NA,NA,NA,NA
-"t0ud",2015-11-09,68,"AP",5,"Actively Staffing Case","Latino Community Development Agency",0,NA,NA,NA,NA
-"2b4e",2016-05-16,68,"AP",6,"Actively Staffing Case","Within the Fragments Therapy PLLC",0,NA,NA,NA,NA
-"vl5q",2015-06-09,68,"AP",NA,"Missing","Youth and Family Services of North Central OK (Enid)",0,NA,NA,NA,NA
-"5b9r",2015-11-09,68,"AP",5,"Actively Staffing Case","Youth and Family Services of North Central OK (Enid)",0,NA,NA,NA,NA
-"dgqt",2015-06-09,69,"AQ",NA,"Missing","CREOKS",0,NA,NA,NA,NA
-"mjr3",2016-02-08,69,"AQ",9,"Completed at least 1 Case","CREOKS",0,NA,NA,NA,NA
-"sduh",2016-02-08,69,"AQ",12,"Completed at least 1 Case","CREOKS",0,NA,NA,NA,NA
-"c2vf",2016-06-17,69,"AQ",7,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",7,NA,NA,NA,NA
-"olv5",2016-03-03,69,"AQ",11,"Completed at least 1 Case","Grand Lake Mental Health Center, Inc.",1,NA,NA,NA,NA
-"yq2l",2016-06-17,69,"AQ",10,"Completed at least 1 Case","Grand Lake Mental Health Center, Inc.",2,NA,NA,NA,NA
-"onfk",2016-05-16,69,"AQ",11,"Completed at least 1 Case","Grand Lake Mental Health Center, Inc.",1,NA,NA,NA,NA
-"3wat",2016-01-27,69,"AQ",NA,"Not Participating","Hope Community Services",0,NA,NA,NA,NA
-"1qpp",2016-01-27,69,"AQ",3,"Not Participating","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
-"s2tf",2016-01-27,69,"AQ",3,"Actively Staffing Case","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
-"prnj",2016-04-14,70,"AR",11,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"m8og",2016-04-14,70,"AR",5,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"6ayr",2016-04-14,70,"AR",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"1gch",2016-06-17,70,"AR",11,"Completed at least 1 Case","F&CS Mental Health Care Inc",2,NA,NA,NA,NA
-"mkv6",2015-12-08,70,"AR",8,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
-"idjx",2015-12-08,70,"AR",4,"Actively Staffing Case","Pathways",0,NA,NA,NA,NA
-"mols",2015-12-08,70,"AR",11,"Completed at least 1 Case","Red Rock",0,NA,NA,NA,NA
-"ebkn",2016-05-24,70,"AR",10,"Completed at least 1 Case","Red Rock",2,NA,NA,NA,NA
-"w75h",2015-12-08,70,"AR",5,"Completed at least 1 Case","YouthCare of Oklahoma",0,NA,NA,NA,NA
-"8k2m",2016-02-22,71,"AS",9,"Actively Staffing Case","Cavanal Counseling",0,NA,NA,NA,NA
-"chw8",2016-03-03,71,"AS",9,"Completed at least 1 Case","Cavanal Counseling",0,NA,NA,NA,NA
-"l1bl",2016-03-16,71,"AS",9,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
-"w996",2016-03-16,71,"AS",11,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
-"uric",2016-03-16,71,"AS",11,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
-"89sh",2016-03-16,71,"AS",7,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
-"4s3l",2016-03-16,71,"AS",5,"Actively Staffing Case","Hope Revealed Behavioral Health",0,NA,NA,NA,NA
-"azjh",2016-04-19,71,"AS",6,"Not Participating","Unknown",0,NA,NA,NA,NA
-"wtnj",2016-04-19,71,"AS",6,"Not Participating","Unknown",0,NA,NA,NA,NA
-"xund",2016-03-16,72,"AT",10,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"jb6r",2016-03-16,72,"AT",11,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"1p2k",2016-03-16,72,"AT",10,"Actively Staffing Case","Lifeworks Counseling Solutions",0,NA,NA,NA,NA
-"6te3",2016-03-16,72,"AT",3,"Not Participating","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
-"aqmt",2016-03-16,72,"AT",12,"Actively Staffing Case","Rebound Mental Health",0,NA,NA,NA,NA
-"w3q2",2016-06-17,72,"AT",8,"Actively Staffing Case","Red Rock",2,NA,NA,NA,NA
-"8hor",2016-07-25,72,"AT",9,"Completed at least 1 Case","Red Rock",3,NA,NA,NA,NA
-"99ye",2016-03-16,72,"AT",2,"Not Participating","Southeastern Ok Family Services",0,NA,NA,NA,NA
-"1t2l",2016-03-16,72,"AT",9,"Actively Staffing Case","Southwestern Behavioral",0,NA,NA,NA,NA
-"a4zm",2016-04-20,73,"AU",7,"Completed at least 1 Case","Cavanal Counseling",0,NA,NA,NA,NA
-"xcs1",2016-10-27,73,"AU",8,"Actively Staffing Case","Central Oklahoma Community Mental Health Center",6,NA,NA,NA,NA
-"zx4d",2016-10-27,73,"AU",6,"Completed at least 1 Case","CREOKS",3,NA,NA,NA,NA
-"xg7n",2016-10-27,73,"AU",7,"Actively Staffing Case","CREOKS",2,NA,NA,NA,NA
-"sc25",2016-08-18,73,"AU",5,"Actively Staffing Case","CREOKS",1,NA,NA,NA,NA
-"vnjj",2016-08-17,73,"AU",12,"Completed at least 1 Case","Edwin Fair CMHC",0,NA,NA,NA,NA
-"mdkm",2016-04-20,73,"AU",8,"Actively Staffing Case","Gateway to Prevention & Recovery",0,NA,NA,NA,NA
-"qf7n",2016-07-19,73,"AU",11,"Completed at least 1 Case","Hope Community Services",0,NA,NA,NA,NA
-"a2g6",2016-08-25,73,"AU",7,"Actively Staffing Case","Love and Hope Counseling Services",1,NA,NA,NA,NA
-"exex",2016-04-20,73,"AU",3,"Not Participating","Rose Brooks",0,NA,NA,NA,NA
-"a5q9",2016-07-19,74,"AV",12,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"vhjo",2016-04-20,74,"AV",7,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"nsz1",2016-04-20,74,"AV",8,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"lcgl",2016-04-20,74,"AV",9,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"wvky",2016-05-16,74,"AV",5,"Not Participating","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
-"93sg",2016-07-19,74,"AV",9,"Actively Staffing Case","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
-"r4ab",2016-04-20,74,"AV",NA,"Missing","Red Rock",0,NA,NA,NA,NA
-"ng9q",2016-07-25,74,"AV",12,"Completed at least 1 Case","Red Rock",0,NA,NA,NA,NA
-"5vzr",2016-07-25,74,"AV",10,"Completed at least 1 Case","Red Rock",0,NA,NA,NA,NA
-"px0w",2016-08-18,75,"AW",10,"Actively Staffing Case","Dayspring Behavorial Health",0,NA,NA,NA,NA
-"owfe",2016-07-15,75,"AW",5,"Actively Staffing Case","Dayspring Behavorial Health",0,NA,NA,NA,NA
-"7dfb",2016-07-15,75,"AW",3,"Not Participating","Dayspring Behavorial Health",0,NA,NA,NA,NA
-"4phw",2016-08-18,75,"AW",10,"Actively Staffing Case","Dayspring Behavorial Health",0,NA,NA,NA,NA
-"1o0g",2016-08-18,75,"AW",9,"Actively Staffing Case","Dayspring Behavorial Health",0,NA,NA,NA,NA
-"ki25",2016-08-18,75,"AW",9,"Completed at least 1 Case","Dayspring Behavorial Health",0,NA,NA,NA,NA
-"m7sh",2016-02-12,75,"AW",1,"Not Participating","Indian Health Care Resource Center of Tulsa, Inc",0,NA,NA,NA,NA
-"alnm",2016-08-25,76,"AX",10,"Actively Staffing Case","Counseling and Recovery Services of OK",1,NA,NA,NA,NA
-"mfgo",2016-10-27,76,"AX",10,"Actively Staffing Case","Counseling and Recovery Services of OK",4,NA,NA,NA,NA
-"ni56",2016-08-18,76,"AX",10,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"c9wq",2016-08-18,76,"AX",10,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"cy3m",2016-04-15,76,"AX",3,"Not Participating","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"h8dc",2016-08-18,76,"AX",6,"Actively Staffing Case","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
-"zpkr",2016-08-18,76,"AX",4,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
-"oquz",2016-08-18,76,"AX",8,"Actively Staffing Case","Youth and Family Services of North Central OK (Enid)",0,NA,NA,NA,NA
-"ypuf",2016-10-27,77,"AY",8,"Actively Staffing Case","Multi-County Youth Services",3,NA,NA,NA,NA
-"3sas",2016-02-12,77,"AY",NA,"Not Participating","Multi-County Youth Services",0,NA,NA,NA,NA
-"0k96",2016-08-18,77,"AY",10,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
-"zaw5",2016-07-15,77,"AY",9,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
-"6ndz",2016-08-18,77,"AY",9,"Actively Staffing Case","Red Rock",0,NA,NA,NA,NA
-"stnl",2016-10-27,77,"AY",9,"Actively Staffing Case","Red Rock",4,NA,NA,NA,NA
-"oxby",2016-08-25,78,"AZ",8,"Actively Staffing Case","Carl Albert",1,NA,NA,NA,NA
-"6dqg",2016-04-19,78,"AZ",NA,"Not Participating","Millennium Services",0,NA,NA,NA,NA
-"0ijy",2016-07-27,78,"AZ",11,"Completed at least 1 Case","Millennium Services",0,NA,NA,NA,NA
-"dh9n",2016-10-27,78,"AZ",7,"Completed at least 1 Case","NorthCare",3,NA,NA,NA,NA
-"m5ga",2016-08-18,78,"AZ",11,"Completed at least 1 Case","YouthCare of Oklahoma",0,NA,NA,NA,NA
-"1130",2016-06-17,78,"AZ",1,"Actively Staffing Case","YouthCare of Oklahoma",0,NA,NA,NA,NA
-"eyvy",2016-06-29,78,"AZ",7,"Not Participating","YouthCare of Oklahoma",0,NA,NA,NA,NA
-"weea",2016-08-18,78,"AZ",9,"Completed at least 1 Case","YouthCare of Oklahoma",0,NA,NA,NA,NA
-"9191",2016-05-17,79,"None",NA,"Missing","Access to Counseling",0,NA,NA,NA,NA
-"w8r8",2016-07-27,79,"None",2,"Not Participating","Carl Albert",0,NA,NA,NA,NA
-"m0sr",2016-08-17,79,"None",NA,"Missing","CCAN, OUHSC",0,NA,NA,NA,NA
-"lqrn",2016-07-22,79,"None",NA,"Missing","CCAN, OUHSC",0,NA,NA,NA,NA
-"9965",2016-08-17,79,"None",NA,"Missing","CCAN, OUHSC",0,NA,NA,NA,NA
-"s6cg",2016-06-07,79,"None",NA,"Missing","CCAN, OUHSC",0,NA,NA,NA,NA
-"at8h",2016-08-17,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
-"pile",2016-07-22,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
-"3ia2",2016-07-22,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
-"0zya",2016-07-25,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
-"7mlc",2016-07-25,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
-"s7p4",2016-07-25,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
-"g7uh",2016-07-25,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
-"w070",2016-07-25,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
-"lldq",2016-07-25,79,"None",NA,"Missing","CCAN, OUHSC",0,NA,NA,NA,NA
-"1515",2016-05-16,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
-"1234",2016-05-16,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
-"2345",2016-05-16,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
-"3456",2016-05-16,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
-"4567",2016-05-16,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
-"6789",2016-05-16,79,"None",NA,"Not Participating","CCAN, OUHSC",0,NA,NA,NA,NA
-"5432",2016-05-16,79,"None",NA,"Missing","Central Oklahoma Community Mental Health Center",0,NA,NA,NA,NA
-"6541",2016-05-16,79,"None",NA,"Missing","Choices for Life",0,NA,NA,NA,NA
-"zh1o",2016-09-08,79,"None",1,"Not Participating","CREOKS",0,NA,NA,NA,NA
-"7654",2016-05-16,79,"None",NA,"Missing","Curtis Gilley Counseling Services",0,NA,NA,NA,NA
-"8989",2016-05-17,79,"None",NA,"Missing","Dayspring Behavorial Health",0,NA,NA,NA,NA
-"9876",2016-05-16,79,"None",NA,"Missing","Denver Indian Health & Family Services",0,NA,NA,NA,NA
-"8765",2016-05-16,79,"None",NA,"Missing","Denver Indian Health & Family Services",0,NA,NA,NA,NA
-"7pyy",2015-08-04,79,"None",4,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"7412",2016-05-17,79,"None",NA,"Missing","Fresh Start Counseling",0,NA,NA,NA,NA
-"4440",2016-05-17,79,"None",NA,"Missing","Full Circle Youth and Family Services",0,NA,NA,NA,NA
-"5646",2016-05-17,79,"None",NA,"Missing","Full Circle Youth and Family Services",0,NA,NA,NA,NA
-"zz00",2016-10-27,79,"None",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"5649",2016-05-17,79,"None",NA,"Missing","Homebased Services  & Resources",0,NA,NA,NA,NA
-"1525",2016-05-17,79,"None",NA,"Missing","Jim Taliaferro Community Mental Health Center",0,NA,NA,NA,NA
-"ZZZ0",2016-07-25,79,"None",NA,"Not Participating","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
-"4040",2016-05-17,79,"None",NA,"Missing","Moore Youth and Family Services, Inc. (MYFS)",0,NA,NA,NA,NA
-"3636",2016-05-17,79,"None",NA,"Missing","ODHMSAS - OKC",0,NA,NA,NA,NA
-"6363",2016-05-17,79,"None",NA,"Missing","ODMHSAS - Lawton",0,NA,NA,NA,NA
-"1212",2015-08-03,79,"None",NA,"Not Participating","Pathways",0,NA,NA,NA,NA
-"80ql",2015-08-05,79,"None",NA,"Not Participating","Pathways",0,NA,NA,NA,NA
-"uah1",2015-08-06,79,"None",NA,"Not Participating","Pathways",0,NA,NA,NA,NA
-"LLLL",2016-07-25,79,"None",NA,"Not Participating","Private Practice",0,NA,NA,NA,NA
-"3333",2016-05-17,79,"None",NA,"Missing","Red Rock",0,NA,NA,NA,NA
-"none",2015-12-04,79,"None",NA,"Not Participating","Red Rock",0,NA,NA,NA,NA
-"8686",2016-05-17,79,"None",NA,"Missing","Unknown",0,NA,NA,NA,NA
-"2589",2016-05-17,79,"None",NA,"Missing","Unknown",0,NA,NA,NA,NA
-"dtzf",2016-09-20,79,"None",1,"Not Participating","Unknown",0,NA,NA,NA,NA
-"abcd",2016-06-21,79,"None",NA,"Not Participating","Youth and Family Services of Washington County",0,NA,NA,NA,NA
-"7456",2016-05-16,80,"Unknown",NA,"Missing","Cherokee Nation Behavioral Health Services",0,NA,NA,NA,NA
-"8888",2015-06-09,80,"Unknown",NA,"Missing","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
-"9999",2015-06-09,80,"Unknown",NA,"Missing","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
-"04bt",2016-05-31,80,"Unknown",NA,"Missing","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"6666",2015-06-09,80,"Unknown",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"tdm5",2016-05-31,80,"Unknown",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"0000",2015-08-05,80,"Unknown",NA,"Not Participating","Latino Community Development Agency",0,NA,NA,NA,NA
-"4sr0",2015-08-05,80,"Unknown",1,"Not Participating","Oklahoma Dept of Mental Health",0,NA,NA,NA,NA
-"5555",2015-06-09,80,"Unknown",NA,"Missing","Red Rock",0,NA,NA,NA,NA
-"k0hn",2015-09-16,82,"OKDHS9",10,"Completed at least 1 Case","Concepts in Counseling",0,NA,NA,NA,NA
-"99gp",2015-09-15,82,"OKDHS9",10,"Completed at least 1 Case","Concepts in Counseling",0,NA,NA,NA,NA
-"k636",2015-09-15,82,"OKDHS9",10,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
-"f91s",2015-09-15,82,"OKDHS9",10,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
-"6aty",2015-09-15,82,"OKDHS9",11,"Completed at least 1 Case","Concepts in Counseling",0,NA,NA,NA,NA
-"a4hf",2016-10-27,82,"OKDHS9",8,"Completed at least 1 Case","DVIS",3,NA,NA,NA,NA
-"pgwh",2016-05-16,83,"OKDHS10",1,"Not Participating","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
-"jckm",2015-11-03,83,"OKDHS10",6,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
-"civj",2015-11-03,83,"OKDHS10",13,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
-"iit7",2016-08-19,83,"OKDHS10",9,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
-"sw26",2015-03-02,83,"OKDHS10",NA,"Missing","Transitions",0,NA,NA,NA,NA
-"juhw",2015-08-20,83,"OKDHS10",NA,"Not Participating","Transitions",0,NA,NA,NA,NA
-"holo",2015-11-03,83,"OKDHS10",13,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
-"symp",2015-11-03,83,"OKDHS10",10,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
-"oklp",2015-11-03,83,"OKDHS10",7,"Actively Staffing Case","Unknown",0,NA,NA,NA,NA
-"4xuz",2016-02-01,84,"OKDHS11",10,"Completed at least 1 Case","Concepts in Counseling",0,NA,NA,NA,NA
-"mwzo",2015-06-18,84,"OKDHS11",1,"Actively Staffing Case","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
-"pkc8",2015-05-27,84,"OKDHS11",NA,"Not Participating","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
-"lgvk",2015-11-09,84,"OKDHS11",9,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"eg0j",2016-06-21,84,"OKDHS11",10,"Completed at least 1 Case","F&CS Mental Health Care Inc",2,NA,NA,NA,NA
-"92w4",2015-11-09,84,"OKDHS11",5,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"k090",2015-09-16,84,"OKDHS11",2,"Not Participating","Jordan's Crossing",0,NA,NA,NA,NA
-"9yha",2016-03-03,85,"OKDHS12",9,"Completed at least 1 Case","Cornerstone Counseling and Consulting, Inc.",1,NA,NA,NA,NA
-"85um",2015-10-20,85,"OKDHS12",3,"Not Participating","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
-"v1t7",2016-06-21,85,"OKDHS12",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"pxae",2015-11-09,85,"OKDHS12",5,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"ap5p",2016-06-17,85,"OKDHS12",8,"Completed at least 1 Case","F&CS Mental Health Care Inc",6,NA,NA,NA,NA
-"mu32",2015-11-09,85,"OKDHS12",NA,"Not Participating","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"xoxl",2016-10-19,85,"OKDHS12",6,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
-"co2y",2015-10-20,85,"OKDHS12",5,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
-"z7w6",2015-10-20,85,"OKDHS12",9,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
-"hvzs",2016-07-15,85,"OKDHS12",11,"Completed at least 1 Case","Unknown",1,NA,NA,NA,NA
-"e4zc",2015-12-16,86,"OKDHS13",7,"Actively Staffing Case","Pathways",0,NA,NA,NA,NA
-"8c8m",2016-05-16,86,"OKDHS13",5,"Actively Staffing Case","Pathways",0,NA,NA,NA,NA
-"gt7y",2015-09-16,86,"OKDHS13",2,"Actively Staffing Case","Pathways",0,NA,NA,NA,NA
-"hcd1",2015-09-16,86,"OKDHS13",4,"Actively Staffing Case","Pathways",0,NA,NA,NA,NA
-"enes",2015-12-16,87,"OKDHS14",11,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
-"7x1c",2015-12-16,87,"OKDHS14",8,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
-"zjpk",2015-12-16,87,"OKDHS14",11,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
-"w2lm",2015-12-16,87,"OKDHS14",10,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
-"4vbu",2016-05-16,87,"OKDHS14",10,"Actively Staffing Case","Connections Center For Guidance And Development",0,NA,NA,NA,NA
-"yruv",2015-12-16,87,"OKDHS14",12,"Actively Staffing Case","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
-"9rvy",2015-12-16,87,"OKDHS14",11,"Actively Staffing Case","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
-"ubh5",2015-12-16,87,"OKDHS14",12,"Actively Staffing Case","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
-"sq36",2015-12-16,87,"OKDHS14",6,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"znei",2015-05-26,87,"OKDHS14",NA,"Missing","Latino Community Development Agency",0,NA,NA,NA,NA
-"ioqu",2015-12-16,87,"OKDHS14",4,"Actively Staffing Case","Pathways",0,NA,NA,NA,NA
-"9nlp",2016-02-01,88,"OKDHS15",12,"Completed at least 1 Case","Concepts in Counseling",0,NA,NA,NA,NA
-"f017",2016-02-01,88,"OKDHS15",5,"Actively Staffing Case","Concepts in Counseling",0,NA,NA,NA,NA
-"5p5q",2016-01-11,88,"OKDHS15",3,"Not Participating","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
-"ndki",2016-02-01,88,"OKDHS15",10,"Actively Staffing Case","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
-"5c6y",2016-02-01,88,"OKDHS15",12,"Completed at least 1 Case","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
-"qtjw",2015-08-05,88,"OKDHS15",1,"Actively Staffing Case","Cornerstone Counseling and Consulting, Inc.",0,NA,NA,NA,NA
-"wn6z",2016-01-11,88,"OKDHS15",8,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
-"9bnm",2016-09-15,88,"OKDHS15",8,"Completed at least 1 Case","Grand Lake Mental Health Center, Inc.",9,NA,NA,NA,NA
-"fpbu",2016-08-18,88,"OKDHS15",9,"Completed at least 1 Case","Grand Lake Mental Health Center, Inc.",2,NA,NA,NA,NA
-"6x0d",2016-02-01,88,"OKDHS15",7,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"l1aa",2016-02-01,88,"OKDHS15",7,"Actively Staffing Case","Transitions",0,NA,NA,NA,NA
-"oqvb",2016-09-28,95,"BA",10,"Actively Staffing Case","Bethesda Inc",0,NA,NA,NA,NA
-"jrzj",2016-09-28,95,"BA",10,"Completed at least 1 Case","Bethesda Inc",0,NA,NA,NA,NA
-"1uha",2016-09-28,95,"BA",11,"Actively Staffing Case","Bethesda Inc",0,NA,NA,NA,NA
-"us6n",2016-09-28,95,"BA",10,"Actively Staffing Case","Bethesda Inc",0,NA,NA,NA,NA
-"bp0r",2016-09-28,95,"BA",8,"Actively Staffing Case","Bethesda Inc",0,NA,NA,NA,NA
-"dgmb",2016-09-28,95,"BA",11,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"7je6",2016-10-03,95,"BA",12,"Completed at least 1 Case","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"hjp9",2016-09-28,95,"BA",10,"Actively Staffing Case","ROCMND Area Youth Services",0,NA,NA,NA,NA
-"p54t",2016-08-29,96,"BB",8,"Actively Staffing Case","Hope Community Services",0,NA,NA,NA,NA
-"f4rq",2016-08-29,96,"BB",9,"Actively Staffing Case","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
-"e84q",2016-08-29,96,"BB",7,"Actively Staffing Case","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
-"w62v",2016-10-27,96,"BB",9,"Actively Staffing Case","NorthCare",1,NA,NA,NA,NA
-"hnwy",2016-08-29,96,"BB",9,"Completed at least 1 Case","NorthCare",0,NA,NA,NA,NA
-"xq6i",2016-08-29,96,"BB",11,"Actively Staffing Case","Oklahoma Families First",0,NA,NA,NA,NA
-"h35s",2016-10-27,96,"BB",11,"Completed at least 1 Case","Red Rock",3,NA,NA,NA,NA
-"thzv",2016-08-29,96,"BB",9,"Actively Staffing Case","Unknown",0,NA,NA,NA,NA
-"ur5v",2016-10-27,97,"BC",9,"Actively Staffing Case","Carl Albert",2,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
-"9n7n",2016-10-27,97,"BC",8,"Completed at least 1 Case","Carl Albert",3,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
-"h6ll",2016-10-27,97,"BC",12,"Actively Staffing Case","Carl Albert",2,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
-"dfqb",2016-09-08,97,"BC",12,"Completed at least 1 Case","CREOKS",0,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
-"rsnm",2016-10-27,97,"BC",11,"Completed at least 1 Case","CREOKS",1,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
-"v684",2016-09-15,97,"BC",11,"Actively Staffing Case","DVIS",1,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
-"zgyy",2016-10-27,97,"BC",11,"Completed at least 1 Case","DVIS",2,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
-"6sob",2016-10-27,97,"BC",11,"Completed at least 1 Case","DVIS",2,14,2016-02-23,2016-09-13,"Elizabeth Risch (14)"
-"41fo",2016-10-27,98,"BD",6,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
-"aao9",2016-10-27,98,"BD",3,"Actively Staffing Case","CREOKS",0,NA,NA,NA,NA
-"8wrp",2016-10-27,98,"BD",8,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
-"2jv5",2016-10-27,98,"BD",8,"Actively Staffing Case","NorthCare",0,NA,NA,NA,NA
-"a127",2016-10-27,98,"BD",7,"Actively Staffing Case","Red Rock",0,NA,NA,NA,NA
-"2ypd",2016-10-27,98,"BD",8,"Actively Staffing Case","Red Rock",0,NA,NA,NA,NA
-"apxc",2016-10-27,99,"BE",2,"Actively Staffing Case","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
-"ioyv",2016-10-27,99,"BE",7,"Actively Staffing Case","Gateway to Prevention & Recovery",0,NA,NA,NA,NA
-"wwkr",2016-10-27,99,"BE",7,"Actively Staffing Case","Hope Revealed Behavioral Health",0,NA,NA,NA,NA
-"srpj",2016-10-27,99,"BE",3,"Actively Staffing Case","Latino Community Development Agency",0,NA,NA,NA,NA
-"k2at",2016-10-27,99,"BE",4,"Actively Staffing Case","Mental Health of  Northwest  Oklahoma",0,NA,NA,NA,NA
-"fuh8",2016-10-27,99,"BE",6,"Actively Staffing Case","Private Practice",0,NA,NA,NA,NA
-"1or3",2016-10-27,99,"BE",7,"Actively Staffing Case","Red Rock",0,NA,NA,NA,NA
-"lgnt",2016-10-27,99,"BE",6,"Actively Staffing Case","Southeastern Ok Family Services",0,NA,NA,NA,NA
-"ej84",2016-10-20,100,"BF",7,"Actively Staffing Case","Edwin Fair CMHC",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
-"awri",2016-10-20,100,"BF",8,"Actively Staffing Case","F&CS Mental Health Care Inc",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
-"mcwc",2016-10-20,100,"BF",2,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
-"pt70",2016-10-20,100,"BF",5,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
-"wtkn",2016-10-20,100,"BF",3,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
-"0o1r",2016-10-20,100,"BF",4,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
-"voee",2016-10-20,100,"BF",8,"Actively Staffing Case","Green Country Behavioral Health Services",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
-"3o16",2016-10-20,100,"BF",7,"Actively Staffing Case","Green Country Behavioral Health Services",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
-"8ctp",2016-10-20,100,"BF",6,"Actively Staffing Case","Unknown",0,8,2016-06-21,2016-10-18,"Elizabeth Risch (8)"
-"zicn",2016-10-20,101,"BG",4,"Actively Staffing Case","Ada Youth Shelter",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
-"ix6q",2016-10-20,101,"BG",3,"Actively Staffing Case","Community Children Shelter and Family Service Center",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
-"5n04",2016-10-20,101,"BG",4,"Actively Staffing Case","Great Plains Youth abd Family Services",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
-"kmy1",2016-10-20,101,"BG",3,"Actively Staffing Case","Great Plains Youth abd Family Services",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
-"u9uq",2016-10-20,101,"BG",4,"Actively Staffing Case","Leflore County Youth Services",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
-"5pw4",2016-10-20,101,"BG",5,"Actively Staffing Case","Leflore County Youth Services",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
-"6isb",2016-10-20,101,"BG",4,"Actively Staffing Case","Tri-City Youth & Family Center, Inc.",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
-"hoo7",2016-10-20,101,"BG",5,"Actively Staffing Case","Tri-City Youth & Family Center, Inc.",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
-"2aw7",2016-10-20,101,"BG",3,"Actively Staffing Case","Youth and Family Services",0,7,2016-08-01,2016-10-17,"Michael Gomez (7)"
-"yp63",2016-10-27,102,"BH",6,"Actively Staffing Case","Payne County Health Dept.",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
-"w4ys",2016-10-27,102,"BH",6,"Actively Staffing Case","Payne County Health Dept.",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
-"uqet",2016-10-27,102,"BH",6,"Actively Staffing Case","Payne County Health Dept.",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
-"6ohv",2016-10-27,102,"BH",5,"Actively Staffing Case","Shawnee Youth and Family Resource Center",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
-"jvks",2016-10-27,102,"BH",7,"Actively Staffing Case","Youth and Family Services of North Central OK (Enid)",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
-"vzrg",2016-10-27,102,"BH",6,"Actively Staffing Case","Youth and Family Services of North Central OK (Enid)",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
-"emch",2016-10-27,102,"BH",7,"Actively Staffing Case","Youth and Family Services of North Central OK (Enid)",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
-"cra3",2016-10-27,102,"BH",7,"Actively Staffing Case","Youth and Family Services of North Central OK (Enid)",0,7,2016-07-19,2016-10-18,"Susan Schmidt (7)"
-"nz28",2016-10-27,103,"BI",5,"Actively Staffing Case","F&CS Mental Health Care Inc",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
-"hwzi",2016-10-27,103,"BI",6,"Actively Staffing Case","Shawnee Youth and Family Resource Center",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
-"81ne",2016-10-27,103,"BI",6,"Actively Staffing Case","Youth and Family Services",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
-"xsmr",2016-10-27,103,"BI",5,"Actively Staffing Case","Youth and Family Services of Washington County",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
-"1l6h",2016-10-27,103,"BI",6,"Actively Staffing Case","Youth and Family Services of Washington County",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
-"f7ov",2016-10-27,103,"BI",4,"Actively Staffing Case","Youth and Family Services of Washington County",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
-"a0wb",2016-10-27,103,"BI",7,"Actively Staffing Case","Youth Services of Tulsa",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
-"j6ht",2016-07-25,103,"BI",NA,"Missing","Youth Services of Tulsa",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
-"xwig",2016-10-27,103,"BI",6,"Actively Staffing Case","Youth Services of Tulsa",0,8,2016-07-12,2016-10-25,"Elizabeth Risch (8)"
-"4b0p",2016-08-19,104,"BJ",NA,"Missing","Kiamichi Youth Services",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
-"rhhq",2016-09-28,104,"BJ",2,"Did not complete; open call","Marie Detty Youth & Family Services Center",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
-"u69d",2016-10-27,104,"BJ",3,"Actively Staffing Case","Marie Detty Youth & Family Services Center",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
-"i09x",2016-10-27,104,"BJ",3,"Actively Staffing Case","MidDel Youth & Family",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
-"uzcg",2016-10-27,104,"BJ",5,"Actively Staffing Case","Multi-County Youth Services",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
-"37rh",2016-10-27,104,"BJ",4,"Actively Staffing Case","Northern Oklahoma Youth Services",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
-"bwqm",2016-10-27,104,"BJ",4,"Actively Staffing Case","Panhandle Services for Children",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
-"4d2j",2016-10-27,104,"BJ",3,"Actively Staffing Case","Southwestern Youth Services",0,7,2014-03-14,2016-10-25,"Roy Van Tassell (7)"
-"k5ng",2016-10-20,105,"BK",2,"Actively Staffing Case","Carl Albert",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
-"e1yk",2016-10-20,105,"BK",4,"Actively Staffing Case","Children's Recovery Center",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
-"c255",2016-10-20,105,"BK",3,"Actively Staffing Case","CREOKS",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
-"5nkt",2016-07-22,105,"BK",NA,"Missing","CREOKS",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
-"r7jy",2016-10-20,105,"BK",NA,"Missing","CREOKS",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
-"o2s5",2016-10-20,105,"BK",4,"Actively Staffing Case","CREOKS",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
-"cys5",2016-10-20,105,"BK",2,"Actively Staffing Case","CREOKS",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
-"wiqt",2016-10-20,105,"BK",4,"Actively Staffing Case","Grand Lake Mental Health Center, Inc.",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
-"bd63",2016-10-20,105,"BK",4,"Actively Staffing Case","NorthCare",0,4,2016-08-15,2016-10-17,"Michael Gomez (4)"
-"e5h1",2016-10-20,106,"BL",3,"Actively Staffing Case","Counseling and Recovery Services of OK",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
-"z4aw",2016-10-20,106,"BL",3,"Actively Staffing Case","F&CS Mental Health Care Inc",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
-"1x3w",2016-10-20,106,"BL",4,"Actively Staffing Case","F&CS Mental Health Care Inc",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
-"sjbm",2016-10-20,106,"BL",4,"Actively Staffing Case","F&CS Mental Health Care Inc",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
-"r2ms",2016-10-20,106,"BL",4,"Actively Staffing Case","F&CS Mental Health Care Inc",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
-"ey7a",2016-10-20,106,"BL",4,"Actively Staffing Case","F&CS Mental Health Care Inc",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
-"0jrs",2016-10-20,106,"BL",3,"Actively Staffing Case","Mental Health of  Northwest  Oklahoma",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
-"ild8",2016-10-20,106,"BL",3,"Actively Staffing Case","Parent Child Center of Tulsa",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
-"xu2r",2016-10-20,106,"BL",4,"Actively Staffing Case","Parent Child Center of Tulsa",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
-"ard1",2016-10-20,106,"BL",3,"Actively Staffing Case","Parent Child Center of Tulsa",0,6,2016-08-08,2016-10-24,"Michael Gomez (6)"
-"bflm",2016-10-27,107,"BM",4,"Actively Staffing Case","Northwest Center for Behavior Health",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
-"h8c9",2016-10-27,107,"BM",4,"Actively Staffing Case","Northwest Center for Behavior Health",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
-"wk6r",2016-10-27,107,"BM",4,"Actively Staffing Case","Northwest Center for Behavior Health",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
-"mvw5",2016-10-27,107,"BM",4,"Actively Staffing Case","Northwest Center for Behavior Health",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
-"nas6",2016-07-22,107,"BM",NA,"Missing","Northwest Center for Behavior Health",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
-"8oo2",2016-10-27,107,"BM",4,"Actively Staffing Case","Northwest Center for Behavior Health",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
-"net1",2016-10-14,107,"BM",2,"Actively Staffing Case","Red Rock",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
-"41lh",2016-10-14,107,"BM",4,"Actively Staffing Case","Wings of Hope",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
-"gdgl",2016-10-14,107,"BM",4,"Actively Staffing Case","Wings of Hope",0,4,2016-08-22,2016-10-10,"Susan Schmidt (4)"
-"9cm4",2016-09-23,108,"BN",NA,"Missing","Counseling and Recovery Services of OK",0,NA,NA,NA,NA
-"m9s1",2016-09-23,108,"BN",NA,"Missing","CREOKS",0,NA,NA,NA,NA
-"2oee",2016-09-23,108,"BN",NA,"Missing","CREOKS",0,NA,NA,NA,NA
-"ij2y",2016-09-23,108,"BN",NA,"Missing","CREOKS",0,NA,NA,NA,NA
-"iky6",2016-09-22,108,"BN",NA,"Missing","CREOKS",0,NA,NA,NA,NA
-"8lqg",2016-09-23,108,"BN",NA,"Missing","CREOKS",0,NA,NA,NA,NA
-"p82q",2016-09-23,108,"BN",NA,"Missing","Hope Community Services",0,NA,NA,NA,NA
-"umjj",2016-09-23,108,"BN",NA,"Missing","Hope Community Services",0,NA,NA,NA,NA
-"xzoi",2016-09-23,108,"BN",NA,"Missing","Hope Community Services",0,NA,NA,NA,NA
-"nx0c",2016-09-23,109,"BO",NA,"Missing","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"4bu0",2016-09-23,109,"BO",NA,"Missing","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"w67m",2016-09-23,109,"BO",NA,"Missing","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"8wfp",2016-09-23,109,"BO",NA,"Missing","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"gnri",2016-09-23,109,"BO",NA,"Missing","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"8gr7",2016-09-23,109,"BO",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"ub1y",2016-09-23,109,"BO",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"r1ps",2016-09-23,109,"BO",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"w9f6",2016-09-23,109,"BO",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"nngl",2016-09-23,109,"BO",NA,"Missing","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
-"ec8u",2016-09-26,110,"BP",NA,"Missing","NorthCare",0,NA,NA,NA,NA
-"i9n7",2016-09-26,110,"BP",NA,"Missing","Northwest Center for Behavior Health",0,NA,NA,NA,NA
-"canh",2016-09-26,110,"BP",NA,"Missing","Northwest Center for Behavior Health",0,NA,NA,NA,NA
-"fbzd",2016-09-26,110,"BP",NA,"Missing","Northwest Center for Behavior Health",0,NA,NA,NA,NA
-"ibx0",2016-09-26,110,"BP",NA,"Not Participating","Northwest Center for Behavior Health",0,NA,NA,NA,NA
-"42ek",2016-09-26,110,"BP",NA,"Missing","Red Rock",0,NA,NA,NA,NA
-"o8bd",2016-10-20,110,"BP",NA,"Missing","Red Rock",0,NA,NA,NA,NA
-"c70m",2016-09-26,110,"BP",NA,"Missing","Red Rock",0,NA,NA,NA,NA
-"n9zs",2016-09-26,110,"BP",NA,"Missing","Speck Homes for Boys",0,NA,NA,NA,NA
-"bw5v",2016-09-26,110,"BP",NA,"Missing","Speck Homes for Boys",0,NA,NA,NA,NA
-"qpqp",2016-08-18,121,"Roy",10,"Actively Staffing Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"pqpq",2016-08-18,121,"Roy",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"eeee",2016-08-22,121,"Roy",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"iiii",NA,121,"Roy",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
-"uuuu",NA,121,"Roy",12,"Completed at least 1 Case","F&CS Mental Health Care Inc",0,NA,NA,NA,NA
+"therapist_name","date_updated_last","call_group_id","call_group_code","call_group_attendance","case_consultation_progress","case_status","agency_name","call_attendence_total","meeting_count","date_min","date_max","consultants"
+"Katherine Curley",2017-08-30,2,"B",12,"Completed","Completed Case","Central Oklahoma Community Mental Health Center",1,3,2009-09-09,2013-01-04,NA
+"Amy Parker",2017-06-23,13,"E",NA,"Completed","Completed Case","Red Rock",0,1,2013-01-11,2013-01-11,NA
+"Joe Brawley",2015-02-13,33,"Other",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Ashlee Rowlett",2017-09-26,33,"Other",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Pamela Stephen",2017-09-26,54,"AD",12,"Completed","Completed Case","Unknown",0,13,2014-08-26,2015-03-24,"Elizabeth Risch"
+"Tenaye Baissa",2015-10-20,62,"AJ",12,"Completed","Completed Case","CREOKS",0,11,2014-11-18,2015-05-19,"Roy Van Tassell"
+"Sherri Hunter",2016-05-16,62,"AJ",13,"Completed","Completed Case","Family & Children's Mental Health Care Inc",4,11,2014-11-18,2015-05-19,"Roy Van Tassell"
+"Kevin Suggs",2015-07-06,62,"AJ",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,11,2014-11-18,2015-05-19,"Roy Van Tassell"
+"Beth Combs",2016-06-17,62,"AJ",8,"Completed","Completed Case","NorthCare",4,11,2014-11-18,2015-05-19,"Roy Van Tassell"
+"Charlene Dodd",2015-05-27,62,"AJ",10,"Refer to open call","Active Case","Unknown",0,11,2014-11-18,2015-05-19,"Roy Van Tassell"
+"Jennifer Prindle",2018-11-29,62,"AJ",11,"Refer to open call","TBD","Unknown",0,11,2014-11-18,2015-05-19,"Roy Van Tassell"
+"Teresa Reeves",2018-11-29,62,"AJ",9,"Completed","TBD","Unknown",0,11,2014-11-18,2015-05-19,"Roy Van Tassell"
+"Laura Lamminen",2015-06-15,63,"AK",11,"Completed","Completed Case","Children's Medical Center",1,12,2014-11-17,2015-06-01,"Susan Schmidt"
+"Pamela Mongrandi",2015-06-15,63,"AK",9,"TBD","Active Case","Holcomb Behavioral Health System",1,12,2014-11-17,2015-06-01,"Susan Schmidt"
+"Ryan Lloyd",2015-06-15,63,"AK",10,"Completed","Completed Case","Metropolitan Pediatrics",0,12,2014-11-17,2015-06-01,"Susan Schmidt"
+"Tina Cooper",2016-03-10,63,"AK",9,"TBD","Active Case","Parkside Psychiatric Hospital Clinic",0,12,2014-11-17,2015-06-01,"Susan Schmidt"
+"Cassandra Burpo",2015-08-07,63,"AK",12,"Completed","Completed Case","Red Rock",2,12,2014-11-17,2015-06-01,"Susan Schmidt"
+"Dorothy Denard",2017-06-23,63,"AK",11,"TBD","Active Case","Touchstone Counseling Center",0,12,2014-11-17,2015-06-01,"Susan Schmidt"
+"Maria Covington",2017-09-26,63,"AK",1,"TBD","Active Case","Unknown",0,12,2014-11-17,2015-06-01,"Susan Schmidt"
+"Jamie Pryor",2018-02-28,63,"AK",9,"Refer to open call","TBD","Unknown",3,12,2014-11-17,2015-06-01,"Susan Schmidt"
+"Kelsey Sundara",2017-09-26,63,"AK",4,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2014-11-17,2015-06-01,"Susan Schmidt"
+"Shanda Holenda",2015-08-06,64,"AL",12,"Incomplete-do not reassign","Incomplete Case","Grand Lake Mental Health Center, Inc.",0,11,2014-11-25,2015-05-26,"Susan Schmidt"
+"Amy Muell",2015-05-27,64,"AL",0,"Incomplete-do not reassign","Incomplete Case","Lutheran Family Services of Nebraska, Inc",0,11,2014-11-25,2015-05-26,"Susan Schmidt"
+"Myria Gibson",2017-06-22,64,"AL",8,"Completed","Completed Case","Private Practice",1,11,2014-11-25,2015-05-26,"Susan Schmidt"
+"Jennifer Allen",2016-08-02,64,"AL",7,"Completed","Completed Case","Red Rock",5,11,2014-11-25,2015-05-26,"Susan Schmidt"
+"Wendy Storevik",2018-07-31,64,"AL",10,"Refer to open call","TBD","Unknown",0,11,2014-11-25,2015-05-26,"Susan Schmidt"
+"Stephanie Ivy",2018-01-03,64,"AL",0,"Incomplete-do not reassign","Incomplete Case","Unknown",0,11,2014-11-25,2015-05-26,"Susan Schmidt"
+"Margaret Westcott",2018-06-15,64,"AL",11,"TBD","Active Case","Unknown",0,11,2014-11-25,2015-05-26,"Susan Schmidt"
+"Matt Dashner",2017-09-06,64,"AL",10,"Completed","Completed Case","Unknown",1,11,2014-11-25,2015-05-26,"Susan Schmidt"
+"Lindsay Gilpatrick",2018-06-15,64,"AL",8,"Completed","Completed Case","Unknown",3,11,2014-11-25,2015-05-26,"Susan Schmidt"
+"Benjamin Allison",2015-05-27,64,"AL",9,"Refer to open call","Active Case","Unknown",1,11,2014-11-25,2015-05-26,"Susan Schmidt"
+"Pam Kerkstra",2017-06-22,64,"AL",13,"Completed","Completed Case","Unknown",1,11,2014-11-25,2015-05-26,"Susan Schmidt"
+"Grace Keyes",2018-09-11,64,"AL",0,"Incomplete-do not reassign","Incomplete Case","Unknown",0,11,2014-11-25,2015-05-26,"Susan Schmidt"
+"Lacy Dattala",2017-08-01,65,"AM",11,"Completed","Completed Case","Family & Children's Mental Health Care Inc",2,12,2015-02-24,2015-08-25,"Roy Van Tassell"
+"Karla Sheffield",2015-12-02,65,"AM",12,"Completed","Completed Case","Northwest Treatment Center",4,12,2015-02-24,2015-08-25,"Roy Van Tassell"
+"Amy Newberry",2015-07-09,65,"AM",0,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2015-02-24,2015-08-25,"Roy Van Tassell"
+"Jennifer Mallory",2017-09-26,65,"AM",9,"Refer to open call","TBD","Unknown",0,12,2015-02-24,2015-08-25,"Roy Van Tassell"
+"Aaron Maytubby",2015-09-22,65,"AM",12,"Completed","Completed Case","Unknown",0,12,2015-02-24,2015-08-25,"Roy Van Tassell"
+"Kaylee Crawford",2015-07-15,65,"AM",2,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2015-02-24,2015-08-25,"Roy Van Tassell"
+"Rosita Rodarte",2018-06-15,65,"AM",11,"Completed","Completed Case","Unknown",1,12,2015-02-24,2015-08-25,"Roy Van Tassell"
+"Karla Scheffield",2015-11-11,65,"AM",9,"TBD","Active Case","Unknown",1,12,2015-02-24,2015-08-25,"Roy Van Tassell"
+"Kim Cross",2017-09-25,66,"AN",12,"Completed","Completed Case","Attachment Center of Kansas",0,9,2015-03-10,2015-07-14,"Elizabeth Risch"
+"Cassidy Fulton",2015-05-27,66,"AN",0,"Incomplete-do not reassign","Incomplete Case","Green Country Behavioral Health Services",0,9,2015-03-10,2015-07-14,"Elizabeth Risch"
+"Melissa Reilly",2015-09-15,66,"AN",13,"Completed","Completed Case","Parkland Hospital VIP/Rape Crisis",0,9,2015-03-10,2015-07-14,"Elizabeth Risch"
+"Carol Blansett",2015-06-17,66,"AN",2,"Incomplete-do not reassign","Incomplete Case","Pittsburg County Health Department",0,9,2015-03-10,2015-07-14,"Elizabeth Risch"
+"Alan Jackson",2015-06-17,66,"AN",4,"Incomplete-do not reassign","Incomplete Case","Red Rock",0,9,2015-03-10,2015-07-14,"Elizabeth Risch"
+"Misty Musick",2018-10-15,66,"AN",9,"Refer to open call","TBD","Unknown",1,9,2015-03-10,2015-07-14,"Elizabeth Risch"
+"Kristin Horton",2015-06-17,66,"AN",5,"Incomplete-do not reassign","Incomplete Case","Unknown",0,9,2015-03-10,2015-07-14,"Elizabeth Risch"
+"Cherese Riggs",2017-08-01,66,"AN",11,"Completed","Completed Case","Viewpoint Counseling Center",0,9,2015-03-10,2015-07-14,"Elizabeth Risch"
+"Katrina Leggins",2015-08-20,67,"AO",2,"Incomplete-do not reassign","Incomplete Case","Central Oklahoma Community Mental Health Center",0,12,2015-03-02,2015-08-17,"Roy Van Tassell"
+"Samantha Bugos",2015-10-12,67,"AO",12,"Completed","Completed Case","CREOKS",0,12,2015-03-02,2015-08-17,"Roy Van Tassell"
+"Anthony Anderson",2016-05-16,67,"AO",NA,"Incomplete-do not reassign","Incomplete Case","Sequel Care of Oklahoma",0,12,2015-03-02,2015-08-17,"Roy Van Tassell"
+"Gena Orr",2018-07-31,67,"AO",11,"TBD","Active Case","Unknown",2,12,2015-03-02,2015-08-17,"Roy Van Tassell"
+"Rebekah Schmaltz",2015-07-09,67,"AO",3,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2015-03-02,2015-08-17,"Roy Van Tassell"
+"Nicole Johnson",2017-10-09,67,"AO",3,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2015-03-02,2015-08-17,"Roy Van Tassell"
+"Lauren LeCates",2015-04-08,67,"AO",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2015-03-02,2015-08-17,"Roy Van Tassell"
+"Leslie Hebert",2017-10-09,67,"AO",5,"Reassign to new group","Incomplete Case","Unknown",0,12,2015-03-02,2015-08-17,"Roy Van Tassell"
+"Rebecca Bowen",2018-09-14,67,"AO",11,"Refer to open call","Active Case","Unknown",0,12,2015-03-02,2015-08-17,"Roy Van Tassell"
+"Davene Findlay-Williams",2019-08-30,67,"AO",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2015-03-02,2015-08-17,"Roy Van Tassell"
+"Kim Loggains",2015-10-20,68,"AP",5,"TBD","Active Case","Cavanal Counseling",0,12,2015-07-07,2016-01-05,"Susan Schmidt"
+"Jerry Stankewitz",2017-08-01,68,"AP",5,"TBD","Active Case","Cavanal Counseling",0,12,2015-07-07,2016-01-05,"Susan Schmidt"
+"Belinda Ball",2015-10-20,68,"AP",NA,"Incomplete-do not reassign","Incomplete Case","Inspirational Concepts",0,12,2015-07-07,2016-01-05,"Susan Schmidt"
+"Jenny West",2018-11-26,68,"AP",9,"Completed","Completed Case","Unknown",5,12,2015-07-07,2016-01-05,"Susan Schmidt"
+"Kelly McCannell",2016-11-22,68,"AP",8,"TBD","Active Case","Unknown",0,12,2015-07-07,2016-01-05,"Susan Schmidt"
+"Melissa White",2015-11-09,68,"AP",5,"TBD","Active Case","Unknown",0,12,2015-07-07,2016-01-05,"Susan Schmidt"
+"Gidget Warner",2017-06-23,68,"AP",6,"TBD","Active Case","Within the Fragments Therapy PLLC",1,12,2015-07-07,2016-01-05,"Susan Schmidt"
+"White Melissa",2015-06-09,68,"AP",NA,"Incomplete-do not reassign","Incomplete Case","Youth and Family Services of North Central OK (Enid)",0,12,2015-07-07,2016-01-05,"Susan Schmidt"
+"Jennifer Martin",2016-05-16,69,"AQ",11,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",1,12,2015-01-11,2016-02-08,"Susan Schmidt"
+"Dana Howard",2017-03-17,69,"AQ",4,"TBD","Active Case","Samaritan Counseling & Growth",11,12,2015-01-11,2016-02-08,"Susan Schmidt"
+"Adam Allen",2015-06-09,69,"AQ",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2015-01-11,2016-02-08,"Susan Schmidt"
+"Kathryn Poole",2019-08-12,69,"AQ",9,"Completed","Completed Case","Unknown",0,12,2015-01-11,2016-02-08,"Susan Schmidt"
+"Ashley Weckstein",2018-07-31,69,"AQ",12,"Completed","Completed Case","Unknown",0,12,2015-01-11,2016-02-08,"Susan Schmidt"
+"Jacqueline James",2016-03-03,69,"AQ",11,"Completed","Completed Case","Unknown",1,12,2015-01-11,2016-02-08,"Susan Schmidt"
+"Paula Greninger",2016-06-17,69,"AQ",10,"Completed","Completed Case","Unknown",2,12,2015-01-11,2016-02-08,"Susan Schmidt"
+"Alyssa Ashley",2018-12-06,69,"AQ",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2015-01-11,2016-02-08,"Susan Schmidt"
+"Amy Buford",2018-06-15,69,"AQ",3,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2015-01-11,2016-02-08,"Susan Schmidt"
+"Latoya James",2018-06-15,69,"AQ",3,"TBD","Active Case","Unknown",0,12,2015-01-11,2016-02-08,"Susan Schmidt"
+"Suzanne Deveny",2016-04-14,70,"AR",11,"Completed","Completed Case","Family & Children's Mental Health Care Inc",0,12,2015-07-06,2016-01-04,"Roy Van Tassell"
+"Kelsey Romig",2016-04-14,70,"AR",12,"Completed","Completed Case","Family & Children's Mental Health Care Inc",0,12,2015-07-06,2016-01-04,"Roy Van Tassell"
+"Andrea McBee",2017-06-23,70,"AR",4,"TBD","Active Case","Pathways",0,12,2015-07-06,2016-01-04,"Roy Van Tassell"
+"Victoria Blazevich",2017-06-22,70,"AR",10,"Completed","Completed Case","Red Rock",2,12,2015-07-06,2016-01-04,"Roy Van Tassell"
+"Megan Fletcher",2018-06-15,70,"AR",10,"Refer to open call","TBD","Unknown",0,12,2015-07-06,2016-01-04,"Roy Van Tassell"
+"Debra Watkins",2017-09-26,70,"AR",11,"Completed","Completed Case","Unknown",2,12,2015-07-06,2016-01-04,"Roy Van Tassell"
+"Tiffany Holthus",2018-10-15,70,"AR",11,"Completed","Completed Case","Unknown",0,12,2015-07-06,2016-01-04,"Roy Van Tassell"
+"Ahsley Swaidner",2017-09-26,70,"AR",5,"TBD","Active Case","Unknown",0,12,2015-07-06,2016-01-04,"Roy Van Tassell"
+"Breanna Benson",2016-02-22,71,"AS",9,"TBD","Active Case","Cavanal Counseling",0,12,2015-08-10,2016-03-14,"Susan Schmidt"
+"Connie Ray",2016-03-03,71,"AS",9,"Completed","Completed Case","Cavanal Counseling",0,12,2015-08-10,2016-03-14,"Susan Schmidt"
+"Krystal Haltom",2016-03-16,71,"AS",9,"Completed","Completed Case","Concepts in Counseling",0,12,2015-08-10,2016-03-14,"Susan Schmidt"
+"Chanika Colbert",2017-09-20,71,"AS",12,"Completed","Completed Case","CREOKS",0,12,2015-08-10,2016-03-14,"Susan Schmidt"
+"Crystal Kuppinger",2017-09-20,71,"AS",12,"Completed","Completed Case","CREOKS",0,12,2015-08-10,2016-03-14,"Susan Schmidt"
+"Serena Ward",2016-03-16,71,"AS",5,"TBD","Active Case","Hope Revealed Behavioral Health",0,12,2015-08-10,2016-03-14,"Susan Schmidt"
+"Summer Wyers",2016-04-19,71,"AS",6,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2015-08-10,2016-03-14,"Susan Schmidt"
+"Ashley Stafford",2019-08-12,71,"AS",7,"Refer to open call","Incomplete Case","Unknown",0,12,2015-08-10,2016-03-14,"Susan Schmidt"
+"Jami Pereira",2016-03-16,72,"AT",10,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",0,12,2015-08-24,2016-03-14,"Roy Van Tassell"
+"Amber Thompson",2016-03-16,72,"AT",12,"Completed","Active Case","Grand Lake Mental Health Center, Inc.",0,12,2015-08-24,2016-03-14,"Roy Van Tassell"
+"Latrice Hunnicutt",2016-03-16,72,"AT",10,"TBD","Active Case","Lifeworks Counseling Solutions",0,12,2015-08-24,2016-03-14,"Roy Van Tassell"
+"Keri Roos",2016-03-16,72,"AT",2,"Incomplete-do not reassign","Incomplete Case","Southeastern Ok Family Services",0,12,2015-08-24,2016-03-14,"Roy Van Tassell"
+"Carmela Rendina",2016-03-16,72,"AT",9,"TBD","Active Case","Unknown",0,12,2015-08-24,2016-03-14,"Roy Van Tassell"
+"Michelle Brown",2016-03-16,72,"AT",12,"TBD","Active Case","Unknown",0,12,2015-08-24,2016-03-14,"Roy Van Tassell"
+"Melisa Roberts",2018-10-15,72,"AT",8,"Refer to open call","TBD","Unknown",2,12,2015-08-24,2016-03-14,"Roy Van Tassell"
+"Marcy Schoelen",2018-09-11,72,"AT",9,"Completed","Completed Case","Unknown",3,12,2015-08-24,2016-03-14,"Roy Van Tassell"
+"Francine Curnutt",2016-04-20,73,"AU",7,"Completed","Completed Case","Cavanal Counseling",0,13,2015-11-02,2016-06-06,"Michael Gomez"
+"Erica Black-Hooks",2017-08-16,73,"AU",8,"Completed","Completed Case","Central Oklahoma Community Mental Health Center",17,13,2015-11-02,2016-06-06,"Michael Gomez"
+"Megan Bowen",2017-09-20,73,"AU",5,"Incomplete-do not reassign","Incomplete Case","CREOKS",1,13,2015-11-02,2016-06-06,"Michael Gomez"
+"Jaime Whorton",2017-05-16,73,"AU",6,"Completed","Completed Case","CREOKS",3,13,2015-11-02,2016-06-06,"Michael Gomez"
+"Malena Munger",2018-04-13,73,"AU",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,13,2015-11-02,2016-06-06,"Michael Gomez"
+"Therasa Miles-Greasley",2016-08-25,73,"AU",7,"TBD","Active Case","Love and Hope Counseling Services",1,13,2015-11-02,2016-06-06,"Michael Gomez"
+"Kenya Pieters",2016-04-20,73,"AU",3,"Incomplete-do not reassign","Incomplete Case","Rose Brooks",0,13,2015-11-02,2016-06-06,"Michael Gomez"
+"Christine Dennis",2016-04-20,73,"AU",8,"TBD","Active Case","Unknown",0,13,2015-11-02,2016-06-06,"Michael Gomez"
+"Camelia Guernsey",2017-10-09,73,"AU",11,"Completed","Completed Case","Unknown",0,13,2015-11-02,2016-06-06,"Michael Gomez"
+"Kailyn Cooper",2016-07-19,74,"AV",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,13,2015-10-26,2016-05-23,"Michael Gomez"
+"Cleshawn DuBose",2017-05-15,74,"AV",1,"Incomplete-do not reassign","Incomplete Case","Grand Lake Mental Health Center, Inc.",1,13,2015-10-26,2016-05-23,"Michael Gomez"
+"Kasandra Turbett",2016-11-04,74,"AV",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,13,2015-10-26,2016-05-23,"Michael Gomez"
+"Donald (Cole) Gallup",2017-08-01,74,"AV",9,"Completed","Completed Case","Lighthouse Behavioral Wellness Center",3,13,2015-10-26,2016-05-23,"Michael Gomez"
+"Terra Blackwell",2018-10-15,74,"AV",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,13,2015-10-26,2016-05-23,"Michael Gomez"
+"Shaylee Hale",2018-09-11,74,"AV",12,"Completed","Completed Case","Unknown",0,13,2015-10-26,2016-05-23,"Michael Gomez"
+"Amanda Schroeder",2018-10-15,74,"AV",10,"Completed","Completed Case","Unknown",0,13,2015-10-26,2016-05-23,"Michael Gomez"
+"Shawna Ball",2017-05-15,75,"AW",10,"TBD","Active Case","Dayspring Behavorial Health",0,12,2016-01-04,2016-08-15,"Michael Gomez"
+"Casey Martinez",2016-08-18,75,"AW",10,"Completed","Completed Case","Dayspring Behavorial Health",0,12,2016-01-04,2016-08-15,"Michael Gomez"
+"Yer Vang",2016-08-18,75,"AW",9,"TBD","Active Case","Dayspring Behavorial Health",0,12,2016-01-04,2016-08-15,"Michael Gomez"
+"Kelly Mounce",2016-02-12,75,"AW",1,"Incomplete-do not reassign","Incomplete Case","Indian Health Care Resource Center of Tulsa, Inc",0,12,2016-01-04,2016-08-15,"Michael Gomez"
+"Brittni Ware",2016-08-18,75,"AW",9,"Completed","Completed Case","ODHMSAS - OKC",0,12,2016-01-04,2016-08-15,"Michael Gomez"
+"Stephanie Kimble",2016-07-15,75,"AW",5,"TBD","Active Case","Unknown",0,12,2016-01-04,2016-08-15,"Michael Gomez"
+"Kristal Malveaux",2016-07-15,75,"AW",3,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2016-01-04,2016-08-15,"Michael Gomez"
+"Elizabeth Martin",2018-05-15,76,"AX",10,"Completed","Completed Case","Counseling and Recovery Services of OK",12,12,2016-01-11,2016-08-08,"Susan Schmidt"
+"Wakeelah Adelegan",2016-08-18,76,"AX",10,"Refer to open call","Active Case","Family & Children's Mental Health Care Inc",0,12,2016-01-11,2016-08-08,"Susan Schmidt"
+"Katy Coble",2016-08-18,76,"AX",10,"Completed","Completed Case","Family & Children's Mental Health Care Inc",2,12,2016-01-11,2016-08-08,"Susan Schmidt"
+"Krysten Cain",2017-05-30,76,"AX",10,"TBD","Active Case","Unknown",1,12,2016-01-11,2016-08-08,"Susan Schmidt"
+"Stephanie Drennan",2017-09-26,76,"AX",3,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2016-01-11,2016-08-08,"Susan Schmidt"
+"Michael Hempsted",2016-11-16,76,"AX",6,"TBD","Active Case","Unknown",0,12,2016-01-11,2016-08-08,"Susan Schmidt"
+"Rachel McBride",2018-06-15,76,"AX",4,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2016-01-11,2016-08-08,"Susan Schmidt"
+"Shylah Ridgeway",2016-08-18,76,"AX",8,"TBD","Active Case","Youth and Family Services of North Central OK (Enid)",0,12,2016-01-11,2016-08-08,"Susan Schmidt"
+"DonNell Riggs",2016-10-27,77,"AY",8,"TBD","Active Case","Multi-County Youth Services",3,12,2016-01-11,2016-08-08,"Michael Gomez"
+"Stephanie Seamster",2016-02-12,77,"AY",NA,"Incomplete-do not reassign","Incomplete Case","Multi-County Youth Services",0,12,2016-01-11,2016-08-08,"Michael Gomez"
+"Denise Childress",2018-06-15,77,"AY",10,"Refer to open call","TBD","Unknown",0,12,2016-01-11,2016-08-08,"Michael Gomez"
+"Kayla Jones",2016-12-12,77,"AY",9,"TBD","Active Case","Unknown",0,12,2016-01-11,2016-08-08,"Michael Gomez"
+"Courtney Beattie",2018-10-15,77,"AY",9,"Refer to open call","TBD","Unknown",0,12,2016-01-11,2016-08-08,"Michael Gomez"
+"Andrea Brown",2018-02-23,77,"AY",9,"Completed","Completed Case","Unknown",14,12,2016-01-11,2016-08-08,"Michael Gomez"
+"Sharon Groves",2016-04-19,78,"AZ",NA,"Incomplete-do not reassign","Incomplete Case","Millennium Services",0,12,2016-01-05,2016-07-19,"Elizabeth Risch"
+"Elizabeth Pidcock",2016-07-27,78,"AZ",11,"Completed","Completed Case","Millennium Services",0,12,2016-01-05,2016-07-19,"Elizabeth Risch"
+"Laura Berney",2017-10-11,78,"AZ",7,"Completed","Completed Case","NorthCare",5,12,2016-01-05,2016-07-19,"Elizabeth Risch"
+"Stephanie West",2017-04-06,78,"AZ",8,"Completed","Completed Case","Northwest Treatment Center",4,12,2016-01-05,2016-07-19,"Elizabeth Risch"
+"Brandeline Brown",2016-08-18,78,"AZ",11,"Completed","Completed Case","Unknown",0,12,2016-01-05,2016-07-19,"Elizabeth Risch"
+"Tricia Jordan",2016-06-17,78,"AZ",1,"TBD","Active Case","Unknown",0,12,2016-01-05,2016-07-19,"Elizabeth Risch"
+"Kara Drake",2016-06-29,78,"AZ",7,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2016-01-05,2016-07-19,"Elizabeth Risch"
+"Candice Purcell",2017-08-01,78,"AZ",9,"Completed","Completed Case","Unknown",0,12,2016-01-05,2016-07-19,"Elizabeth Risch"
+"Yuvawnda Adkins",2016-05-17,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Access to Counseling",0,NA,NA,NA,NA
+"Whitney Richison",NA,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","CREOKS",0,NA,NA,NA,NA
+"Curtis Gilley",2016-05-16,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Curtis Gilley Counseling Services",0,NA,NA,NA,NA
+"Shelly Solopow",2016-05-16,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Denver Indian Health & Family Services",0,NA,NA,NA,NA
+"Musibau Shopeyin",2016-05-17,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Fresh Start Counseling",0,NA,NA,NA,NA
+"Tammy Moore",2016-05-17,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Full Circle Youth and Family Services",0,NA,NA,NA,NA
+"Luquetta McClarty",2016-05-17,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Full Circle Youth and Family Services",0,NA,NA,NA,NA
+"Garrett Haviland",2017-11-09,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Genesis Kids",0,NA,NA,NA,NA
+"Brittany Blalock",2017-11-09,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Genesis Kids",0,NA,NA,NA,NA
+"Terri Thelen",2017-10-18,79,"None",1,"TBD","Active Case","Homebased Services  & Resources",0,NA,NA,NA,NA
+"Jason Gardner",2018-02-14,79,"None",NA,"Incomplete-do not reassign","No Case","Jim Taliaferro Community Mental Health Center",0,NA,NA,NA,NA
+"Robin Moore",2017-12-11,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","NorthCare",0,NA,NA,NA,NA
+"Leah Brady",2017-05-30,79,"None",1,"Incomplete-do not reassign","Incomplete Case","Northwest Family Services",0,NA,NA,NA,NA
+"Indria Fewell",2016-07-27,79,"None",2,"Incomplete-do not reassign","Incomplete Case","Northwest Treatment Center",0,NA,NA,NA,NA
+"Ronda Trumbly",2016-05-17,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","ODHMSAS - OKC",0,NA,NA,NA,NA
+"Tanja Weddington",2016-05-17,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","ODMHSAS - Lawton",0,NA,NA,NA,NA
+"Kara Howey",2017-11-09,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Oklahoma Families First",0,NA,NA,NA,NA
+"Christy Hilliard",2017-11-09,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Oklahoma Families First",0,NA,NA,NA,NA
+"Akshay Lokhande",2017-12-11,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Dionna Weixel",2016-08-17,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Dathan Freeman",2016-07-22,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Ashleigh Coser",2016-07-22,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Regina Ertz",2016-07-25,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Kaitlin Proctor",2016-07-25,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Luciana Payne",2016-07-25,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Samantha Price",2016-07-25,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Laura Luke",2016-07-25,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Sam Farley",2016-05-16,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Daniel Gering",2016-05-16,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Chelsea Klinkebiel",2016-05-16,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Lauren Reed",2016-05-16,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Amber Morrow",2016-05-16,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"NA NA",2016-07-25,79,"None",1,"TBD","Active Case","OUHSC",0,NA,NA,NA,NA
+"Josh Sires",2016-08-17,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Dionna Wexiel",2016-06-07,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Jessica Bradfield",2016-08-17,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Zachory Randall",2015-08-03,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Pathways",0,NA,NA,NA,NA
+"Angie Gray",2015-08-05,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Pathways",0,NA,NA,NA,NA
+"Martin Cochran",2015-08-06,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Pathways",0,NA,NA,NA,NA
+"Rita Ward",2016-07-25,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Private Practice",0,NA,NA,NA,NA
+"Taliessa Mescall",2017-08-15,79,"None",0,"Incomplete-do not reassign","Incomplete Case","Speck Homes for Boys",0,NA,NA,NA,NA
+"Jamilah Lowe-Velazquez",2017-12-21,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"DeLainna Percifield",2017-12-21,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Veronica Valles",2018-05-14,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"April Vaughn",2018-05-29,79,"None",3,"TBD","Active Case","Unknown",0,NA,NA,NA,NA
+"Barbara Webster",2017-11-29,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Cheri Cantrell",2018-07-31,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"NA NA",2018-01-08,79,"None",2,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Sammy Prichard",2016-10-27,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Isabel Carvajal",2017-09-26,79,"None",4,"TBD","Active Case","Unknown",0,NA,NA,NA,NA
+"Elaine Cooper",2018-11-29,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Jillian Treadway",2018-09-11,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Sandi Fultz",2016-05-17,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Kristi Selensky",2016-05-16,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Debra Smith",2018-03-14,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Valerie McDaniel",2016-05-17,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Stacy Meyer",2018-11-14,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Madison Mills",2016-05-17,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Sherri Bedonie",2016-05-16,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Mary McMiller",2018-10-15,79,"None",1,"Incomplete-do not reassign","No Case","Unknown",0,NA,NA,NA,NA
+"Jonathan Phillips",NA,79,"None",NA,"TBD","TBD","Unknown",0,NA,NA,NA,NA
+"Wayne Walls",NA,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Bonnie Goodwin",2018-04-06,79,"None",1,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Pamela Gaddis",2018-01-08,79,"None",7,"Reassign to new group","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Penny Britton",2016-06-21,79,"None",NA,"Completed","Completed Case","Youth and Family Services of Washington County",0,NA,NA,NA,NA
+"Keylee Tesar",2017-11-09,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","YouthCare of Oklahoma",0,NA,NA,NA,NA
+"Kara Elliott",2017-11-09,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","YouthCare of Oklahoma",0,NA,NA,NA,NA
+"Jamie James",2017-11-09,79,"None",NA,"Incomplete-do not reassign","Incomplete Case","YouthCare of Oklahoma",0,NA,NA,NA,NA
+"Kimberly Parker",2016-05-31,80,"Unknown",NA,"Incomplete-do not reassign","Incomplete Case","Family & Children's Mental Health Care Inc",0,NA,NA,NA,NA
+"Tiffani Thompson",NA,80,"Unknown",NA,"TBD","TBD","Grand Lake Mental Health Center, Inc.",0,NA,NA,NA,NA
+"Teresa Croom",2015-08-05,80,"Unknown",1,"Incomplete-do not reassign","Incomplete Case","Oklahoma Dept of Mental Health",0,NA,NA,NA,NA
+"Kirsten Martin",2018-03-08,80,"Unknown",12,"Completed","Completed Case","Unknown",9,NA,NA,NA,NA
+"Lucinda Adams",2018-02-14,80,"Unknown",2,"Incomplete-do not reassign","No Case","Unknown",0,NA,NA,NA,NA
+"Brook Metts",2018-02-14,80,"Unknown",1,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Kristin Avance",2017-08-01,80,"Unknown",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Emily Hooper",2016-05-31,80,"Unknown",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Mona Lowrey",2018-10-15,80,"Unknown",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Lily Williams",2015-06-09,80,"Unknown",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Summer Wyers",2015-06-09,80,"Unknown",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Melinda Holmes",2018-07-27,80,"Unknown",1,"Incomplete-do not reassign","No Case","Unknown",0,NA,NA,NA,NA
+"test test",2018-02-14,80,"Unknown",NA,"Unknown","Unknown","Unknown",0,NA,NA,NA,NA
+"Tre'Lisa Jacobs",2018-05-14,80,"Unknown",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Linda Rothe",2018-06-04,80,"Unknown",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,NA,NA,NA,NA
+"Elizabeth Baxter",2018-03-02,82,"OKDHS9",10,"Completed","Completed Case","Anchored by Hope Counseling & Consulting",0,12,2015-03-17,2015-09-15,"Elizabeth Risch"
+"Shelly Collins",2015-09-16,82,"OKDHS9",10,"Completed","Completed Case","Concepts in Counseling",0,12,2015-03-17,2015-09-15,"Elizabeth Risch"
+"Stephanie Burchette",2015-09-15,82,"OKDHS9",10,"TBD","Active Case","Concepts in Counseling",0,12,2015-03-17,2015-09-15,"Elizabeth Risch"
+"Lora Steen",2019-04-24,82,"OKDHS9",8,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",11,12,2015-03-17,2015-09-15,"Elizabeth Risch"
+"Danielle Loftis",2015-09-15,82,"OKDHS9",10,"TBD","Active Case","Unknown",0,12,2015-03-17,2015-09-15,"Elizabeth Risch"
+"Nicole Juilana Dewitt",2015-09-15,82,"OKDHS9",11,"Completed","Completed Case","Unknown",0,12,2015-03-17,2015-09-15,"Elizabeth Risch"
+"Elizabeth Salinas Newby",2015-08-20,83,"OKDHS10",NA,"Incomplete-do not reassign","Incomplete Case","Transitions",0,12,2015-03-23,2015-09-28,"Michael Gomez"
+"Maike Sabolich",2015-11-03,83,"OKDHS10",13,"TBD","Active Case","Transitions",0,12,2015-03-23,2015-09-28,"Michael Gomez"
+"Tonia Clem",2015-11-03,83,"OKDHS10",10,"TBD","Active Case","Transitions",0,12,2015-03-23,2015-09-28,"Michael Gomez"
+"Stephanie Troy",2015-11-03,83,"OKDHS10",6,"Incomplete-do not reassign","Incomplete Case","Transitions",0,12,2015-03-23,2015-09-28,"Michael Gomez"
+"Mandy Pavy",2015-11-03,83,"OKDHS10",13,"TBD","Active Case","Transitions",0,12,2015-03-23,2015-09-28,"Michael Gomez"
+"Barbara Moore",2016-08-19,83,"OKDHS10",9,"TBD","Active Case","Transitions",0,12,2015-03-23,2015-09-28,"Michael Gomez"
+"Patricia Lumley",2015-03-02,83,"OKDHS10",NA,"Incomplete-do not reassign","Incomplete Case","Transitions",0,12,2015-03-23,2015-09-28,"Michael Gomez"
+"Patricia Lumley",2015-11-03,83,"OKDHS10",7,"TBD","Active Case","Unknown",0,12,2015-03-23,2015-09-28,"Michael Gomez"
+"Sheryl Williamson",2018-06-15,83,"OKDHS10",1,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2015-03-23,2015-09-28,"Michael Gomez"
+"Tiffany Ware",2017-06-23,84,"OKDHS11",10,"Completed","Completed Case","Concepts in Counseling",0,12,2015-03-23,2015-10-12,"Susan Schmidt"
+"Kristi Graham",2015-06-18,84,"OKDHS11",1,"TBD","Active Case","Cornerstone Counseling and Consulting, Inc.",0,12,2015-03-23,2015-10-12,"Susan Schmidt"
+"Shari Ketterling",2015-05-27,84,"OKDHS11",NA,"Incomplete-do not reassign","Incomplete Case","Cornerstone Counseling and Consulting, Inc.",0,12,2015-03-23,2015-10-12,"Susan Schmidt"
+"Andrea Russell",2015-11-09,84,"OKDHS11",9,"Refer to open call","Active Case","Family & Children's Mental Health Care Inc",0,12,2015-03-23,2015-10-12,"Susan Schmidt"
+"Donna McCully",2016-06-21,84,"OKDHS11",10,"Completed","Completed Case","Family & Children's Mental Health Care Inc",2,12,2015-03-23,2015-10-12,"Susan Schmidt"
+"Christie DeGraffenreid",2015-11-09,84,"OKDHS11",5,"Refer to open call","Active Case","Family & Children's Mental Health Care Inc",0,12,2015-03-23,2015-10-12,"Susan Schmidt"
+"Amani Smiley",2015-09-16,84,"OKDHS11",2,"Incomplete-do not reassign","Incomplete Case","Jordan's Crossing",0,12,2015-03-23,2015-10-12,"Susan Schmidt"
+"Nicole Watson",2017-06-23,85,"OKDHS12",9,"Completed","Completed Case","Cornerstone Counseling and Consulting, Inc.",1,11,2015-06-02,2015-12-15,"Elizabeth Risch"
+"Amanda Tapp",2015-11-09,85,"OKDHS12",5,"Refer to open call","Active Case","Family & Children's Mental Health Care Inc",0,11,2015-06-02,2015-12-15,"Elizabeth Risch"
+"Allison Korvick",2016-06-21,85,"OKDHS12",12,"Completed","Completed Case","Family & Children's Mental Health Care Inc",0,11,2015-06-02,2015-12-15,"Elizabeth Risch"
+"James Prather",2015-11-09,85,"OKDHS12",NA,"Incomplete-do not reassign","Incomplete Case","Family & Children's Mental Health Care Inc",0,11,2015-06-02,2015-12-15,"Elizabeth Risch"
+"Clarissa Wright",2017-04-11,85,"OKDHS12",9,"Completed","Active Case","Transitions",0,11,2015-06-02,2015-12-15,"Elizabeth Risch"
+"Ray Edwards",2017-06-22,85,"OKDHS12",6,"TBD","Active Case","Transitions",0,11,2015-06-02,2015-12-15,"Elizabeth Risch"
+"Jami Fields",2015-10-20,85,"OKDHS12",5,"TBD","Active Case","Unknown",0,11,2015-06-02,2015-12-15,"Elizabeth Risch"
+"Debra Vaughan",2016-07-15,85,"OKDHS12",11,"Completed","Completed Case","Unknown",1,11,2015-06-02,2015-12-15,"Elizabeth Risch"
+"Jackson Tefertiller",2017-09-26,85,"OKDHS12",8,"Completed","Completed Case","Unknown",6,11,2015-06-02,2015-12-15,"Elizabeth Risch"
+"Pamela Wright",2017-06-23,86,"OKDHS13",7,"TBD","Active Case","Pathways",0,12,2015-07-06,2016-01-18,"Susan Schmidt"
+"Wendy Domann",2016-05-16,86,"OKDHS13",5,"TBD","Active Case","Pathways",0,12,2015-07-06,2016-01-18,"Susan Schmidt"
+"Jannell Mason-Neal",2019-03-01,86,"OKDHS13",4,"Reassign to new group","Incomplete Case","Unknown",0,12,2015-07-06,2016-01-18,"Susan Schmidt"
+"Ashira Bowen",2015-09-16,86,"OKDHS13",2,"Reassign to new group","Incomplete Case","Unknown",0,12,2015-07-06,2016-01-18,"Susan Schmidt"
+"Anne Gorges",2015-12-16,87,"OKDHS14",8,"TBD","Active Case","Concepts in Counseling",0,12,2015-07-07,2017-11-17,"Roy Van Tassell"
+"Simone Camarillo",2015-12-16,87,"OKDHS14",11,"TBD","Active Case","Concepts in Counseling",0,12,2015-07-07,2017-11-17,"Roy Van Tassell"
+"Dustin Walker",2015-12-16,87,"OKDHS14",11,"TBD","Active Case","Concepts in Counseling",0,12,2015-07-07,2017-11-17,"Roy Van Tassell"
+"Johnny Sanders",2016-05-16,87,"OKDHS14",10,"TBD","Active Case","Connections Center For Guidance And Development",0,12,2015-07-07,2017-11-17,"Roy Van Tassell"
+"Barbara Traylor-Lane",2015-12-16,87,"OKDHS14",12,"Completed","Active Case","Cornerstone Counseling and Consulting, Inc.",0,12,2015-07-07,2017-11-17,"Roy Van Tassell"
+"Jolly Varghese",2015-12-16,87,"OKDHS14",11,"Completed","Active Case","Cornerstone Counseling and Consulting, Inc.",0,12,2015-07-07,2017-11-17,"Roy Van Tassell"
+"Valerie Lewis",2015-12-16,87,"OKDHS14",12,"TBD","Active Case","Cornerstone Counseling and Consulting, Inc.",0,12,2015-07-07,2017-11-17,"Roy Van Tassell"
+"Michelle Roberts",2019-07-29,87,"OKDHS14",8,"Incomplete-do not reassign","Incomplete Case","Grand Lake Mental Health Center, Inc.",1,12,2015-07-07,2017-11-17,"Roy Van Tassell"
+"Billie Cole",2015-12-16,87,"OKDHS14",4,"TBD","Active Case","Pathways",0,12,2015-07-07,2017-11-17,"Roy Van Tassell"
+"Esther Fuller",2015-12-16,87,"OKDHS14",10,"TBD","Active Case","Unknown",0,12,2015-07-07,2017-11-17,"Roy Van Tassell"
+"Lisa Roddy",2016-02-01,88,"OKDHS15",12,"Completed","Completed Case","Concepts in Counseling",0,12,2015-07-06,2016-02-01,"Susan Schmidt"
+"Amber Torrance-Danielson",2016-01-11,88,"OKDHS15",3,"Incomplete-do not reassign","Incomplete Case","Cornerstone Counseling and Consulting, Inc.",0,12,2015-07-06,2016-02-01,"Susan Schmidt"
+"Scott Keeton",2017-08-01,88,"OKDHS15",10,"Completed","Active Case","Cornerstone Counseling and Consulting, Inc.",0,12,2015-07-06,2016-02-01,"Susan Schmidt"
+"Michelle Parker",2016-02-01,88,"OKDHS15",12,"Completed","Completed Case","Cornerstone Counseling and Consulting, Inc.",0,12,2015-07-06,2016-02-01,"Susan Schmidt"
+"DaShae Dunbar",2015-08-05,88,"OKDHS15",1,"TBD","Active Case","Cornerstone Counseling and Consulting, Inc.",0,12,2015-07-06,2016-02-01,"Susan Schmidt"
+"Tammey Alls",2016-09-15,88,"OKDHS15",8,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",9,12,2015-07-06,2016-02-01,"Susan Schmidt"
+"Sarah Chaudhry",2017-05-15,88,"OKDHS15",9,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",2,12,2015-07-06,2016-02-01,"Susan Schmidt"
+"Norma Johnson",2016-02-01,88,"OKDHS15",7,"TBD","Active Case","Transitions",0,12,2015-07-06,2016-02-01,"Susan Schmidt"
+"Jessica Caudle",2016-02-01,88,"OKDHS15",5,"TBD","Active Case","Unknown",0,12,2015-07-06,2016-02-01,"Susan Schmidt"
+"Joyce Cummins",2017-09-14,88,"OKDHS15",7,"Completed","Completed Case","Unknown",5,12,2015-07-06,2016-02-01,"Susan Schmidt"
+"Melissa Anderson",2017-08-23,95,"BA",10,"Completed","Completed Case","Bethesda Inc",0,12,2016-03-07,2016-09-19,"Roy Van Tassell"
+"Amy Merrell",2016-09-28,95,"BA",10,"Completed","Completed Case","Bethesda Inc",0,12,2016-03-07,2016-09-19,"Roy Van Tassell"
+"Patrick Moore",2016-09-28,95,"BA",11,"Completed","Active Case","Bethesda Inc",0,12,2016-03-07,2016-09-19,"Roy Van Tassell"
+"Deshia Powers",2016-09-28,95,"BA",10,"TBD","Active Case","Bethesda Inc",0,12,2016-03-07,2016-09-19,"Roy Van Tassell"
+"Sandra Wellman",2016-09-28,95,"BA",9,"Completed","Active Case","Bethesda Inc",0,12,2016-03-07,2016-09-19,"Roy Van Tassell"
+"Katherine Luna",2017-03-21,95,"BA",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,12,2016-03-07,2016-09-19,"Roy Van Tassell"
+"Patricia Major",2016-10-03,95,"BA",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,12,2016-03-07,2016-09-19,"Roy Van Tassell"
+"Kathryn Buchanan",2016-09-28,95,"BA",10,"TBD","Completed Case","ROCMND Area Youth Services",0,12,2016-03-07,2016-09-19,"Roy Van Tassell"
+"Tatia Close",2017-05-22,96,"BB",9,"TBD","Active Case","Edwin Fair CMHC",1,12,2016-02-15,2016-08-15,"Susan Schmidt"
+"Robyn Fullerton",2017-08-01,96,"BB",11,"Completed","Completed Case","Oklahoma Families First",0,12,2016-02-15,2016-08-15,"Susan Schmidt"
+"Hannah Holland",2018-06-15,96,"BB",9,"Completed","Completed Case","Private Practice",3,12,2016-02-15,2016-08-15,"Susan Schmidt"
+"Theresa Leskowat",2017-01-03,96,"BB",9,"Completed","Completed Case","Unknown",0,12,2016-02-15,2016-08-15,"Susan Schmidt"
+"LaCinda Daugherty",2018-06-15,96,"BB",9,"Completed","Completed Case","Unknown",0,12,2016-02-15,2016-08-15,"Susan Schmidt"
+"April McCoy",2018-10-15,96,"BB",11,"Completed","Completed Case","Unknown",11,12,2016-02-15,2016-08-15,"Susan Schmidt"
+"Timothy Baxter",2017-10-09,96,"BB",8,"Refer to open call","TBD","Unknown",0,12,2016-02-15,2016-08-15,"Susan Schmidt"
+"Brandi Taber",2017-11-08,97,"BC",12,"Completed","Completed Case","Carl Albert Community Mental Health Center",8,12,2016-02-23,2016-08-23,"Elizabeth Risch"
+"Sara Pounds",2017-04-04,97,"BC",11,"Completed","Completed Case","CREOKS",1,12,2016-02-23,2016-08-23,"Elizabeth Risch"
+"Jordan Gustin",2020-06-08,97,"BC",11,"Completed","Completed Case","DVIS",18,12,2016-02-23,2016-08-23,"Elizabeth Risch"
+"Carrie Neff",2018-01-10,97,"BC",11,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",9,12,2016-02-23,2016-08-23,"Elizabeth Risch"
+"Patricia Leak",2017-05-25,97,"BC",9,"Completed","Completed Case","Northwest Treatment Center",4,12,2016-02-23,2016-08-23,"Elizabeth Risch"
+"Pamela London",2017-03-30,97,"BC",8,"Completed","Completed Case","Northwest Treatment Center",4,12,2016-02-23,2016-08-23,"Elizabeth Risch"
+"Cynthia Stubblefield",2018-01-03,97,"BC",11,"Completed","Completed Case","Unknown",8,12,2016-02-23,2016-08-23,"Elizabeth Risch"
+"Pamela Creel",2019-08-12,97,"BC",12,"Completed","Completed Case","Unknown",0,12,2016-02-23,2016-08-23,"Elizabeth Risch"
+"Kayla Franks",2017-09-06,98,"BD",12,"Completed","Completed Case","NorthCare",0,12,2016-07-12,2017-01-10,"Susan Schmidt"
+"Shari Ostroff",2018-01-03,98,"BD",11,"Completed","Completed Case","Red Rock",7,12,2016-07-12,2017-01-10,"Susan Schmidt"
+"Callista Shrum",2017-02-09,98,"BD",12,"Completed","Completed Case","Red Rock",0,12,2016-07-12,2017-01-10,"Susan Schmidt"
+"Johanna Lea",2018-01-30,98,"BD",10,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2016-07-12,2017-01-10,"Susan Schmidt"
+"Kimberly Wasson",2018-01-03,98,"BD",3,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2016-07-12,2017-01-10,"Susan Schmidt"
+"Amber St. Marie",2018-11-29,98,"BD",12,"Completed","Completed Case","Unknown",0,12,2016-07-12,2017-01-10,"Susan Schmidt"
+"Tish York",2017-06-23,99,"BE",11,"Completed","Completed Case","Gateway to Prevention & Recovery",0,12,2016-07-11,2017-01-23,"Michael Gomez"
+"Amy Bowen",2017-04-06,99,"BE",12,"Completed","Completed Case","Hope Revealed Behavioral Health",0,12,2016-07-11,2017-01-23,"Michael Gomez"
+"Patricia Neeland",2017-04-06,99,"BE",9,"TBD","Active Case","Private Practice",0,12,2016-07-11,2017-01-23,"Michael Gomez"
+"Katrina Ellis",2017-06-30,99,"BE",12,"Completed","Completed Case","Red Rock",0,12,2016-07-11,2017-01-23,"Michael Gomez"
+"Debra Spearing",2017-04-06,99,"BE",8,"TBD","Active Case","Southeastern Ok Family Services",0,12,2016-07-11,2017-01-23,"Michael Gomez"
+"Stephany Ferreira",2018-01-03,99,"BE",3,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2016-07-11,2017-01-23,"Michael Gomez"
+"Jennifer Sokolnicki",2019-08-26,99,"BE",6,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2016-07-11,2017-01-23,"Michael Gomez"
+"Nicole Mark",2018-11-08,100,"BF",5,"Incomplete-do not reassign","No Case","Counseling and Recovery Services of OK",0,11,2016-06-21,2016-12-20,"Elizabeth Risch"
+"Jeremy Cox",2018-11-12,100,"BF",10,"Completed","Completed Case","Family & Children's Mental Health Care Inc",4,11,2016-06-21,2016-12-20,"Elizabeth Risch"
+"Elsie Mrosko",2017-09-27,100,"BF",6,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",9,11,2016-06-21,2016-12-20,"Elizabeth Risch"
+"Julie Richter",2018-10-10,100,"BF",12,"Completed","Completed Case","Green Country Behavioral Health Services",3,11,2016-06-21,2016-12-20,"Elizabeth Risch"
+"Brittni Washington",2017-02-09,100,"BF",11,"Reassign to new group","Incomplete Case","Green Country Behavioral Health Services",0,11,2016-06-21,2016-12-20,"Elizabeth Risch"
+"Cherie McGahee",2016-12-21,100,"BF",7,"TBD","Active Case","Sequel Care of Oklahoma",0,11,2016-06-21,2016-12-20,"Elizabeth Risch"
+"Debbie Harris",2017-02-09,100,"BF",2,"Reassign to new group","Incomplete Case","Unknown",0,11,2016-06-21,2016-12-20,"Elizabeth Risch"
+"Melissa Baker",2017-06-22,100,"BF",9,"Completed","Completed Case","Wings of Hope",0,11,2016-06-21,2016-12-20,"Elizabeth Risch"
+"Delinda Tollett",2017-05-15,101,"BG",10,"Reassign to new group","Incomplete Case","Ada Youth Shelter",0,12,2016-08-01,2017-04-03,"Michael Gomez"
+"Pamela Lynn",2017-05-15,101,"BG",5,"TBD","Active Case","Community Children Shelter and Family Service Center",0,12,2016-08-01,2017-04-03,"Michael Gomez"
+"Lindsey Bottom",2017-05-15,101,"BG",6,"TBD","Active Case","Great Plains Youth abd Family Services",0,12,2016-08-01,2017-04-03,"Michael Gomez"
+"Brett Tracy",2017-05-15,101,"BG",5,"TBD","Active Case","Great Plains Youth abd Family Services",0,12,2016-08-01,2017-04-03,"Michael Gomez"
+"Nona Ivey",2017-05-15,101,"BG",7,"TBD","Active Case","Leflore County Youth Services",0,12,2016-08-01,2017-04-03,"Michael Gomez"
+"Kristi Duncan",2017-05-15,101,"BG",10,"Completed","Completed Case","Leflore County Youth Services",0,12,2016-08-01,2017-04-03,"Michael Gomez"
+"Kelsey Sweger",2017-05-19,101,"BG",11,"Completed","Completed Case","Private Practice",0,12,2016-08-01,2017-04-03,"Michael Gomez"
+"Susan Hollingsworth",2017-05-15,101,"BG",10,"Completed","Completed Case","Tri-City Youth & Family Center, Inc.",0,12,2016-08-01,2017-04-03,"Michael Gomez"
+"Rebecca Crawford",2017-05-15,101,"BG",8,"Completed","Completed Case","Youth and Family Services",0,12,2016-08-01,2017-04-03,"Michael Gomez"
+"Tanner Clark",2018-11-27,102,"BH",9,"Incomplete-do not reassign","Incomplete Case","Hope Community Services",0,12,2016-07-19,2017-01-17,"Susan Schmidt"
+"Laura Black",2017-04-06,102,"BH",10,"Completed","Completed Case","Payne County Health Dept.",0,12,2016-07-19,2017-01-17,"Susan Schmidt"
+"Brad Epperson",2017-04-06,102,"BH",9,"Incomplete-do not reassign","Incomplete Case","Payne County Health Dept.",0,12,2016-07-19,2017-01-17,"Susan Schmidt"
+"Emily Kenney",2017-04-06,102,"BH",9,"TBD","Active Case","Payne County Health Dept.",0,12,2016-07-19,2017-01-17,"Susan Schmidt"
+"Kasya Spade",2017-04-06,102,"BH",12,"Completed","Completed Case","Unknown",0,12,2016-07-19,2017-01-17,"Susan Schmidt"
+"Candice Kemble",2017-04-06,102,"BH",12,"TBD","Active Case","Youth and Family Services of North Central OK (Enid)",0,12,2016-07-19,2017-01-17,"Susan Schmidt"
+"Crystal Lovinggood",2017-04-06,102,"BH",11,"TBD","Active Case","Youth and Family Services of North Central OK (Enid)",0,12,2016-07-19,2017-01-17,"Susan Schmidt"
+"Brianna Stephens",2017-02-09,102,"BH",12,"Completed","Completed Case","Youth and Family Services of North Central OK (Enid)",0,12,2016-07-19,2017-01-17,"Susan Schmidt"
+"Leah McCurdy",2020-06-08,103,"BI",9,"Completed","Completed Case","Family & Children's Mental Health Care Inc",5,12,2016-07-12,2017-01-24,"Elizabeth Risch"
+"Valerie Isaacs",2017-11-06,103,"BI",10,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",2,12,2016-07-12,2017-01-24,"Elizabeth Risch"
+"Angie Nickels",2017-07-28,103,"BI",9,"Completed","Completed Case","Unknown",0,12,2016-07-12,2017-01-24,"Elizabeth Risch"
+"Stella Shoff",2016-12-16,103,"BI",7,"TBD","Active Case","Youth and Family Services of Washington County",0,12,2016-07-12,2017-01-24,"Elizabeth Risch"
+"Kristin Morrison",2017-08-01,103,"BI",9,"Completed","Completed Case","Youth and Family Services of Washington County",0,12,2016-07-12,2017-01-24,"Elizabeth Risch"
+"Susan Cook",2017-07-27,103,"BI",9,"Completed","Completed Case","Youth and Family Services of Washington County",0,12,2016-07-12,2017-01-24,"Elizabeth Risch"
+"Nader Nofal",2016-12-16,103,"BI",9,"TBD","Active Case","Youth Services of Tulsa",0,12,2016-07-12,2017-01-24,"Elizabeth Risch"
+"Jennifer Patchett",2016-07-25,103,"BI",NA,"Incomplete-do not reassign","Incomplete Case","Youth Services of Tulsa",0,12,2016-07-12,2017-01-24,"Elizabeth Risch"
+"Amy Olsen",2016-12-16,103,"BI",9,"TBD","Active Case","Youth Services of Tulsa",0,12,2016-07-12,2017-01-24,"Elizabeth Risch"
+"Amie Pickard",2018-08-21,104,"BJ",10,"TBD","Completed Case","Edwin Fair CMHC",0,12,2016-08-09,2017-02-28,"Roy Van Tassell"
+"Evorn Jones",2016-08-19,104,"BJ",NA,"Incomplete-do not reassign","Incomplete Case","Kiamichi Youth Services",0,12,2016-08-09,2017-02-28,"Roy Van Tassell"
+"Lisa Rodriguez",2018-01-17,104,"BJ",5,"Reassign to new group","Incomplete Case","Marie Detty Youth & Family Services Center",5,12,2016-08-09,2017-02-28,"Roy Van Tassell"
+"Jamie Steffes",2017-04-06,104,"BJ",12,"Completed","Active Case","Multi-County Youth Services",0,12,2016-08-09,2017-02-28,"Roy Van Tassell"
+"Judy Stedje",2017-09-28,104,"BJ",9,"Completed","Completed Case","Panhandle Services for Children",1,12,2016-08-09,2017-02-28,"Roy Van Tassell"
+"April Dill",2017-08-16,104,"BJ",9,"TBD","Active Case","Southwestern Youth Services",2,12,2016-08-09,2017-02-28,"Roy Van Tassell"
+"Caitlin McArthur",2017-06-22,105,"BK",10,"Refer to open call","TBD","Children's Recovery Center",1,12,2016-08-15,2017-04-17,"Michael Gomez"
+"Cynthia David",2017-09-20,105,"BK",12,"Completed","Completed Case","CREOKS",0,12,2016-08-15,2017-04-17,"Michael Gomez"
+"Mary Birchfield",2017-08-11,105,"BK",11,"Completed","Completed Case","Private Practice",2,12,2016-08-15,2017-04-17,"Michael Gomez"
+"Barbariae Davis",2017-05-15,105,"BK",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2016-08-15,2017-04-17,"Michael Gomez"
+"Jason John",2018-01-03,105,"BK",11,"Refer to open call","TBD","Unknown",0,12,2016-08-15,2017-04-17,"Michael Gomez"
+"Ken Price",2018-01-03,105,"BK",3,"Reassign to new group","Incomplete Case","Unknown",0,12,2016-08-15,2017-04-17,"Michael Gomez"
+"Jessica Rawlings",2017-05-15,105,"BK",7,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2016-08-15,2017-04-17,"Michael Gomez"
+"Harold Thompson",2018-01-03,106,"BL",11,"Completed","Completed Case","Counseling and Recovery Services of OK",1,11,2016-08-16,2017-02-21,"Elizabeth Risch"
+"Annette Bogard",2017-05-15,106,"BL",10,"Completed","Completed Case","Family & Children's Mental Health Care Inc",1,11,2016-08-16,2017-02-21,"Elizabeth Risch"
+"Meg Hartman",2018-11-13,106,"BL",11,"Completed","Completed Case","Family & Children's Mental Health Care Inc",1,11,2016-08-16,2017-02-21,"Elizabeth Risch"
+"Corina Holtzhauer",2018-03-14,106,"BL",11,"Completed","Completed Case","Family & Children's Mental Health Care Inc",1,11,2016-08-16,2017-02-21,"Elizabeth Risch"
+"Tracie Del Torto",2018-02-15,106,"BL",9,"Completed","Completed Case","Lighthouse Behavioral Wellness Center",3,11,2016-08-16,2017-02-21,"Elizabeth Risch"
+"Hannah Sirman",2018-05-16,106,"BL",11,"Completed","Completed Case","Parent Child Center of Tulsa",2,11,2016-08-16,2017-02-21,"Elizabeth Risch"
+"Deanna Carrasco",2017-08-01,106,"BL",7,"Completed","Completed Case","Parent Child Center of Tulsa",2,11,2016-08-16,2017-02-21,"Elizabeth Risch"
+"Shanna Eischen",2017-04-06,106,"BL",9,"TBD","Active Case","Unknown",0,11,2016-08-16,2017-02-21,"Elizabeth Risch"
+"Melissa Thurman",2017-04-06,106,"BL",10,"Completed","Completed Case","Unknown",0,11,2016-08-16,2017-02-21,"Elizabeth Risch"
+"Carol Lillard",2018-11-12,106,"BL",12,"Completed","Completed Case","Unknown",2,11,2016-08-16,2017-02-21,"Elizabeth Risch"
+"Kelli Simpson",2018-06-12,107,"BM",2,"Incomplete-do not reassign","Incomplete Case","Carl Albert Community Mental Health Center",0,12,2016-08-22,2017-02-27,"Susan Schmidt"
+"Mark Blanchard",2017-09-06,107,"BM",11,"Refer to open call","Incomplete Case","Northwest Center for Behavior Health",1,12,2016-08-22,2017-02-27,"Susan Schmidt"
+"Donna Julian",2017-09-06,107,"BM",10,"Refer to open call","Incomplete Case","Northwest Center for Behavior Health",2,12,2016-08-22,2017-02-27,"Susan Schmidt"
+"Mona Longhurst",2017-09-06,107,"BM",9,"Completed","Completed Case","Northwest Center for Behavior Health",3,12,2016-08-22,2017-02-27,"Susan Schmidt"
+"Sarah Sherman",2017-09-06,107,"BM",10,"Completed","Completed Case","Northwest Center for Behavior Health",2,12,2016-08-22,2017-02-27,"Susan Schmidt"
+"Kerri Wenner",2017-04-06,107,"BM",11,"Completed","Completed Case","Unknown",1,12,2016-08-22,2017-02-27,"Susan Schmidt"
+"Jenny Cothran",2017-08-01,107,"BM",10,"TBD","Active Case","Wings of Hope",0,12,2016-08-22,2017-02-27,"Susan Schmidt"
+"Mary Gibbons",2017-08-01,107,"BM",12,"TBD","Active Case","Wings of Hope",0,12,2016-08-22,2017-02-27,"Susan Schmidt"
+"Christa Harrison",2017-09-20,108,"BN",7,"Completed","Completed Case","CREOKS",2,10,2016-11-07,2017-05-15,"Susan Schmidt"
+"Mezyuneh Scott",2017-09-07,108,"BN",8,"Completed","Completed Case","CREOKS",1,10,2016-11-07,2017-05-15,"Susan Schmidt"
+"Maria Villar",2017-05-15,108,"BN",2,"Incomplete-do not reassign","Incomplete Case","CREOKS",0,10,2016-11-07,2017-05-15,"Susan Schmidt"
+"Phyllis Wood",2017-05-15,108,"BN",1,"Incomplete-do not reassign","Incomplete Case","Unknown",0,10,2016-11-07,2017-05-15,"Susan Schmidt"
+"Sarah Hubbard",2018-01-30,108,"BN",1,"Incomplete-do not reassign","Incomplete Case","Unknown",0,10,2016-11-07,2017-05-15,"Susan Schmidt"
+"Datonna Cross",2017-09-26,108,"BN",2,"Incomplete-do not reassign","Incomplete Case","Unknown",0,10,2016-11-07,2017-05-15,"Susan Schmidt"
+"Courtney Corner",2017-10-09,108,"BN",2,"Incomplete-do not reassign","Incomplete Case","Unknown",0,10,2016-11-07,2017-05-15,"Susan Schmidt"
+"Sara Mahan",2017-09-07,109,"BO",9,"Completed","Completed Case","Counseling and Recovery Services of OK",0,12,2016-11-07,2017-06-05,"Roy Van Tassell"
+"Lacy Deane",2017-08-30,109,"BO",11,"Completed","Completed Case","Family & Children's Mental Health Care Inc",1,12,2016-11-07,2017-06-05,"Roy Van Tassell"
+"Henriatta Collins",2018-05-16,109,"BO",9,"Refer to open call","Completed Case","Family & Children's Mental Health Care Inc",1,12,2016-11-07,2017-06-05,"Roy Van Tassell"
+"Alyssa Steinbrook",2017-06-21,109,"BO",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,12,2016-11-07,2017-06-05,"Roy Van Tassell"
+"Tonya Christian",2017-09-07,109,"BO",10,"Refer to open call","TBD","Grand Lake Mental Health Center, Inc.",0,12,2016-11-07,2017-06-05,"Roy Van Tassell"
+"Ealisa Adams",2018-03-14,109,"BO",10,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",2,12,2016-11-07,2017-06-05,"Roy Van Tassell"
+"Ariel Cross",2017-08-30,109,"BO",9,"Refer to open call","TBD","Unknown",0,12,2016-11-07,2017-06-05,"Roy Van Tassell"
+"Dana Kadolph",2017-09-26,109,"BO",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2016-11-07,2017-06-05,"Roy Van Tassell"
+"Tabitha Longbons",2018-11-12,109,"BO",11,"Refer to open call","TBD","Unknown",0,12,2016-11-07,2017-06-05,"Roy Van Tassell"
+"Megen Rhine",2017-09-26,109,"BO",11,"Refer to open call","TBD","Unknown",0,12,2016-11-07,2017-06-05,"Roy Van Tassell"
+"Diedra Hopes",2017-09-27,109,"BO",9,"Completed","Completed Case","Unknown",3,12,2016-11-07,2017-06-05,"Roy Van Tassell"
+"Delia Vargas",2017-08-30,110,"BP",10,"Completed","Completed Case","Red Rock",2,11,2016-11-08,2017-12-13,"Elizabeth Risch"
+"Summer Langford",2017-08-30,110,"BP",6,"Incomplete-do not reassign","Incomplete Case","Red Rock",0,11,2016-11-08,2017-12-13,"Elizabeth Risch"
+"Keith Morton",2017-08-30,110,"BP",6,"Reassign to new group","Incomplete Case","Speck Homes for Boys",0,11,2016-11-08,2017-12-13,"Elizabeth Risch"
+"Corbin Henningsen",2017-07-14,110,"BP",10,"Completed","Completed Case","Unknown",2,11,2016-11-08,2017-12-13,"Elizabeth Risch"
+"Teresa Byrne",2017-12-21,110,"BP",10,"Completed","Completed Case","Unknown",5,11,2016-11-08,2017-12-13,"Elizabeth Risch"
+"Lonnie Rutherford",2017-05-15,110,"BP",4,"Incomplete-do not reassign","Incomplete Case","Unknown",0,11,2016-11-08,2017-12-13,"Elizabeth Risch"
+"Kaylea Drapalla",2018-02-12,110,"BP",10,"Refer to open call","TBD","Unknown",6,11,2016-11-08,2017-12-13,"Elizabeth Risch"
+"Susan Ellis",2017-09-06,110,"BP",8,"Completed","Completed Case","Unknown",5,11,2016-11-08,2017-12-13,"Elizabeth Risch"
+"Keri Jenkins",2017-10-09,110,"BP",8,"Completed","Completed Case","Unknown",4,11,2016-11-08,2017-12-13,"Elizabeth Risch"
+"Jessica Herning",2018-06-15,111,"BR",12,"Completed","Completed Case","Central Oklahoma Community Mental Health Center",1,12,2017-01-23,2017-08-14,"Michael Gomez"
+"Valerie Lahmeyer",2017-09-07,111,"BR",11,"Refer to open call","TBD","Dayspring Behavorial Health",0,12,2017-01-23,2017-08-14,"Michael Gomez"
+"Craig Svec",2017-08-30,111,"BR",6,"Reassign to new group","Incomplete Case","Dayspring Behavorial Health",0,12,2017-01-23,2017-08-14,"Michael Gomez"
+"Misty Todd",2018-04-19,111,"BR",12,"Completed","Active Case","Dayspring Behavorial Health",0,12,2017-01-23,2017-08-14,"Michael Gomez"
+"Linda Griffith-Lambert",2017-08-30,111,"BR",6,"Reassign to new group","Incomplete Case","Marie Detty Youth & Family Services Center",0,12,2017-01-23,2017-08-14,"Michael Gomez"
+"Behula Adigun",2017-08-30,111,"BR",8,"Reassign to new group","Incomplete Case","Unknown",0,12,2017-01-23,2017-08-14,"Michael Gomez"
+"Patricia Hardgrove",2017-08-30,111,"BR",6,"Reassign to new group","Incomplete Case","Unknown",0,12,2017-01-23,2017-08-14,"Michael Gomez"
+"Ricky Kennedy",2017-10-09,111,"BR",4,"Reassign to new group","Incomplete Case","Unknown",0,12,2017-01-23,2017-08-14,"Michael Gomez"
+"Amy Phelps",2017-09-26,111,"BR",3,"Reassign to new group","Incomplete Case","Unknown",0,12,2017-01-23,2017-08-14,"Michael Gomez"
+"Sammy Prichard",2017-09-06,113,"BS",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,12,2017-02-21,2017-09-05,"Susan Schmidt"
+"Lenore Arlee",2017-05-15,113,"BS",0,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,12,2017-02-21,2017-09-05,"Susan Schmidt"
+"Lynda Chau",2018-10-15,113,"BS",8,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2017-02-21,2017-09-05,"Susan Schmidt"
+"Katina Hampton",2018-10-15,113,"BS",11,"TBD","Active Case","Unknown",1,12,2017-02-21,2017-09-05,"Susan Schmidt"
+"Kylee Nelson",2018-05-16,113,"BS",10,"Refer to open call","TBD","Unknown",1,12,2017-02-21,2017-09-05,"Susan Schmidt"
+"Samantha McAlister",2017-09-06,113,"BS",12,"Completed","Completed Case","Unknown",0,12,2017-02-21,2017-09-05,"Susan Schmidt"
+"Linda Kelley",2018-01-08,113,"BS",12,"Completed","Completed Case","Unknown",2,12,2017-02-21,2017-09-05,"Susan Schmidt"
+"Sandra Mace",2017-09-27,113,"BS",12,"Completed","Completed Case","Unknown",2,12,2017-02-21,2017-09-05,"Susan Schmidt"
+"Teresa Vanskike",2017-09-26,113,"BS",5,"Refer to open call","TBD","Unknown",0,12,2017-02-21,2017-09-05,"Susan Schmidt"
+"Megan Hornbostel",2018-01-31,113,"BS",9,"TBD","Active Case","Unknown",0,12,2017-02-21,2017-09-05,"Susan Schmidt"
+"Katie Kain",2017-10-06,114,"BT",10,"Completed","Completed Case","Bethesda Inc",0,12,2017-03-06,2017-10-16,"Michael Gomez"
+"Angela Phillips",2017-08-30,114,"BT",2,"TBD","Active Case","Hope Revealed Behavioral Health",0,12,2017-03-06,2017-10-16,"Michael Gomez"
+"Joseph Petty",2017-10-18,114,"BT",10,"Completed","Completed Case","Northwest Treatment Center",0,12,2017-03-06,2017-10-16,"Michael Gomez"
+"Kathy Eddy",2018-06-29,114,"BT",9,"Completed","Completed Case","Red Rock",3,12,2017-03-06,2017-10-16,"Michael Gomez"
+"Courtney Hill",2020-04-15,114,"BT",10,"Completed","Completed Case","Red Rock",2,12,2017-03-06,2017-10-16,"Michael Gomez"
+"Denielle Martin",2017-10-09,114,"BT",5,"Reassign to new group","Incomplete Case","Unknown",0,12,2017-03-06,2017-10-16,"Michael Gomez"
+"Christi Cavazos",2018-09-11,114,"BT",7,"Reassign to new group","Active Case","Unknown",3,12,2017-03-06,2017-10-16,"Michael Gomez"
+"Amanda Delt",2017-09-27,115,"BU",12,"Completed","Completed Case","Cavanal Counseling",0,12,2017-03-14,2017-09-26,"Roy Van Tassell"
+"Brandi Ricketts",2018-02-23,115,"BU",9,"Completed","Completed Case","CREOKS",5,12,2017-03-14,2017-09-26,"Roy Van Tassell"
+"Michelle Bugh",2018-03-14,115,"BU",10,"Completed","Completed Case","Family & Children's Mental Health Care Inc",3,12,2017-03-14,2017-09-26,"Roy Van Tassell"
+"Denise Putnam",2017-09-27,115,"BU",8,"Refer to open call","TBD","Grand Lake Mental Health Center, Inc.",0,12,2017-03-14,2017-09-26,"Roy Van Tassell"
+"Traci Riddle",2018-02-20,115,"BU",10,"Completed","Completed Case","Green Country Behavioral Health Services",0,12,2017-03-14,2017-09-26,"Roy Van Tassell"
+"Brooke Yaffe",2017-09-27,115,"BU",9,"Completed","Completed Case","Oklahoma Family Counseling",0,12,2017-03-14,2017-09-26,"Roy Van Tassell"
+"Syzyline (Diana) Dada",2018-11-12,115,"BU",8,"Refer to open call","TBD","Unknown",0,12,2017-03-14,2017-09-26,"Roy Van Tassell"
+"Ronnye Sommerville",2018-03-08,115,"BU",2,"Incomplete-do not reassign","Incomplete Case","Unknown",0,12,2017-03-14,2017-09-26,"Roy Van Tassell"
+"Jennifer Conner",2018-07-31,115,"BU",11,"Completed","Completed Case","Unknown",1,12,2017-03-14,2017-09-26,"Roy Van Tassell"
+"Teresa Brown",2018-10-30,116,"BV",9,"Completed","Completed Case","Family & Children's Mental Health Care Inc",5,12,2017-08-21,2018-05-21,"Susan Schmidt"
+"David Porter",2018-06-29,116,"BV",10,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",2,12,2017-08-21,2018-05-21,"Susan Schmidt"
+"Betty Rotert",2018-05-30,116,"BV",5,"Incomplete-do not reassign","Incomplete Case","Grand Lake Mental Health Center, Inc.",0,12,2017-08-21,2018-05-21,"Susan Schmidt"
+"Mckenzie Henderson",2018-06-12,116,"BV",11,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",1,12,2017-08-21,2018-05-21,"Susan Schmidt"
+"Sabrina Potter",2018-06-07,116,"BV",11,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",1,12,2017-08-21,2018-05-21,"Susan Schmidt"
+"Vivian Hinson",2018-08-29,116,"BV",9,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",3,12,2017-08-21,2018-05-21,"Susan Schmidt"
+"Jennifer Glenn",2018-05-31,116,"BV",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,12,2017-08-21,2018-05-21,"Susan Schmidt"
+"Julie Brown",2018-12-04,116,"BV",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,12,2017-08-21,2018-05-21,"Susan Schmidt"
+"Jayme Kelton",2018-01-03,116,"BV",6,"TBD","Active Case","Unknown",0,12,2017-08-21,2018-05-21,"Susan Schmidt"
+"Lauren Kirk",2018-01-31,116,"BV",3,"TBD","Active Case","Unknown",0,12,2017-08-21,2018-05-21,"Susan Schmidt"
+"Wendy Carr",2018-06-07,116,"BV",12,"Completed","Completed Case","Unknown",0,12,2017-08-21,2018-05-21,"Susan Schmidt"
+"Lavon Clark",2017-08-30,117,"BW",1,"Incomplete-do not reassign","Incomplete Case","Grand Lake Mental Health Center, Inc.",0,12,2017-08-28,2018-04-09,"Susan Schmidt"
+"Camille Regan",NA,117,"BW",NA,"Incomplete-do not reassign","Incomplete Case","Infant Parent Intervention Center",0,12,2017-08-28,2018-04-09,"Susan Schmidt"
+"Leah Brady",2018-03-28,117,"BW",8,"Refer to open call","Incomplete Case","Northwest Family Services",0,12,2017-08-28,2018-04-09,"Susan Schmidt"
+"Penelope Holloway",2018-03-28,117,"BW",8,"Refer to open call","Incomplete Case","OKC Schools",0,12,2017-08-28,2018-04-09,"Susan Schmidt"
+"Leondra Moore",2018-03-28,117,"BW",8,"Refer to open call","Incomplete Case","OKC Schools",0,12,2017-08-28,2018-04-09,"Susan Schmidt"
+"Marcus Vera",2019-02-22,117,"BW",10,"Completed","Completed Case","Unknown",4,12,2017-08-28,2018-04-09,"Susan Schmidt"
+"Josh Wise",2017-08-01,117,"BW",NA,"Incomplete-do not reassign","Incomplete Case","YouthCare of Oklahoma",0,12,2017-08-28,2018-04-09,"Susan Schmidt"
+"Heather Onstott",2019-07-12,117,"BW",9,"Completed","Completed Case","YouthCare of Oklahoma",3,12,2017-08-28,2018-04-09,"Susan Schmidt"
+"Christine Hensley",2018-05-16,118,"BY",12,"Completed","Completed Case","Family & Children's Mental Health Care Inc",3,11,2017-08-22,2018-02-27,"Elizabeth Risch"
+"Brittany Foshee",2018-05-16,118,"BY",11,"Completed","Completed Case","Family & Children's Mental Health Care Inc",1,11,2017-08-22,2018-02-27,"Elizabeth Risch"
+"Desiree Smith",2018-05-30,118,"BY",11,"Completed","Completed Case","Family & Children's Mental Health Care Inc",1,11,2017-08-22,2018-02-27,"Elizabeth Risch"
+"Teresa Greene-Ballard",2018-05-16,118,"BY",7,"Completed","Active Case","FOCIS counseling Inc",3,11,2017-08-22,2018-02-27,"Elizabeth Risch"
+"Latasha Burnett",2017-08-01,118,"BY",NA,"Incomplete-do not reassign","Incomplete Case","Healing Hands Agency",0,11,2017-08-22,2018-02-27,"Elizabeth Risch"
+"Elizabeth Riddles",2018-03-14,118,"BY",10,"Completed","Completed Case","MidDel Youth & Family",0,11,2017-08-22,2018-02-27,"Elizabeth Risch"
+"Terri Leeper",2017-12-07,118,"BY",5,"TBD","Active Case","Northwest Family Services",0,11,2017-08-22,2018-02-27,"Elizabeth Risch"
+"Allison Freeman",2018-02-20,118,"BY",4,"Reassign to new group","No Case","Unknown",0,11,2017-08-22,2018-02-27,"Elizabeth Risch"
+"Dawn Hardwick",2018-07-31,118,"BY",11,"Completed","Completed Case","Unknown",1,11,2017-08-22,2018-02-27,"Elizabeth Risch"
+"Brittne Thompson",2018-03-14,118,"BY",12,"Completed","Completed Case","Unknown",0,11,2017-08-22,2018-02-27,"Elizabeth Risch"
+"Rhonda McGough",2018-08-09,119,"BZ",10,"Completed","Completed Case","Carl Albert Community Mental Health Center",2,12,2017-08-21,2018-03-19,"Michael Gomez"
+"Dustie Nelson",2018-04-10,119,"BZ",8,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",0,12,2017-08-21,2018-03-19,"Michael Gomez"
+"Kimberly Howell",2018-10-17,119,"BZ",9,"TBD","Active Case","LFS Counseling",0,12,2017-08-21,2018-03-19,"Michael Gomez"
+"Susan Hogan",2018-02-23,119,"BZ",9,"TBD","Active Case","Parkland Hospital",0,12,2017-08-21,2018-03-19,"Michael Gomez"
+"Elizabeth Tyson",2018-02-23,119,"BZ",9,"Completed","Completed Case","ROCMND Area Youth Services",0,12,2017-08-21,2018-03-19,"Michael Gomez"
+"Tonna Deal",2018-02-23,119,"BZ",12,"Completed","Completed Case","SAFY TFC Oklahoma City",0,12,2017-08-21,2018-03-19,"Michael Gomez"
+"Brent Simpson",2018-02-23,119,"BZ",8,"TBD","Active Case","Speck Homes for Boys",0,12,2017-08-21,2018-03-19,"Michael Gomez"
+"Rhonda Hackney",2018-02-27,119,"BZ",7,"TBD","Active Case","Unknown",0,12,2017-08-21,2018-03-19,"Michael Gomez"
+"Marvla Kesler",2018-02-14,119,"BZ",8,"TBD","Active Case","Unknown",0,12,2017-08-21,2018-03-19,"Michael Gomez"
+"Lyndsay Sather",2018-02-23,119,"BZ",9,"TBD","Active Case","Victim Intervention Program Rape Crisis Center",0,12,2017-08-21,2018-03-19,"Michael Gomez"
+"Jessica Cothran",2016-08-22,121,"Roy",12,"Completed","Completed Case","Family & Children's Mental Health Care Inc",0,NA,NA,NA,NA
+"Brianna Tracy",2017-09-26,121,"Roy",12,"Completed","Completed Case","Unknown",0,NA,NA,NA,NA
+"Jacquelyn White",2017-09-26,121,"Roy",12,"Completed","Completed Case","Unknown",0,NA,NA,NA,NA
+"Lindsey Sbanotto",2017-09-26,121,"Roy",10,"TBD","Active Case","Unknown",0,NA,NA,NA,NA
+"Molly Royce",2017-09-26,121,"Roy",12,"Completed","Completed Case","Unknown",0,NA,NA,NA,NA
+"Ashley Westmoreland",2017-05-15,122,"BQ",0,"Incomplete-do not reassign","Incomplete Case","CREOKS",0,10,2017-01-03,2017-06-06,"Elizabeth Risch"
+"Priya Patel",2019-08-19,122,"BQ",4,"Incomplete-do not reassign","No Case","Unknown",1,10,2017-01-03,2017-06-06,"Elizabeth Risch"
+"Jim Trammell",2017-09-14,122,"BQ",7,"Refer to open call","TBD","Unknown",0,10,2017-01-03,2017-06-06,"Elizabeth Risch"
+"Jennifer Hicks",2017-05-15,122,"BQ",0,"Incomplete-do not reassign","Incomplete Case","Unknown",0,10,2017-01-03,2017-06-06,"Elizabeth Risch"
+"Sarah King",2018-11-12,122,"BQ",10,"Completed","Completed Case","Unknown",6,10,2017-01-03,2017-06-06,"Elizabeth Risch"
+"Cedric Glenn",2019-02-28,122,"BQ",9,"Refer to open call","Incomplete Case","Unknown",3,10,2017-01-03,2017-06-06,"Elizabeth Risch"
+"Jonathan Forrest",2017-09-26,122,"BQ",2,"Incomplete-do not reassign","Incomplete Case","Unknown",0,10,2017-01-03,2017-06-06,"Elizabeth Risch"
+"Brittni Washington",2018-05-30,125,"BX",9,"Completed","Completed Case","Green Country Behavioral Health Services",0,12,2017-08-21,2018-05-07,"Roy Van Tassell"
+"Stephanie Walker",2020-02-12,125,"BX",9,"Completed","Completed Case","NorthCare",7,12,2017-08-21,2018-05-07,"Roy Van Tassell"
+"Tamra Tollefson",2019-02-01,125,"BX",10,"Completed","Completed Case","Northwest Center for Behavior Health",2,12,2017-08-21,2018-05-07,"Roy Van Tassell"
+"Kylene Whiteman",2018-07-27,125,"BX",10,"Completed","Completed Case","Northwest Center for Behavior Health",2,12,2017-08-21,2018-05-07,"Roy Van Tassell"
+"Ginger Smith",2017-08-30,125,"BX",NA,"Incomplete-do not reassign","Incomplete Case","Northwest Family Services",0,12,2017-08-21,2018-05-07,"Roy Van Tassell"
+"Vickie Farris",2017-08-01,125,"BX",NA,"Incomplete-do not reassign","Incomplete Case","Northwest Family Services",0,12,2017-08-21,2018-05-07,"Roy Van Tassell"
+"Pamela Gaddis",2018-05-30,125,"BX",11,"Refer to open call","Incomplete Case","Unknown",0,12,2017-08-21,2018-05-07,"Roy Van Tassell"
+"Taylor Wilson",2018-06-29,125,"BX",9,"Completed","Completed Case","Unknown",3,12,2017-08-21,2018-05-07,"Roy Van Tassell"
+"Lila Garcia",2017-11-27,125,"BX",1,"TBD","Active Case","Unknown",0,12,2017-08-21,2018-05-07,"Roy Van Tassell"
+"Katy McDaniel",2018-12-06,125,"BX",10,"Completed","Completed Case","Unknown",2,12,2017-08-21,2018-05-07,"Roy Van Tassell"
+"James Gichuki",2018-05-30,125,"BX",11,"Completed","Completed Case","YouthCare of Oklahoma",0,12,2017-08-21,2018-05-07,"Roy Van Tassell"
+"Ashley Wisdom",2018-05-30,126,"OKDHS16",11,"Completed","Active Case","Choices for Life",0,12,2017-10-17,2018-05-15,"Susan Schmidt"
+"Whitney Danley",2018-05-30,126,"OKDHS16",10,"Refer to open call","Incomplete Case","Choices for Life",0,12,2017-10-17,2018-05-15,"Susan Schmidt"
+"Debra Campbell",2018-05-30,126,"OKDHS16",11,"Completed","Active Case","Homebased Services  & Resources",0,12,2017-10-17,2018-05-15,"Susan Schmidt"
+"Shannon Johnston",2018-06-12,126,"OKDHS16",12,"Completed","Completed Case","Homebased Services  & Resources",0,12,2017-10-17,2018-05-15,"Susan Schmidt"
+"Terri Thelen",2018-05-30,126,"OKDHS16",11,"Completed","Active Case","Homebased Services  & Resources",0,12,2017-10-17,2018-05-15,"Susan Schmidt"
+"Kathy Reynolds",2018-05-30,126,"OKDHS16",11,"Completed","Completed Case","Homebased Services  & Resources",0,12,2017-10-17,2018-05-15,"Susan Schmidt"
+"LouDonna Jefcoat",2018-05-30,126,"OKDHS16",12,"Completed","Completed Case","Hope Community Services",0,12,2017-10-17,2018-05-15,"Susan Schmidt"
+"Rachel Stewart",2018-05-30,126,"OKDHS16",7,"Refer to open call","Active Case","Unknown",1,12,2017-10-17,2018-05-15,"Susan Schmidt"
+"Terri Starr",2018-04-25,127,"OKDHS17",10,"TBD","Completed Case","Homebased Services  & Resources",0,14,2017-10-10,2018-05-08,"Elizabeth Risch"
+"Stephanie Wills",2018-06-12,127,"OKDHS17",9,"Completed","Active Case","Homebased Services  & Resources",0,14,2017-10-10,2018-05-08,"Elizabeth Risch"
+"Trese Florence",2018-05-30,127,"OKDHS17",11,"Completed","Active Case","Oklahoma Families First",0,14,2017-10-10,2018-05-08,"Elizabeth Risch"
+"Harmony Horste",2018-05-30,127,"OKDHS17",12,"Completed","Active Case","Oklahoma Families First",0,14,2017-10-10,2018-05-08,"Elizabeth Risch"
+"Laura Steele",2018-05-30,127,"OKDHS17",11,"Completed","Active Case","Oklahoma Families First",0,14,2017-10-10,2018-05-08,"Elizabeth Risch"
+"Rosemary Preston",2018-05-30,127,"OKDHS17",12,"Completed","Completed Case","Oklahoma Families First",0,14,2017-10-10,2018-05-08,"Elizabeth Risch"
+"Rachelle Nunley",2018-05-30,127,"OKDHS17",10,"Completed","Active Case","YouthCare of Oklahoma",0,14,2017-10-10,2018-05-08,"Elizabeth Risch"
+"Shamekia Oguntimilchin",2018-05-30,127,"OKDHS17",10,"Completed","Active Case","YouthCare of Oklahoma",0,14,2017-10-10,2018-05-08,"Elizabeth Risch"
+"Amber Whitson",2018-06-14,129,"CB",12,"Completed","Completed Case","CREOKS",0,13,2017-11-06,2018-06-18,"Michael Gomez"
+"Christie Walker",2018-06-14,129,"CB",13,"Completed","Completed Case","Family & Children's Mental Health Care Inc",0,13,2017-11-06,2018-06-18,"Michael Gomez"
+"Brianne Herron",2020-06-08,129,"CB",13,"Completed","Completed Case","Family & Children's Mental Health Care Inc",8,13,2017-11-06,2018-06-18,"Michael Gomez"
+"Tiffany Corden",2019-10-02,129,"CB",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",2,13,2017-11-06,2018-06-18,"Michael Gomez"
+"Adrian King",2019-07-30,129,"CB",10,"Completed","Completed Case","Red Rock",3,13,2017-11-06,2018-06-18,"Michael Gomez"
+"Suzanna Storm",2018-06-14,129,"CB",11,"Refer to open call","Completed Case","Unknown",0,13,2017-11-06,2018-06-18,"Michael Gomez"
+"Jaquetta Mickles",2018-06-14,129,"CB",12,"Refer to open call","Active Case","Unknown",0,13,2017-11-06,2018-06-18,"Michael Gomez"
+"Tim Patrick",2018-10-17,130,"CC",7,"Completed","Completed Case","Cherokee Nation Behavioral Health Services- Vinita",3,11,2017-11-07,2018-05-15,"Elizabeth Risch"
+"Shannon Bentley",2018-08-29,130,"CC",9,"Completed","Completed Case","CREOKS",3,11,2017-11-07,2018-05-15,"Elizabeth Risch"
+"Jamie Roller",2018-05-30,130,"CC",9,"Completed","Completed Case","Domestic Violence Program of North Central Oklahoma",0,11,2017-11-07,2018-05-15,"Elizabeth Risch"
+"Kali Faircloth",2019-06-26,130,"CC",9,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",4,11,2017-11-07,2018-05-15,"Elizabeth Risch"
+"Victoria Fort",2020-01-10,130,"CC",1,"Incomplete-do not reassign","Unknown","Green Country Behavioral Health Services",7,11,2017-11-07,2018-05-15,"Elizabeth Risch"
+"Danielle Perry",2019-01-23,130,"CC",4,"Reassign to new group","Unknown","Green Country Behavioral Health Services",7,11,2017-11-07,2018-05-15,"Elizabeth Risch"
+"Anne Targos",2018-10-17,130,"CC",10,"Completed","Completed Case","Red Rock",2,11,2017-11-07,2018-05-15,"Elizabeth Risch"
+"Sharlotte Burkes",2018-12-06,130,"CC",11,"Completed","Completed Case","Unknown",1,11,2017-11-07,2018-05-15,"Elizabeth Risch"
+"Katie David",2018-08-23,130,"CC",9,"Refer to open call","Incomplete Case","Unknown",0,11,2017-11-07,2018-05-15,"Elizabeth Risch"
+"Kanwaldeep Dhillon",2017-10-11,130,"CC",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,11,2017-11-07,2018-05-15,"Elizabeth Risch"
+"John Cochran",2018-04-18,130,"CC",5,"Incomplete-do not reassign","No Case","Unknown",0,11,2017-11-07,2018-05-15,"Elizabeth Risch"
+"Elena Doskey",NA,132,"CTS Trainees 17-18",NA,"TBD","Active Case","OUHSC",0,NA,NA,NA,NA
+"Braiden Green",2018-06-12,132,"CTS Trainees 17-18",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Elizabeth Miller",2017-09-28,132,"CTS Trainees 17-18",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Jordan Orosco",2017-09-28,132,"CTS Trainees 17-18",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Punanani Hee",2017-09-28,132,"CTS Trainees 17-18",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Ryan Egan",2017-09-28,132,"CTS Trainees 17-18",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Sarai Peguero",2017-09-28,132,"CTS Trainees 17-18",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Arianna Timko",NA,132,"CTS Trainees 17-18",NA,"TBD","Active Case","OUHSC",0,NA,NA,NA,NA
+"Elizabeth Risch",2017-09-28,133,"CTS Staff",9,"Incomplete-do not reassign","Incomplete Case","OUHSC",1,NA,NA,NA,NA
+"Amanda Mitten",2017-09-28,133,"CTS Staff",NA,"Completed","Completed Case","OUHSC",0,NA,NA,NA,NA
+"Melissa Bernstein",2017-09-28,133,"CTS Staff",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Susan Schmidt",2017-09-28,133,"CTS Staff",NA,"Completed","Completed Case","OUHSC",0,NA,NA,NA,NA
+"Natalie Gallo",2017-09-28,133,"CTS Staff",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Saba Shahid",2017-09-28,133,"CTS Staff",NA,"Completed","Completed Case","Unknown",0,NA,NA,NA,NA
+"Rebecca Warren",2018-06-08,134,"AK-A",10,"Completed","Incomplete Case","Full Circle Counseling",0,14,2017-10-10,2018-05-08,"Susan Schmidt"
+"Courtney Butler",2018-04-11,134,"AK-A",9,"TBD","Active Case","North Slope Borough",0,14,2017-10-10,2018-05-08,"Susan Schmidt"
+"Karen Kallen-Brown",2018-03-28,134,"AK-A",9,"Completed","Active Case","PHH",0,14,2017-10-10,2018-05-08,"Susan Schmidt"
+"Catherine Holt",2018-04-11,134,"AK-A",9,"TBD","Active Case","Private Practive Alaska",0,14,2017-10-10,2018-05-08,"Susan Schmidt"
+"Edmore Mangena",2018-03-28,134,"AK-A",8,"TBD","Active Case","Providnece, API",0,14,2017-10-10,2018-05-08,"Susan Schmidt"
+"Tashia Amstislavski",2018-03-28,134,"AK-A",7,"Incomplete-do not reassign","No Case","Southcentral Foundation",0,14,2017-10-10,2018-05-08,"Susan Schmidt"
+"Hope Pattengale",2018-03-28,134,"AK-A",10,"Completed","Active Case","Unknown",0,14,2017-10-10,2018-05-08,"Susan Schmidt"
+"Kylee Davies",2018-03-28,134,"AK-A",9,"Completed","Active Case","YKHC",0,14,2017-10-10,2018-05-08,"Susan Schmidt"
+"Melissa Ehlers",2018-03-07,135,"AK-B",5,"TBD","Active Case","KANA",0,14,2017-10-17,2018-06-05,"Susan Schmidt"
+"Melanie James",2019-04-01,135,"AK-B",7,"Completed","Completed Case","Maniilaq",2,14,2017-10-17,2018-06-05,"Susan Schmidt"
+"Emily Wagner",2018-03-21,135,"AK-B",7,"TBD","Active Case","Southcentral Foundation",0,14,2017-10-17,2018-06-05,"Susan Schmidt"
+"Heidi Fox",2017-10-18,135,"AK-B",1,"TBD","Active Case","Unknown",0,14,2017-10-17,2018-06-05,"Susan Schmidt"
+"Hillary Walker",2018-04-11,136,"AK-C",11,"Completed","Completed Case","CARES",0,14,2017-11-13,2018-06-25,"Susan Schmidt"
+"Tracey Wiese",2018-04-11,136,"AK-C",8,"Incomplete-do not reassign","Incomplete Case","Changing Tides Alaska",0,14,2017-11-13,2018-06-25,"Susan Schmidt"
+"Spencer Cook",2018-03-28,136,"AK-C",9,"Completed","Completed Case","Norton Sound Health Corp",0,14,2017-11-13,2018-06-25,"Susan Schmidt"
+"Donna Henry",2018-04-11,136,"AK-C",11,"Completed","Completed Case","Private Practive Alaska",0,14,2017-11-13,2018-06-25,"Susan Schmidt"
+"Sean O'Neil",2018-02-14,136,"AK-C",6,"Incomplete-do not reassign","Incomplete Case","Private Practive Alaska",0,14,2017-11-13,2018-06-25,"Susan Schmidt"
+"Shayle Hutchison",2018-04-11,136,"AK-C",9,"Completed","Completed Case","Private Practive Alaska",0,14,2017-11-13,2018-06-25,"Susan Schmidt"
+"Danah Frey",2018-01-03,136,"AK-C",1,"TBD","Active Case","Private Practive Alaska",0,14,2017-11-13,2018-06-25,"Susan Schmidt"
+"Matt Wadsworth",2018-02-14,136,"AK-C",3,"Incomplete-do not reassign","No Case","Providnece, API",0,14,2017-11-13,2018-06-25,"Susan Schmidt"
+"Anastasia Kenney",2018-04-11,136,"AK-C",7,"Incomplete-do not reassign","No Case","Providnece, API",0,14,2017-11-13,2018-06-25,"Susan Schmidt"
+"KimAdelia Leff",NA,136,"AK-C",NA,"Incomplete-do not reassign","Incomplete Case","Unknown",0,14,2017-11-13,2018-06-25,"Susan Schmidt"
+"Christine Bubar",2018-04-11,136,"AK-C",10,"Completed","Completed Case","Unknown",0,14,2017-11-13,2018-06-25,"Susan Schmidt"
+"Shelly Kennedy",2018-08-29,137,"CD",7,"Refer to open call","Active Case","Center for Therapeutic Interventions",0,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Ali Dart",2019-05-17,137,"CD",10,"Completed","Completed Case","Central Oklahoma Community Mental Health Center",3,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Kayla Cox",2019-08-19,137,"CD",15,"Incomplete-do not reassign","Incomplete Case","CREOKS",0,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Dierdre McCool",NA,137,"CD",NA,"Incomplete-do not reassign","Incomplete Case","Deaconess Adoption Services",0,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Sherry Loving",2018-09-11,137,"CD",9,"Completed","Active Case","Multi-County Counseling",0,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Harmony Fuller",2018-12-18,137,"CD",8,"Completed","Active Case","Osage Nation Counseling",1,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Jennifer Thomas",NA,137,"CD",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Brooke Cargill",2018-09-14,137,"CD",13,"Completed","Completed Case","Unknown",0,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Debra Smith",2018-08-29,137,"CD",4,"Incomplete-do not reassign","Unknown","Unknown",0,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Jennifer Griffith",2019-08-12,137,"CD",8,"Refer to open call","Completed Case","Unknown",2,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Rhonda Thompson",2019-01-23,138,"CE",15,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",1,12,2018-03-06,2018-09-04,"Elizabeth Risch"
+"Donna Holden",2019-04-24,138,"CE",8,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",2,12,2018-03-06,2018-09-04,"Elizabeth Risch"
+"Jennifer Baker",2019-10-14,138,"CE",10,"Completed","Completed Case","Southwestern Behavioral",4,12,2018-03-06,2018-09-04,"Elizabeth Risch"
+"Kendra Morgan",2018-11-14,138,"CE",11,"Completed","Completed Case","Unknown",0,12,2018-03-06,2018-09-04,"Elizabeth Risch"
+"Leah Whippo",2019-05-31,138,"CE",10,"Completed","Completed Case","Unknown",2,12,2018-03-06,2018-09-04,"Elizabeth Risch"
+"Bethany Wiginton",2018-11-01,138,"CE",12,"Refer to open call","Active Case","Unknown",0,12,2018-03-06,2018-09-04,"Elizabeth Risch"
+"Shantel Farrow",2018-11-14,138,"CE",12,"Completed","Completed Case","Youth Services of Oklahoma County Inc.",0,12,2018-03-06,2018-09-04,"Elizabeth Risch"
+"Jacquelyn (Jackson) Tecmire",2018-09-19,138,"CE",12,"Completed","Completed Case","Youth Services of Oklahoma County Inc.",0,12,2018-03-06,2018-09-04,"Elizabeth Risch"
+"Tammy Boylan",2019-06-26,139,"CF",10,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",4,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Christen Pruet",2018-10-10,139,"CF",10,"Completed","Completed Case","Green Country Behavioral Health Services",3,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Brittany Sober",2018-09-19,139,"CF",11,"Completed","Completed Case","NorthCare",1,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Rachel McClain",2018-10-04,139,"CF",11,"Completed","Completed Case","NorthCare",1,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Benjamin Rendon",2019-11-13,139,"CF",11,"Completed","Completed Case","Red Rock",1,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Pam Boren",2018-10-04,139,"CF",12,"Completed","Completed Case","Safe Place",0,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Sarah Cabler",2018-09-24,139,"CF",12,"Completed","Completed Case","Safe Place",0,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Cari Epperson",2018-08-29,139,"CF",8,"Refer to open call","Active Case","Unknown",0,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Lauren McKinnon",2018-11-29,139,"CF",12,"Completed","Completed Case","Unknown",0,12,2018-02-27,2018-08-28,"Roy Van Tassell"
+"Michael Kurle",2019-02-20,140,"CG",10,"Refer to open call","Active Case","Family & Children's Mental Health Care Inc",2,12,2018-03-05,2018-10-01,"Michael Gomez"
+"Kaycee Allbritton",2018-11-13,140,"CG",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,12,2018-03-05,2018-10-01,"Michael Gomez"
+"Gracie Jamison",2018-11-13,140,"CG",11,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",0,12,2018-03-05,2018-10-01,"Michael Gomez"
+"Kendra Fiedler",2018-11-13,140,"CG",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,12,2018-03-05,2018-10-01,"Michael Gomez"
+"Karlee Craddock",2018-12-05,140,"CG",11,"Completed","Completed Case","Private Practice",1,12,2018-03-05,2018-10-01,"Michael Gomez"
+"Phoebe Barron",2019-01-04,140,"CG",11,"Completed","Completed Case","Private Practice",0,12,2018-03-05,2018-10-01,"Michael Gomez"
+"Elizabeth Hicks",2018-11-13,140,"CG",13,"Completed","Completed Case","Red Rock",0,12,2018-03-05,2018-10-01,"Michael Gomez"
+"Lauren Labeth",2018-04-18,140,"CG",3,"TBD","Active Case","Unknown",0,12,2018-03-05,2018-10-01,"Michael Gomez"
+"Carrie Deschenes",2018-11-14,140,"CG",6,"TBD","Active Case","Unknown",0,12,2018-03-05,2018-10-01,"Michael Gomez"
+"Tayyaba Ali",NA,141,"OUHSC",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Ayesha Satter",NA,141,"OUHSC",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Yui Yamaoka",NA,141,"OUHSC",NA,"Incomplete-do not reassign","Incomplete Case","OUHSC",0,NA,NA,NA,NA
+"Melissa Schmidt",2019-01-24,142,"CH",11,"Completed","Active Case","Child Advocacy Center",0,13,2018-05-21,2019-01-07,"Roy Van Tassell"
+"Tabitha Winter",2019-01-16,142,"CH",11,"Completed","Active Case","Child Advocacy Center",0,13,2018-05-21,2019-01-07,"Roy Van Tassell"
+"Sarah Williams",2019-01-16,142,"CH",12,"Refer to open call","Active Case","Family & Children's Mental Health Care Inc",0,13,2018-05-21,2019-01-07,"Roy Van Tassell"
+"Charity Smith",2019-02-07,142,"CH",12,"Completed","Completed Case","Family & Children's Mental Health Care Inc",0,13,2018-05-21,2019-01-07,"Roy Van Tassell"
+"Christine Barzellone",2019-01-16,142,"CH",11,"Refer to open call","Active Case","Family & Children's Mental Health Care Inc",0,13,2018-05-21,2019-01-07,"Roy Van Tassell"
+"Leslie Crane",2019-01-16,142,"CH",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,13,2018-05-21,2019-01-07,"Roy Van Tassell"
+"Sally Fatjo",2018-10-10,142,"CH",2,"Reassign to new group","No Case","Jim Taliaferro Community Mental Health Center",0,13,2018-05-21,2019-01-07,"Roy Van Tassell"
+"Nathan Ladd",2019-10-02,142,"CH",12,"Completed","Completed Case","Latino Community Development Agency",1,13,2018-05-21,2019-01-07,"Roy Van Tassell"
+"Lauren Faris",2018-05-30,142,"CH",NA,"Incomplete-do not reassign","No Case","NorthCare",0,13,2018-05-21,2019-01-07,"Roy Van Tassell"
+"Tim Fisher",2019-08-28,142,"CH",18,"Completed","Completed Case","Unknown",10,13,2018-05-21,2019-01-07,"Roy Van Tassell"
+"Jessica Fleming",2018-12-12,143,"CI",9,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",0,12,2018-05-21,2018-12-10,"Michael Gomez"
+"Kendal McKitrick",2019-06-12,143,"CI",11,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",1,12,2018-05-21,2018-12-10,"Michael Gomez"
+"Mary Noble",2019-06-26,143,"CI",8,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",4,12,2018-05-21,2018-12-10,"Michael Gomez"
+"Shannon Rowland",2018-12-12,143,"CI",10,"Refer to open call","Completed Case","Grand Lake Mental Health Center, Inc.",0,12,2018-05-21,2018-12-10,"Michael Gomez"
+"Kristin Walker",2018-12-12,143,"CI",9,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",0,12,2018-05-21,2018-12-10,"Michael Gomez"
+"Waleska Esquilin",2018-07-11,143,"CI",3,"Reassign to new group","No Case","Latino Community Development Agency",0,12,2018-05-21,2018-12-10,"Michael Gomez"
+"Kaci Toole",2020-02-12,143,"CI",11,"Completed","Completed Case","NorthCare",1,12,2018-05-21,2018-12-10,"Michael Gomez"
+"Jennifer Doyle",2018-12-12,143,"CI",9,"Refer to open call","Active Case","Unknown",0,12,2018-05-21,2018-12-10,"Michael Gomez"
+"Audra Tucker",2018-12-05,143,"CI",3,"Reassign to new group","No Case","Unknown",0,12,2018-05-21,2018-12-10,"Michael Gomez"
+"Kiva Williams",2018-11-15,144,"CJ",11,"Completed","Completed Case","Family & Children's Mental Health Care Inc",1,12,2018-05-08,2018-11-13,"Elizabeth Risch"
+"Courtney Chandler",2018-12-11,144,"CJ",12,"Completed","Completed Case","Family & Children's Mental Health Care Inc",0,12,2018-05-08,2018-11-13,"Elizabeth Risch"
+"Jessica Meyers",2018-11-15,144,"CJ",12,"Completed","Completed Case","NorthCare",0,12,2018-05-08,2018-11-13,"Elizabeth Risch"
+"Katelyn Deaton",2018-12-04,144,"CJ",12,"Completed","Completed Case","Red Rock",0,12,2018-05-08,2018-11-13,"Elizabeth Risch"
+"Kendell Clark",2020-01-23,144,"CJ",9,"Completed","Completed Case","Red Rock",5,12,2018-05-08,2018-11-13,"Elizabeth Risch"
+"Kayley Saunders",2018-12-12,144,"CJ",10,"Completed","Completed Case","Red Rock",2,12,2018-05-08,2018-11-13,"Elizabeth Risch"
+"Bridgett Sims",2018-07-11,144,"CJ",2,"Incomplete-do not reassign","No Case","Red Rock",0,12,2018-05-08,2018-11-13,"Elizabeth Risch"
+"Donna Atton",2020-02-12,144,"CJ",10,"Completed","Completed Case","Red Rock",2,12,2018-05-08,2018-11-13,"Elizabeth Risch"
+"Sharon Veazey",2018-05-30,144,"CJ",2,"TBD","TBD","Unknown",0,12,2018-05-08,2018-11-13,"Elizabeth Risch"
+"Angel Malone",2019-08-28,144,"CJ",11,"Completed","Completed Case","Unknown",1,12,2018-05-08,2018-11-13,"Elizabeth Risch"
+"Angela Oliver",2018-11-29,144,"CJ",9,"Refer to open call","Completed Case","Unknown",1,12,2018-05-08,2018-11-13,"Elizabeth Risch"
+"Caleb Grosse",2018-11-15,144,"CJ",11,"Refer to open call","Completed Case","Unknown",0,12,2018-05-08,2018-11-13,"Elizabeth Risch"
+"Jessica Feeley",2019-02-13,145,"CK",11,"Completed","Active Case","Dayspring Behavorial Health",0,12,2018-07-02,2019-02-04,"Michael Gomez"
+"Cantiese Burrell",2019-04-24,145,"CK",10,"Refer to open call","Active Case","Family & Children's Mental Health Care Inc",2,12,2018-07-02,2019-02-04,"Michael Gomez"
+"Natalie Thiesen",2019-03-13,145,"CK",11,"Completed","Completed Case","Family & Children's Mental Health Care Inc",1,12,2018-07-02,2019-02-04,"Michael Gomez"
+"Paige Colburn",2019-04-22,145,"CK",12,"Refer to open call","Active Case","Family & Children's Mental Health Care Inc",1,12,2018-07-02,2019-02-04,"Michael Gomez"
+"Shaleen Dorsey",2019-02-13,145,"CK",11,"Refer to open call","Completed Case","Family & Children's Mental Health Care Inc",0,12,2018-07-02,2019-02-04,"Michael Gomez"
+"Adrian Martin",2019-02-13,145,"CK",8,"Refer to open call","Active Case","Green Country Behavioral Health Services",0,12,2018-07-02,2019-02-04,"Michael Gomez"
+"Karen Maddox",2018-06-26,145,"CK",NA,"Incomplete-do not reassign","No Case","Pathway Family Services",0,12,2018-07-02,2019-02-04,"Michael Gomez"
+"Kenny James",2019-02-13,145,"CK",9,"Completed","Completed Case","Private Practice",0,12,2018-07-02,2019-02-04,"Michael Gomez"
+"Ann Sullivan",2018-12-19,145,"CK",4,"Incomplete-do not reassign","Unknown","Unknown",0,12,2018-07-02,2019-02-04,"Michael Gomez"
+"Shannon Canfield",2020-06-08,146,"CL",6,"Reassign to new group","No Case","Family & Children's Mental Health Care Inc",10,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Russell Hinkle",2019-02-13,146,"CL",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Darrin McDaniel",2019-06-26,146,"CL",7,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",5,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Courtney Burress",2019-08-14,146,"CL",11,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",4,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Ethan Blasdel",2019-11-10,146,"CL",11,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",10,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Natalie Brankle",2019-02-13,146,"CL",9,"Refer to open call","Incomplete Case","Grand Lake Mental Health Center, Inc.",0,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Luke Carrillo",2019-06-26,146,"CL",11,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",2,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Jan Plavchak",2018-07-27,146,"CL",1,"Incomplete-do not reassign","Unknown","Multi-County Counseling",0,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Adrian Bishop",2019-02-13,146,"CL",6,"Reassign to new group","Active Case","Unknown",1,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Heather Miller",2018-12-05,146,"CL",2,"Incomplete-do not reassign","No Case","YWCA",0,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Cassandra Gaddis",2019-01-09,147,"CM",11,"Completed","Completed Case","Pathway Family Services",0,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Aaron Pish",2019-01-09,147,"CM",11,"Completed","Active Case","Pathway Family Services",0,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Janeen Tacey",2019-01-09,147,"CM",10,"Completed","Completed Case","Pathway Family Services",0,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Amy Chandapillai",2019-01-09,147,"CM",12,"Completed","Completed Case","Red Rock",0,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Andrea Caldwell",2019-03-28,147,"CM",8,"Completed","Completed Case","Red Rock",4,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Shakera Jackson",2019-09-25,147,"CM",10,"Completed","Completed Case","Red Rock",2,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Lauren Najera",2019-01-09,147,"CM",11,"Completed","Completed Case","Stillwater Counseling Center",0,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Amanda Sutton",2019-01-09,147,"CM",10,"Refer to open call","Completed Case","Unknown",0,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Denise Rogers",2019-03-04,147,"CM",4,"Reassign to new group","No Case","Unknown",0,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Khia Glover",2019-11-13,147,"CM",11,"Refer to open call","Active Case","Unknown",1,12,2018-07-10,2019-01-08,"Susan Schmidt"
+"Uganda Richardson",2019-04-24,148,"CN",10,"Completed","Active Case","A Chance for Change",0,13,2018-09-11,2019-04-23,"Roy Van Tassell"
+"Michelle Pritchard",2019-04-26,148,"CN",10,"Completed","Active Case","Bethesda Inc",0,13,2018-09-11,2019-04-23,"Roy Van Tassell"
+"Tara Williams",2019-04-24,148,"CN",12,"Completed","Completed Case","Center for Psychological Development",0,13,2018-09-11,2019-04-23,"Roy Van Tassell"
+"Jillian Mize",2019-04-24,148,"CN",13,"Completed","Completed Case","Center for Psychological Development",0,13,2018-09-11,2019-04-23,"Roy Van Tassell"
+"Blanche Sumner",2019-04-24,148,"CN",11,"Completed","Completed Case","Cherokee Nation Jack Brown Center",0,13,2018-09-11,2019-04-23,"Roy Van Tassell"
+"Adam Skinner",2019-06-12,148,"CN",14,"Completed","Completed Case","CREOKS",1,13,2018-09-11,2019-04-23,"Roy Van Tassell"
+"Misty Bilby",2019-05-17,148,"CN",12,"Completed","Completed Case","CREOKS",1,13,2018-09-11,2019-04-23,"Roy Van Tassell"
+"Sydney Pruett (Greenwood)",2020-01-13,148,"CN",14,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,13,2018-09-11,2019-04-23,"Roy Van Tassell"
+"Julie Curtis",2019-09-11,148,"CN",11,"Completed","Completed Case","Green Country Behavioral Health Services",2,13,2018-09-11,2019-04-23,"Roy Van Tassell"
+"Ray Moran",2019-04-22,149,"CO",13,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,14,2018-09-11,2019-04-09,"Roy Van Tassell"
+"Dustin Lang",2019-05-29,149,"CO",13,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,14,2018-09-11,2019-04-09,"Roy Van Tassell"
+"Holly Caddell",2019-04-22,149,"CO",11,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",1,14,2018-09-11,2019-04-09,"Roy Van Tassell"
+"Laura Fox",2019-05-28,149,"CO",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",1,14,2018-09-11,2019-04-09,"Roy Van Tassell"
+"Brandy Adams",2019-05-14,149,"CO",14,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,14,2018-09-11,2019-04-09,"Roy Van Tassell"
+"Morgan Smith",2019-06-12,149,"CO",12,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",1,14,2018-09-11,2019-04-09,"Roy Van Tassell"
+"Shalon Sharpe",NA,149,"CO",NA,"Incomplete-do not reassign","No Case","Grand Lake Mental Health Center, Inc.",0,14,2018-09-11,2019-04-09,"Roy Van Tassell"
+"Laura Shaw",2019-04-22,149,"CO",14,"Refer to open call","Active Case","Jim Taliaferro Community Mental Health Center",0,14,2018-09-11,2019-04-09,"Roy Van Tassell"
+"Shawn Sikes",2019-05-14,149,"CO",12,"Completed","Active Case","Positive Changes",0,14,2018-09-11,2019-04-09,"Roy Van Tassell"
+"Natasha Hamilton",2019-03-11,149,"CO",10,"TBD","Active Case","Unknown",0,14,2018-09-11,2019-04-09,"Roy Van Tassell"
+"Savanah Barrett",2019-04-24,150,"CP",10,"Refer to open call","Active Case","CREOKS",1,11,2018-10-02,2019-04-02,"Elizabeth Risch"
+"Jasmine Melchior",2019-04-03,150,"CP",16,"Completed","Completed Case","Daybreak Family Services",0,11,2018-10-02,2019-04-02,"Elizabeth Risch"
+"Shannon Hanks",2019-05-23,150,"CP",11,"Completed","Completed Case","Jim Taliaferro Community Mental Health Center",1,11,2018-10-02,2019-04-02,"Elizabeth Risch"
+"Laura Allison",NA,150,"CP",NA,"Incomplete-do not reassign","Unknown","Multi-County Counseling",0,11,2018-10-02,2019-04-02,"Elizabeth Risch"
+"Andrea Skaliks",2019-05-23,150,"CP",10,"Completed","Completed Case","Parkland Hospital VIP/Rape Crisis",0,11,2018-10-02,2019-04-02,"Elizabeth Risch"
+"Maria Renteria",2019-05-23,150,"CP",10,"Completed","Completed Case","Parkland Hospital VIP/Rape Crisis",0,11,2018-10-02,2019-04-02,"Elizabeth Risch"
+"Sara Baker",2019-08-26,150,"CP",2,"Incomplete-do not reassign","No Case","Unknown",0,11,2018-10-02,2019-04-02,"Elizabeth Risch"
+"Matthew Anderson",2019-05-21,151,"OKDHS18",12,"Completed","Completed Case","Choices Counseling Center",0,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Kristen Cole",2019-04-10,151,"OKDHS18",11,"Completed","Completed Case","Choices Counseling Center",1,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Jenny Mosley",2019-07-08,151,"OKDHS18",12,"Completed","Completed Case","Choices Counseling Center",1,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Molly Perkins",2019-09-25,151,"OKDHS18",12,"Completed","Completed Case","Choices Counseling Center",1,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Matt Pierce",2019-05-29,151,"OKDHS18",10,"Completed","Completed Case","Choices Counseling Center",0,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Jessica Schonlau",2019-05-21,151,"OKDHS18",12,"Completed","Completed Case","Choices Counseling Center",0,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Marie Gundlach",2019-04-10,151,"OKDHS18",9,"Completed","Completed Case","Eckerd",0,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Shawna Shine",2019-04-10,151,"OKDHS18",12,"Completed","Completed Case","Oasis Counseling",0,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Tamika Carter",2019-06-12,151,"OKDHS18",7,"Completed","Completed Case","Unknown",2,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Evan Gundy",2019-05-21,151,"OKDHS18",9,"Completed","Completed Case","YouthCare of Oklahoma",0,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Diane Bates",2019-07-30,152,"OKDHS19",12,"Completed","Active Case","Community Works",0,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Johnna Phillips",2019-04-03,152,"OKDHS19",6,"TBD","Active Case","Community Works",0,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Eric Sikes",2019-04-03,152,"OKDHS19",7,"TBD","Active Case","Community Works",0,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"De'Shaun Thornton",2019-04-24,152,"OKDHS19",9,"TBD","Active Case","Community Works",0,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Toni Foster-Lemons",2019-04-24,152,"OKDHS19",11,"TBD","Active Case","Eckerd",0,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Derwin Bolden",2019-04-24,152,"OKDHS19",12,"TBD","Active Case","Serious Sobriety and Behavioral Health",0,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Jessie Benfield-Boik",2019-06-20,152,"OKDHS19",11,"Completed","Completed Case","Unknown",0,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Regina Peck",2019-04-24,152,"OKDHS19",10,"TBD","Active Case","YouthCare of Oklahoma",0,12,2018-09-18,2019-04-02,"Susan Schmidt"
+"Jessena Varghese",2019-04-24,153,"OKDHS20",10,"Completed","Active Case","Transitions",0,11,2018-10-02,2019-03-19,"Elizabeth Risch"
+"Glenda Cottier",2019-04-24,153,"OKDHS20",11,"Refer to open call","Active Case","Transitions",0,11,2018-10-02,2019-03-19,"Elizabeth Risch"
+"Cheryl Thornton",2019-04-24,153,"OKDHS20",10,"Incomplete-do not reassign","TBD","Transitions",0,11,2018-10-02,2019-03-19,"Elizabeth Risch"
+"Meadow Hazelhoff",2019-04-24,153,"OKDHS20",10,"Refer to open call","Active Case","Transitions",0,11,2018-10-02,2019-03-19,"Elizabeth Risch"
+"Jessica Reilly",2019-04-24,153,"OKDHS20",12,"Refer to open call","Active Case","Transitions",0,11,2018-10-02,2019-03-19,"Elizabeth Risch"
+"George Thomas",2019-08-28,153,"OKDHS20",11,"Refer to open call","Active Case","Transitions",2,11,2018-10-02,2019-03-19,"Elizabeth Risch"
+"Brandy Guidry",2019-04-24,153,"OKDHS20",12,"Refer to open call","Active Case","Transitions",0,11,2018-10-02,2019-03-19,"Elizabeth Risch"
+"Tandi Mize",2018-10-17,153,"OKDHS20",2,"TBD","TBD","Youth & Family Resource Center",0,11,2018-10-02,2019-03-19,"Elizabeth Risch"
+"Vanessa Funk",2019-04-01,154,"OKDHS21",11,"TBD","Completed Case","Integrated Brain Health",0,12,2018-09-11,2019-03-12,"Elizabeth Risch"
+"Talena (Tina) Odell",2019-03-13,154,"OKDHS21",10,"Completed","Completed Case","Integrated Brain Health",0,12,2018-09-11,2019-03-12,"Elizabeth Risch"
+"Erin Willis",2019-04-01,154,"OKDHS21",11,"TBD","Completed Case","Integrated Brain Health",0,12,2018-09-11,2019-03-12,"Elizabeth Risch"
+"Kristen Lee",2019-04-01,154,"OKDHS21",11,"TBD","Active Case","Life Recovery Services",0,12,2018-09-11,2019-03-12,"Elizabeth Risch"
+"Kevin Redden",2018-12-12,154,"OKDHS21",4,"TBD","Active Case","Life Recovery Services",0,12,2018-09-11,2019-03-12,"Elizabeth Risch"
+"Billie Thompson",2019-06-26,154,"OKDHS21",11,"TBD","Active Case","Life Recovery Services",1,12,2018-09-11,2019-03-12,"Elizabeth Risch"
+"Kim Turner",2019-04-24,154,"OKDHS21",8,"Completed","Completed Case","Life Recovery Services",1,12,2018-09-11,2019-03-12,"Elizabeth Risch"
+"Eileen Whitson",2019-07-17,154,"OKDHS21",7,"Completed","Completed Case","Life Recovery Services",2,12,2018-09-11,2019-03-12,"Elizabeth Risch"
+"Natasha Comeaux",2019-07-08,155,"CQ",9,"Completed","Active Case","Center for Psychological Development",0,12,2018-11-06,2019-06-04,"Susan Schmidt"
+"Tracy Matcham",2019-07-08,155,"CQ",12,"Completed","Active Case","Center for Psychological Development",0,12,2018-11-06,2019-06-04,"Susan Schmidt"
+"Janna Ridgway",2019-07-08,155,"CQ",10,"Completed","Active Case","Center for Psychological Development",0,12,2018-11-06,2019-06-04,"Susan Schmidt"
+"Amanda Henley-Morton",2019-07-11,155,"CQ",12,"Completed","Completed Case","Chickasaw Nation",0,12,2018-11-06,2019-06-04,"Susan Schmidt"
+"Kristine Runfola",2019-09-17,155,"CQ",9,"Refer to open call","Completed Case","CREOKS",3,12,2018-11-06,2019-06-04,"Susan Schmidt"
+"Bennisha McKinney",2020-02-26,155,"CQ",9,"Completed","Completed Case","CREOKS",3,12,2018-11-06,2019-06-04,"Susan Schmidt"
+"Meghan Brave",2019-07-08,155,"CQ",5,"Reassign to new group","Active Case","Unknown",0,12,2018-11-06,2019-06-04,"Susan Schmidt"
+"Heather Nance",2019-07-08,155,"CQ",8,"Incomplete-do not reassign","Unknown","Unknown",0,12,2018-11-06,2019-06-04,"Susan Schmidt"
+"Nikita Gough",2019-07-17,156,"CR",12,"Completed","Completed Case","Dayspring Behavorial Health",0,12,2018-11-05,2019-05-20,"Michael Gomez"
+"Carly Hill",2019-06-19,156,"CR",12,"Completed","Completed Case","Family & Children's Mental Health Care Inc",0,12,2018-11-05,2019-05-20,"Michael Gomez"
+"Melissa McDaniel",2019-07-17,156,"CR",12,"Refer to open call","Active Case","Family & Children's Mental Health Care Inc",1,12,2018-11-05,2019-05-20,"Michael Gomez"
+"Kelley Florence",2019-06-26,156,"CR",10,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",2,12,2018-11-05,2019-05-20,"Michael Gomez"
+"Misty Davis",2019-05-23,156,"CR",10,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",0,12,2018-11-05,2019-05-20,"Michael Gomez"
+"Megan Hudson",2019-05-23,156,"CR",10,"Refer to open call","Completed Case","Grand Lake Mental Health Center, Inc.",0,12,2018-11-05,2019-05-20,"Michael Gomez"
+"Alexandrea Turner",2019-05-23,156,"CR",9,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",0,12,2018-11-05,2019-05-20,"Michael Gomez"
+"Kelly Dudark",2019-06-12,156,"CR",10,"Refer to open call","Completed Case","Grand Lake Mental Health Center, Inc.",1,12,2018-11-05,2019-05-20,"Michael Gomez"
+"Kaye Dreier",2019-06-19,156,"CR",12,"Completed","Active Case","Hand of Hope Youth and Family",0,12,2018-11-05,2019-05-20,"Michael Gomez"
+"Amy Jennings",2019-06-19,156,"CR",10,"Completed","Completed Case","Hope Revealed Behavioral Health",0,12,2018-11-05,2019-05-20,"Michael Gomez"
+"Darlene Mann",2018-12-06,156,"CR",NA,"Incomplete-do not reassign","No Case","Unknown",0,12,2018-11-05,2019-05-20,"Michael Gomez"
+"Rachel Ojeda",2019-06-19,156,"CR",12,"Completed","Completed Case","Unknown",0,12,2018-11-05,2019-05-20,"Michael Gomez"
+"Valerie Smith-Risinger",2019-06-25,157,"CS",11,"Completed","Completed Case","Bethesda Inc",0,12,2018-11-12,2019-05-13,"Michael Gomez"
+"Derek Minor",2019-09-25,157,"CS",10,"Completed","Completed Case","Central Oklahoma Community Mental Health Center",3,12,2018-11-12,2019-05-13,"Michael Gomez"
+"Taylor Barnett",2019-06-21,157,"CS",12,"Completed","Completed Case","Pivot",0,12,2018-11-12,2019-05-13,"Michael Gomez"
+"Catrina Labrie",2019-06-19,157,"CS",11,"Completed","Active Case","Pivot",0,12,2018-11-12,2019-05-13,"Michael Gomez"
+"Sherry Borden",2020-04-15,157,"CS",11,"Refer to open call","Active Case","Red Rock",3,12,2018-11-12,2019-05-13,"Michael Gomez"
+"Kathy Hoppe",2018-12-06,157,"CS",NA,"Incomplete-do not reassign","No Case","Samaritan Counseling & Growth",0,12,2018-11-12,2019-05-13,"Michael Gomez"
+"Crystal Warren",2019-06-19,157,"CS",10,"Completed","Completed Case","Sequel Care of Oklahoma",0,12,2018-11-12,2019-05-13,"Michael Gomez"
+"Cathy Shuffield",2019-07-08,157,"CS",11,"Completed","Completed Case","Unknown",1,12,2018-11-12,2019-05-13,"Michael Gomez"
+"Isabel (Maria) Brown",2019-08-15,157,"CS",10,"Completed","Completed Case","Unknown",2,12,2018-11-12,2019-05-13,"Michael Gomez"
+"Kathleen (Kate) Dawson",2018-11-29,157,"CS",1,"Incomplete-do not reassign","No Case","Unknown",0,12,2018-11-12,2019-05-13,"Michael Gomez"
+"Dana Juarez",2019-06-21,157,"CS",11,"Completed","Completed Case","YouthCare of Oklahoma",0,12,2018-11-12,2019-05-13,"Michael Gomez"
+"Katherine Conner",2019-12-18,158,"CT",12,"Refer to open call","Incomplete Case","CREOKS",2,12,2018-12-17,2019-08-05,"Susan Schmidt"
+"Ewelina Ignaczak",2019-04-01,158,"CT",3,"Incomplete-do not reassign","No Case","DHS",0,12,2018-12-17,2019-08-05,"Susan Schmidt"
+"Katherine Woodward",2020-06-08,158,"CT",11,"Completed","Completed Case","DVIS",10,12,2018-12-17,2019-08-05,"Susan Schmidt"
+"Rachel Baluh",2019-09-25,158,"CT",10,"Completed","Completed Case","Family & Children's Mental Health Care Inc",2,12,2018-12-17,2019-08-05,"Susan Schmidt"
+"Annie Lamendola",2019-08-14,158,"CT",11,"Refer to open call","Incomplete Case","Family & Children's Mental Health Care Inc",0,12,2018-12-17,2019-08-05,"Susan Schmidt"
+"Angela Dickson",2020-03-25,158,"CT",2,"Reassign to new group","No Case","Oklahoma Dept of Mental Health",2,12,2018-12-17,2019-08-05,"Susan Schmidt"
+"Cara Basinger",2019-09-11,158,"CT",11,"Completed","Completed Case","Red Rock",1,12,2018-12-17,2019-08-05,"Susan Schmidt"
+"Morgan Ensign",2020-05-07,158,"CT",7,"Refer to open call","Active Case","Red Rock",4,12,2018-12-17,2019-08-05,"Susan Schmidt"
+"Lauren Branch",NA,158,"CT",NA,"Incomplete-do not reassign","Unknown","Unknown",0,12,2018-12-17,2019-08-05,"Susan Schmidt"
+"Rachel Simpson",2019-08-14,158,"CT",7,"Reassign to new group","Incomplete Case","Unknown",0,12,2018-12-17,2019-08-05,"Susan Schmidt"
+"Danica Lott",2019-05-31,158,"CT",4,"Incomplete-do not reassign","No Case","Unknown",0,12,2018-12-17,2019-08-05,"Susan Schmidt"
+"Laurie Frans",2019-06-25,158,"CT",7,"Incomplete-do not reassign","No Case","Unknown",0,12,2018-12-17,2019-08-05,"Susan Schmidt"
+"Laurie Ormerod",2019-10-02,159,"CU",14,"Completed","Completed Case","Counseling and Recovery Services of OK",3,12,2018-12-11,2019-06-11,"Elizabeth Risch"
+"Kristine Brinlee",2019-06-12,159,"CU",8,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",0,12,2018-12-11,2019-06-11,"Elizabeth Risch"
+"James Weatherford",2019-06-12,159,"CU",11,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",0,12,2018-12-11,2019-06-11,"Elizabeth Risch"
+"Cynthia Emegano",2019-06-12,159,"CU",11,"Incomplete-do not reassign","No Case","Hope Community Services",0,12,2018-12-11,2019-06-11,"Elizabeth Risch"
+"Randi Noel",2019-07-30,159,"CU",12,"Completed","Completed Case","Indian Health Care Resource Center of Tulsa, Inc",0,12,2018-12-11,2019-06-11,"Elizabeth Risch"
+"Amy Files",2019-08-15,159,"CU",4,"Incomplete-do not reassign","Unknown","Multi-County Counseling",0,12,2018-12-11,2019-06-11,"Elizabeth Risch"
+"Scott Conrad",2019-07-16,159,"CU",12,"Completed","Completed Case","Multi-County Counseling",0,12,2018-12-11,2019-06-11,"Elizabeth Risch"
+"Bambi Martin",2019-04-10,159,"CU",4,"Incomplete-do not reassign","No Case","Multi-County Counseling",0,12,2018-12-11,2019-06-11,"Elizabeth Risch"
+"Kevin Rogers",2019-05-17,159,"CU",5,"Incomplete-do not reassign","No Case","Speck Homes for Boys",0,12,2018-12-11,2019-06-11,"Elizabeth Risch"
+"Jayde Drummond",2019-02-28,159,"CU",1,"Incomplete-do not reassign","No Case","Unknown",0,12,2018-12-11,2019-06-11,"Elizabeth Risch"
+"Jesse Stapleton",2019-07-01,160,"CV",12,"Completed","Completed Case","Delaware County Children's Special Advocacy Network",0,12,2018-12-17,2019-07-01,"Michael Gomez"
+"Ashlee Housley",2019-04-03,160,"CV",6,"Incomplete-do not reassign","Incomplete Case","Family & Children's Mental Health Care Inc",0,12,2018-12-17,2019-07-01,"Michael Gomez"
+"Melinda Schuster",2020-02-10,160,"CV",10,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",4,12,2018-12-17,2019-07-01,"Michael Gomez"
+"Scotty Hixson",2019-09-11,160,"CV",10,"Completed","Completed Case","Red Rock",2,12,2018-12-17,2019-07-01,"Michael Gomez"
+"Shelby Reeves",2020-03-03,160,"CV",12,"Completed","Completed Case","Red Rock",1,12,2018-12-17,2019-07-01,"Michael Gomez"
+"Tiffany Woods",2019-09-25,160,"CV",10,"Completed","Completed Case","Red Rock",3,12,2018-12-17,2019-07-01,"Michael Gomez"
+"Haley Korff",2019-07-01,160,"CV",12,"Completed","Completed Case","Red Rock",0,12,2018-12-17,2019-07-01,"Michael Gomez"
+"Olanrewaju Suleiman",2019-07-29,160,"CV",11,"Completed","Completed Case","Red Rock",1,12,2018-12-17,2019-07-01,"Michael Gomez"
+"Shannon Mallam",2020-04-15,160,"CV",12,"Completed","Completed Case","Red Rock",1,12,2018-12-17,2019-07-01,"Michael Gomez"
+"Jenna Howard",2019-07-01,160,"CV",11,"Completed","Completed Case","Unknown",0,12,2018-12-17,2019-07-01,"Michael Gomez"
+"Patricia Erwood",2019-09-11,161,"CW",6,"Incomplete-do not reassign","No Case","Counseling and Recovery Services of OK",0,13,2019-03-04,2019-10-21,"Susan Schmidt"
+"Sarah Bedinghaus",2020-02-26,161,"CW",8,"Completed","Completed Case","CREOKS",4,13,2019-03-04,2019-10-21,"Susan Schmidt"
+"Jaryn Linney",2019-12-17,161,"CW",12,"Refer to open call","Incomplete Case","CREOKS",0,13,2019-03-04,2019-10-21,"Susan Schmidt"
+"Michelle Ogan",2020-06-15,161,"CW",8,"Refer to open call","Completed Case","CREOKS",1,13,2019-03-04,2019-10-21,"Susan Schmidt"
+"Somer Robb",2019-12-17,161,"CW",6,"Incomplete-do not reassign","Incomplete Case","CREOKS",0,13,2019-03-04,2019-10-21,"Susan Schmidt"
+"Jimmie Sue Blose",2019-11-13,161,"CW",8,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",3,13,2019-03-04,2019-10-21,"Susan Schmidt"
+"Mark Fry",2019-12-17,161,"CW",12,"Refer to open call","Incomplete Case","Green Country Behavioral Health Services",0,13,2019-03-04,2019-10-21,"Susan Schmidt"
+"Joseph Eatherly",2019-12-17,161,"CW",8,"Refer to open call","Incomplete Case","Lighthouse Behavioral Wellness Center",0,13,2019-03-04,2019-10-21,"Susan Schmidt"
+"Heather (Sherree) Thornhill",2019-12-17,161,"CW",8,"Incomplete-do not reassign","No Case","Lighthouse Behavioral Wellness Center",0,13,2019-03-04,2019-10-21,"Susan Schmidt"
+"Kelli Brumley",2019-08-14,161,"CW",7,"Incomplete-do not reassign","No Case","Unknown",0,13,2019-03-04,2019-10-21,"Susan Schmidt"
+"Sharon Kempen",2019-12-17,161,"CW",9,"Completed","Completed Case","Unknown",2,13,2019-03-04,2019-10-21,"Susan Schmidt"
+"Jessica Hall",2019-11-06,162,"CX",11,"Reassign to new group","No Case","Family & Children's Mental Health Care Inc",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Timothy Dearhamer",2019-11-06,162,"CX",12,"Reassign to new group","No Case","Family & Children's Mental Health Care Inc",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"James Mitchell",2020-06-08,162,"CX",11,"Reassign to new group","No Case","Family & Children's Mental Health Care Inc",3,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Elizabeth Myatt",2019-11-06,162,"CX",11,"Incomplete-do not reassign","No Case","NorthCare",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Mariann Lowry-Cruz",2019-11-06,162,"CX",11,"Completed","Active Case","Pathway Family Services",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Rachel Fulcher",2019-11-06,162,"CX",9,"Reassign to new group","No Case","Pathway Family Services",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Jeneshia Hicks",2019-09-25,162,"CX",6,"Incomplete-do not reassign","No Case","Unknown",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Risa Hudson",2019-11-06,162,"CX",8,"Reassign to new group","No Case","Unknown",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Shelley Coughlin",2019-03-06,162,"CX",1,"Incomplete-do not reassign","No Case","Unknown",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Lori Baker",2020-02-10,162,"CX",11,"Completed","Completed Case","YouthCare of Oklahoma",1,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Stephania Barthel",2019-11-06,162,"CX",1,"Incomplete-do not reassign","Active Case","YouthCare of Oklahoma",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Allison Gibson",2019-03-25,163,"CY",NA,"Incomplete-do not reassign","No Case","Bethesda Inc",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Jennifer Robinson",2019-11-05,163,"CY",12,"Completed","Completed Case","Children's Recovery Center",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Diana Miller",2020-02-12,163,"CY",10,"Completed","Completed Case","CREOKS",4,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Susan Reed",2019-12-04,163,"CY",10,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",2,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Stephenie Connelly",2019-09-25,163,"CY",7,"Reassign to new group","No Case","Grand Lake Mental Health Center, Inc.",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Laci McSperitt",2019-11-06,163,"CY",11,"Reassign to new group","No Case","Grand Lake Mental Health Center, Inc.",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Shonta Crowder",2019-11-06,163,"CY",11,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Leslie Foster",2019-08-27,163,"CY",7,"Incomplete-do not reassign","No Case","Grand Lake Mental Health Center, Inc.",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Angela Matos",2020-06-17,163,"CY",13,"Completed","Completed Case","Tranquility Counseling Services, LLC",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Michelle Ramsey",2019-04-03,163,"CY",2,"Incomplete-do not reassign","No Case","Unknown",0,12,2019-03-05,2019-09-17,"Roy Van Tassell"
+"Elizabeth Nelson",2020-04-27,164,"CZ",9,"Completed","Completed Case","Advocates for Change Family Services, LLC",0,13,2019-07-08,2020-03-30,"Michael Gomez"
+"Alex Burns",2019-08-19,164,"CZ",1,"Incomplete-do not reassign","No Case","CREOKS",0,13,2019-07-08,2020-03-30,"Michael Gomez"
+"Crystal Hunter",2020-04-27,164,"CZ",9,"Reassign to new group","Active Case","CREOKS",0,13,2019-07-08,2020-03-30,"Michael Gomez"
+"Todd Crawford",2020-04-27,164,"CZ",12,"Refer to open call","Active Case","CREOKS",0,13,2019-07-08,2020-03-30,"Michael Gomez"
+"Jami Cunningham",2019-08-12,164,"CZ",NA,"Incomplete-do not reassign","Unknown","CREOKS",0,13,2019-07-08,2020-03-30,"Michael Gomez"
+"Clarissa Dunn",2020-04-27,164,"CZ",12,"Completed","Completed Case","CREOKS",0,13,2019-07-08,2020-03-30,"Michael Gomez"
+"Chelsea Brown",2020-06-15,164,"CZ",9,"Completed","Active Case","Integrity Pathways",0,13,2019-07-08,2020-03-30,"Michael Gomez"
+"Patsy Moore",2020-05-06,164,"CZ",10,"Completed","Completed Case","Integrity Pathways",0,13,2019-07-08,2020-03-30,"Michael Gomez"
+"Alicia Woodrum",2020-04-27,164,"CZ",11,"Completed","Active Case","Integrity Pathways",0,13,2019-07-08,2020-03-30,"Michael Gomez"
+"Vanessa Hunter",2020-04-27,164,"CZ",11,"Completed","Active Case","Lawton Indian Health Services",0,13,2019-07-08,2020-03-30,"Michael Gomez"
+"Hurbert Reeves",2020-04-27,164,"CZ",7,"Incomplete-do not reassign","Incomplete Case","Marie Detty Youth & Family Services Center",0,13,2019-07-08,2020-03-30,"Michael Gomez"
+"Heather Masterson",2020-03-04,165,"DA",13,"Refer to open call","Active Case","CREOKS",0,13,2019-07-01,2020-03-02,"Michael Gomez"
+"Bradley Bowden",2020-03-04,165,"DA",15,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,13,2019-07-01,2020-03-02,"Michael Gomez"
+"Heather Scherf",2020-03-04,165,"DA",13,"Completed","Completed Case","NorthCare",0,13,2019-07-01,2020-03-02,"Michael Gomez"
+"Charlie Bell",2019-08-22,165,"DA",2,"Incomplete-do not reassign","No Case","Northwest Center for Behavior Health",0,13,2019-07-01,2020-03-02,"Michael Gomez"
+"Bailey Trammell",2020-02-12,165,"DA",5,"Incomplete-do not reassign","Unknown","Northwest Treatment Center",0,13,2019-07-01,2020-03-02,"Michael Gomez"
+"Shauna Murray",2020-03-04,165,"DA",11,"Refer to open call","Active Case","Red Rock",0,13,2019-07-01,2020-03-02,"Michael Gomez"
+"Julie McCarty",2020-03-04,165,"DA",12,"Completed","Completed Case","Red Rock",0,13,2019-07-01,2020-03-02,"Michael Gomez"
+"Michelle Butts",2020-04-15,165,"DA",8,"Refer to open call","Incomplete Case","Red Rock",2,13,2019-07-01,2020-03-02,"Michael Gomez"
+"Jill Carroll",2020-03-04,165,"DA",12,"Refer to open call","Active Case","Red Rock",0,13,2019-07-01,2020-03-02,"Michael Gomez"
+"Jennifer Honeycutt",2020-03-06,165,"DA",12,"Completed","Completed Case","Viewpoint Counseling Center",0,13,2019-07-01,2020-03-02,"Michael Gomez"
+"Juanita Marshall",2020-03-04,165,"DA",10,"Completed","Completed Case","Youth & Family Resource Center",0,13,2019-07-01,2020-03-02,"Michael Gomez"
+"Demetria Robinson",2020-03-04,165,"DA",13,"Completed","Active Case","YWCA",0,13,2019-07-01,2020-03-02,"Michael Gomez"
+"Paige Barker",2020-03-11,166,"DB",10,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",3,12,2019-07-09,2020-01-14,"Elizabeth Risch"
+"Leslie Nair",2020-02-12,166,"DB",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,12,2019-07-09,2020-01-14,"Elizabeth Risch"
+"Shawnda Kirchmann",2020-02-26,166,"DB",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",1,12,2019-07-09,2020-01-14,"Elizabeth Risch"
+"Lauren Bradley",2020-02-26,166,"DB",11,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",1,12,2019-07-09,2020-01-14,"Elizabeth Risch"
+"Rebekah Schmaltz",2020-03-11,166,"DB",10,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",2,12,2019-07-09,2020-01-14,"Elizabeth Risch"
+"Kandis Taylor",2020-02-12,166,"DB",13,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,12,2019-07-09,2020-01-14,"Elizabeth Risch"
+"Ashley Robertson",2020-01-15,166,"DB",5,"Incomplete-do not reassign","Unknown","Green Country Behavioral Health Services",0,12,2019-07-09,2020-01-14,"Elizabeth Risch"
+"Gabriela Gonzolez",2020-05-27,166,"DB",13,"Refer to open call","Active Case","Hope Community Services",6,12,2019-07-09,2020-01-14,"Elizabeth Risch"
+"Megan Secrest",2020-01-15,166,"DB",12,"Completed","Completed Case","Red Rock",1,12,2019-07-09,2020-01-14,"Elizabeth Risch"
+"Caitlyn Russell",2020-03-09,167,"DC",17,"Completed","Completed Case","Counseling and Recovery Services of OK",2,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Alisha Hendren",2020-03-25,167,"DC",9,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",1,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Melanee Melton",2020-03-04,167,"DC",9,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",0,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Faye O'Neill",2020-03-04,167,"DC",13,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",0,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Catherine Taylor",2020-03-11,167,"DC",11,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",1,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Shelley Coffman",2020-03-04,167,"DC",12,"Completed","Completed Case","Hope Revealed Behavioral Health",0,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Roberta Heath",NA,167,"DC",NA,"Incomplete-do not reassign","Unknown","Unknown",0,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Hayley Brown",2020-02-19,167,"DC",10,"Completed","Incomplete Case","YouthCare of Oklahoma",0,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Sol Erdozain",2020-03-04,168,"DD",12,"Completed","Completed Case","Child Advocacy Center",0,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Daisy Gonzalez-Soto",2020-03-04,168,"DD",10,"Completed","Active Case","Child Advocacy Center",0,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Angela Jackson",2020-05-27,168,"DD",12,"Refer to open call","Active Case","Counseling and Recovery Services of OK",2,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Brandee Butler",2020-03-04,168,"DD",5,"Incomplete-do not reassign","Incomplete Case","Counseling and Recovery Services of OK",0,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Elodie Birdwell",2020-06-15,168,"DD",7,"Refer to open call","Active Case","CREOKS",5,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Melissa Slape",2020-04-15,168,"DD",11,"Refer to open call","Incomplete Case","CREOKS",2,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Kristin Brock",2020-03-04,168,"DD",10,"Completed","Active Case","Fairfax Medical Facility",0,13,2019-08-20,2020-03-03,"Susan Schmidt"
+"Brandi Perkins",2020-06-15,169,"DE",13,"Completed","Completed Case","Dedicated Outpatient Therapy Services",0,13,2019-04-06,2020-03-16,"Roy Van Tassell"
+"Eric Cox",2020-05-07,169,"DE",21,"Completed","Completed Case","Family & Children's Mental Health Care Inc",0,13,2019-04-06,2020-03-16,"Roy Van Tassell"
+"Katelyn Abrams",2020-06-15,169,"DE",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,13,2019-04-06,2020-03-16,"Roy Van Tassell"
+"Ashley Banfill",2020-06-17,169,"DE",13,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",0,13,2019-04-06,2020-03-16,"Roy Van Tassell"
+"Peggy Beck",2020-06-15,169,"DE",11,"Refer to open call","Active Case","Grand Lake Mental Health Center, Inc.",0,13,2019-04-06,2020-03-16,"Roy Van Tassell"
+"Jeremy Case",2020-05-07,169,"DE",9,"Refer to open call","Completed Case","Grand Lake Mental Health Center, Inc.",0,13,2019-04-06,2020-03-16,"Roy Van Tassell"
+"Haley Dixon",2020-06-15,169,"DE",7,"Incomplete-do not reassign","Unknown","Unknown",0,13,2019-04-06,2020-03-16,"Roy Van Tassell"
+"Heather Coleman",2020-06-17,170,"DF",12,"Completed","Completed Case","Integrity Pathways",0,14,2019-09-16,2020-04-20,"Roy Van Tassell"
+"Rebecca McLemore",2020-06-15,170,"DF",15,"Completed","Completed Case","LeFlore County Child Advocacy Center",0,14,2019-09-16,2020-04-20,"Roy Van Tassell"
+"Brandi Copeland",2020-06-15,170,"DF",13,"Completed","Completed Case","Lighthouse Behavioral Wellness Center",0,14,2019-09-16,2020-04-20,"Roy Van Tassell"
+"Jessica Taylor",2019-10-24,170,"DF",0,"Incomplete-do not reassign","No Case","Northwest Center for Behavior Health",0,14,2019-09-16,2020-04-20,"Roy Van Tassell"
+"Valerie Butler-McDaniel",2020-02-12,170,"DF",14,"Completed","Completed Case","Oasis Counseling",0,14,2019-09-16,2020-04-20,"Roy Van Tassell"
+"Leanne Moore",2019-10-24,170,"DF",NA,"Incomplete-do not reassign","No Case","Parent Child Center of Tulsa",0,14,2019-09-16,2020-04-20,"Roy Van Tassell"
+"Theresa Yu",2020-02-12,170,"DF",4,"Reassign to new group","No Case","Unknown",0,14,2019-09-16,2020-04-20,"Roy Van Tassell"
+"Kimberly Copeland",2020-06-17,171,"DG",10,"Refer to open call","Active Case","CREOKS",0,13,2019-11-04,2020-06-15,"Michael Gomez"
+"Chantri Harper",2020-01-13,171,"DG",1,"Incomplete-do not reassign","No Case","CREOKS",0,13,2019-11-04,2020-06-15,"Michael Gomez"
+"Maria Johnson",2020-06-17,171,"DG",12,"Refer to open call","Active Case","CREOKS",0,13,2019-11-04,2020-06-15,"Michael Gomez"
+"Melynie Northcott",2020-06-17,171,"DG",10,"Refer to open call","Active Case","CREOKS",0,13,2019-11-04,2020-06-15,"Michael Gomez"
+"Sarah Pryor",2020-06-17,171,"DG",12,"Refer to open call","Active Case","CREOKS",0,13,2019-11-04,2020-06-15,"Michael Gomez"
+"Denise Jackson",2020-06-17,171,"DG",12,"Refer to open call","Active Case","CREOKS",0,13,2019-11-04,2020-06-15,"Michael Gomez"
+"Bria Tynes",2020-06-17,171,"DG",13,"Completed","Completed Case","Lighthouse Behavioral Wellness Center",0,13,2019-11-04,2020-06-15,"Michael Gomez"
+"Misty Magnison",NA,171,"DG",NA,"Incomplete-do not reassign","Unknown","Northwest Family Services",0,13,2019-11-04,2020-06-15,"Michael Gomez"
+"Tia McKittrick",2020-05-08,171,"DG",2,"Incomplete-do not reassign","Unknown","Unknown",0,13,2019-11-04,2020-06-15,"Michael Gomez"
+"Elizabeth Elliot",2020-06-17,171,"DG",10,"Completed","Completed Case","YWCA",0,13,2019-11-04,2020-06-15,"Michael Gomez"
+"Kristal Hamm",2020-06-15,172,"DH",11,"TBD","Active Case","Children's Recovery Center",0,14,2019-10-28,2020-06-22,"Elizabeth Risch"
+"Jeffery Mackey",2020-06-15,172,"DH",12,"TBD","Active Case","Children's Recovery Center",0,14,2019-10-28,2020-06-22,"Elizabeth Risch"
+"Brandi Inda",2020-06-15,172,"DH",8,"TBD","Active Case","Grand Lake Mental Health Center, Inc.",0,14,2019-10-28,2020-06-22,"Elizabeth Risch"
+"Melinda Letourneau",2020-05-07,172,"DH",6,"TBD","Active Case","Grand Lake Mental Health Center, Inc.",0,14,2019-10-28,2020-06-22,"Elizabeth Risch"
+"Gerard Mondestin",2020-06-15,172,"DH",6,"TBD","Active Case","Grand Lake Mental Health Center, Inc.",0,14,2019-10-28,2020-06-22,"Elizabeth Risch"
+"James Smith",2020-05-13,172,"DH",9,"TBD","Active Case","Grand Lake Mental Health Center, Inc.",0,14,2019-10-28,2020-06-22,"Elizabeth Risch"
+"Krystin Turney",2020-06-15,172,"DH",10,"TBD","Completed Case","Red Rock",0,14,2019-10-28,2020-06-22,"Elizabeth Risch"
+"Constance Stidham",2020-06-15,172,"DH",12,"TBD","Active Case","Red Rock",0,14,2019-10-28,2020-06-22,"Elizabeth Risch"
+"Gertrude Haynes",2020-02-12,172,"DH",1,"Incomplete-do not reassign","Unknown","Unknown",0,14,2019-10-28,2020-06-22,"Elizabeth Risch"
+"Mayra Canales Sebastian",2020-06-15,172,"DH",11,"TBD","Active Case","Youth Services of Tulsa",0,14,2019-10-28,2020-06-22,"Elizabeth Risch"
+"Abbie Hambright",2020-06-15,172,"DH",12,"TBD","Active Case","Youth Services of Tulsa",0,14,2019-10-28,2020-06-22,"Elizabeth Risch"
+"Mackenzie Jantsch",2020-06-15,172,"DH",12,"TBD","Active Case","Youth Services of Tulsa",0,14,2019-10-28,2020-06-22,"Elizabeth Risch"
+"Linda Combs",2020-06-15,173,"DI",13,"Completed","Completed Case","Crawford County Mental Health",0,13,2019-11-05,2020-05-19,"Elizabeth Risch"
+"Noble Orajiato",2020-07-07,173,"DI",13,"Completed","Completed Case","Crawford County Mental Health",0,13,2019-11-05,2020-05-19,"Elizabeth Risch"
+"Glenda Boyle",2020-06-15,173,"DI",8,"Refer to open call","Active Case","Fairfax Medical Facility",0,13,2019-11-05,2020-05-19,"Elizabeth Risch"
+"Katherine Ralph",2020-06-15,173,"DI",13,"Completed","Completed Case","Family & Children's Mental Health Care Inc",0,13,2019-11-05,2020-05-19,"Elizabeth Risch"
+"Johnathan Gordon",2020-05-07,173,"DI",12,"Completed","Completed Case","Grand Lake Mental Health Center, Inc.",5,13,2019-11-05,2020-05-19,"Elizabeth Risch"
+"Ashley Hyatt",2020-06-15,173,"DI",12,"Completed","Completed Case","Integrity Pathways",0,13,2019-11-05,2020-05-19,"Elizabeth Risch"
+"Lois Pokorny",2020-05-07,173,"DI",12,"Reassign to new group","No Case","Latino Community Development Agency",0,13,2019-11-05,2020-05-19,"Elizabeth Risch"
+"Sharon Trammell",2020-06-15,173,"DI",12,"Completed","Completed Case","Red Rock",0,13,2019-11-05,2020-05-19,"Elizabeth Risch"
+"Joann Morales",2020-06-15,173,"DI",15,"Refer to open call","Active Case","Red Rock",0,13,2019-11-05,2020-05-19,"Elizabeth Risch"
+"Heather Martin",2020-06-15,173,"DI",2,"Completed","Completed Case","Seasons of Change Behavioral Health Services, Inc.",0,13,2019-11-05,2020-05-19,"Elizabeth Risch"
+"Iris Beshara",2020-06-15,173,"DI",12,"Refer to open call","Active Case","Unknown",0,13,2019-11-05,2020-05-19,"Elizabeth Risch"
